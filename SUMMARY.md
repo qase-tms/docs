@@ -2,7 +2,7 @@
 
 * [Qase docs](README.md)
 * [Get started with the Qase platform](get-started-with-the-qase-platform.md)
-* [analytics](analytics/README.md)
+* [Analytics](analytics/README.md)
   * [Dashboards](analytics/dashboards.md)
 * [execution](execution/README.md)
   * [Test Run creation & management in Qase](execution/create-a-test-run.md)
