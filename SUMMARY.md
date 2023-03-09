@@ -1,0 +1,16 @@
+# Table of contents
+
+* [Qase docs](README.md)
+* [Get started with the Qase platform](get-started-with-the-qase-platform.md)
+* [analytics](analytics/README.md)
+  * [Dashboards](analytics/dashboards.md)
+* [execution](execution/README.md)
+  * [Test Run creation & management in Qase](execution/create-a-test-run.md)
+  * [How to use Environments in Qase](execution/environments.md)
+  * [Using Configurations in Qase TMS](execution/using-configurations-in-qase-tms.md)
+* [issues](issues/README.md)
+  * [Defects](issues/defects.md)
+* [test-management](test-management/README.md)
+  * [Projects Overview](test-management/create-a-project.md)
+  * [Create a test case](test-management/create-a-test-run.md)
+  * [Test Suite creation & management in Qase](test-management/create-a-test-suite.md)
