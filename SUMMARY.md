@@ -10,7 +10,7 @@
   * [Using Configurations in Qase TMS](execution/using-configurations-in-qase-tms.md)
 * [Issues tracking](issues/README.md)
   * [Defects](issues/defects.md)
-* [test-management](test-management/README.md)
+* [Test management](test-management/README.md)
   * [Projects Overview](test-management/create-a-project.md)
   * [Create a test case](test-management/create-a-test-run.md)
   * [Test Suite creation & management in Qase](test-management/create-a-test-suite.md)
