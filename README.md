@@ -14,7 +14,7 @@ description: (This page needs a nice table of contents basically)
 
 ### Connect with Qase
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><a href="https://developers.qase.io/docs">API Docs</a></td><td></td></tr><tr><td><a href="https://developers.qase.io/docs/webhooks">Webhook Docs</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><a href="https://developers.qase.io/docs">API Docs</a></td><td></td></tr><tr><td>Webhook docs</td><td></td></tr></tbody></table>
 
 
 
