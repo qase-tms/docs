@@ -1,11 +1,3 @@
----
-title: Create a test case
-slug: create-a-test-run
-hidden: true
-createdAt: '2023-02-08T03:24:51.276Z'
-updatedAt: '2023-02-21T19:51:57.615Z'
----
-
 # Test cases
 
 ### What is a test case in software testing?

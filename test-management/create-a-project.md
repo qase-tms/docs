@@ -1,11 +1,3 @@
----
-title: Projects Overview
-slug: create-a-project
-hidden: true
-createdAt: '2023-02-08T03:23:13.483Z'
-updatedAt: '2023-02-21T19:24:15.922Z'
----
-
 # Projects
 
 ### What are projects in software testing?

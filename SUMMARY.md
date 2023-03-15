@@ -2,9 +2,9 @@
 
 * [Qase docs](README.md)
 * [Get started with the Qase platform](get-started-with-the-qase-platform.md)
-  * [Projects](get-started-with-the-qase-platform/create-a-project.md)
-  * [Test cases](get-started-with-the-qase-platform/create-a-test-run.md)
-  * [Test Suite creation & management in Qase](get-started-with-the-qase-platform/create-a-test-suite.md)
+  * [Projects](test-management/create-a-project.md)
+  * [Test cases](test-management/create-a-test-run.md)
+  * [Test Suite creation & management in Qase](test-management/create-a-test-suite.md)
 * [Execute testing](execution/README.md)
   * [Test Run creation & management in Qase](execution/create-a-test-run.md)
   * [How to use Environments in Qase](execution/environments.md)
