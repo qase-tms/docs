@@ -1,8 +1,9 @@
 # Table of contents
 
 * [Qase docs](README.md)
-* [Get started with the Qase platform](get-started-with-the-qase-platform.md)
-* [Projects](projects.md)
+* [Get started with the Qase platform](get-started-with-the-qase-platform/README.md)
+  * [Projects](get-started-with-the-qase-platform/projects.md)
+* [Test cases](test-cases.md)
 * [Analytics](analytics/README.md)
   * [Dashboards](analytics/dashboards.md)
 * [Execute testing](execution/README.md)
