@@ -2,6 +2,7 @@
 
 * [Qase docs](README.md)
 * [Get started with the Qase platform](get-started-with-the-qase-platform.md)
+* [Projects](projects.md)
 * [Analytics](analytics/README.md)
   * [Dashboards](analytics/dashboards.md)
 * [Execute testing](execution/README.md)
