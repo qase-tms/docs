@@ -8,7 +8,7 @@ updatedAt: '2023-02-21T19:28:07.384Z'
 
 # Get started with the Qase platform
 
-\#Intro
+**Intro**
 
 Qase helps to manage test cases, track their execution status, and report defects.
 
