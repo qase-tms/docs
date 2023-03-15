@@ -1,11 +1,3 @@
----
-title: Get started with the Qase platform
-slug: get-started-with-the-qase-platform
-hidden: true
-createdAt: '2023-02-08T03:01:54.761Z'
-updatedAt: '2023-02-21T19:28:07.384Z'
----
-
 # Get started with the Qase platform
 
 **Intro**
