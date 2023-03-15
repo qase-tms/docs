@@ -1,3 +1,0 @@
-# Projects
-
-Hello, world.
