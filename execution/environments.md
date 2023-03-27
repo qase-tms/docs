@@ -16,12 +16,20 @@ Environments in a test case management system are an additional entity which all
 
 In order to create an environment in Qase, go to the Project's "Environments" tab, then click "Create new environment":
 
-\[block:image] { "images": \[ { "image": \[ "https://files.readme.io/eaaf51c-O-owFkooQ-imTeIlM6emC4sjQn6tYw1jHOsbvUEghH72IkMOqCxILv1Sl2D1X549ArTMZDDwf7eQ2oey2mIJfr-cwBiN28xHNhoy\_O9cWBI4WVB9lG7rLQyDsCXbnRZQznSER-3avyc6PWn-7USGPq-gP3wZLEsE40-YpceQBbJBc6b05o9jqXfExQ", "O-owFkooQ-imTeIlM6emC4sjQn6tYw1jHOsbvUEghH72IkMOqCxILv1Sl2D1X549ArTMZDDwf7eQ2oey2mIJfr-cwBiN28xHNhoy\_O9cWBI4WVB9lG7rLQyDsCXbnRZQznSER-3avyc6PWn-7USGPq-gP3wZLEsE40-YpceQBbJBc6b05o9jqXfExQ", 1002, 599, "#000000" ] } ] } \[/block] Define the environment's properties:
+![](<../.gitbook/assets/image (3).png>)&#x20;
 
-\[block:image] { "images": \[ { "image": \[ "https://files.readme.io/e66307f-MlkcrAMuSeBNKF3o3hPq5TmLJbst8p9hjkxdBvkclIhP3i6ZhZrdB3M7WUg-JOHDrCq1ZAFmCX2qnCfT2kmx3jZ4ohrdm43uzFcPon0wkr\_Z8VYWqcZlF\_sBUqonRnCeNkOq8Wja0KGl0FZZpYW9HlqQtWrGBn\_xjOvu6WIcLNkOHaWIWNPEA0wbNg", "MlkcrAMuSeBNKF3o3hPq5TmLJbst8p9hjkxdBvkclIhP3i6ZhZrdB3M7WUg-JOHDrCq1ZAFmCX2qnCfT2kmx3jZ4ohrdm43uzFcPon0wkr\_Z8VYWqcZlF\_sBUqonRnCeNkOq8Wja0KGl0FZZpYW9HlqQtWrGBn\_xjOvu6WIcLNkOHaWIWNPEA0wbNg", 799, 607, "#000000" ] } ] } \[/block] Insert a Slug: This is a mandatory field of a URL-friendly shortened version of the title (i.e., “prod”)
+Define the environment's properties:
+
+![](<../.gitbook/assets/image (5).png>)
+
+Fix a Title: mandatory field, descriptive name of an environment which will be appearing in the test runs (i.e., Production Env)
+
+Insert a Slug: This is a mandatory field of a URL-friendly shortened version of the title (i.e., “prod”)
 
 Input a Description: This is an optional field for extra context about the environment and what it's to be used for
 
 Include a Host: This is another optional field and should be the URL address of the environment (as a reference)
 
-Once completed, your new environment can be used as a property of a Test run when creating or editing Test runs: \[block:image] { "images": \[ { "image": \[ "https://files.readme.io/6376c7b-twVZdOyHtINDwdB1JZ5i3GbxP4v7COQnj14p5Bnr3xuk5aIV-eA0gTJ5pvbWw99gL3BfH0FzX34MDDKfOKFNGniL0aMt3tlOUI7246KgAapgeq0zUdqrQ0\_-mlccBkiBdUMjd4rCyiRvHki7G-b0RpC2OB-L8OGs2ov0sL9VvlFukg6UzoMbtzzSdg", "twVZdOyHtINDwdB1JZ5i3GbxP4v7COQnj14p5Bnr3xuk5aIV-eA0gTJ5pvbWw99gL3BfH0FzX34MDDKfOKFNGniL0aMt3tlOUI7246KgAapgeq0zUdqrQ0\_-mlccBkiBdUMjd4rCyiRvHki7G-b0RpC2OB-L8OGs2ov0sL9VvlFukg6UzoMbtzzSdg", 1336, 602, "#000000" ] } ] } \[/block]
+Once completed, your new environment can be used as a property of a Test run when creating or editing Test runs:&#x20;
+
+![](../.gitbook/assets/image.png)
