@@ -26,7 +26,7 @@ Create a new custom field by clicking "+ Create custom field", configure your cu
 
 * _Type:_ select from a dropdown which data type will be used in this Custom Field. Depending on the type of data selected, the options below will be different.
 
-[![](https://qase.intercom-attachments-7.com/i/o/597122372/3e9135b28f07a4e6a3c039bb/mmxDw7R4VosOoxz9p6xEXi\_G4fv-cHmKGSteiJDzckBbCrQc5EP9d0mkSGTyWmomzx9CA6\_0B6PRue5NoaNyyPJM4NIcC\_Uj5emli6MJziLKotxEPwKjEKFYcCBJ-ddL4-OfCrT5IMEqyXIvUargU8DCoPPt8KWgmRx5uasTNf63r7xVegvkz7bq)](https://qase.intercom-attachments-7.com/i/o/597122372/3e9135b28f07a4e6a3c039bb/mmxDw7R4VosOoxz9p6xEXi\_G4fv-cHmKGSteiJDzckBbCrQc5EP9d0mkSGTyWmomzx9CA6\_0B6PRue5NoaNyyPJM4NIcC\_Uj5emli6MJziLKotxEPwKjEKFYcCBJ-ddL4-OfCrT5IMEqyXIvUargU8DCoPPt8KWgmRx5uasTNf63r7xVegvkz7bq)
+<figure><img src="https://qase.intercom-attachments-7.com/i/o/597122372/3e9135b28f07a4e6a3c039bb/mmxDw7R4VosOoxz9p6xEXi_G4fv-cHmKGSteiJDzckBbCrQc5EP9d0mkSGTyWmomzx9CA6_0B6PRue5NoaNyyPJM4NIcC_Uj5emli6MJziLKotxEPwKjEKFYcCBJ-ddL4-OfCrT5IMEqyXIvUargU8DCoPPt8KWgmRx5uasTNf63r7xVegvkz7bq" alt=""><figcaption></figcaption></figure>
 
 * _Enable for all projects:_ choose which Projects your custom field should be applied to. If you have to capture the same data uniformly in multiple projects, you don't have to create duplicates of a field for each project - create a custom field once and apply it to various projects:
 
@@ -44,13 +44,17 @@ Create a new custom field by clicking "+ Create custom field", configure your cu
 
 [![](https://qase.intercom-attachments-7.com/i/o/597122388/83dc4c1c82ebe0d4036c1270/tvGcgVJjwNmSXB0HSzP7dcrRnwF94hNfB3Gz3-T9bZYdL71USdv\_g3fIkU9kLigzXDvHdkuMaz111EiZR-BQhnHXX1Er6UgI8-rlb-Hzk2hG4j92f0N4UpVTIxYvJ\_gz6uZBMe3JmLS9xGO9VKMq9NhjZiBnr1rv0yJVTSKF-sIzSKld2XAZB1bwLw)](https://qase.intercom-attachments-7.com/i/o/597122388/83dc4c1c82ebe0d4036c1270/tvGcgVJjwNmSXB0HSzP7dcrRnwF94hNfB3Gz3-T9bZYdL71USdv\_g3fIkU9kLigzXDvHdkuMaz111EiZR-BQhnHXX1Er6UgI8-rlb-Hzk2hG4j92f0N4UpVTIxYvJ\_gz6uZBMe3JmLS9xGO9VKMq9NhjZiBnr1rv0yJVTSKF-sIzSKld2XAZB1bwLw)
 
-* _Values:_ Available for Multiselect and Selectbox types of data, this area allows you to define values to choose from when filling out a custom field:
+* _Values:_ Available for multiselect and selectbox types of data.
 
-[![](https://qase.intercom-attachments-7.com/i/o/597122391/ad37ac981d120ce29cccb4d6/tg9gVhonEHzK19lGRhmTMYWx4f-TAavDteVRx9Lfyqbp16Af0bMhwsys-Ej1dwTDCssuR\_3LGkKlDQ86M0LkFe\_2x\_uztpnmuo1sPMEsAQrsjUE5XeUDv4DRvBjvP5zsgpLNTC7N0QJAUD3bOdAhQn0E9f-9cq8jfo3E53JuEC-S7LBnrHpaCtpARQ)](https://qase.intercom-attachments-7.com/i/o/597122391/ad37ac981d120ce29cccb4d6/tg9gVhonEHzK19lGRhmTMYWx4f-TAavDteVRx9Lfyqbp16Af0bMhwsys-Ej1dwTDCssuR\_3LGkKlDQ86M0LkFe\_2x\_uztpnmuo1sPMEsAQrsjUE5XeUDv4DRvBjvP5zsgpLNTC7N0QJAUD3bOdAhQn0E9f-9cq8jfo3E53JuEC-S7LBnrHpaCtpARQ)[![](https://qase.intercom-attachments-7.com/i/o/597122395/138dc94279c12d870a0c2de0/gMlFY3G54PG5g1bMK5P\_v\_BEyfEsVYdNVQLUOxOay616JVi8D7Lc0kys1dDV\_3V19dNJi5APQL4zgVeSN8L8rvV20GTRuAS6xOaXjhPR-3caeFvgCdDQZs9SWkSyt5uSkkBg3jE3XpRhsFpSDxlIXUwAr76Ps3be0MHQoPRXVf8ymTxq0xbzbeyiPA)](https://qase.intercom-attachments-7.com/i/o/597122395/138dc94279c12d870a0c2de0/gMlFY3G54PG5g1bMK5P\_v\_BEyfEsVYdNVQLUOxOay616JVi8D7Lc0kys1dDV\_3V19dNJi5APQL4zgVeSN8L8rvV20GTRuAS6xOaXjhPR-3caeFvgCdDQZs9SWkSyt5uSkkBg3jE3XpRhsFpSDxlIXUwAr76Ps3be0MHQoPRXVf8ymTxq0xbzbeyiPA)
+[![](https://qase.intercom-attachments-7.com/i/o/597122391/ad37ac981d120ce29cccb4d6/tg9gVhonEHzK19lGRhmTMYWx4f-TAavDteVRx9Lfyqbp16Af0bMhwsys-Ej1dwTDCssuR\_3LGkKlDQ86M0LkFe\_2x\_uztpnmuo1sPMEsAQrsjUE5XeUDv4DRvBjvP5zsgpLNTC7N0QJAUD3bOdAhQn0E9f-9cq8jfo3E53JuEC-S7LBnrHpaCtpARQ)](https://qase.intercom-attachments-7.com/i/o/597122391/ad37ac981d120ce29cccb4d6/tg9gVhonEHzK19lGRhmTMYWx4f-TAavDteVRx9Lfyqbp16Af0bMhwsys-Ej1dwTDCssuR\_3LGkKlDQ86M0LkFe\_2x\_uztpnmuo1sPMEsAQrsjUE5XeUDv4DRvBjvP5zsgpLNTC7N0QJAUD3bOdAhQn0E9f-9cq8jfo3E53JuEC-S7LBnrHpaCtpARQ)\
+This area allows you to define values to choose from when filling out a custom field:
 
 1. Rearrange your values by long pressing this button and moving the field from top to bottom.
 2. Customize each value with icons of your choice.
 3. Add a new value input field
 4. Delete a value input field
+
+\
+[![](https://qase.intercom-attachments-7.com/i/o/597122395/138dc94279c12d870a0c2de0/gMlFY3G54PG5g1bMK5P\_v\_BEyfEsVYdNVQLUOxOay616JVi8D7Lc0kys1dDV\_3V19dNJi5APQL4zgVeSN8L8rvV20GTRuAS6xOaXjhPR-3caeFvgCdDQZs9SWkSyt5uSkkBg3jE3XpRhsFpSDxlIXUwAr76Ps3be0MHQoPRXVf8ymTxq0xbzbeyiPA)](https://qase.intercom-attachments-7.com/i/o/597122395/138dc94279c12d870a0c2de0/gMlFY3G54PG5g1bMK5P\_v\_BEyfEsVYdNVQLUOxOay616JVi8D7Lc0kys1dDV\_3V19dNJi5APQL4zgVeSN8L8rvV20GTRuAS6xOaXjhPR-3caeFvgCdDQZs9SWkSyt5uSkkBg3jE3XpRhsFpSDxlIXUwAr76Ps3be0MHQoPRXVf8ymTxq0xbzbeyiPA)
 
 \

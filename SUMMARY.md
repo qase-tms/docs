@@ -42,4 +42,14 @@
     * [Widgets](analytics/dashboards/widgets.md)
 * [Additional features](additional-features/README.md)
   * [Tags](additional-features/tags.md)
+  * [Attachments](additional-features/attachments.md)
+  * [Weebhooks](additional-features/weebhooks.md)
   * [Custom fields](additional-features/custom-fields.md)
+
+## Administration
+
+* [Workspace management](administration/workspace-management/README.md)
+  * [Users](administration/workspace-management/users.md)
+  * [Invites](administration/workspace-management/invites.md)
+  * [Group](administration/workspace-management/group.md)
+  * [Roles](administration/workspace-management/roles.md)
