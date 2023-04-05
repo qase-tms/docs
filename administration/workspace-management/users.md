@@ -1,6 +1,6 @@
 # Users
 
-### What is "Users" in Qase?
+### What is "Users" tab in Qase?
 
 Users is a section of workspace management where you can manage the users of your workspace, deactivate or reactivate them, change their roles.
 

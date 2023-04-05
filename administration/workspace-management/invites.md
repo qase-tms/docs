@@ -1,6 +1,6 @@
 # Invites
 
-### What is "Invites" in Qase?
+### What is "Invites" tab for?
 
 "Invites" tab of the workspace settings allows you to invite new [members](https://help.qase.io/en/articles/5563739-workspace-management-users) and find or revoke all the invitations that have been issued but have not yet been accepted.
 

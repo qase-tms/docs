@@ -1,10 +1,10 @@
 # System fields
 
-### **How to Configure Fields**
+### **How to configure fields**
 
 You can access the fields section in multiple ways:
 
-* Click on “Fields” on the Workspace page
+* Click on “Fields” on the workspace page
 * Click on “Configure fields” when creating or editing a test case.
 
 To turn system fields on or off, follow these steps:

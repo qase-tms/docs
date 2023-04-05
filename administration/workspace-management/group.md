@@ -1,6 +1,6 @@
 # Group
 
-### What is "Group" in Qase?
+### What is "Group" tab in Qase?
 
 "Group" is a way to categorize your account users by the team they belong to, responsibilities, or team lead - in other words, by any arbitrary characteristic that you deem important.
 
