@@ -46,5 +46,5 @@ To get started, go to [https://app.qase.io/](https://app.qase.io/) and log in. T
 
 Owners of a workspace can view all projects including private projects created by other users of the workspace.
 
-****
+
 
