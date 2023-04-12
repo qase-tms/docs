@@ -42,7 +42,7 @@ You can change the values of system fields if you're on the Startup, Business, o
 
 If you add a parametrized case to a test run, there will be several instances of it in the run, each representing a specific parameter value.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 * Test Case Steps: This section outlines the actions required to perform a test case and the expected results for each step. For instance, if I want to test a software module that provides GPS for connectivity, I'll need to explain which action needs to be performed and what the expected outcome is. You can choose between two types of steps: Classic or Gherkin. Each test case can have multiple steps that must be completed. To add a new step, click the "+ Add Step" button at the bottom.
 
