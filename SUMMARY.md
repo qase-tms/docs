@@ -99,3 +99,4 @@
 * [Reporters](apps/reporters/README.md)
   * [CucumberJS](apps/reporters/cucumberjs.md)
   * [Jest](apps/reporters/jest.md)
+  * [Newman](apps/reporters/newman.md)
