@@ -45,7 +45,7 @@
 * [Additional features](general/additional-features/README.md)
   * [Tags](general/additional-features/tags.md)
   * [Attachments](general/additional-features/attachments.md)
-  * [Weebhooks](general/additional-features/weebhooks.md)
+  * [Webhooks](general/additional-features/webhooks.md)
   * [Custom fields](general/additional-features/custom-fields.md)
 
 ## Administration
