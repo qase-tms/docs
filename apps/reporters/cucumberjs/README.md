@@ -2,7 +2,7 @@
 
 ### What is CucumberJS?
 
-[Cucumber](https://cucumber.io/)JS is a tool for running automated tests written in plain language. Because they're written in plain language, they can be read by anyone on your team. Because they can be read by anyone, you can use them to help improve communication, collaboration, and trust in your team.
+[CucumberJS](https://cucumber.io/) is a tool for running automated tests written in plain language. Because these tests are written in plain language, anyone on your team can read them. This can help improve communication, collaboration, and trust within your team.
 
 ### How to install CucumberJS?
 
