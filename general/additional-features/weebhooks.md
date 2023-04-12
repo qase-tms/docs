@@ -1,4 +1,4 @@
-# Weebhooks
+# Webhooks
 
 ### What are webhooks for?
 
