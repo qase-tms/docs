@@ -2,7 +2,7 @@
 
 ### What is "Invites" tab for?
 
-"Invites" tab of the workspace settings allows you to invite new [members](https://help.qase.io/en/articles/5563739-workspace-management-users) and find or revoke all the invitations that have been issued but have not yet been accepted.
+"Invites" tab of the workspace settings allows you to invite new members and find or revoke all the invitations that have been issued but have not yet been accepted.
 
 {% embed url="https://youtu.be/DM3ThL4Y_aU" %}
 
@@ -25,9 +25,9 @@ For a single-user invitation, you can fill in the following parameters:
 * _Email:_ a mandatory field, an invitation to join Qase will be delivered to the email address specified.
 * _Name:_ an optional field, you can leave it blank for a new member to fill it in themselves after accepting the invitation.
 * _Role title:_ a mandatory field, fill in new member's title here.
-* [_Role_](https://help.qase.io/en/articles/5563741-workspace-management-roles)_:_ a mandatory field, select which Qase user role this new member will inherit; a default user role will be assigned automatically unless specified otherwise.
-* [_Read-only_](https://help.qase.io/en/articles/6417204-how-do-i-invite-a-read-only-user)_:_ define whether a new member will be a read-only user with no editing or creating rights; this type of user is available for all types of plans in Qase.
-* [_Access_](https://help.qase.io/en/articles/5563706-projects#h\_e70fd5f298)_:_ make sure to uncheck the box before sending an invitation, if a new member should only have a limited scope of projects to have access to - otherwise, they will automatically gain access to every project in Qase upon joining.
+* _Role:_ a mandatory field, select which Qase user role this new member will inherit; a default user role will be assigned automatically unless specified otherwise.
+* _Read-only:_ define whether a new member will be a read-only user with no editing or creating rights; this type of user is available for all types of plans in Qase.
+* _Access:_ make sure to uncheck the box before sending an invitation, if a new member should only have a limited scope of projects to have access to - otherwise, they will automatically gain access to every project in Qase upon joining.
 * When everything is ready, click the "Invite" button in the bottom-right corner.
 
 #### Bulk user invitation
@@ -36,7 +36,7 @@ For bulk user invitations, switch to the _Bulk_ tab, and fill out the following 
 
 [![](https://qase.intercom-attachments-7.com/i/o/597165214/41f6e27f519994bd810ad447/GAF76oq74vyyKLqNSEfl1HEQn1doQ9b3QHeENr8iX62w18pIGe969OXw1NbvUqMWlu\_kewWkD0v-Ty9YibPMhgdUqk49ebMI0xV66zUaTMu8g6CXBvp3uRYVg6bOPWxGtJgCZ2TaFOVDzTOn4c31P5PTaeIXFLqLhW-ad6x1HiHyTNbQpNVKWw6v3A)](https://qase.intercom-attachments-7.com/i/o/597165214/41f6e27f519994bd810ad447/GAF76oq74vyyKLqNSEfl1HEQn1doQ9b3QHeENr8iX62w18pIGe969OXw1NbvUqMWlu\_kewWkD0v-Ty9YibPMhgdUqk49ebMI0xV66zUaTMu8g6CXBvp3uRYVg6bOPWxGtJgCZ2TaFOVDzTOn4c31P5PTaeIXFLqLhW-ad6x1HiHyTNbQpNVKWw6v3A)
 
-* [_Role_](https://help.qase.io/en/articles/5563741-workspace-management-roles)_:_ a mandatory field, select which Qase user role all bulk-invited new members will inherit; a default user role will be assigned automatically unless specified otherwise.
+* _Role:_ a mandatory field, select which Qase user role all bulk-invited new members will inherit; a default user role will be assigned automatically unless specified otherwise.
 * _Email list:_ insert a prepared list of emails to be invited into the field; every email address should be in a separate row, a maximum of 100 invitations can be sent in bulk in one go.
-* [_Read-only_](https://help.qase.io/en/articles/6417204-how-do-i-invite-a-read-only-user)_:_ define whether all new bulk-invited members will be read-only users with no editing or creating rights; this type of user is available for all types of plans in Qase.
-* [_Access_](https://help.qase.io/en/articles/5563706-projects#h\_e70fd5f298)_:_ make sure to uncheck the box before sending an invitation, if new members should only have a limited scope of projects to have access to - otherwise, they will automatically gain access to every project in Qase upon joining.
+* _Read-only:_ define whether all new bulk-invited members will be read-only users with no editing or creating rights; this type of user is available for all types of plans in Qase.
+* _Access:_ make sure to uncheck the box before sending an invitation, if new members should only have a limited scope of projects to have access to - otherwise, they will automatically gain access to every project in Qase upon joining.

@@ -34,6 +34,6 @@ Once you have multiple test cases, you can perform bulk edits. Check the boxes o
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/595197487/26748506f395334cfe09a5cd/ycvgN0F7Drb0-V7kQ1z8iJv8oC1b2ACixgBPF-KdEtyVxGzt2G6kybkuHeb-Qi1fZypZJWMTfb98tgSV2QdNmUeErUvs0RZ834XJwE3RFV5ObR9Hb6mfhN1LG-QJUP75vCpe-AdOyQyyKEAYf1-2HXrgYX2xLpjgetPpzoOs1nXX7Ra6pyyAQt-zpQ" alt=""><figcaption></figcaption></figure>
 
-NB: This behavior is determined by a setting in project settings and can be switched on/off:
+Note: This behavior is determined by a setting in project settings and can be switched on/off:
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/607950470/97b70c2a88f5ff8a3122130e/image.png" alt=""><figcaption></figcaption></figure>

@@ -41,7 +41,7 @@ There are multiple options available to you to access the field section.
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/610025929/1c1c4336252e18511cb47ee1/h5VSdaGzRN3y9WDJ2U13wNQV0GNQSh-zuJMxvPVRRuiiIXzRbRxzlV1RLHMf5QBo4gDSV1qpJmL0vp-f3JT1xn4f-F8abETqZiXWpWXCsZV8JqZ0ErL1fCiqESI7JTlbO9Vm0xUQNiJrYmPmq1dyK0HvJpPFA20TT0eyiTXjbLJWSt0Xf_0hSf5cgwINuQ" alt=""><figcaption></figcaption></figure>
 
-Note: There is also the possibility to modify the values of system fields _(available on the_[ _Startup_](https://help.qase.io/en/articles/5563728-startup-plan)_,_[ _Business_](https://help.qase.io/en/articles/5563727-business-plan)_, and_[ _Enterprise_](https://help.qase.io/en/articles/6640055-enterprise-plan) _plans)_:
+Note: There is also the possibility to modify the values of system fields _(available on the Startup, Business, and Enterprise plans)_:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/610025936/31c7f33eb30a78ddd9e264d6/mQL-CtfAPgu0905H55YCg2Zi-fnBAMI0ET-wRCjcTPB0Atv3Ye_0Wwc30Xy_WZgbV216yRokUltm2DRJBHGbdCL-XAFvLpiTvh5qGZMjn4bJdz7CYDhwwV1yGO8iuhDka-x2TK0Ka-DyuX7AoSOs0DpUaFaBcNWq8jsBlsMeogzmC6FDxKoK4_5JSN_viA" alt=""><figcaption></figcaption></figure>
 
@@ -49,4 +49,4 @@ Note: There is also the possibility to modify the values of system fields _(avai
 
 It is impossible to predict what kind of unique parameters or properties your test case, test run or defects will require, which is where custom fields can help you. You can create your own custom fields of various data types to store any additional information about your test cases. Test runs or defects that are not covered by default properties. If you do not yet have any custom fields created, you won't see this section in the test case, test run or defects configuration.
 
-_Note: Custom Fields are available in_ [_Startup_](https://help.qase.io/en/articles/5563728-startup-plan)_,_ [_Business_](https://help.qase.io/en/articles/5563727-business-plan)_, and_ [_Enterprise_](https://help.qase.io/en/articles/6640055-enterprise-plan) _subscriptions_
+_Note: Custom Fields are available in Startup, Business, and Enterprise subscriptions_

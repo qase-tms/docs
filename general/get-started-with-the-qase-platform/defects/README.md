@@ -34,8 +34,8 @@ You can also tie any defects filed during test runs to an existing defect you cr
 
 #### To set up your Project, remember the "Fail case on step fail" setting:
 
-* If this setting is on, failing a single step in a case during a test run will cause the entire test case to fail. You will then be prompted to create a new Defect.
-*   If this setting is off, failing a single step in a case will not cause the entire test case to fail. You can continue with other steps while still being prompted to create a Defect only if you fail the entire test case.\
+* If this setting is on, failing a single step in a case during a test run will cause the entire test case to fail. You will then be prompted to create a new defect.
+*   If this setting is off, failing a single step in a case will not cause the entire test case to fail. You can continue with other steps while still being prompted to create a defect only if you fail the entire test case.\
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/609555761/578cc9154f42e88a7c223387/image.png" alt=""><figcaption></figcaption></figure>
@@ -47,8 +47,10 @@ You can also tie any defects filed during test runs to an existing defect you cr
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/597420875/0dd1646d1c45383e6eba470b/JEkoyalk8pw-kle4LjskYxzL091xtrNUYCawdKxmLid8M2HA6lSuFoDi4MKfRlIekppeZYF9l9exbqceKCBjM8VNJhAXGCX8edOf11KaUbqd2K5WypTpwfHmoFWKIhOxnp8F2AdefJCJxZOQLhAPiEAN_Kl5axgvAgb5WgzQjfkpWXieZEPVYTHfkg" alt=""><figcaption></figcaption></figure>
 * You will be prompted to a run result window, where you can add comments, record time spent on the test case, attach files, and create/attach a defect.\
+  \
   [![](https://qase.intercom-attachments-7.com/i/o/597420881/24590ad923835a248ec634ec/-L34nNTbPPB\_GhnsoY\_Yech9BLW2Nw-cAcaIWHcPRFwOm1iYIesbyudACMpBvUSg7kDDKK\_rY1AktjPS2p2lIOlQ3NT7lJ7-HWWzjPwbps\_IklYMUni5Ozu223gI8Z5aGJUqroTGcysO3-H7kt6gm0Cfn9GF6GMmyEB2CAlDijqjwqT1yi1RxPvvTg)](https://qase.intercom-attachments-7.com/i/o/597420881/24590ad923835a248ec634ec/-L34nNTbPPB\_GhnsoY\_Yech9BLW2Nw-cAcaIWHcPRFwOm1iYIesbyudACMpBvUSg7kDDKK\_rY1AktjPS2p2lIOlQ3NT7lJ7-HWWzjPwbps\_IklYMUni5Ozu223gI8Z5aGJUqroTGcysO3-H7kt6gm0Cfn9GF6GMmyEB2CAlDijqjwqT1yi1RxPvvTg)
-* With the checkbox checked, you will be prompted to fill out other remaining Defect properties, including any custom fields you created. You can choose whether to create a new Defect or attach an existing one to the issue you found. You can also change its title, severity, and custom fields' values, and send a connected issue to other integrated third-party software systems.\
+* With the checkbox checked, you will be prompted to fill out other remaining defect properties, including any custom fields you created. You can choose whether to create a new defect or attach an existing one to the issue you found. You can also change its title, severity, and custom fields' values, and send a connected issue to other integrated third-party software systems.\
+  \
   [![](https://qase.intercom-attachments-7.com/i/o/597420893/56c503761319fc5d37e9301d/ojLkJ7hOAal0ZnqOrdLPVChLHzcos\_KRvVmh16QPdRcx-dU-qQuci8trNmnetph1ikwhz6bOYZmg0PCPMxgwww\_oEmFU3uOLqv2RTnkdNku45FfnCnYEbiHHSIZWamM9HTHp\_ZFiTAN3yhk-Off7G9pfnkqkj2UA71GLhLzKDlglub8Zq-KVNCwfqw)](https://qase.intercom-attachments-7.com/i/o/597420893/56c503761319fc5d37e9301d/ojLkJ7hOAal0ZnqOrdLPVChLHzcos\_KRvVmh16QPdRcx-dU-qQuci8trNmnetph1ikwhz6bOYZmg0PCPMxgwww\_oEmFU3uOLqv2RTnkdNku45FfnCnYEbiHHSIZWamM9HTHp\_ZFiTAN3yhk-Off7G9pfnkqkj2UA71GLhLzKDlglub8Zq-KVNCwfqw)
 *   A new defect will be created from the test run result and saved under the "Defects" section and the “Defects” tab of your test run.\
 

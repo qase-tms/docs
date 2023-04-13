@@ -16,10 +16,12 @@ To create a new test plan:&#x20;
 
 2. Fill in the test plan details in the creation menu.
 
-*   Title:
+*   Title:\
+
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/597159798/5dff11dd409b974758ebefa5/1SYEnOrBWgi8qqdsKD9ovd1Z1SSqWlcoz3liQid92DXEGSNMYuVQlWpq98yPKshlehFbjVQ4fwxyf8QDI2WR4cVqdvQ3IeR8jyhfbr6rTI_LtAvwa0mdOtgTYt2GGTAr_10g22ATerp7jeaMa8YWjYmf93dG-FQ49eWiRwWiLi5uu80K7x_dOjBzyQ" alt=""><figcaption></figcaption></figure>
-*   Description:
+*   Description:\
+
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/597159807/79c2354ad2216f7efd3f034c/wnTpfwLzKphVqGnhvDMTpnIIDaNYvs2DO75yJNknI-T3f2Sjtza6VCb5pXJwxmTiYlH1QwyN2T5TamhtXiNkPaXn_fsPt2_mkjGrIjHrV2RkfNMXljgOi8PT6QIDgg32ou8ejS4YhJ_12GoQ-NJ6yjioaN_2gcliJ9WA3DdKhRAwKy0E78I7O6QwXg" alt=""><figcaption></figcaption></figure>
 

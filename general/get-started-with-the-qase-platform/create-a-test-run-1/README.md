@@ -50,7 +50,7 @@ To create a regular test run:
 5. With the new test run configured, you will now see it in the Test Runs view with a condensed summary of it:
    * _Time:_ will show how much time has been spent so far on performing Test Cases in this run.
    * _Status:_ will show a summary of test cases per status - how many have passed, how many have been failed, skipped, blocked, invalidated, or untested.
-   * [_Environment_](https://help.qase.io/en/articles/5563723-environments)_:_ will show the environment of the run, which was selected when the run was created.
+   * _Environment:_ will show the environment of the run, which was selected when the run was created.
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597136810/38299ec2ee688929eb1d4101/yi62DXxzp81XizHNw0_XHjtj8qU9djtMnCoRBAe7hBL18REg2p0im4gRGqwI1PAIW5bSF0kZQ3w6RJFtUvmPHSO62Q_-Do1Sxn5NjalrMvZtxQY9ok8PRayGERXxOHqVE6G72xo6dsEsNaZlaupoFwWBPXcqiDHm-eqzDa8OFqfnyfDqWHlqe3IUUQ" alt=""><figcaption></figcaption></figure>
 

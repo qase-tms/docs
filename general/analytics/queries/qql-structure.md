@@ -19,12 +19,12 @@ Entity by default is 'case'. Projects by default include all projects available 
 
 ### Entities <a href="#h_a2d0a1493b" id="h_a2d0a1493b"></a>
 
-* [Test case](https://help.qase.io/en/articles/5563704-test-cases)
-* [Test run](https://help.qase.io/en/articles/5563702-test-runs)
+* Test case
+* Test run
 * Test run result
-* [Test plan](https://help.qase.io/en/articles/5563703-test-plans)
-* [Defect](https://help.qase.io/en/articles/5563710-defects)
-* [Requirement](https://help.qase.io/en/articles/5563700-requirements)
+* Test plan
+* Defect
+* Requirement
 
 ### Query <a href="#h_8651b79247" id="h_8651b79247"></a>
 

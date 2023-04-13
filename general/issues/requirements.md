@@ -28,7 +28,8 @@ A requirement has several properties:
 * _Status_: you can choose from several requirement statuses - valid, draft, review, rework, finish, implemented, not restable, obsolete.
 * _Type_: a requirement can be either an epic, a user story, or a feature.
 * _Attachments_ can be provided for additional context of a requirement.
-*   _Test cases:_ attach the test cases that will be covering your requirement:
+*   _Test cases:_ attach the test cases that will be covering your requirement:\
+
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/597161996/76bef7360bd0bdc9348ceb38/wuU2vgFH1R5ZunWdxwyq2E22hj7G2i6TX5sqs53Nm3-EjX7YITjCjYyW7kH33LyvcFTEy6x-Q4K9mndVxfJXegdljgkC5SF1wdBLMHoqz6Kv1oymB33iZq4cbQXomybItzQ4Bl0g60rE2oO269xmYXxGdJw_GJP5UAwo9gkvNb71RpC-knl8NOiETQ" alt=""><figcaption></figcaption></figure>
 

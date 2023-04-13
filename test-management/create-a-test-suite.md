@@ -2,7 +2,7 @@
 
 ### What is a test suite in software testing?
 
-A test suite acts like a folder where we store our test cases organized by sections and subsections. You can create several test suites. For example, Functional and Non-Functional test suites or anything else that should be treated as a separate group of tests.
+A test suite acts like a folder where we store our test cases organized by sections and subsections. You can create several test suites. For example, functional and non-functional test suites or anything else that should be treated as a separate group of tests.
 
 {% embed url="https://youtu.be/Gz5gfZ4_7WM" %}
 
@@ -13,10 +13,10 @@ A test suite acts like a folder where we store our test cases organized by secti
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/597420266/bd386696109eff5ddc570d6b/jTxtjwLUluuGX1AQ9cuK2WOzDFu8CrrP9PM3UzS-oQkOp1RYjBcmzPHHX5LVQzS-BU0K9lO6J7QxLXGvfEtnNXfnOcABRqvVNyRF2-fafAJQEha1gpWfUPGhHu8Ejx2MNki9wRPuEjWkFoldxQMivKGTz_6Wv7rPepye-px8UK9dJxuHN5FeKxnt8g" alt=""><figcaption></figcaption></figure>
 2. A popup window titled "Create Suite" will appear. Now let's fill in the fields:
-   * Suite Name: give your Test Suite a descriptive name that allows you to unequivocally define which domain or area of development it will cover. Suite Name is the only mandatory field to create a Suite - other fields are optional and can be filled at a later stage or left empty.
-   * Parent Suite: it is possible to have a multi-level hierarchy of Test Suites, so if a Suite you are configuring will be a part of a larger scope of testing scenarios, you can put it into a higher-level Parent Suite.
-   * Description: provide additional details and context regarding which Test Cases should belong to a Test Suite.
-   * Preconditions: describe the steps that should be completed before you can proceed with Test Cases from the newly created Suite.\
+   * Suite name: give your test suite a descriptive name that allows you to unequivocally define which domain or area of development it will cover. Suite name is the only mandatory field to create a suite - other fields are optional and can be filled at a later stage or left empty.
+   * Parent suite: it is possible to have a multi-level hierarchy of test suites, so if a suite you are configuring will be a part of a larger scope of testing scenarios, you can put it into a higher-level parent suite.
+   * Description: provide additional details and context regarding which test cases should belong to a test suite.
+   * Preconditions: describe the steps that should be completed before you can proceed with test cases from the newly created suite.\
      [![](https://qase.intercom-attachments-7.com/i/o/597420271/71cba06887c58ddcf4eb06c4/YSDIpfhftkdvSOpMc15\_mvfSp8iwcrry0-Ft4mJCZPiQw8Fe\_98guvwk87CSqZbcDqZN-fu1RxIcwa2N0LfwX\_QET4va08b9xpgZ8GLPnqGZebrvvAF\_VxovIgFka0\_2Lr\_pib8XSDJAZUTn4zEwNKL9xm-oSFTxSexCMRrmTpjinWhOmaKM0f\_mEg)](https://qase.intercom-attachments-7.com/i/o/597420271/71cba06887c58ddcf4eb06c4/YSDIpfhftkdvSOpMc15\_mvfSp8iwcrry0-Ft4mJCZPiQw8Fe\_98guvwk87CSqZbcDqZN-fu1RxIcwa2N0LfwX\_QET4va08b9xpgZ8GLPnqGZebrvvAF\_VxovIgFka0\_2Lr\_pib8XSDJAZUTn4zEwNKL9xm-oSFTxSexCMRrmTpjinWhOmaKM0f\_mEg)
 3. To create a test suite, click "Create".
 4.  The repository will now display the newly created test suite.\
@@ -30,7 +30,7 @@ Once you have created one or several test suites, your repository will reflect h
 
 ### Test suites controls
 
-While in Repository view, hovering over "Test Suite" reveals several controls:
+While in Repository view, hovering over "Test suite" reveals several controls:
 
 * _Collapse / Expand:_ Clicking on the name of the test suite collapses or expands it.\
   [![](https://qase.intercom-attachments-7.com/i/o/595235018/48999971614bcb3e4aee497b/Qkeg6lDI1GaC0FSUkr50d-CVg7ZZSudfAv8mA\_bbwlZu\_Zi3EMEGnizROkjoZwWC0FQ-yyfSjNSc7h3ZVYSpVuaEnHFk9aVZrnEkUCcKfJKakcKg35qHKobfiAOsV3oA\_VIg\_TbDX\_rjQ13ydJ19VefOErpp6asXXzQuox54EX7ymjPcaCS8CCIgqw)](https://qase.intercom-attachments-7.com/i/o/595235018/48999971614bcb3e4aee497b/Qkeg6lDI1GaC0FSUkr50d-CVg7ZZSudfAv8mA\_bbwlZu\_Zi3EMEGnizROkjoZwWC0FQ-yyfSjNSc7h3ZVYSpVuaEnHFk9aVZrnEkUCcKfJKakcKg35qHKobfiAOsV3oA\_VIg\_TbDX\_rjQ13ydJ19VefOErpp6asXXzQuox54EX7ymjPcaCS8CCIgqw)
@@ -55,10 +55,10 @@ There are three suite tree layouts that you can use to move around your suite st
 
 [![](https://qase.intercom-attachments-7.com/i/o/595235064/62ce8efcbdd9ca0fa49eebe6/cVXPaAsOTKZqMZxugJ2vRgc79PLTOCeysHkB1PFxi8QUhn-AtSCZpzf-8EjsBlKuQEE7hfbaGRrpxK1rYmmvj\_YNBG2GIkG42vkpBOnl2tvvn43PVXWkc2pZDXRcfwzVemNEPbBaEN7nlxmLU-gIt-zOjCXjvNSkX0Yvm9ursboIS4E-TJJVL0MYdQ)](https://qase.intercom-attachments-7.com/i/o/595235064/62ce8efcbdd9ca0fa49eebe6/cVXPaAsOTKZqMZxugJ2vRgc79PLTOCeysHkB1PFxi8QUhn-AtSCZpzf-8EjsBlKuQEE7hfbaGRrpxK1rYmmvj\_YNBG2GIkG42vkpBOnl2tvvn43PVXWkc2pZDXRcfwzVemNEPbBaEN7nlxmLU-gIt-zOjCXjvNSkX0Yvm9ursboIS4E-TJJVL0MYdQ)
 
-*   _Nested Tree view:_ shows all of the Suites in your project; use the Suite Tree sidebar to navigate between them.
+*   _Nested Tree view:_ shows all of the suites in your project; use the suite tree sidebar to navigate between them.
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/595235075/413b6869932b3428ef86eda4/l_gdYf2ltT1vpNVTegFoRvvym8zYLYttbvoO4Y_lUen-sXaA8fdgIXU7y-AnltvPLgBqGQ24wTj2BXVL2zZNf_dXK0OgPJcbgmPmpEwSETNgCa-1Hurj9mGszKbsf8xhmC8u6I_864pIt_7P6b83Pk_hob5hM1EYkd7SuMBr8ItLp2qkTnGFCky7EA" alt=""><figcaption></figcaption></figure>
-*   _Folders view:_ shows only the Test Suite and Test Cases in focus, while to navigate to a different Suite, you need to select it from the sidebar. This layout is better for massive structures with complicated hierarchy.\
+*   _Folders view:_ shows only the test suite and test cases in focus, while to navigate to a different suite, you need to select it from the sidebar. This layout is better for massive structures with complicated hierarchy.\
 
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/595235085/13879baa8e9613664749e5c9/kFLm2-AXWhTBaqbw2GJ0gGVJlAM1aP6a6Zqsa6PIk20IwfelQq6HmbR-3NlY18AVJ5yz1bwAYKWioeEVZ1IIjSR8AuxAWx4iC-gsv15t3H7HKDOTHNBULdUAllK_V9IzrdqOIOtkcDC3_Wsjs7Bt6CpoUvPHKW6s17mnW3pBSJ5cnNCQ7rbTOR_alw" alt=""><figcaption></figcaption></figure>
@@ -67,7 +67,7 @@ There are three suite tree layouts that you can use to move around your suite st
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/595235100/ee324eaafce2aa7ca1639585/w2TVOkxkITYhXIJ23sb3_8oFxuXkRg29Fy-2WWLxXjHuBMvUmZIUyns-u9g95b_M-K0jLS8_gkbyruqCQsvgRl6cbaLaseub-BdmmQHNtheSv37kAGjCQFzHh8Pb8bVXwxdaamvWp1L1OdxBOXMgNgR8HpIVHrrdWYwAeOChQnEO98rvl7MIfTJMsg" alt=""><figcaption></figcaption></figure>
 
-In both the Nested Tree view and the Folders view, you can click on the "..." menu icon to Edit, Close, Select and Unselect all, Create Suite, Create Case, and Delete.\
+In both the nested tree view and the folders view, you can click on the three-dot-menu icon to edit, close, select and unselect all, create suite, create case, and delete.\
 [![](https://qase.intercom-attachments-7.com/i/o/595235110/01261a556674548aa2f2e629/EYftJ0BAW0hwf5d-QktQqiKnIT8-B9veKSpiusN-XjmknNY7CqFCf1Vzsvtt6E6A6SqQTgZePk4ONFVdL75EoZeD\_GJ3oiunL-7xIVVVAMOCAkE9EJXj7Q4eMS8Hquj6GeVnSyGmZITZ8XDrNu5FSfRLCXIF4ZCwB7hcLP7nKWCH6LO7Jwc316bNsw)](https://qase.intercom-attachments-7.com/i/o/595235110/01261a556674548aa2f2e629/EYftJ0BAW0hwf5d-QktQqiKnIT8-B9veKSpiusN-XjmknNY7CqFCf1Vzsvtt6E6A6SqQTgZePk4ONFVdL75EoZeD\_GJ3oiunL-7xIVVVAMOCAkE9EJXj7Q4eMS8Hquj6GeVnSyGmZITZ8XDrNu5FSfRLCXIF4ZCwB7hcLP7nKWCH6LO7Jwc316bNsw)
 
 

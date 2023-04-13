@@ -2,7 +2,7 @@
 
 ### What are the roles in Qase?
 
-Roles are an important tool that allows you to define what your [teammates](https://help.qase.io/en/articles/5563739-workspace-management-users) can and cannot do in your Qase account. When defining a role, you can specify restrictions down to a very granular level, ensuring that those who need more control have it. In contrast, anybody who should have a limited scope and visibility is properly restricted.
+Roles are an important tool that allows you to define what your teammates can and cannot do in your Qase account. When defining a role, you can specify restrictions down to a very granular level, ensuring that those who need more control have it. In contrast, anybody who should have a limited scope and visibility is properly restricted.
 
 _<mark style="background-color:purple;">Custom roles are available in</mark>_ [_<mark style="background-color:purple;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan) _<mark style="background-color:purple;">and</mark>_ [_<mark style="background-color:purple;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:purple;">subscriptions</mark>_
 
@@ -96,7 +96,7 @@ The following section is dedicated to role access rights. Here, you will define 
   * _Activate/Deactivate:_ This rule allows users to activate or deactivate team members.
   * _Workspace User Update:_ This rule allows users to change team member details and roles.
   * _Users view:_ This rule allows users to view users.
-  * _Logs_: This rule allows users to view [logs](https://help.qase.io/en/articles/5563743-workspace-management-audit-logs).
+  * _Logs_: This rule allows users to view logs.
 * Entity: **Team groups**
   * _View:_ This rule allows users to view a list of existing groups.
   * _Create/Update:_ This rule allows users to create or update team groups. It also allows users to add or remove team members from groups.

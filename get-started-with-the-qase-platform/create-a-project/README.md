@@ -34,7 +34,7 @@ To get started, go to [https://app.qase.io/](https://app.qase.io/) and log in. T
 
 
           [![blobid11.png](https://qase.intercom-attachments-7.com/i/o/595207110/270505aa7901f6b88dc57bbb/Az5DgbGZgm3dJHljL8uQTpP5w-R-MY\_veHu3wgf\_nzvWWci7t0X8TPLb4DjcErx3f9d4Y74sat4F661-k8AIwoMrLvhnFDoF5cSuB\_Hp-DM02S7hdSe9ARZDsYGvp0tFxEs1SHaYxvhBEQEVMIug84WYon1LK-cwN7Cinjt3DdmcfSZla1XrVQ957w)](https://qase.intercom-attachments-7.com/i/o/595207110/270505aa7901f6b88dc57bbb/Az5DgbGZgm3dJHljL8uQTpP5w-R-MY\_veHu3wgf\_nzvWWci7t0X8TPLb4DjcErx3f9d4Y74sat4F661-k8AIwoMrLvhnFDoF5cSuB\_Hp-DM02S7hdSe9ARZDsYGvp0tFxEs1SHaYxvhBEQEVMIug84WYon1LK-cwN7Cinjt3DdmcfSZla1XrVQ957w)
-      *   _"Add members from specific group"_: with this option selected, you'll need to choose a [user group](https://help.qase.io/en/articles/5563740-workspace-management-groups) you have created before - every user that belongs to a selected user group will then gain access to your new project.\
+      *   _"Add members from specific group"_: with this option selected, you'll need to choose a user group you have created before - every user that belongs to a selected user group will then gain access to your new project.\
 
 
           [![blobid12.png](https://qase.intercom-attachments-7.com/i/o/595207123/77fa9a913fd1becf1edef10d/gTXmbucnwtlb89PZqPeyN5\_zijfTLmgQ5cBt6ZpykG1-BtVHdq02Zh8Uq7LFv\_f630zaEwhfLWru2Pi9orfadrC0V3sTNHjtFo0PhDis3wEYuo0qCYJc3JkOg\_NCCDy3NklSfRAqQO5RV2TLksoMwmzB08\_scCnfk8QTopjMsDbnC\_Z5WdxXDcL7hg)](https://qase.intercom-attachments-7.com/i/o/595207123/77fa9a913fd1becf1edef10d/gTXmbucnwtlb89PZqPeyN5\_zijfTLmgQ5cBt6ZpykG1-BtVHdq02Zh8Uq7LFv\_f630zaEwhfLWru2Pi9orfadrC0V3sTNHjtFo0PhDis3wEYuo0qCYJc3JkOg\_NCCDy3NklSfRAqQO5RV2TLksoMwmzB08\_scCnfk8QTopjMsDbnC\_Z5WdxXDcL7hg)

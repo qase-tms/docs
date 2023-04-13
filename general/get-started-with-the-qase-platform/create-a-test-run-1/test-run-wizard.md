@@ -8,24 +8,15 @@ Test run wizard is a simple tool to perform test cases in a test run.
 
 You can access wizard from 4 locations:
 
-1. Click "Run wizard" in the three-dots-menu of a test case:\
-
-
-
+1. Click "Run wizard" in the three-dots-menu of a test case:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597136991/59f81d09c86a206e1732ec25/yI_m6602STMbmZ9U6SjMriKEDt8zQfnWDHFLr7nXN3BnjghESO81bFgSxnEfT_9dWbsGaRJY0k23fMU7c-zCX6Rsv0CiHE3aBiLa26120YlvriN9Bcl1c9dPnJtbGxf4IlZO6p2J7bAdvvhYKA44-Eb83PYMhzDbQTsyZtKVD6E7XX5NjRkEZ3Hw3g" alt=""><figcaption></figcaption></figure>
 
-2. Hit "Open wizard" in the dashboard:\
-
-
-
+2. Hit "Open wizard" in the dashboard:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597136996/527516d9d1ae0739e5645f3d/54KiAFgUy57mibVg5sela5K5i21gFcUDl4xNc7WEcfxpbKPELVANwuLtSi9AjuTjgCtacFoZvJec6OgjrD3_KCwMAXPdmLnzMJE4qTFc_aBgmj3lea4r2lYV49JnwonxR_ZV_hfikFcSTUK7NVJSi6nUi0OOhIa3PzGnYv_hp0S9WuDLEZhYP1QZ7A" alt=""><figcaption></figcaption></figure>
 
-3. Click "Open wizard" in the test runs menu:\
-
-
-
+3. Click "Open wizard" in the test runs menu:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597137003/a20d25957fb4374534460f8f/HtiXPAuWSKQHh73kqYNFve4kvKHk_NGjSefBF43dwblNdXYKl8usCZ5nERnquoJKQaZFa3MsSxWeMiPvD8XvVAhjlkV9L5n44Yx3JI--7Fp9J77Qh0zhb5Hq8ES_dSda7LJgMc-HLSDNc2cGer3rWeS4Oq4cTIRuFBFEluwJ8aRilbPoJtpfjPWelA" alt=""><figcaption></figcaption></figure>
 
@@ -45,7 +36,7 @@ It is possible to find specific cases in the wizard using search box and filters
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597137085/e868d522752e871308529db0/e9uh3Msq-kdZmVmdgC_jayCej6gms8Bf96JJNUa2oz5fEDp1K_PSFrfiiSdWpycHaEPzEenfkxt9H3XpH7ZZXDKXGTsmghofp7VWMBUsjtiNFrp43n8iinBTdfOXlEpcW2KZynBVYUaFrKN4u2uw1FP5cWXQvx9nOx-Ilnek4RrpMxky3JkJPgfEkQ" alt=""><figcaption></figcaption></figure>
 
-When changing the status of a test case step, or an entire test case, you can also provide additional details in the form of [attachments](https://help.qase.io/en/articles/5563708-attachments):
+When changing the status of a test case step, or an entire test case, you can also provide additional details in the form of attachments:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597137096/cc2c0f703b99b9cf00f9c6b9/3PF9Ir6GKN71J-nq6Bg5aGlp_LcJ1bGijFq9Lwxs0pP7hNL8cR9MfLVFTY28D54Czx9oujORE6tQ7JaP27jYOy11l_NYQ8OdGTpCO6oQ1edqh3ABdKjLH4BwlxJ-GW4kl3qSf_t7ecTPlMbI1dV7-zQoZqyNnittW_iFhMJ9vL_MGnil8NKn--_vUQ" alt=""><figcaption></figcaption></figure>
 

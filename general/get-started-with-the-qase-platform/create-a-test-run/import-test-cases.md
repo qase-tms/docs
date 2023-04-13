@@ -4,7 +4,7 @@
 
 ### How to import test cases?
 
-1. To import test cases into the Qase [project](https://help.qase.io/en/articles/5563706-projects), you need to open your project’s repository and click on the “...” icon on the top right-hand side. You will then see a menu with the option to click on “Import data”.
+1. To import test cases into the Qase project, you need to open your project’s repository and click on the “...” icon on the top right-hand side. You will then see a menu with the option to click on “Import data”.
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/595244819/d859f668c89fe20f335dc4ed/loNtdZKbSQeE0ndtXVDrWf_Mg1tPv8rznQJhMIdMh7c5gg9sE0JkcaB6a61gBWcDE5A4KvlkYGWWwbj_iDAo4lNJG4cnlAwYkcqhPso7bQyr6jf4z3JG-QMhPdsKihpjZVeQNgsvmTv9WwaY5FcToE2GDD_6qBABs7Ukn8OmiZM0CMgrwds-N1vJaw" alt=""><figcaption></figcaption></figure>
 

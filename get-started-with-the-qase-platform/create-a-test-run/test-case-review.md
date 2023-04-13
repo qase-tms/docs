@@ -29,18 +29,12 @@ Let's go about creating a new test case and submitting it for review:
 
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/595240857/054db9e52a2145f32bfe651c/zbf9Z4dGst0oRK-kPfwG836WU-R9sMnc7BKZ2KAJcB8Q1VLv229GtAUAeoI1x5rlZzsmvh3GbMbvc6JgHIZYqiK3HJoLFTk_-ZaG7OR6f_aOLSCEIz74DFa-3vuDKGS_VAsbBSZucHAdxJNlvoh3DYZ2-Cp2DGbct7pnUlNRw5kwxBY_8hVR3NukeQ" alt=""><figcaption></figcaption></figure>
-*   Fill in all the necessary details, define steps, etc. Once ready, hit the "Send to Review" button at the bottom of the screen:\
+* Fill in all the necessary details, define steps, etc. Once ready, hit the "Send to Review" button at the bottom of the screen:\
+  [![](https://qase.intercom-attachments-7.com/i/o/595240864/2e4f4f448df47e2b471597d1/bbRkOBn9DieZKBz4GYdzqLViv-DSNs5ashV\_j3Nhb-qpM4W8oK3-h4fj-e84N46SKlSy\_a1EQl1WWOyhmEDEFMtrhEn8YM\_I3\_F8GT3ozO7AuilDRNI9c49hkf0nWTzVVMqPZ\_NHgI4HretH331efGMxgXO5T2W-tGNMr\_OIlAjYEjXvmfsLS2iyNQ)](https://qase.intercom-attachments-7.com/i/o/595240864/2e4f4f448df47e2b471597d1/bbRkOBn9DieZKBz4GYdzqLViv-DSNs5ashV\_j3Nhb-qpM4W8oK3-h4fj-e84N46SKlSy\_a1EQl1WWOyhmEDEFMtrhEn8YM\_I3\_F8GT3ozO7AuilDRNI9c49hkf0nWTzVVMqPZ\_NHgI4HretH331efGMxgXO5T2W-tGNMr\_OIlAjYEjXvmfsLS2iyNQ)\
+  \
+  In a scenario where a review is set to "Mandatory", there will be no option to "Save" or "Save and create another" - only send your test case to review:\
+  [![](https://qase.intercom-attachments-7.com/i/o/595240874/45803deff9f8cb9729dec6a5/8dtTHBq7jxOQJDKpqJICIg4n4OmVhs6dedOPxQJtr6QNSD5skas1f0Bq5wc-g38KSORhPnT6anhHQNyMYPBCI-77GDCvgLFoB-Mi4VLXGcytBtJiqy\_yrvHfQfXwRH9uSY\_8PxXPf6ZoomXAR-QBBtjkdciPsoFGgAvvgAXauZtEn0BZtGGDNCXaoA)](https://qase.intercom-attachments-7.com/i/o/595240874/45803deff9f8cb9729dec6a5/8dtTHBq7jxOQJDKpqJICIg4n4OmVhs6dedOPxQJtr6QNSD5skas1f0Bq5wc-g38KSORhPnT6anhHQNyMYPBCI-77GDCvgLFoB-Mi4VLXGcytBtJiqy\_yrvHfQfXwRH9uSY\_8PxXPf6ZoomXAR-QBBtjkdciPsoFGgAvvgAXauZtEn0BZtGGDNCXaoA)\
 
-
-
-
-    \
-    In a scenario where a review is set to "Mandatory", there will be no option to "Save" or "Save and create another" - only send your test case to review:\
-
-
-    [![](https://qase.intercom-attachments-7.com/i/o/595240874/45803deff9f8cb9729dec6a5/8dtTHBq7jxOQJDKpqJICIg4n4OmVhs6dedOPxQJtr6QNSD5skas1f0Bq5wc-g38KSORhPnT6anhHQNyMYPBCI-77GDCvgLFoB-Mi4VLXGcytBtJiqy\_yrvHfQfXwRH9uSY\_8PxXPf6ZoomXAR-QBBtjkdciPsoFGgAvvgAXauZtEn0BZtGGDNCXaoA)](https://qase.intercom-attachments-7.com/i/o/595240874/45803deff9f8cb9729dec6a5/8dtTHBq7jxOQJDKpqJICIg4n4OmVhs6dedOPxQJtr6QNSD5skas1f0Bq5wc-g38KSORhPnT6anhHQNyMYPBCI-77GDCvgLFoB-Mi4VLXGcytBtJiqy\_yrvHfQfXwRH9uSY\_8PxXPf6ZoomXAR-QBBtjkdciPsoFGgAvvgAXauZtEn0BZtGGDNCXaoA)
-
-    <figure><img src="https://qase.intercom-attachments-7.com/i/o/595240864/2e4f4f448df47e2b471597d1/bbRkOBn9DieZKBz4GYdzqLViv-DSNs5ashV_j3Nhb-qpM4W8oK3-h4fj-e84N46SKlSy_a1EQl1WWOyhmEDEFMtrhEn8YM_I3_F8GT3ozO7AuilDRNI9c49hkf0nWTzVVMqPZ_NHgI4HretH331efGMxgXO5T2W-tGNMr_OIlAjYEjXvmfsLS2iyNQ" alt=""><figcaption></figcaption></figure>
 *   Once a test case has been sent to review, you will now find a new case review request under the "Review" section:\
 
 
@@ -80,7 +74,7 @@ Step 3: After merging review
 
 #### **For Reviewers:**
 
-If you are reviewing a test case that someone else submitted, you will see five options on the right side of the page: Merge, Approve, Request Changes, Edit, and Decline.
+If you are reviewing a test case that someone else submitted, you will see five options on the right side of the page: merge, approve, request changes, edit, and decline.
 
 Clicking on _Merge_ means you accept and update the test case with the suggested changes. By clicking _Approve_, you vote for the change, while other reviewers can still look at the suggested updates.
 

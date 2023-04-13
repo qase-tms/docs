@@ -8,7 +8,7 @@ In the defects section, you can search and filter all the defects filed in your 
 
 ### Defect's details
 
-Clicking on the title of your new defect will provide you with more details about this defect, such as which test run it was performed in, which test case it pertains to, who reported this defect - and other important data.
+Clicking on the title of your new defect will provide you with more details about this defect, such as which test run it was performed in, which test case it pertains to, who reported this defect - and other important data:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/595222586/2d292c3f0305b2b2d2ca82d3/uTwLi0vnPj5fIPlLnCp-hLcaC0nF-MtHYVjiV_4k_d_tW3I0p2p-IU-P0_9AVRCJSlEwU_gww4-0ThaCKZSm3L5eX_5ZnnD0VKrzREio2mz6BXoyzG_8pyBvSv-Z_MjczIb9zUyikh5Li4UFvdvVr3eIbF0N-lHpbXlwns52s6tPWaYWT3zrDY6SCw" alt=""><figcaption></figcaption></figure>
 
@@ -16,7 +16,7 @@ Clicking on the title of your new defect will provide you with more details abou
 
 After a defect has been created, you can:
 
-* Mark it "In Progress" once you've started working on it
+* Mark it "In Progress" once you've started working on it:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/595222594/e21764226793168854df8efb/5uVtiISoOVx4fFa1CJuUb5ozWAeiXS3gwOcBLYzZ_5ztf-RVnGf4HZSUO7FXq5BrFXacSswXQ9JAQ33rVywuZUth4Dk8QrfRT4qN3Qtv_Xlv3hc3PXWSyQx_bMvpzxI-4KvXIvkJhV2-bQltjdFSWNHnCQvF9yH1lstkMftOj_GYFR3EH0y4FVOgNg" alt=""><figcaption></figcaption></figure>
 
@@ -36,7 +36,7 @@ After a defect has been created, you can:
 
 You can introduce changes to a defect as well by hitting the edit button.
 
-Editing a defect will take you to another screen, where you can change the defect's title, enter the actual result, add an [attachment](https://help.qase.io/en/articles/5563708-attachments), etc., and update a defect once ready:
+Editing a defect will take you to another screen, where you can change the defect's title, enter the actual result, add an attachment, etc., and update a defect once ready:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/595222636/764074bc031a65a066e68b86/OdDy3eR24xf6lx4n2cbGeYFoC8k7mOoQ38faRrbamDEsV9PtqyfOr7F4q46ZEsOm5BkezZEuj6G9md7hP-8R40q7kI3mW3Ae368DQUbxseYjCqYdFYiHKZk4XTmtpc10FpY4ylX583gN3sIOPy_hJZtqv6pvdk4eUrs4oUraa6_XyvYaCwvAE0eRiQ" alt=""><figcaption></figcaption></figure>
 

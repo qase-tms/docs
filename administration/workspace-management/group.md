@@ -39,7 +39,7 @@ After a user group has been created, you will see it in the groups' list, togeth
 
 ### Usage <a href="#h_cdd781ca0e" id="h_cdd781ca0e"></a>
 
-Once you’ve created a user group, you can use it while [creating a new project](https://help.qase.io/en/articles/5563706-projects#h\_e19377e7df) to grant access to a specific group.
+Once you’ve created a user group, you can use it while creating a new project to grant access to a specific group.
 
 While creating a project, you will see the option to “add members from a specific group”. Once you select this option, you will see a dropdown list of the groups you’ve created. Select the one you would like to add to this project and proceed further.
 

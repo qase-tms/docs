@@ -32,7 +32,7 @@ _Edit:_ When editing a test case, you can also convert any regular step into a s
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/595211229/6b8d49bb26e66d8bf99ad022/8kqQK-neXHsSGxZHCdeiDiH-wmeF8P4DqF9hR3m9R1WN8TMp0bXY5Gvru-FdM_M-uMyPX2RIWZuzByAybLR7fIFxmsiXgZcXQNnDhA4Kkx4h-uBN_-BxipzpSF-nmFXWUv2QgTf2c9gAiRxXYA2wa3iZfupE_MTdwfn_M3M854YYyN1fUIccDtefMg" alt=""><figcaption></figcaption></figure>
 
-_Add to a test case:_ After creating a shared step, you can add it to a test case when creating or editing a test case by clicking the “Add Shared Step” button. You can also preview the shared step you want to add:
+_Add to a test case:_ After creating a shared step, you can add it to a test case when creating or editing a test case by clicking the “Add shared step” button. You can also preview the shared step you want to add:
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/689763098/a6d4547ead7c8a393754a518/GIF+1.gif" alt=""><figcaption></figcaption></figure>
 

@@ -19,44 +19,44 @@ There are a few parameters you need to define for a new webhook:
   * _Endpoint:_ a URL address that is configured on your side and is accessible to the public web; this address will be where Qase sends a request upon a defined event happening.
   * _Secret:_ we are sending this text as an X-Qase-Secret header so that you can authenticate your webhook,
 * _Events:_ in this section, you will set up a trigger for Qase to send a request to the endpoint; there are several to choose from, and it is also possible to enable multiple event-triggers for a single endpoint.
-  * [_Test Cases_](https://help.qase.io/en/articles/5563704-test-cases)_:_
+  * _Test Cases:_
     * Create test case
     * Update test case
     * Delete test case
     * Clone test case
-  * [_Test Suites_](https://help.qase.io/en/articles/5563705-test-suites)_:_
+  * _Test Suites:_
     * Create test suite
     * Update test suite
     * Delete test suite
     * Clone test suite
-  * [_Test Plans_](https://help.qase.io/en/articles/5563703-test-plans)_:_
+  * _Test Plans:_
     * Create test plan
     * Update test plan
     * Delete test plan
-  * [_Shared Steps_](https://help.qase.io/en/articles/5563709-shared-steps)_:_
+  * _Shared Steps:_
     * Create shared step
     * Update shared step
     * Delete shared step
-  * [_Milestones_](https://help.qase.io/en/articles/5563715-milestone)_:_
+  * _Milestones:_
     * Create milestone
     * Update milestone
     * Delete milestone
-  * [_Custom Fields_](https://help.qase.io/en/articles/5563701-custom-fields)_:_
+  * _Custom Fields:_
     * Create custom field
     * Update custom field
     * Delete custom field
-  * [_Test Runs_](https://help.qase.io/en/articles/5563702-test-runs)_:_
+  * _Test Runs:_
     * Test run start
     * Test run aborted
     * Test cases added to run
     * Delete test run
     * Complete test run
     * Public link turned on
-  * [_Defects_](https://help.qase.io/en/articles/5563710-defects)_:_
+  * _Defects:_
     * Create defect
     * Resolve defect
     * Delete defect
-  * [_Reviews_](https://help.qase.io/en/articles/5563713-test-case-review):
+  * _Reviews_:
     * Create test review
     * Update test review
     * Approval status change

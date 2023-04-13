@@ -51,7 +51,7 @@ From the Dashboard, you can:
 
 ### "Test cases" and "Team stats" tabs
 
-There are two tabs in the test run dashboard: test cases, and team stats. Once you create at least one defect during the test run, there will be another tab “[Defects](https://help.qase.io/en/articles/5563710-defects)” to track all defects.
+There are two tabs in the test run dashboard: test cases, and team stats. Once you create at least one defect during the test run, there will be another tab “Defects” to track all defects.
 
 #### "Test cases" tab
 
@@ -87,18 +87,18 @@ On the right side of the test run view, there is a test run details sidebar. It 
 
 * _Donut Graph:_ shows the breakdown of test cases in the run by status. Hovering over a section of the graph you will see the actual number of cases in a respective status. If you click on a section of the graph, a quick filter will be applied to show you only the cases in a specific status.
 * _Completion rate:_ represents the percentage of cases in a run that have been performed so far.
-* _Started by and Start time:_ provide details on who started this Test Run, and when.
-* _Estimated:_ based on how much time has been spent in the previous Test Runs on Test Cases included in your current Test Run, Qase provides you with a prediction on how long your current Test Run is likely to take.
-* _Time Spent:_ the summary of time that has been spent on Test Cases in the current Test Run so far.
+* _Started by and Start time:_ provide details on who started this test run, and when.
+* _Estimated:_ based on how much time has been spent in the previous test runs on test cases included in your current test run, Qase provides you with a prediction on how long your current test run is likely to take.
+* _Time Spent:_ the summary of time that has been spent on test cases in the current test run so far.
 * _Environment, Tags, Configurations and Custom Fields:_ Details about the specific environment of the test run and the associated tags.
-* _Integrations_: You have the option to integrate your Test Run with any of the installed Apps in your Workspace. To integrate an app's issue with the Test Run, please follow these steps:
-  * Navigate to the Test Runs page
+* _Integrations_: You have the option to integrate your test run with any of the installed Apps in your Workspace. To integrate an app's issue with the test run, please follow these steps:
+  * Navigate to the test runs page
   * Click on the Run which you would like to Integrate with an issue from a 3rd party app
   * In the side-bar to your right, please click on the "Select an Integration" button under "External Issue"
-  * Click on the App whose issue you'd like to Integrate with the Run
+  * Click on the App whose issue you'd like to Integrate with the run
   *   Search for the issue id and click on "Link"
 
       \
-      Here's a GIF of the steps to be followed to Integrate a Run with an issue from a 3rd party App:
+      Here's a GIF of the steps to be followed to integrate a run with an issue from a 3rd party App:
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/648453428/7af36c18beaf23654a71ab9f/GIF+Recording+2023-01-09+at+11.23.45+AM.gif" alt=""><figcaption></figcaption></figure>

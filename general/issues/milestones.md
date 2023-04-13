@@ -20,20 +20,17 @@ From here, give your milestones necessary attributes: a name, brief description,
 
 Now that a milestone is created, you can select it to be applied when creating a new test case, defect or test run, or edit the existing test cases, defects, and test runs to be connected to this milestone:
 
-*   Test Case:\
-
+*   Test Case:
 
 
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/597164156/01dab4f367064082fddcf726/LlIAyKsPtbRXVYNQDPbqGLiQYK3xa8_6aSENHyRz9RdMvi9qZH_tD9NLd35mc99yFBcU1gHQ_YffH5YEapxw-7GasbtHTkFSLsIkKTmcu0rJ1pJ9ylBehY9tEOJExYeY0uJ5Sdbxf2fnmAd25qtpnJBAOL36-X6PEaOFGftBkOW789ZXSKAiw10V7g" alt=""><figcaption></figcaption></figure>
-*   Test Run:\
-
+*   Test Run:
 
 
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/597164159/17db7de10460eccd1d825411/8yLPvgvNrvUyHWavQE_eM36vYlWrtf4AgOL1bGoKy0JOkC7r8g2wJv-YohfpQygfvFyz-BqL4Q2ixnRt20sdTKKcvsai_RxsI_TFtYvT6TwjspUboKUZnAbgAdJbj6fm20nIbU7BYSBQo0TjvOVv5vXdTgqRqhVr7F1fJLduNnAmfXvhV27psc0okg" alt=""><figcaption></figcaption></figure>
-*   Defect:\
-
+*   Defect:
 
 
 

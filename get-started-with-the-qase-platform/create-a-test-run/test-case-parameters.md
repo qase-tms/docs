@@ -25,11 +25,11 @@ Consider evaluating a web application's logon process, for instance. You could t
 
 4\. Press the Sign In button.
 
-Consider that you wish to conduct this test with various browsers. Test Parameters labelled Browser can be created and incorporated into the test case when setting up a test case, as opposed to developing separate test cases with similar data.
+Consider that you wish to conduct this test with various browsers. Test parameters labelled browser can be created and incorporated into the test case when setting up a test case, as opposed to developing separate test cases with similar data.
 
 ### How to create a parameter?
 
-Here’s how you can create a Parameter while creating a new test case or editing an existing one (only one parameter can be created per test case).
+Here’s how you can create a parameter while creating a new test case or editing an existing one (only one parameter can be created per test case).
 
 #### New Case: <a href="#h_ff8229f5ff" id="h_ff8229f5ff"></a>
 
@@ -48,8 +48,8 @@ Here’s how you can create a Parameter while creating a new test case or editin
 
 #### Edit existing test case: <a href="#h_ed06bedcee" id="h_ed06bedcee"></a>
 
-1. Navigate to the Repository
-2. Click on the Test case you require
+1. Navigate to the repository
+2. Click on the test case you require
 3. Click on “Edit” in the sidebar
 4. Fill in the required fields
 5. Click on “+ Add Param”
