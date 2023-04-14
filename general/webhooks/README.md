@@ -1,10 +1,18 @@
 # Webhooks
 
-### What are webhooks for?
+## Introduction
 
-Webhooks in Qase allow you to create a connection between your own resources and Qase so that when a specific event takes place in Qase, it also sends a request to an endpoint you defined for that particular event.
+Welcome to the [Qase.io](https://qase.io/) Webhooks documentation! Webhooks provide a way to notify your services about changes in Qase. A webhook consists of:
 
-_<mark style="background-color:purple;">Webhooks are available in</mark>_ [_<mark style="background-color:purple;">Startup</mark>_](https://help.qase.io/en/articles/5563728-startup-plan)_<mark style="background-color:purple;">,</mark>_ [_<mark style="background-color:purple;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan)_<mark style="background-color:purple;">, and</mark>_ [_<mark style="background-color:purple;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:purple;">subscriptions</mark>_
+* An entity - the resource that generates the events (e.g. Test Case).
+* One or more events (e.g. created).
+* A URL - the endpoint where you want Qase to send the event payloads when a matching event happens.
+
+This documentation describes the structure of events and their payloads.
+
+{% hint style="info" %}
+Webhooks are available in [Startup](https://help.qase.io/en/articles/5563728-startup-plan), [Business](https://help.qase.io/en/articles/5563727-business-plan), and [Enterprise](https://help.qase.io/en/articles/6640055-enterprise-plan) subscriptions
+{% endhint %}
 
 ### How to set up webhooks?
 
@@ -69,3 +77,41 @@ There are a few parameters you need to define for a new webhook:
     * Delete test review
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/607943846/a34d632632766e769cf7cff9/GIF+1.gif" alt=""><figcaption></figcaption></figure>
+
+## Event structure
+
+Request example:
+
+```json
+{
+  "event_name": "shared_step.created",
+  "timestamp": 1650540646,
+  "payload": {
+    "hash": "2563d587b756110934vea4185ce31b2b0dbf457c",
+    "title": "test",
+    "steps": [
+      {
+        "hash": "ed285acb6c7e575bce2576810c195ed8335e2812",
+        "action": "action",
+        "expected_result": "",
+        "data": "",
+        "attachments": []
+      }
+    ]
+  },
+  "team_member_id": 40,
+  "project_code": "ID"
+}
+```
+
+All requests that are produced by Qase are `POST` requests with data in `JSON` format with following data structure:
+
+| Parameter        | Type    | Description                                  |
+| ---------------- | ------- | -------------------------------------------- |
+| event\_name      | string  | Event name                                   |
+| timestamp        | integer | Time when event has been triggered           |
+| payload          | object  | An object with payload data related to event |
+| team\_member\_id | integer | Action initiator                             |
+| project\_code    | string  | Project code where the event takes place     |
+
+\

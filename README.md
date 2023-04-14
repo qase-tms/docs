@@ -4,7 +4,7 @@ Qase is an all-in-one TestOps platform built to beautifully orchestrate QA for b
 
 ### Start here
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a href="get-started-with-the-qase-platform.md">Getting started</a></td><td></td><td>Start with the basics</td></tr><tr><td><a href="execution/">Execute testing</a></td><td></td><td>Jump into testing</td></tr><tr><td><a href="general/issues/">Issues tracking</a></td><td></td><td>Integrate with issues trackers, use milestones &#x26; requirements</td></tr><tr><td><a href="analytics/">Analytics</a></td><td></td><td>Using dashboards and queries</td></tr><tr><td><a href="general/additional-features/">Additional features</a></td><td></td><td>Tags, attachments, webhooks and custom fields</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a href="get-started-with-the-qase-platform.md">Getting started</a></td><td></td><td>Start with the basics</td></tr><tr><td><a href="execution/">Execute testing</a></td><td></td><td>Jump into testing</td></tr><tr><td><a href="general/issues/">Issues tracking</a></td><td></td><td>Integrate with issues trackers, use milestones &#x26; requirements</td></tr><tr><td><a href="analytics/">Analytics</a></td><td></td><td>Using dashboards and queries</td></tr><tr><td><a href="broken-reference">Additional features</a></td><td></td><td>Tags, attachments, webhooks and custom fields</td></tr></tbody></table>
 
 ### Manage your Qase workspace
 

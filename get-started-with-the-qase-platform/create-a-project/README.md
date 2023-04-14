@@ -8,7 +8,7 @@ Projects are workspaces to keep all software testing related to a specific appli
 
 To get started, go to [https://app.qase.io/](https://app.qase.io/) and log in. Then, you'll see the "Projects" page.
 
-1. Hit the "Create new project" button.\
+1. Click the "Create new project" button.\
    [![](https://qase.intercom-attachments-7.com/i/o/595207077/5804637ffdce015bf77054b6/1156RUrKI2Z6xC0wTQ6dtlULfWtTmN6h2TZ3A0q03433ZuxfK23Lc0GHO2SPp-EARa7Er145NMtFCEgCdloKK-kgV-InHBtlXoEiDeVDGQ4xWnF71BFCX5HlG7-086mCp8T5jC9yiNLb\_xSChgq4KXEOdDYwFRvt4SV-hGkl3qiO2nQNjSnyQg0KOg)](https://qase.intercom-attachments-7.com/i/o/595207077/5804637ffdce015bf77054b6/1156RUrKI2Z6xC0wTQ6dtlULfWtTmN6h2TZ3A0q03433ZuxfK23Lc0GHO2SPp-EARa7Er145NMtFCEgCdloKK-kgV-InHBtlXoEiDeVDGQ4xWnF71BFCX5HlG7-086mCp8T5jC9yiNLb\_xSChgq4KXEOdDYwFRvt4SV-hGkl3qiO2nQNjSnyQg0KOg)
 2.  Next, you will be prompted to fill out project settings (which can also be edited later):
 

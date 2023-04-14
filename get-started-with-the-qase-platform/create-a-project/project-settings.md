@@ -1,7 +1,5 @@
 # Project settings
 
-### What to configure in project settings?
-
 After creating a project, you can control who can access and see it, and have more control over your project in settings.
 
 When you have opened the project, navigate to settings, where you will find several sections.
