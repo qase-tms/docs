@@ -12,7 +12,7 @@ Qase is an all-in-one TestOps platform built to beautifully orchestrate QA for b
 
 ### Connect with Qase
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><a href="https://developers.qase.io/docs">Qase API docs</a></td><td><p></p><p>Qase API documentation</p></td></tr><tr><td><a href="general/webhooks/">Qase Webhooks</a></td><td><p></p><p>Guide to using our webhooks</p></td></tr><tr><td><a href="apps/ci-cd/">CI/CD</a></td><td><p></p><p>Configure GitHub, GitLab, Jenkins and Bitbucket</p></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><a href="https://developers.qase.io/">Qase API docs</a></td><td><p></p><p>Qase API documentation</p></td></tr><tr><td><a href="general/webhooks/">Qase Webhooks</a></td><td><p></p><p>Guide to using our webhooks</p></td></tr><tr><td><a href="apps/ci-cd/">CI/CD</a></td><td><p></p><p>Configure GitHub, GitLab, Jenkins and Bitbucket</p></td></tr></tbody></table>
 
 
 
