@@ -10,7 +10,7 @@ The free plan is good for single quality assurance engineers and small companies
 * 500Mb for attachments
 * Defect management
 * Shared steps
-* [API](https://developers.qase.io/docs)
+* [API](https://developers.qase.io/reference/introduction-to-the-qase-api)
 * Apps
 * Community Support
 
