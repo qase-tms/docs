@@ -37,7 +37,7 @@ If you have Single Sign-On enabled, your name is provided by the Identity Provid
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/602169639/b182282d6a3dd28faa4f5e1a/image.png" alt=""><figcaption></figcaption></figure>
 
-**API Documentation:** Find detailed explanations of all entities and methods available through the [Qase REST API](https://developers.qase.io/docs).
+**API Documentation:** Find detailed explanations of all entities and methods available through the [Qase REST API](https://developers.qase.io/reference/introduction-to-the-qase-api).
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/595187134/9b2fc5123880cac7ad918dfc/rj_PMEagbg_xaxytZ5zPTu-SC85aGiwsra3AlEfj251AKY7rWSCFsd6D3XBMTiCG238cjXtRT0-8NB2wmYmiBrgBDnAMTIsLh_dTTxu1GSyyBRzdRZgqdlq4zaqgvz7hEkNnZnU3SLRbWN1LOar6jV5FVkkxG5-_m3Oldpbp9bSHaJIScySZDJ_U4Q" alt=""><figcaption></figcaption></figure>
 
