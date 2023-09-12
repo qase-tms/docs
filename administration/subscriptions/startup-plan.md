@@ -6,7 +6,7 @@ The full-featured startup plan helps organize collaboration within distributed t
 
 * Core features (test case management, shared steps, milestones, test plans and runs, defects).
 * 250 Gb storage for attachments
-* [API](https://developers.qase.io/docs) and Webhooks
+* [API](https://developers.qase.io/reference/introduction-to-the-qase-api) and Webhooks
 * Custom fields for test cases, test runs, and defects
 * Dashboards
 * Requirements
