@@ -13,7 +13,7 @@
     * [Nested steps](get-started-with-the-qase-platform/create-a-test-run/nested-steps.md)
     * [Shared steps](get-started-with-the-qase-platform/shared-steps.md)
     * [Test case actions](get-started-with-the-qase-platform/create-a-test-run/test-case-actions.md)
-    * [Test case parameters](get-started-with-the-qase-platform/create-a-test-run/test-case-parameters.md)
+    * [Test Case Parameters](get-started-with-the-qase-platform/create-a-test-run/test-case-parameters.md)
     * [Test case review](get-started-with-the-qase-platform/create-a-test-run/test-case-review.md)
     * [Filters](get-started-with-the-qase-platform/create-a-test-run/filters.md)
     * [Import test cases](general/get-started-with-the-qase-platform/create-a-test-run/import-test-cases.md)
