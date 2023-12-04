@@ -253,63 +253,10 @@ Let's look at each option in more detail:
 
 ***
 
-Related Articles[Getting Started](https://help.qase.io/en/articles/5563688-getting-started)[Defects](https://help.qase.io/en/articles/5563710-defects)[Milestones](https://help.qase.io/en/articles/5563715-milestones)[ClickUp](https://help.qase.io/en/articles/6417208-clickup)[GitHub](https://help.qase.io/en/articles/7210938-github)Did this answer your question?😞😐😃
 
-***
-
-[![Qase Help Center](https://downloads.intercomcdn.com/i/o/444276/b9f73a5efc21c8b8534fe131/3244aa26a7406f15b86f7a29338576a1.png)](https://help.qase.io/en/)1007 N Orange St. 4th Floor, Suite #1686, Wilmington, DE 19801, USA[We run on Intercom](https://www.intercom.com/intercom-link?company=Qase\&solution=customer-support\&utm\_campaign=intercom-link\&utm\_content=We+run+on+Intercom\&utm\_medium=help-center\&utm\_referrer=https%3A%2F%2Fhelp.qase.io%2Fen%2Farticles%2F5563702-test-runs\&utm\_source=desktop-web)
-
-* [![](https://intercom.help/qase/assets/svg/icon:social-linkedin/d6d4d6)](https://www.linkedin.com/company/qaseio)
-* [![](https://intercom.help/qase/assets/svg/icon:social-facebook/d6d4d6)](https://www.facebook.com/qase.io)
-* [![](https://intercom.help/qase/assets/svg/icon:social-twitter-x/d6d4d6)](https://www.twitter.com/qase\_io)
-* [![](https://intercom.help/qase/assets/svg/icon:social-github/d6d4d6)](https://github.com/qase-tms)
-* [![](https://intercom.help/qase/assets/svg/icon:social-youtube/d6d4d6)](https://www.youtube.com/channel/UCvJ5CYaKZBcpD3OK4I-M\_kA)
-
-<details>
-
-<summary>From Saved Queries: You can read more about Saved Queries <a href="https://help.qase.io/en/articles/6417205-saved-queries">here</a>.</summary>
-
-[![](https://downloads.intercomcdn.com/i/o/861868721/89a9e6373dd34a9c59596efb/image.png)](https://downloads.intercomcdn.com/i/o/861868721/89a9e6373dd34a9c59596efb/image.png)
-
-</details>
 
 \
 \
 
-
-<figure><img src="https://downloads.intercomcdn.com/i/o/609555539/dfbe57eec81a957724b876b3/image.png" alt=""><figcaption></figcaption></figure>
-
-1. With the new test run configured, you will now see it in the Test Runs view with a condensed summary of it:
-   * _Time:_ will show how much time has been spent so far on performing Test Cases in this run.
-   * _Status:_ will show a summary of test cases per status - how many have passed, how many have been failed, skipped, blocked, invalidated, or untested.
-   * _Environment:_ will show the environment of the run, which was selected when the run was created.
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597136810/38299ec2ee688929eb1d4101/yi62DXxzp81XizHNw0_XHjtj8qU9djtMnCoRBAe7hBL18REg2p0im4gRGqwI1PAIW5bSF0kZQ3w6RJFtUvmPHSO62Q_-Do1Sxn5NjalrMvZtxQY9ok8PRayGERXxOHqVE6G72xo6dsEsNaZlaupoFwWBPXcqiDHm-eqzDa8OFqfnyfDqWHlqe3IUUQ" alt=""><figcaption></figcaption></figure>
-
-#### Filtering
-
-You can filter by Status, Assigned to, Environment, Milestone, Tags, Automation status, and Creation date.
-
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/597136814/6c495e548884def4d4832831/TmLVNE0TMUH3e9b6ts_dVlU4BterNbCQ_nqXdL-wJdByLWCvBjxWalMqIvDu2xjsrsAcdFOfCv0SAQ1OWrrTNtpdYp6H1G8L6ZdzIK776Qzvz-VpnnoKlwcxU6NT5vR8wD5lfN2cGK4-Jeq5jR6Z2gObcGRU7uQifg_MTaxJBd2gYNe2NSUpJ8y34A" alt=""><figcaption></figcaption></figure>
-
-#### Three-dots-menu options
-
-From the three-dots-menu, you can do several things:
-
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/597136820/e12770bc16c1f39b8de8ec76/hJnIE5leUSKI2zC7_L52HDzzGYVF8XKQvbocuraLH9atQfrNz_aYbd2bXvsS_P0-Z9yNW0M99R9bfWOKYiZ8CBiWwmwt6Oi46AWAhjjuifEwEBt0_TiVTiqEop2yhBIsc3fGW8Cfpou7wppeh6usiWQrYvUED-hoSL9-KfbHZ_nrB41a0UjfnWxXcQ" alt=""><figcaption></figcaption></figure>
-
-* Access test run dashboard
-*   _Open Wizard:_ this option will take you to the list of test cases that need to be performed, and you can go through them one by one:\
-
-
-
-
-    \
-
-
-    <figure><img src="https://qase.intercom-attachments-7.com/i/o/597136824/9764341b81f38ad00d678410/Cuj9OsxhiwMiA9mB2SA1j9krQUbVmkejejGiqxlI1xH7D9re6RrqlgP5NYvCP4dNHngUmUDTHpZaDJff1RyVOlGq8A22IOhQzTdpIRlDrTkGa8VhNPLj-nECakUJHjEG3xcyZBAer5qQMkUsH518hcMm35kZ0Y2Bu9aI83OrtpOmc2mtMIvB_QEhuA" alt=""><figcaption></figcaption></figure>
-* _Clone Run:_ quickly create an identical instance of a test run, if you want to perform it again from scratch
-* _Edit run:_ change the parameters of the test run
-* Delete test run
-
-\
