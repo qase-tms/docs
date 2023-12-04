@@ -1,5 +1,10 @@
 # Projects
 
+```
+//<iframe width="560" height="315" src="https://www.youtube.com/embed/y1aMBlSnBno?si=Hds0hfWmcwtITHzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+```
+
 **What are projects in software testing?**
 
 _Projects_ allow you to organize your [test suites](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-suite) and [test cases](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run) by putting them into separate spaces in Qase, thus preventing mixing up test cases related to different areas of development.
