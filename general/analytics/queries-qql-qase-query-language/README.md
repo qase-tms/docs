@@ -69,7 +69,7 @@ Below are the available entities. Click on an entity to skip to the attributes a
 * [Test case](https://docs.qase.io/general/analytics/queries#test\_case)
 * [Test run](https://docs.qase.io/general/analytics/queries#test\_run)
 * [Test run result](https://docs.qase.io/general/analytics/queries#test\_run\_results)
-* [Test Plan](https://docs.qase.io/general/analytics/queries#test\_plan)
+* [Test plan](https://docs.qase.io/general/analytics/queries#test\_plan)
 * [Defect](https://help.qase.io/en/articles/5563699-queries-qql-qase-query-language#h\_d6d0c91118)[s](https://docs.qase.io/general/analytics/queries#defects)
 * [Requirement](https://docs.qase.io/general/analytics/queries#requirement)
 
@@ -316,7 +316,7 @@ author = "user2"
 </code></pre>          | Defect's tags                                                                                                             | <pre><code>tags not in ['tag']
 </code></pre>                                                                                                                                                                                                                                                                                                                                                                                                      |
 
-### Test Run: <a href="#test_run" id="test_run"></a>
+### Test run: <a href="#test_run" id="test_run"></a>
 
 | **Attribute**                        | **Description**                                                                    | **Examples**                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | ------------------------------------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -418,7 +418,7 @@ createdBy = "user2"
 </code></pre>        | Run's tags                                                                         | <pre><code>tags not in ['tag_name']
 </code></pre>                                                                                                                                                                                                                                                                                                                                                                                |
 
-### Test Run Results: <a href="#test_run_results" id="test_run_results"></a>
+### Test run results: <a href="#test_run_results" id="test_run_results"></a>
 
 | Attribute                                                        | Description                                                                                                                               | Examples                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -485,7 +485,7 @@ createdBy = "user2"
 </code></pre>                               | Time spent (in milliseconds)                                                                                                              | <pre><code>timeSpent > 10000
 </code></pre>                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-### Test Plan: <a href="#test_plan" id="test_plan"></a>
+### Test plan: <a href="#test_plan" id="test_plan"></a>
 
 | Attribute                            | Description                 | Examples                                                                                                                                                                                                                 |
 | ------------------------------------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -533,7 +533,7 @@ createdBy = "user2"
 </code></pre><pre><code>isDeleted = true
 </code></pre>                                                                                                                                     |
 
-### Requirement: <a href="#h_c47f8c5b2f" id="h_c47f8c5b2f"></a>
+### Requirement: <a href="#requirement" id="requirement"></a>
 
 | Attribute                            | Description                                                                                                                                  | Examples                                                                                                                                                                                                                 |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
