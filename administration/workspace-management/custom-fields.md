@@ -16,10 +16,6 @@ You'll need to create these Custom Fields first to be able to fill them in. To g
 
 Create a new Custom Field by clicking "+ Create New Custom Field", configure your Custom Field, and define what it will be representing:
 
-* _Title:_ give a brief descriptive name to your Custom Field (Title is the only mandatory parameter).
-
-Create a new custom field by clicking "+ Create custom field", configure your custom field, and define what it will be representing:
-
 * _Title:_ give a brief descriptive name to your Custom Field (Title is the only mandatory parameter).\
   \
   [![](https://qase.intercom-attachments-7.com/i/o/597122368/6b2b081bb74b2ea946ed8441/IOAd6j0zBKZO6Zkz8T5A2-iFdxacMVO3Nj12JL4Ozvx\_0Ks3H4aghfqf7v4MFAwirKIhHwu2Z3g-Hw3Fnb0aD01LVSrpgBosRRKCR3fn5wxwzRGffz7tyk6ZUWoBScqGzsji8vqzCY2nKepwJXFk5o1RpcDT35-cvLYKpL45FFfAURxG9iMXr8pceg)](https://qase.intercom-attachments-7.com/i/o/597122368/6b2b081bb74b2ea946ed8441/IOAd6j0zBKZO6Zkz8T5A2-iFdxacMVO3Nj12JL4Ozvx\_0Ks3H4aghfqf7v4MFAwirKIhHwu2Z3g-Hw3Fnb0aD01LVSrpgBosRRKCR3fn5wxwzRGffz7tyk6ZUWoBScqGzsji8vqzCY2nKepwJXFk5o1RpcDT35-cvLYKpL45FFfAURxG9iMXr8pceg)
@@ -27,7 +23,7 @@ Create a new custom field by clicking "+ Create custom field", configure your cu
   \
   [![](https://qase.intercom-attachments-7.com/i/o/597122370/87a14b739d5e0c5c9abee4ec/nHk3s1kwtlph8ulrxWerSRlMuM8i3Ic8a1u1ve63P1lQt5XI6BYa9SiUmEiEktK6L83m7PkQ1cBknLa7zcxTdmW5BeuMSlJ\_I6Wo77dEaz-ePz5JdkSMDn2torB6O2aDU1g6tlmaL\_k7t7pY6kbZi48i0FH1h-kCkRvPYh8fnMf0g0RjeH1M-sQY)](https://qase.intercom-attachments-7.com/i/o/597122370/87a14b739d5e0c5c9abee4ec/nHk3s1kwtlph8ulrxWerSRlMuM8i3Ic8a1u1ve63P1lQt5XI6BYa9SiUmEiEktK6L83m7PkQ1cBknLa7zcxTdmW5BeuMSlJ\_I6Wo77dEaz-ePz5JdkSMDn2torB6O2aDU1g6tlmaL\_k7t7pY6kbZi48i0FH1h-kCkRvPYh8fnMf0g0RjeH1M-sQY)
 * _Type:_ select from a dropdown which data type will be used in this Custom Field. Depending on the type of data selected, the options below will be different.\
-  ​_NB: once a custom field has been created, its type cannot be changed._
+  **​**_**NB:** once a custom field has been created, its type cannot be changed._
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597122372/3e9135b28f07a4e6a3c039bb/mmxDw7R4VosOoxz9p6xEXi_G4fv-cHmKGSteiJDzckBbCrQc5EP9d0mkSGTyWmomzx9CA6_0B6PRue5NoaNyyPJM4NIcC_Uj5emli6MJziLKotxEPwKjEKFYcCBJ-ddL4-OfCrT5IMEqyXIvUargU8DCoPPt8KWgmRx5uasTNf63r7xVegvkz7bq" alt=""><figcaption></figcaption></figure>
 
