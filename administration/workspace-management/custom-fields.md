@@ -2,33 +2,32 @@
 
 ### What are custom fields in Qase?
 
-Test scenarios come with a lot of different data. It's almost impossible to know every piece of data you need to record for your test cases, test runs, or defects. Instead of trying to cover everything or just the minimum, we give you custom fields. It's a tool that lets you create your own data entry points.
+Obviously, test scenarios come with all varieties of data connected to them. It is pretty much impossible for us at Qase to predict every single data point you want to record for your [Test Cases](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run), [Test Runs](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run-1), or [Defects](https://docs.qase.io/general/get-started-with-the-qase-platform/defects). So instead of trying to cover all bases or giving a bare minimum, we provide you with Custom Fields - a tool to create your own custom data entry points.
 
-_<mark style="background-color:purple;">Custom fields are available in</mark>_ [_<mark style="background-color:purple;">Startup</mark>_](https://help.qase.io/en/articles/5563728-startup-plan)_<mark style="background-color:purple;">,</mark>_ [_<mark style="background-color:purple;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan)_<mark style="background-color:purple;">, and</mark>_ [_<mark style="background-color:purple;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:purple;">subscriptions</mark>_
+_<mark style="background-color:purple;">⚠️Custom Fields are available in</mark>_ [_<mark style="background-color:purple;">Startup</mark>_](https://help.qase.io/en/articles/5563728-startup-plan)_<mark style="background-color:purple;">,</mark>_ [_<mark style="background-color:purple;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan)_<mark style="background-color:purple;">, and</mark>_ [_<mark style="background-color:purple;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:purple;">subscriptions</mark>_
 
 {% embed url="https://youtu.be/SnXr_WPJiMc" %}
 
-### How to create custom fields?
-
-To get started, navigate to the workspace settings' "Fields" section.
+You'll need to create these Custom Fields first to be able to fill them in. To get started, navigate to the Workspace settings' "Fields" section:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597122367/191a4014043ec3de84be3310/9dkRGRx5uAm_u_fdOe5xBUnV5PZw6gaae8zvueizzh6kMbGGMxEoUYyphjUMfmZDOjqOAunvkbdb74heGqJZq7HyBhx-1WnTGtQR9u2j7ejgTYjdodVlRadQl8IkSzBN6n1e8vTdjZAcz6XdNf4nZz6Nfppj65UV_wf8TUq2At1_MMyto2na-aa0xQ" alt=""><figcaption></figcaption></figure>
+
+### Create custom fields
+
+Create a new Custom Field by clicking "+ Create New Custom Field", configure your Custom Field, and define what it will be representing:
+
+* _Title:_ give a brief descriptive name to your Custom Field (Title is the only mandatory parameter).
 
 Create a new custom field by clicking "+ Create custom field", configure your custom field, and define what it will be representing:
 
 * _Title:_ give a brief descriptive name to your Custom Field (Title is the only mandatory parameter).\
   \
   [![](https://qase.intercom-attachments-7.com/i/o/597122368/6b2b081bb74b2ea946ed8441/IOAd6j0zBKZO6Zkz8T5A2-iFdxacMVO3Nj12JL4Ozvx\_0Ks3H4aghfqf7v4MFAwirKIhHwu2Z3g-Hw3Fnb0aD01LVSrpgBosRRKCR3fn5wxwzRGffz7tyk6ZUWoBScqGzsji8vqzCY2nKepwJXFk5o1RpcDT35-cvLYKpL45FFfAURxG9iMXr8pceg)](https://qase.intercom-attachments-7.com/i/o/597122368/6b2b081bb74b2ea946ed8441/IOAd6j0zBKZO6Zkz8T5A2-iFdxacMVO3Nj12JL4Ozvx\_0Ks3H4aghfqf7v4MFAwirKIhHwu2Z3g-Hw3Fnb0aD01LVSrpgBosRRKCR3fn5wxwzRGffz7tyk6ZUWoBScqGzsji8vqzCY2nKepwJXFk5o1RpcDT35-cvLYKpL45FFfAURxG9iMXr8pceg)
-
-
-
 * _Entity:_ define which Qase entities your Custom Field will apply to - Test Cases, Test Runs, or Defects. This parameter is a single-choice one, so you cannot select "Test Cases" AND "Test Runs"; if you need to track similar data for both Runs and Cases, you'll need to create two separate Custom Fields for that.\
   \
   [![](https://qase.intercom-attachments-7.com/i/o/597122370/87a14b739d5e0c5c9abee4ec/nHk3s1kwtlph8ulrxWerSRlMuM8i3Ic8a1u1ve63P1lQt5XI6BYa9SiUmEiEktK6L83m7PkQ1cBknLa7zcxTdmW5BeuMSlJ\_I6Wo77dEaz-ePz5JdkSMDn2torB6O2aDU1g6tlmaL\_k7t7pY6kbZi48i0FH1h-kCkRvPYh8fnMf0g0RjeH1M-sQY)](https://qase.intercom-attachments-7.com/i/o/597122370/87a14b739d5e0c5c9abee4ec/nHk3s1kwtlph8ulrxWerSRlMuM8i3Ic8a1u1ve63P1lQt5XI6BYa9SiUmEiEktK6L83m7PkQ1cBknLa7zcxTdmW5BeuMSlJ\_I6Wo77dEaz-ePz5JdkSMDn2torB6O2aDU1g6tlmaL\_k7t7pY6kbZi48i0FH1h-kCkRvPYh8fnMf0g0RjeH1M-sQY)
-
-
-
-* _Type:_ select from a dropdown which data type will be used in this Custom Field. Depending on the type of data selected, the options below will be different.
+* _Type:_ select from a dropdown which data type will be used in this Custom Field. Depending on the type of data selected, the options below will be different.\
+  ​_NB: once a custom field has been created, its type cannot be changed._
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597122372/3e9135b28f07a4e6a3c039bb/mmxDw7R4VosOoxz9p6xEXi_G4fv-cHmKGSteiJDzckBbCrQc5EP9d0mkSGTyWmomzx9CA6_0B6PRue5NoaNyyPJM4NIcC_Uj5emli6MJziLKotxEPwKjEKFYcCBJ-ddL4-OfCrT5IMEqyXIvUargU8DCoPPt8KWgmRx5uasTNf63r7xVegvkz7bq" alt=""><figcaption></figcaption></figure>
 
@@ -53,19 +52,14 @@ Create a new custom field by clicking "+ Create custom field", configure your cu
 
 
 
-* _Values:_ Available for multiselect and selectbox types of data.\
+* _Values:_ Available for Multiselect and Selectbox types of data, this area allows you to define values to choose from when filling out a custom field:\
   \
-  [![](https://qase.intercom-attachments-7.com/i/o/597122391/ad37ac981d120ce29cccb4d6/tg9gVhonEHzK19lGRhmTMYWx4f-TAavDteVRx9Lfyqbp16Af0bMhwsys-Ej1dwTDCssuR\_3LGkKlDQ86M0LkFe\_2x\_uztpnmuo1sPMEsAQrsjUE5XeUDv4DRvBjvP5zsgpLNTC7N0QJAUD3bOdAhQn0E9f-9cq8jfo3E53JuEC-S7LBnrHpaCtpARQ)](https://qase.intercom-attachments-7.com/i/o/597122391/ad37ac981d120ce29cccb4d6/tg9gVhonEHzK19lGRhmTMYWx4f-TAavDteVRx9Lfyqbp16Af0bMhwsys-Ej1dwTDCssuR\_3LGkKlDQ86M0LkFe\_2x\_uztpnmuo1sPMEsAQrsjUE5XeUDv4DRvBjvP5zsgpLNTC7N0QJAUD3bOdAhQn0E9f-9cq8jfo3E53JuEC-S7LBnrHpaCtpARQ)
-
-\
-This area allows you to define values to choose from when filling out a custom field:
+  [![](https://qase.intercom-attachments-7.com/i/o/597122391/ad37ac981d120ce29cccb4d6/tg9gVhonEHzK19lGRhmTMYWx4f-TAavDteVRx9Lfyqbp16Af0bMhwsys-Ej1dwTDCssuR\_3LGkKlDQ86M0LkFe\_2x\_uztpnmuo1sPMEsAQrsjUE5XeUDv4DRvBjvP5zsgpLNTC7N0QJAUD3bOdAhQn0E9f-9cq8jfo3E53JuEC-S7LBnrHpaCtpARQ)](https://qase.intercom-attachments-7.com/i/o/597122391/ad37ac981d120ce29cccb4d6/tg9gVhonEHzK19lGRhmTMYWx4f-TAavDteVRx9Lfyqbp16Af0bMhwsys-Ej1dwTDCssuR\_3LGkKlDQ86M0LkFe\_2x\_uztpnmuo1sPMEsAQrsjUE5XeUDv4DRvBjvP5zsgpLNTC7N0QJAUD3bOdAhQn0E9f-9cq8jfo3E53JuEC-S7LBnrHpaCtpARQ)\
+  [![](https://qase.intercom-attachments-7.com/i/o/597122395/138dc94279c12d870a0c2de0/gMlFY3G54PG5g1bMK5P\_v\_BEyfEsVYdNVQLUOxOay616JVi8D7Lc0kys1dDV\_3V19dNJi5APQL4zgVeSN8L8rvV20GTRuAS6xOaXjhPR-3caeFvgCdDQZs9SWkSyt5uSkkBg3jE3XpRhsFpSDxlIXUwAr76Ps3be0MHQoPRXVf8ymTxq0xbzbeyiPA)](https://qase.intercom-attachments-7.com/i/o/597122395/138dc94279c12d870a0c2de0/gMlFY3G54PG5g1bMK5P\_v\_BEyfEsVYdNVQLUOxOay616JVi8D7Lc0kys1dDV\_3V19dNJi5APQL4zgVeSN8L8rvV20GTRuAS6xOaXjhPR-3caeFvgCdDQZs9SWkSyt5uSkkBg3jE3XpRhsFpSDxlIXUwAr76Ps3be0MHQoPRXVf8ymTxq0xbzbeyiPA)
 
 1. Rearrange your values by long pressing this button and moving the field from top to bottom.
 2. Customize each value with icons of your choice.
 3. Add a new value input field
 4. Delete a value input field
-
-\
-[![](https://qase.intercom-attachments-7.com/i/o/597122395/138dc94279c12d870a0c2de0/gMlFY3G54PG5g1bMK5P\_v\_BEyfEsVYdNVQLUOxOay616JVi8D7Lc0kys1dDV\_3V19dNJi5APQL4zgVeSN8L8rvV20GTRuAS6xOaXjhPR-3caeFvgCdDQZs9SWkSyt5uSkkBg3jE3XpRhsFpSDxlIXUwAr76Ps3be0MHQoPRXVf8ymTxq0xbzbeyiPA)](https://qase.intercom-attachments-7.com/i/o/597122395/138dc94279c12d870a0c2de0/gMlFY3G54PG5g1bMK5P\_v\_BEyfEsVYdNVQLUOxOay616JVi8D7Lc0kys1dDV\_3V19dNJi5APQL4zgVeSN8L8rvV20GTRuAS6xOaXjhPR-3caeFvgCdDQZs9SWkSyt5uSkkBg3jE3XpRhsFpSDxlIXUwAr76Ps3be0MHQoPRXVf8ymTxq0xbzbeyiPA)
 
 \
