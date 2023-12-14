@@ -4,8 +4,8 @@
 [jira-cloud.md](jira-cloud.md)
 {% endcontent-ref %}
 
-{% content-ref url="jira-server-dc-plugin.md" %}
-[jira-server-dc-plugin.md](jira-server-dc-plugin.md)
+{% content-ref url="jira-server-datacenter-plugin-installation.md" %}
+[jira-server-datacenter-plugin-installation.md](jira-server-datacenter-plugin-installation.md)
 {% endcontent-ref %}
 
 {% content-ref url="../ci-cd/github.md" %}

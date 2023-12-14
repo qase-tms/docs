@@ -1,19 +1,26 @@
-# Jira Server/DC plugin
+---
+description: >-
+  Jira is a proprietary issue-tracking product developed by Atlassian that
+  allows bug tracking and agile project management.
+---
 
-### Why Jira Server/DC plugin?
+# Jira Server/Datacenter Plugin installation
+
+### Jira Server/DC plugin?
 
 With Jira Server/DC plugin for Qase, you can install the integration and get access to these possibilities:
 
-* link issues from your Jira with test cases in Qase
-* link test runs in Qase to issues in Jira
-* create new issues in Jira simultaneously with creating a defect in Qase during a test run, passing all defect details and information, and synchronizing the statuses of issues and defects between the systems.
+* link issues from your Jira with [test cases](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run) in Qase
+* link [test runs](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run-1) in Qase to issues in Jira
+* create new issues in Jira simultaneously with creating a [defect](https://docs.qase.io/general/get-started-with-the-qase-platform/defects) in Qase during a test run, passing all defect details and information, and synchronizing the statuses of issues and defects between the systems.
 
-### How to install Jira plugin?
+### How to install Jira plugin
 
 Here's how to install the plugin:
 
-* download the plugin package found at the end of the article
-* go to the "Manage apps" page in Jira:
+1. Download the plugin package found at the end of the article\
+   **​NB:** if you are using Jira DC, you can install the app from Jira Marketplace instead of using the package provided in this article. Once you do so, proceed to step 6 of this instruction.
+2. Go to the "Manage apps" page in Jira:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597261241/087200c11e51831d86465907/twOGof3Xd9dXVASBVwpXaTKdbcuYvBdUQCkcpNpmEVzKssSbleCn-rads7EU5qva-TsXPWKma3_cHledauq8V00HqhEo6W3zNLtokMZ00MZOm3srYHc0V-y_xNt4kz3Oi7oSjzW7N4kYy53V0k9reOqi0Aj4y6QgxYZbrDdwhA-cME7jS0biYudocQ" alt=""><figcaption></figcaption></figure>
 
@@ -30,6 +37,16 @@ Here's how to install the plugin:
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597261254/26d88f96b2ed11034edf4bb9/sdYq3Bnw8Aa6tPTHWxTK7Ez-XhnfDwypvTbFH24EzlD0FPt31a3ku08uM_xgE1DiJZ3lidOV5pW2749CphSwZLiadASsLbAtTfL5ONTj-TFsVzxrMS9-8gb6b7JjUJ0kwHXONlS_Jwa2WcD2aoUBfqFi66S3qo4Ujx5DR95qv_Qckz-AUbMG2dde_A" alt=""><figcaption></figcaption></figure>
 
 That's it, you're ready to go!
+
+* Once the app has been installed, you can now map the Jira status and Qase Defects. To do so, click on the 3 dots icon and click "Settings":
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 11.23.18 AM.png" alt=""><figcaption></figcaption></figure>
+
+* Select the Project, Issue Type and click on "Add transition" and select the Defect Mapping and Save the changes:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 11.33.54 AM.png" alt=""><figcaption></figcaption></figure>
+
+You have an option to "Do nothing" in terms of status update of a Qase defect, once the associated Jira issue gets transitioned into a specific status - then, the Qase defect will remain in the status it was.
 
 ## Usage <a href="#h_303ea547de" id="h_303ea547de"></a>
 
@@ -48,16 +65,15 @@ That's it, you're ready to go!
 
 [![](https://qase.intercom-attachments-7.com/i/o/597257758/33affc49f0805d94818b09cc/a26pNkYDFYQjY\_Icz\_w49zU63ZUxeD4uyoOJE8TCDvFLDaPCcDh5PNz6jfq5180knW-DwtjijBWBFufGAiJV1aXX4rTdR6spEbV6Kk1M4e6Si8LnybnYv7uyRx7wGbV3zAeAHtyjUWVsDp9xFDRfY6Yd\_fsakykAgCYpZKQQWVrLmRu7oGBYnT-q)](https://qase.intercom-attachments-7.com/i/o/597257758/33affc49f0805d94818b09cc/a26pNkYDFYQjY\_Icz\_w49zU63ZUxeD4uyoOJE8TCDvFLDaPCcDh5PNz6jfq5180knW-DwtjijBWBFufGAiJV1aXX4rTdR6spEbV6Kk1M4e6Si8LnybnYv7uyRx7wGbV3zAeAHtyjUWVsDp9xFDRfY6Yd\_fsakykAgCYpZKQQWVrLmRu7oGBYnT-q)
 
-2\. Link Qase test runs to Jira issues: There are two ways to create a test run - express run (from the repository) and new test run (from the test runs page).
+2\. Link Qase Test Runs to Jira issues: There are two ways to create a Test Run - Express Run (from the repository) and New Test Run (from the Test Runs page).
 
-Here’s how you can link a Jira issue to a test run:
+Here’s how you can link a Jira issue to a Test Run:
 
-* Navigate to the test run you want to link to "Jira Server:
-*   Click on "Select an Integration" and choose "Jira Server" in the Integration pop-up that appears.
+* Navigate to the Test run you want to link to Jira Server
+* Click on "Select an Integration" and choose "Jira Server" in the Integration pop-up that appears.
 
+<figure><img src="https://downloads.intercomcdn.com/i/o/646931641/68155ca9e4286226142bbb51/image.png" alt=""><figcaption></figcaption></figure>
 
-
-    <figure><img src="https://downloads.intercomcdn.com/i/o/646931641/68155ca9e4286226142bbb51/image.png" alt=""><figcaption></figcaption></figure>
 * In the “Link Jira Server issues” pop-up, enter the title of the issue or the id of the issue and then click on “Link”:
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/646932122/7971dfbd205475b23f5a083e/image+(23).png" alt=""><figcaption></figcaption></figure>
@@ -112,7 +128,7 @@ Here’s how you can link a Jira issue to a test run:
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/597256561/6dc56592a1e85d41e6dfe77a/image.png" alt=""><figcaption></figcaption></figure>
-* Note: any runs you have linked to Jira issues while setting up a run in Qase will also be shown in the "Qase: Runs" module.
+* _Note:_ any runs you have linked to Jira issues while setting up a run in Qase will also be shown in the "Qase: Runs" module.
 
 ### Create Jira issue while creating a defect in Qase <a href="#h_eed4b4d9bc" id="h_eed4b4d9bc"></a>
 
@@ -130,5 +146,11 @@ Here’s how you can link a Jira issue to a test run:
 
 
     <figure><img src="https://qase.intercom-attachments-7.com/i/o/597258146/4faca6fed3a048223fa26637/a_nG3a7-0PyjlLW-8cr-N4QXYe6CSpDpIw6lHeQBDnE2BcJqKhc0Vz6Pc5tDx3rYgqWTK6e3S2EDmXE2zV5t_cINqz86fcrA4-FMOl7kLJgtm_E3MX8crB2ssnadFPxn5f-uubEXxZ58hii5fnVKYzDa-GVr4LKcBZXEeQBDupX8FvXZzdZKDEum" alt=""><figcaption></figcaption></figure>
+
+
+
+    * Once a Defect has been created and if you update the status of the Defect, you'll notice that you have the option to select the status for the associated Jira issue to be transitioned into:&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 11.36.05 AM.png" alt=""><figcaption></figcaption></figure>
 
 {% file src="../../.gitbook/assets/qase.jira.cloud-1.0.3.obr" %}

@@ -92,7 +92,7 @@
 
 * [Issue tracking](apps/issue-tracking/README.md)
   * [Jira Cloud](apps/issue-tracking/jira-cloud.md)
-  * [Jira Server/DC plugin](apps/issue-tracking/jira-server-dc-plugin.md)
+  * [Jira Server/Datacenter Plugin installation](apps/issue-tracking/jira-server-datacenter-plugin-installation.md)
   * [Asana](apps/issue-tracking/asana.md)
   * [Linear](apps/issue-tracking/linear.md)
   * [Monday](apps/issue-tracking/monday.md)
