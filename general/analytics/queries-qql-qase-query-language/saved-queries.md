@@ -4,11 +4,11 @@ _⚠️Queries are available in_ [_Business_](https://help.qase.io/en/articles/5
 
 {% embed url="https://www.youtube.com/watch?v=n2YZZxhcUVg" %}
 
-Queries, based on [Qase Query Language](https://docs.qase.io/general/analytics/queries-qql-qase-query-language), help you make analytical requests to get specific data from your Qase projects.
+**Queries, based on** [**Qase Query Language**](https://docs.qase.io/general/analytics/queries-qql-qase-query-language)**, help you make analytical requests to get specific data from your Qase projects.**
 
 You can save your frequently used queries for quick access in the future.
 
-<figure><img src="../../../.gitbook/assets/chrome_h8HFwSBSkN.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/query 1.gif" alt=""><figcaption></figcaption></figure>
 
 To save a query after searching, simply click on the Save button on the top right.
 
@@ -16,6 +16,6 @@ To save a query after searching, simply click on the Save button on the top righ
 
 If you need to search using the same query in future, you can find this saved query in your [Query list](https://app.qase.io/report/queries-list).
 
-<figure><img src="../../../.gitbook/assets/gifsss.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/query 3.gif" alt=""><figcaption></figcaption></figure>
 
 When using a Saved Query, the original request is pasted into the field, and you can make changes. After modifying it, you can save it as a new query using "Save As" or update the existing one with the "Update" option.
