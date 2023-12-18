@@ -6,43 +6,71 @@
 
 {% embed url="https://youtu.be/rhzWY0oh2AI" %}
 
-### Why use GutHub integration?
-
 With the GitHub app, you can:
 
-* create a new issue in GitHub when you file a defect during a test run in Qase
-* connect a GitHub workflow to Qase
-* execute automated runs in Github from a Qase test run
+* create a new issue in GitHub when you file a [defect](https://help.qase.io/en/articles/5563710-defects) during a [test run](https://help.qase.io/en/articles/5563702-test-runs) in Qase.
+* connect a GitHub workflow to Qase.
+* execute automated runs in GitHub from a Qase test run.
 
-### How to install GitHub? <a href="#h_eab4c6203b" id="h_eab4c6203b"></a>
+## Installation <a href="#h_638b057e77" id="h_638b057e77"></a>
 
-* Click "Apps" in your Qase workspace:
+***
 
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/597262858/6345d95eecf41310e09a89ff/lqgVeB1yc_MKiXnQqLagQpFsW9u3hnirPVlcw4vZrjBqx38lYIGVO8RicQgSEePUPN81FjSJy_Qa9hr7oaBdmz8i1mrkA6BBLsh4Lp2Fj0I4sKUuBlm9MkaKN8EBjg_kBRoKmhceZrzsukuIs674Y9Oyr1jWdRbDVIs5hCczTLi-LzhMvNME0dfZGA" alt=""><figcaption></figcaption></figure>
+<details>
 
-Here are the steps you need to follow to install the app:
+<summary>Go to the 'Apps' section of your workspace:</summary>
 
-1. Click the GitHub card, then hit "Install now"
-2. Log in to GitHub, if you are currently not
-3. Select the GitHub repositories where you wish to install the app, hit "Install"
-4. After the redirect, hit "Authorize" to finalize the installation
-5. The app is now successfully installed
+[![](https://qase.intercom-attachments-7.com/i/o/597262858/6345d95eecf41310e09a89ff/lqgVeB1yc\_MKiXnQqLagQpFsW9u3hnirPVlcw4vZrjBqx38lYIGVO8RicQgSEePUPN81FjSJy\_Qa9hr7oaBdmz8i1mrkA6BBLsh4Lp2Fj0I4sKUuBlm9MkaKN8EBjg\_kBRoKmhceZrzsukuIs674Y9Oyr1jWdRbDVIs5hCczTLi-LzhMvNME0dfZGA)](https://qase.intercom-attachments-7.com/i/o/597262858/6345d95eecf41310e09a89ff/lqgVeB1yc\_MKiXnQqLagQpFsW9u3hnirPVlcw4vZrjBqx38lYIGVO8RicQgSEePUPN81FjSJy\_Qa9hr7oaBdmz8i1mrkA6BBLsh4Lp2Fj0I4sKUuBlm9MkaKN8EBjg\_kBRoKmhceZrzsukuIs674Y9Oyr1jWdRbDVIs5hCczTLi-LzhMvNME0dfZGA)
+
+</details>
+
+To install the app, follow these steps:
+
+1. Click the GitHub card, and hit "Install now"
+2. Log in to GitHub, if you're not already.
+3. Select the GitHub Repositories where you want to install the app, then hit "Install"
+4. After the redirect, hit "Authorize" to complete the installation.
+5. The app is now installed successfully.
+
+<mark style="background-color:purple;">**Step 4**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">is important because it authorizes GitHub to access your Qase workspace.</mark>\
+
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597262963/9b1ce15067dd9bbe2dd944b5/fK0dSgk8x9jmI34J847RbL1CmbB2eZa0XI3VGOBQfzLgch1_WI5FVMYU0WbwFArW9Ay-rh1eF26wNnS73NUzUBV8MR4zh9Uv8oBX9uawXe9sPnBqpQ_VXXKbsecmlRQcoBaR9yIAVUXg8F0wpArxnGmiPU_vUbt4tthNdhTMPHwnaeXi6UmwkbHWpw" alt=""><figcaption></figcaption></figure>
 
-## Usage <a href="#h_0a3f6779a7" id="h_0a3f6779a7"></a>
+## Usage <a href="#h_7b2567480e" id="h_7b2567480e"></a>
 
-**Issue-tracking**
+***
+
+### 1. Issue-tracking <a href="#h_db20e6b636" id="h_db20e6b636"></a>
+
+### a. Creating a GitHub issue <a href="#h_1278f6a768" id="h_1278f6a768"></a>
 
 To create a GitHub issue together with a defect in Qase:
 
-1. In the test run, mark your test case as failed, blocked, or invalid and proceed with creating a defect
+1. In the test run, mark your test case as Failed, Blocked, or Invalid and proceed with creating a Defect
 2. In the Defect creation form, under “Choose Integrations”, select "GitHub App" and click "Add defect"
 3. Choose the GitHub repository to create an issue in, then hit "Create"
-4. In the Qase defect you will now have a connected GitHub issue link
-5. Statuses of a Qase Defect and a connected GitHub issue are synchronized, so as soon as you mark the GitHub issue closed, the Qase defect will be marked resolved (and vice versa)
+4. In the Qase Defect you will now have a connected GitHub issue link
+5. The statuses of the Qase Defect and the connected GitHub issue synced, meaning marking one as closed resolves the other (and vice versa).
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597263092/e11f0e507d8f9c15a8281cc8/O-FM2DmK-TDZ3HPQrOY7st8Iiw-hmVZXOeJfVPYOCsxKxWxNX9W1lKeYQnadDirByfuPJpEhL9XzELIsw1Wfd98y4Xe0dlao9fWj1I_YqSzTuygg78RX9_Upg-jv9hYbPeD_Z1VQcOG6dxj0inePKsET37J9bwssofpv3gv_RrlmgmSyID20YT_CfA" alt=""><figcaption></figcaption></figure>
+
+### b. Link a GitHub issue to Test cases/Runs. <a href="#h_4711086d55" id="h_4711086d55"></a>
+
+For Test cases -
+
+1. Click on the test case you want to link the GitHub issue to.
+2. Switch to the properties tab in the preview window.
+3. Scroll down and click on "Link GitHub app issue"
+4. In the modal window- select your repository, search for the issue and click on 'link'.
+
+For Test runs -
+
+1. Go to your Test runs view and click on the run you want to link the GitHub issue to.
+2. In the Run dashboard, to the bottom right, find the button 'Select an integration' under External issue.
+3. In the modal window- select your repository, search for the issue and click on 'link'.
+
+
 
 **CI/CD Workflows**
 

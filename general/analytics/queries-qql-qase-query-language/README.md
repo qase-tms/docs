@@ -2,13 +2,11 @@
 
 ### What are queries in software testing?
 
-Queries based on Qase Query Language (QQL) are a way to make analytical requests to the data stored in Qase. It allows retrieving data sets for various entities using expressions with conditions.
+Queries help you make analytical requests to get specific data from your Qase projects.
 
 _<mark style="background-color:green;">Queries are available in</mark>_ [_<mark style="background-color:green;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan) _<mark style="background-color:green;">and</mark>_ [_<mark style="background-color:green;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:green;">subscriptions.</mark>_
 
 {% embed url="https://youtu.be/erdF9KJX0o8" %}
-
-**Queries help you make analytical requests to get specific data from your Qase projects.**
 
 Queries are based on Qase Query Language (QQL). You can access Queries from the top-left menu.
 
@@ -24,12 +22,14 @@ You can click on either one of the two buttons to create a new query.
 
 <figure><img src="../../../.gitbook/assets/query-create.png" alt=""><figcaption></figcaption></figure>
 
-Here, you can -\
-1\. Input your query
+Here, you can:\
+1\. Select the entity from the drop down
 
-2\. Search
+2\. Write your query
 
-3\. Save the query
+3\. Search the query
+
+4\. Save the query
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-12-06 at 3.51.51 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -58,9 +58,11 @@ milestone ~ "Sprint 12"
 entity = "case" and isFlaky = false and automation = "To be automated"
 ```
 
-<mark style="background-color:yellow;">Entity by default is 'case' and Projects by default include all projects available to user.</mark>
+<mark style="background-color:yellow;">**Entity**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">can be selected from the drop-down, and</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Projects**</mark><mark style="background-color:yellow;">, by default, include all projects available to a user.</mark>
 
+<mark style="background-color:yellow;">If your expression contains a syntax error, the erroneous element will be highlighted in red, as well as you will see a red "x" icon appearing in the expression field:</mark>
 
+<figure><img src="../../../.gitbook/assets/entity.png" alt=""><figcaption></figcaption></figure>
 
 ### Entities <a href="#h_06385495fe" id="h_06385495fe"></a>
 
@@ -70,7 +72,7 @@ Below are the available entities. Click on an entity to skip to the attributes a
 * [Test run](https://docs.qase.io/general/analytics/queries#test\_run)
 * [Test run result](https://docs.qase.io/general/analytics/queries#test\_run\_results)
 * [Test plan](https://docs.qase.io/general/analytics/queries#test\_plan)
-* [Defect](https://help.qase.io/en/articles/5563699-queries-qql-qase-query-language#h\_d6d0c91118)[s](https://docs.qase.io/general/analytics/queries#defects)
+* [Defects](https://docs.qase.io/general/analytics/queries-qql-qase-query-language#defects)
 * [Requirement](https://docs.qase.io/general/analytics/queries#requirement)
 
 ### Expressions
