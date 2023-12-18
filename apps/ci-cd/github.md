@@ -8,7 +8,7 @@
 
 With the GitHub app, you can:
 
-* create a new issue in GitHub when you file a [defect](https://help.qase.io/en/articles/5563710-defects) during a [test run](https://help.qase.io/en/articles/5563702-test-runs) in Qase.
+* create a new issue in GitHub when you file a [defect](https://docs.qase.io/general/get-started-with-the-qase-platform/defects) during a [test run](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run-1) in Qase.
 * connect a GitHub workflow to Qase.
 * execute automated runs in GitHub from a Qase test run.
 
@@ -70,61 +70,75 @@ For Test runs -
 2. In the Run dashboard, to the bottom right, find the button 'Select an integration' under External issue.
 3. In the modal window- select your repository, search for the issue and click on 'link'.
 
+<figure><img src="../../.gitbook/assets/gh3.gif" alt=""><figcaption></figcaption></figure>
+
+### **CI/CD Workflows**
+
+***
+
+### a. Connect your Workflow <a href="#h_4ddff38ee0" id="h_4ddff38ee0"></a>
+
+Follow these steps to connect a GitHub workflow to Qase:
+
+1. One of Qase [reporter apps](https://help.qase.io/en/collections/3564516-apps#reporters) should be used in order to receive the test run results.
+2. [Create a token](https://help.qase.io/en/collections/3564516-apps#reporters) in Qase and add it to the `QASE_API_TOKEN` secret in your [GitHub repository settings](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository).
 
 
-**CI/CD Workflows**
 
-To connect a GitHub workflow to Qase:
+<figure><img src="https://downloads.intercomcdn.com/i/o/686415821/6a017b8cffd368b175928f12/Untitled+(1).png" alt=""><figcaption></figcaption></figure>
 
-1. One of Qase reporter apps should be used in order to receive the test run results.
-2.  Create a token in Qase and add it to the QASE\_API\_TOKEN secret in your [GitHub repository settings](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository).
+3. The inputs and env variables that are required need to be defined in a workflow:\
 
 
+```
+on:
+  workflow_dispatch:
+    inputs:
+      qase_api_base_url:
+        description: 'Qase API URL'
+        required: true
+      qase_report:
+        description: 'Enabled/disabled reporting to Qase'
+        required: true
+      qase_project_code:
+        description: 'Qase project code'
+        required: true
+      qase_run_id:
+        description: 'Qase Run ID'
+        required: true
+      qase_autocomplete_run:
+        description: 'Qase Run autocomplete'
+        required: true
+env:
+  QASE_API_BASE_URL: ${{ inputs.qase_api_base_url }}
+  QASE_REPORT: ${{ inputs.qase_report }}
+  QASE_PROJECT_CODE: ${{ inputs.qase_project_code }}
+  QASE_RUN_ID: ${{ inputs.qase_run_id }}
+  QASE_COMPLETE_RUN_AFTER_SUBMIT: ${{ inputs.qase_autocomplete_run }}
+  QASE_API_TOKEN: ${{ secrets.QASE_API_TOKEN }}
+```
 
-    <figure><img src="https://downloads.intercomcdn.com/i/o/686415821/6a017b8cffd368b175928f12/Untitled+(1).png" alt=""><figcaption></figcaption></figure>
-3.  The inputs and env variables that are required need to be defined in a workflow:\
-
-
-    ```
-    on:
-      workflow_dispatch:
-        inputs:
-          qase_api_base_url:
-            description: 'Qase API URL'
-            required: true
-          qase_report:
-            description: 'Enabled/disabled reporting to Qase'
-            required: true
-          qase_project_code:
-            description: 'Qase project code'
-            required: true
-          qase_run_id:
-            description: 'Qase Run ID'
-            required: true
-          qase_autocomplete_run:
-            description: 'Qase Run autocomplete'
-            required: true
-    env:
-      QASE_API_BASE_URL: ${{ inputs.qase_api_base_url }}
-      QASE_REPORT: ${{ inputs.qase_report }}
-      QASE_PROJECT_CODE: ${{ inputs.qase_project_code }}
-      QASE_RUN_ID: ${{ inputs.qase_run_id }}
-      QASE_COMPLETE_RUN_AFTER_SUBMIT: ${{ inputs.qase_autocomplete_run }}
-      QASE_API_TOKEN: ${{ secrets.QASE_API_TOKEN }}
-    ```
-4.  Add a step to the first place in the job. It allows to link a GitHub workflow run with a Qase test run.\
+4. Add a step to the _**first place**_ in the job. It allows to link a GitHub workflow run with a Qase test run.\
 
 
-    ```
-    jobs:
-      build-php:
-        runs-on: ubuntu-latest
-        steps:
-          - uses: qase-tms/qase-link-run@main
-            env:
-              QASE_API_TOKEN: ${{ env.QASE_API_TOKEN }}
-    ```
+```
+jobs:
+  build-php:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: qase-tms/qase-link-run@main
+        env:
+          QASE_API_TOKEN: ${{ env.QASE_API_TOKEN }}
+```
+
 5. Add additional steps to execute your tests.
+
+### Related links: <a href="#h_fa83966911" id="h_fa83966911"></a>
+
+* [An example of an integration](https://github.com/qase-tms/qase-javascript/tree/master/examples/github-qase-integration).
+* [How to work with GitHub CI/CD](https://www.notion.so/How-to-work-with-GitHub-CI-CD-53c2587bc9774560b647e12c72b25bd2?pvs=21)
+
+### b. Start an automated run <a href="#h_243d154c96" id="h_243d154c96"></a>
 
 After the workflow is connected, you can initiate automated test runs from Qase:
 
