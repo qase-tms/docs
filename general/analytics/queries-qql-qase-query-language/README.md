@@ -6,7 +6,7 @@ Queries help you make analytical requests to get specific data from your Qase pr
 
 _<mark style="background-color:green;">Queries are available in</mark>_ [_<mark style="background-color:green;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan) _<mark style="background-color:green;">and</mark>_ [_<mark style="background-color:green;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:green;">subscriptions.</mark>_
 
-{% embed url="https://youtu.be/erdF9KJX0o8" %}
+{% embed url="https://www.youtube.com/watch?v=BGEQDLvsrzs" %}
 
 Queries are based on Qase Query Language (QQL). You can access Queries from the top-left menu.
 
