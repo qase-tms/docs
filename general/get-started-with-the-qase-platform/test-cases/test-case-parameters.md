@@ -12,7 +12,7 @@ In the testing process, variables can be captured as Parameters. Testers can the
 
 You can simply click on "+ Add Parameter' button while creating a new test case or editing an existing one.
 
-<figure><img src="../../.gitbook/assets/parameters.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/parameters.gif" alt=""><figcaption></figcaption></figure>
 
 <mark style="background-color:yellow;">You can add up to</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**10**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">different Parameters with their respective values for each Test case.</mark>
 
@@ -23,7 +23,7 @@ After introducing Parameters in a case, when this case is included in a test run
 For instance, if you have three parameters A, B and C with 3, 5 and 2 values respectively. In total, you'll see a total of 30 ( 3\*5\*2 ) identical copies of the test case, one for each unique parameter combination.\
 ​
 
-<figure><img src="../../.gitbook/assets/chrome_gwjEvp9EnQ.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/chrome_gwjEvp9EnQ.gif" alt=""><figcaption></figcaption></figure>
 
 ### Example use case: <a href="#h_346222a8b8" id="h_346222a8b8"></a>
 
