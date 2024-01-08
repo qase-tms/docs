@@ -106,7 +106,7 @@ on:
       qase_run_id:
         description: 'Qase Run ID'
         required: true
-      qase_autocomplete_run:
+      qase_run_complete:
         description: 'Qase Run autocomplete'
         required: true
 env:
@@ -114,7 +114,7 @@ env:
   QASE_REPORT: ${{ inputs.qase_report }}
   QASE_PROJECT_CODE: ${{ inputs.qase_project_code }}
   QASE_RUN_ID: ${{ inputs.qase_run_id }}
-  QASE_COMPLETE_RUN_AFTER_SUBMIT: ${{ inputs.qase_autocomplete_run }}
+  QASE_RUN_COMPLETE: ${{ inputs.qase_run_complete }}
   QASE_API_TOKEN: ${{ secrets.QASE_API_TOKEN }}
 ```
 
