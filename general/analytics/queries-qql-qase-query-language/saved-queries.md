@@ -2,7 +2,7 @@
 
 _⚠️Queries are available in_ [_Business_](https://help.qase.io/en/articles/5563727-business-plan) _and_ [_Enterprise_](https://help.qase.io/en/articles/6640055-enterprise-plan) _subscriptions_
 
-{% embed url="https://www.youtube.com/watch?v=n2YZZxhcUVg" %}
+{% embed url="https://www.youtube.com/watch?v=x1bPAmEFZqw" %}
 
 **Queries, based on** [**Qase Query Language**](https://docs.qase.io/general/analytics/queries-qql-qase-query-language)**, help you make analytical requests to get specific data from your Qase projects.**
 
