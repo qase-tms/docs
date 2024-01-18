@@ -1,6 +1,6 @@
 # Qase docs
 
-Qase is an all-in-one TestOps platform built to beautifully orchestrate QA for both manual & automated testing. With Qase, QA teams can orchestrate test case management, defect management, test plans, test runs with informative reports and also utilize a rich API and webhooks. Qase has integrations with the most popular issue trackers including Jira, Asana, Slack, and dozens more.
+Qase is an all-in-one QA platform built to beautifully orchestrate QA for both manual & automated testing. With Qase, QA teams can orchestrate test case management, defect management, test plans, test runs with informative reports and also utilize a rich API and webhooks. Qase has integrations with the most popular issue trackers including Jira, Asana, Slack, and dozens more.
 
 ### Start here
 
