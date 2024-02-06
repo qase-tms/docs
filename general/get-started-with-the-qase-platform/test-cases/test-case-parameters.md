@@ -4,7 +4,7 @@
 
 In the testing process, variables can be captured as Parameters. Testers can then utilize these Parameters in multiple executions of the same [Test Case](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run), eliminating the need to create separate test cases or duplicate sets of steps.
 
-{% embed url="https://youtu.be/ITkLO7T-Hgw" %}
+{% embed url="https://www.youtube.com/watch?v=jLZNWyJgQ4E" %}
 
 
 
