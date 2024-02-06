@@ -12,7 +12,7 @@ updatedAt: '2023-02-24T12:46:08.263Z'
 
 Configurations can be used to specify for any test run, which hardware or software configuration this run should be performed on.
 
-{% embed url="https://youtu.be/msObZRlBYmM" %}
+{% embed url="https://www.youtube.com/watch?v=lMGpnlicK7c" %}
 
 ### How to create a configuration group?
 
