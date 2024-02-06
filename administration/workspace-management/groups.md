@@ -4,7 +4,7 @@
 
 **Group** is a way to categorize your account users by the team they belong to, responsibilities, or team lead - in other words, by any arbitrary characteristic that you deem important.
 
-{% embed url="https://youtu.be/Ljiv1SSnywc" %}
+{% embed url="https://www.youtube.com/watch?v=Q1-weYzZRDQ" %}
 
 ## Create a new user group <a href="#h_d3cf064d98" id="h_d3cf064d98"></a>
 
