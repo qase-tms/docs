@@ -4,7 +4,7 @@
 
 [Slack](https://slack.com/) brings team communication and collaboration into one place so you can get more work done, whether you belong to a large enterprise or a small business.
 
-{% embed url="https://youtu.be/WI3ah3OeLmw" %}
+{% embed url="https://www.youtube.com/watch?v=g7yamGMyinU" %}
 
 ### Why use Slack integration?
 
