@@ -4,7 +4,7 @@
 
 Test plan is your way to organize the various test cases into a cohesive scenario that will encompass various cases from different domains (i.e., different test suites). Later on, when performing test runs, you will use a pre-created test plan, which already contains every test case and/or test suite necessary.
 
-{% embed url="https://youtu.be/MtxO8s8cWh4" %}
+{% embed url="https://www.youtube.com/watch?v=6isv5Am1fEg" %}
 
 ### How to create a test plan?
 
