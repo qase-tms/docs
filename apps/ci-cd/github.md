@@ -4,7 +4,7 @@
 
 [GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-{% embed url="https://youtu.be/rhzWY0oh2AI" %}
+{% embed url="https://www.youtube.com/watch?v=F-L8EGUSxww" %}
 
 With the GitHub app, you can:
 
