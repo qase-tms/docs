@@ -6,7 +6,7 @@ description: >-
 
 # Import test cases
 
-{% embed url="https://youtu.be/hEVtX_sgzEY" %}
+{% embed url="https://www.youtube.com/watch?v=j8hZiTea3b4" %}
 
 ### How to import test cases?
 
