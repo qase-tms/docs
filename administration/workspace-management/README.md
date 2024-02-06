@@ -4,7 +4,7 @@
 
 Qase is a tool designed to increase the productivity of QA and testing teams through collaboration and visibility. This means that you will not be working alone. However, it is important to keep track of who has access to what and what capabilities your teammates possess. You can set up access types with precise granularity, depending on what each user should be allowed to do in Qase.
 
-{% embed url="https://youtu.be/PlXEnwr5C3U" %}
+{% embed url="https://www.youtube.com/watch?v=KpAauhbbg3g" %}
 
 ### What does the workspace consist of?
 
