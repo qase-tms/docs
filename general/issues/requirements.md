@@ -6,7 +6,7 @@ Requirements are a vital part of the test management paradigm. They allow you to
 
 _<mark style="background-color:purple;">Requirements are available in</mark>_ [_<mark style="background-color:purple;">Startup</mark>_](https://help.qase.io/en/articles/5563728-startup-plan)_<mark style="background-color:purple;">,</mark>_ [_<mark style="background-color:purple;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan) _<mark style="background-color:purple;">and</mark>_ [_<mark style="background-color:purple;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:purple;">subscriptions.</mark>_
 
-{% embed url="https://youtu.be/yOHmqIarY-0" %}
+{% embed url="https://www.youtube.com/watch?v=va54eP7LwRY" %}
 
 ### How to create a requirement?
 
