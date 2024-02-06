@@ -4,7 +4,7 @@
 
 [Monday](https://monday.com/) is a work OS that powers teams to run processes, projects, and everyday work their way.
 
-{% embed url="https://youtu.be/nX0NnoMoKRA" %}
+{% embed url="https://www.youtube.com/watch?v=TStz1a-8ExQ" %}
 
 ### Why use Monday integration?
 
