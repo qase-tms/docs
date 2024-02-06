@@ -4,7 +4,7 @@
 
 "Invites" tab of the workspace settings allows you to invite new members and find or revoke all the invitations that have been issued but have not yet been accepted.
 
-{% embed url="https://youtu.be/DM3ThL4Y_aU" %}
+{% embed url="https://www.youtube.com/watch?v=TSSVmdv2FVE" %}
 
 ### How to invite a new member? <a href="#h_70da117e32" id="h_70da117e32"></a>
 
