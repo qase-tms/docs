@@ -4,7 +4,7 @@
 
 [Azure DevOps](https://azure.microsoft.com/en-us/products/devops/) is a product that provides version control, reporting, requirements management, project management, automated builds, testing and release management capabilities, developed by Microsoft.
 
-{% embed url="https://youtu.be/4GpHMU6EBg4" %}
+{% embed url="https://www.youtube.com/watch?v=RisfBDeEse4" %}
 
 ### Why use Azure DevOps integration?
 
