@@ -4,9 +4,7 @@
 
 Shared steps are a unique feature of Qase that allows you to create a single step that can be shared across multiple test cases. This eliminates the need to recreate the same step manually for each test case and ensures consistency across all test cases in which the shared step is used.
 
-{% embed url="https://youtu.be/rvpVU13xCI0" %}
-
-
+{% embed url="https://www.youtube.com/watch?v=Lqc7JgV4svg" %}
 
 ### How to create shared steps?
 
