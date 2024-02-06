@@ -1,6 +1,6 @@
 # Account settings
 
-{% embed url="https://youtu.be/ePFA-bxuGoQ" %}
+{% embed url="https://www.youtube.com/watch?v=ZzfgjZmJB8w" %}
 
 Before you go deeper with Qase, it is a good idea to set up your workspace first. To do that, click your user icon in the top-right corner of the workspace to see the following options:\
 \
