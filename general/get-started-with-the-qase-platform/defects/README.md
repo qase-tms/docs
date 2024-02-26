@@ -12,6 +12,8 @@ updatedAt: '2023-02-21T19:34:57.238Z'
 
 In Qase, there are two ways to create a defect: you can create one on the spot, at will, for any issue that is not necessarily connected to a particular test case or test run. Another option is to file a defect upon failing a test case during a run.
 
+{% embed url="https://www.youtube.com/watch?v=h4ibIxZ6Djk" %}
+
 ### Option 1: Creating a defect independently
 
 To do this, click on "Create new defect" in the "Defects" section and add all necessary details such as defect fitle, actual result, and severity, fill out any custom fields applicable to defects, and optionally add attachments. This type of defect is not connected to any test case or test run. However, it can be marked as "In Progress" (and then, consecutively, resolved), invalidated, or edited.\
