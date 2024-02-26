@@ -4,6 +4,8 @@
 
 A test suite acts like a folder where we store our test cases organized by sections and subsections. You can create several test suites. For example, functional and non-functional test suites or anything else that should be treated as a separate group of tests.
 
+{% embed url="https://www.youtube.com/watch?v=G5f1Ds390_E" %}
+
 {% embed url="https://youtu.be/Gz5gfZ4_7WM" %}
 
 ### **To create a test suite:**
