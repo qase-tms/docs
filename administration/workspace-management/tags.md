@@ -4,7 +4,7 @@
 
 Tags allow you to label your test cases, defects and test runs.
 
-{% embed url="https://youtu.be/3ZPgjtQuZjQ" %}
+{% embed url="https://www.youtube.com/watch?v=QdLuzjgXyOA" %}
 
 ### How to create a tag? <a href="#h_f5b003a3eb" id="h_f5b003a3eb"></a>
 
