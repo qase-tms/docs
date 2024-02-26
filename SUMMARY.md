@@ -64,6 +64,7 @@
   * [Roles](administration/workspace-management/roles.md)
   * [Fields](administration/workspace-management/fields.md)
   * [Custom fields](administration/workspace-management/custom-fields.md)
+  * [Notifications](administration/workspace-management/notifications.md)
   * [Tags](administration/workspace-management/tags.md)
   * [Attachments](administration/workspace-management/attachments.md)
   * [Audit logs](administration/workspace-management/audit-logs.md)
