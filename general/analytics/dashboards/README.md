@@ -14,7 +14,7 @@ Dashboards are a new way to gather understanding about your projects and always 
 
 _<mark style="background-color:purple;">Dashboards are available in</mark>_ [_<mark style="background-color:purple;">Startup</mark>_](https://help.qase.io/en/articles/5563728-startup-plan)_<mark style="background-color:purple;">,</mark>_ [_<mark style="background-color:purple;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan)_<mark style="background-color:purple;">, and</mark>_ [_<mark style="background-color:purple;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:purple;">subscriptions.</mark>_
 
-{% embed url="https://youtu.be/EE9o1Jkx-_Q" %}
+{% embed url="https://www.youtube.com/watch?v=RjnB9vheSno" %}
 
 ### How to create a dashboard?
 
