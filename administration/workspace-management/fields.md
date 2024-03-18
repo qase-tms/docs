@@ -6,9 +6,9 @@ The fields section of the workspace allows the user to manage system fields and 
 
 In the fields section, you can create, edit or view all system and custom fields that exist in the workspace.
 
-{% embed url="https://youtu.be/qcR1c11xjKw" %}
+{% embed url="https://www.youtube.com/watch?v=NW2F-allfw0" %}
 
-### How to access the field section? <a href="#h_6c69af1f3d" id="h_6c69af1f3d"></a>
+### Accessing Field settings <a href="#h_6c69af1f3d" id="h_6c69af1f3d"></a>
 
 There are multiple options available to you to access the field section.
 
@@ -22,31 +22,42 @@ There are multiple options available to you to access the field section.
 
 ### System fields <a href="#h_9720e1be27" id="h_9720e1be27"></a>
 
-* _Title:_ define the name of a test case
-* _Status:_ can be either active, draft, or deprecated
-* _Description:_ additional details for more context about a test case
-* _Suite:_ choose here which test suite your new case belongs to
-* _Severity:_ can be either trivial, minor, normal, major, critical, blocker, or not set
-* _Priority:_ can be either low, medium, high, or not set
-* _Type:_ select what type of testing is applicable for your test case
-* _Layer:_ pick a layer of the test case, whether it's an end-to-end, API, or a unit test
-* _Is flaky:_ if a test case is unstable, you can mark it as flaky
-* _Milestone:_ select whether a test case is related to one of your milestones, which you can create separately
-* _Behavior:_ can be either destructive, negative, positive, or not set
-* _Automation Status:_ you can choose from automated, to be automated, or not automated\
-  \
-  Note: System fields can be optionally switched on and off via the fields section. Click the "Configure fields" button and select the field you want to configure. Click on the “Enable for all projects button” and then configure:
+<details>
 
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/610025921/95c82726854c0714c5142f92/tbBLEHHZZFvtZLnZzGpimEVs8X3Q62OZiOm3asv3D9CbtUfd-WlARubtzqMH0GyUoD7XvIMVf5cSpMCuQ6YiWSHCRT-59ldnKYQ-DzjsMBRfaxRjnH-WB5xwG7J65qf9WwlDonj5dR_ItIVqE-JBQzDcuN1b5j5CaRUT_5rVGhG9x1T8swfzNuvprldjdg" alt=""><figcaption></figcaption></figure>
+<summary>A system field can be, optionally, switched OFF via the <a href="https://app.qase.io/workspace/fields">fields </a>section.<br><br></summary>
 
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/610025929/1c1c4336252e18511cb47ee1/h5VSdaGzRN3y9WDJ2U13wNQV0GNQSh-zuJMxvPVRRuiiIXzRbRxzlV1RLHMf5QBo4gDSV1qpJmL0vp-f3JT1xn4f-F8abETqZiXWpWXCsZV8JqZ0ErL1fCiqESI7JTlbO9Vm0xUQNiJrYmPmq1dyK0HvJpPFA20TT0eyiTXjbLJWSt0Xf_0hSf5cgwINuQ" alt=""><figcaption></figcaption></figure>
+<img src="../../.gitbook/assets/Screenshot 2024-03-18 at 1.20.37 PM.png" alt="" data-size="original">\
 
-Note: There is also the possibility to modify the values of system fields _(available on the Startup, Business, and Enterprise plans)_:
+
+<img src="../../.gitbook/assets/image (5).png" alt="" data-size="original">
+
+</details>
+
+
+
+1. `Priority` _-_ choose your test cases' priority. Eg- _Low, Medium, High, or Not Set_
+2. `Severity` _-_ options for your test cases' severity. Eg- _critical, blocker, normal etc_
+3. `Type` _-_ select the types of testing that are applicable for your test case
+4. `Behavior` _-_ can be either Destructive, Negative, Positive, or Not Set
+5. `Description, Pre & Post conditions` _-_ to provide additional details for more context about a test case
+6. `Status` _-_ can be either Active, Draft, or Deprecated
+7. `Layer` _-_ options to pick a layer for the test case, whether it's _an_ _end-to-end, API, or a unit test_
+8. `Is flaky` _-_ if a test case is unstable, you can mark it as flaky
+9. `Automation Status` _-_ you can choose from Automated, or Manual
+10. `To be automated` - a checkbox property only available for those cases that have Automation status set to Manual.
+11. `Result status` - a test runs field, for all possible result statuses that can be added to a test case.
+
+<mark style="background-color:green;">Note: There is also the possibility to modify the values of system fields</mark> <mark style="background-color:green;"></mark>_<mark style="background-color:green;">(available on the Startup, Business, and Enterprise plans)</mark>_<mark style="background-color:green;">:</mark>
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/610025936/31c7f33eb30a78ddd9e264d6/mQL-CtfAPgu0905H55YCg2Zi-fnBAMI0ET-wRCjcTPB0Atv3Ye_0Wwc30Xy_WZgbV216yRokUltm2DRJBHGbdCL-XAFvLpiTvh5qGZMjn4bJdz7CYDhwwV1yGO8iuhDka-x2TK0Ka-DyuX7AoSOs0DpUaFaBcNWq8jsBlsMeogzmC6FDxKoK4_5JSN_viA" alt=""><figcaption></figcaption></figure>
 
 ### Custom fields <a href="#h_8b74fe6938" id="h_8b74fe6938"></a>
 
-It is impossible to predict what kind of unique parameters or properties your test case, test run or defects will require, which is where custom fields can help you. You can create your own custom fields of various data types to store any additional information about your test cases. Test runs or defects that are not covered by default properties. If you do not yet have any custom fields created, you won't see this section in the test case, test run or defects configuration.
+_<mark style="background-color:green;">⚠️ Custom Fields are available in</mark>_ [_<mark style="background-color:green;">Startup</mark>_](https://help.qase.io/en/articles/5563728-startup-plan)_<mark style="background-color:green;">,</mark>_ [_<mark style="background-color:green;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan)_<mark style="background-color:green;">, and</mark>_ [_<mark style="background-color:green;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:green;">subscriptions</mark>_
 
-_Note: Custom Fields are available in Startup, Business, and Enterprise subscriptions_
+\
+It is difficult to predict the unique parameters or properties your Test Case, Test Run, or Defects might require. Custom Fields can help.
+
+Create your own Custom Fields of various data types to store any additional information about your test cases, test runs, or defects not covered by default properties.
+
+If you haven't created any Custom Fields yet, you won't see this section in the Test Case, Test Run, or Defects configuration.
