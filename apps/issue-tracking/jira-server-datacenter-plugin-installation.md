@@ -6,7 +6,7 @@ description: >-
 
 # Jira Server/Datacenter Plugin installation
 
-### Jira Server/DC plugin?
+Jira Server/DC plugin?
 
 With Jira Server/DC plugin for Qase, you can install the integration and get access to these possibilities:
 
@@ -29,7 +29,7 @@ Here's how to install the plugin:
 * Click "Upload app"
 * Select the plugin package you've downloaded:
 
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/597261251/2537613cfae9663730d08dfe/vwoRJHuJifSIGkyJ90LSc9vGsvNPhs-4FRkeut5RBB3XONWC3-sm5FwZS_gamz-GLP2sOIzVDk1xEVtvs5BX1IwkpKfko61HbdvnG1oU1NxDov_paXfanWCiXzSSGcEAvOy62mJV_slmZgY_OFalz5ePSb6C0aGuHcfLwdPFi97kNkIg2IqnW0ik3g" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/upload app.png" alt=""><figcaption></figcaption></figure>
 
 * Click "Upload"
 * After installation, click the "Configure" button and link Jira with Qase:
@@ -153,4 +153,4 @@ Here’s how you can link a Jira issue to a Test Run:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 11.36.05 AM.png" alt=""><figcaption></figcaption></figure>
 
-{% file src="../../.gitbook/assets/qase.jira.cloud-1.0.3.obr" %}
+{% file src="../../.gitbook/assets/qase.jira.cloud-1.0.9.obr" %}
