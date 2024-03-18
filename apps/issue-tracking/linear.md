@@ -4,7 +4,7 @@
 
 Linear helps streamline software projects, sprints, issues, and bug tracking.
 
-{% embed url="https://youtu.be/dr1Q3SioQVM" %}
+{% embed url="https://www.youtube.com/watch?v=lW0Ylcj10O8" %}
 
 ### Why use Linear integration?
 
