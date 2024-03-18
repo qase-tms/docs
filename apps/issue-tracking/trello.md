@@ -4,7 +4,7 @@
 
 [Trello](https://trello.com/) is a web-based, Kanban-style, list-making application for agile project management, developed by Atlassian.
 
-{% embed url="https://youtu.be/NQQYw87KnkI" %}
+{% embed url="https://www.youtube.com/watch?v=W9SzInUQTTc" %}
 
 ### Why use Trello integration?
 
