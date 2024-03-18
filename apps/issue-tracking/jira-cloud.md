@@ -4,7 +4,7 @@
 
 [Jira](https://www.atlassian.com/software/jira) is a proprietary issue-tracking product developed by Atlassian that allows bug tracking and agile project management.
 
-{% embed url="https://youtu.be/gSkqPhV2mCw" %}
+{% embed url="https://www.youtube.com/watch?v=P7XNn3jOaEY" %}
 
 ### Why use Jira Cloud integration?
 
