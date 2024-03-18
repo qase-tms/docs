@@ -4,7 +4,7 @@
 
 [YouTrack](https://www.jetbrains.com/youtrack/) is a proprietary, commercial browser-based bug tracker, issue tracking system and project management software, developed by JetBrains.
 
-{% embed url="https://youtu.be/a94AQ6XjKvE" %}
+{% embed url="https://www.youtube.com/watch?v=LvRHVHtUHNU" %}
 
 ### Why use YouTrack integration?
 

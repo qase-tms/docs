@@ -140,91 +140,79 @@ Currently, QQL supports seven expression types. They are listed here in the decr
 
 ### Test case: <a href="#test_case" id="test_case"></a>
 
-| Attribute                                                                                                                                                                                                                        | Description                                                                                                    | Examples                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <pre><code>id
-</code></pre>                                                                                                                                                                                                      | identifier                                                                                                     | <pre><code>id = 17
+<table data-header-hidden><thead><tr><th></th><th width="192.33333333333331"></th><th></th></tr></thead><tbody><tr><td>Attribute</td><td>Description</td><td>Examples</td></tr><tr><td><pre><code>id
+</code></pre></td><td>identifier</td><td><pre><code>id = 17
 </code></pre><pre><code>id != 20
 </code></pre><pre><code>id is 17
 </code></pre><pre><code>id in [1, 2, 10]
 </code></pre><pre><code>not id in [1, 2, 10]
-</code></pre>                                                                                                                                                                                                                                         |
-| <pre><code>title
+</code></pre></td></tr><tr><td><pre><code>title
 </code></pre><pre><code>preconditions
 </code></pre><pre><code>postconditions
 </code></pre><pre><code>description
-</code></pre>                                                                                  | <p>Test case title,</p><p><br>Pre/postconditions,</p><p>Description</p>                                        | <pre><code>title is "first test"
+</code></pre></td><td><p>Test case title,</p><p><br>Pre/postconditions,</p><p>Description</p></td><td><pre><code>title is "first test"
 </code></pre><pre><code>title = "first test"
 </code></pre><pre><code>title ~ "rst"
 </code></pre><pre><code>title in ["first test", "second test"]
-</code></pre>                                                                                                                                                                                                                                 |
-| <pre><code>author
-</code></pre>                                                                                                                                                                                                  | creator the test case.                                                                                         | <pre><code>author in ["user1", "user2"]
+</code></pre></td></tr><tr><td><pre><code><strong>author
+</strong></code></pre></td><td>creator the test case.</td><td><p></p><pre><code>author in ["user1", "user2"]
 </code></pre><pre><code>author = "user1" [or] 
 author = "user2"
-</code></pre>                                                                                                                                                                                                                                                                                                            |
-| <pre><code>author
-</code></pre>                                                                                                                                                                                                  | If a test case is created by a reporter app                                                                    | <pre><code>author = [name]-reporter
+</code></pre><pre><code>author = group('name') [or] 
+author in [group('name1'), group('name2')]
+</code></pre><pre><code>author = activeUsers() [or] 
+author = inactiveUsers()
+</code></pre></td></tr><tr><td><pre><code>author
+</code></pre></td><td>If a test case is created by a reporter app</td><td><pre><code>author = [name]-reporter
 </code></pre><p>Replace [name] with reporter name.</p><pre><code>Eg: author = pytest-reporter
-</code></pre><p>Reporters:</p><hr><p>Playwright;</p><p>cucumberjs;</p><p>cypress;</p><p>jest;</p><p>newman;</p><p>testcafe;</p><p>cucumber3; cucumber4; cucumber5;</p><p>junit4; jnuit5;</p><p>testng;</p><p>pytest;</p><p>robotframework;</p><p>xctest;</p><p>phpunit;</p><p>codeception.</p> |
-| <pre><code>cf
-</code></pre>                                                                                                                                                                                                      | <p>Custom fields:<br>a complex attribute with a specific syntax, see examples.</p>                             | <pre><code>cf["Epic"] = "Auth"
+</code></pre><p>Reporters:</p><hr><p>Playwright;</p><p>cucumberjs;</p><p>cypress;</p><p>jest;</p><p>newman;</p><p>testcafe;</p><p>cucumber3; cucumber4; cucumber5;</p><p>junit4; jnuit5;</p><p>testng;</p><p>pytest;</p><p>robotframework;</p><p>xctest;</p><p>phpunit;</p><p>codeception.</p></td></tr><tr><td><pre><code>cf
+</code></pre></td><td>Custom fields:<br>a complex attribute with a specific syntax, see examples.</td><td><p></p><pre><code>cf["Epic"] = "Auth"
 </code></pre><pre><code>cf["Story"] in ["Story 1", "Story 2"]
 </code></pre><pre><code>cf["Epic"] is null
-</code></pre>                                                                                                                                                                                                                                                                            |
-| <pre><code>cfv
-</code></pre>                                                                                                                                                                                                     | Custom field values. (by all custom fields)                                                                    | <pre><code>cfv = "Auth"
+</code></pre><pre><code>cf["Story"] = ["Auth", "Login"]
+</code></pre></td></tr><tr><td><pre><code>cfv
+</code></pre></td><td>Custom field values. (by all custom fields)</td><td><pre><code>cfv = "Auth"
 </code></pre><pre><code>cfv in ["Story 1", "Story 2"]
-</code></pre>                                                                                                                                                                                                                                                                                                                                      |
-| <pre><code>status
+</code></pre></td></tr><tr><td><pre><code>status
 </code></pre><pre><code>type
 </code></pre><pre><code>behavior
 </code></pre><pre><code>automation
 </code></pre><pre><code>layer
 </code></pre><pre><code>priority
 </code></pre><pre><code>severity
-</code></pre> |                                                                                                                | <pre><code>status is "Actual"
+</code></pre></td><td></td><td><pre><code>status is "Actual"
 </code></pre><pre><code>status = "Actual"
 </code></pre><pre><code>status != "Deprecated"
 </code></pre><pre><code>status in ["Draft", "Actual"]
-</code></pre>                                                                                                                                                                                                                                       |
-| <pre><code>created
-</code></pre>                                                                                                                                                                                                 | Time of case creation                                                                                          | <pre><code>created >= now("-14d")
+</code></pre></td></tr><tr><td><pre><code>created
+</code></pre></td><td>Time of case creation</td><td><pre><code>created >= now("-14d")
 </code></pre><pre><code>created >= startOfDay("-1m")
 </code></pre><pre><code>created &#x3C; 1569430502709
-</code></pre>                                                                                                                                                                                                                                                                        |
-| <pre><code>createdBy
-</code></pre>                                                                                                                                                                                               | The user who created the case                                                                                  | <pre><code>createdBy in ["user1", "user2"]
+</code></pre></td></tr><tr><td><pre><code>createdBy
+</code></pre></td><td>The user who created the case</td><td><pre><code>createdBy in ["user1", "user2"]
 </code></pre><pre><code>createdBy = "user1" or createdBy = "user2"
-</code></pre>                                                                                                                                                                                                                                                                                                      |
-| <pre><code>updated
-</code></pre>                                                                                                                                                                                                 | Last modified date                                                                                             | <pre><code>updated >= now("-7d")
+</code></pre></td></tr><tr><td><pre><code>updated
+</code></pre></td><td>Last modified date</td><td><pre><code>updated >= now("-7d")
 </code></pre><pre><code>updated >= startOfDay()
 </code></pre><pre><code>updated &#x3C; 1569430502709
-</code></pre>                                                                                                                                                                                                                                                                              |
-| <pre><code>isDeleted
-</code></pre>                                                                                                                                                                                               | Check whether the case has been deleted or not                                                                 | <pre><code>isDeleted is false
+</code></pre></td></tr><tr><td><pre><code>isDeleted
+</code></pre></td><td>Check whether the case has been deleted or not</td><td><pre><code>isDeleted is false
 </code></pre><pre><code>isDeleted = true
-</code></pre>                                                                                                                                                                                                                                                                                                                                             |
-| <pre><code>isFlaky
-</code></pre>                                                                                                                                                                                                 | Check whether the case has been flagged as flaky                                                               | <pre><code>isFlaky is false
+</code></pre></td></tr><tr><td><pre><code>isFlaky
+</code></pre></td><td>Check whether the case has been flagged as flaky</td><td><pre><code>isFlaky is false
 </code></pre><pre><code>isFlaky = true
-</code></pre>                                                                                                                                                                                                                                                                                                                                                 |
-| <pre><code>project
-</code></pre>                                                                                                                                                                                                 | <p>By default, search is performed across all projects.</p><p>If required, you can specify a project code.</p> | <pre><code>project = 'DEMO'
+</code></pre></td></tr><tr><td><pre><code>project
+</code></pre></td><td><p>By default, search is performed across all projects.</p><p>If required, you can specify a project code.</p></td><td><pre><code>project = 'DEMO'
 </code></pre><pre><code>project in ['DEMO', 'QTC']
 </code></pre><pre><code>project not in ['DEMO']
-</code></pre>                                                                                                                                                                                                                                                                                     |
-| <pre><code>suite
-</code></pre>                                                                                                                                                                                                   | Test case's suite title                                                                                        | <pre><code>suite ~ 'auth'
+</code></pre></td></tr><tr><td><pre><code>suite
+</code></pre></td><td>Test case's suite title</td><td><pre><code>suite ~ 'auth'
 </code></pre><pre><code>suite != 'auth'
-</code></pre>                                                                                                                                                                                                                                                                                                                                                  |
-| <pre><code>milestone
-</code></pre>                                                                                                                                                                                               | Test case's milestone title                                                                                    | <pre><code>milestone = 'Sprint 24'
-</code></pre>                                                                                                                                                                                                                                                                                                                                                                                 |
-| <pre><code>tags
-</code></pre>                                                                                                                                                                                                    | Test case's tags                                                                                               | <pre><code>tags not in ['tag','tag2']
-</code></pre>                                                                                                                                                                                                                                                                                                                                                                              |
+</code></pre></td></tr><tr><td><pre><code>milestone
+</code></pre></td><td>Test case's milestone title</td><td><pre><code>milestone = 'Sprint 24'
+</code></pre></td></tr><tr><td><pre><code>tags
+</code></pre></td><td>Test case's tags</td><td><pre><code>tags not in ['tag','tag2']
+</code></pre></td></tr></tbody></table>
 
 ### Defects: <a href="#defects" id="defects"></a>
 
