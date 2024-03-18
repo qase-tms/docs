@@ -12,9 +12,9 @@ To create a new User Group, click "Groups" in the Workspace Management left-hand
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597357797/94284f92e195596ea1b71fb0/VOiKAZx_CeojtNiVIrLgUjkRD6Yr6fjjtwh9Uibwk16aGyVWrVMB3pXs88gBcm6u05Vh3CPORZi_wW8w04CZdgnYtwWkPJbY_-hLn-WXBy9ELrvSmuhgo9XN-Flu-3ilxSakZsCXTtuUSY9E_MtiIpR3_uzw0oBBv7X1sOxPl681zz64eUuMevDS" alt=""><figcaption></figcaption></figure>
 
-In the creation menu, give your new User Group a title and a description - both fields are mandatory, hit "Create" when ready:
+In the creation menu, give your new User Group a title and a description - both fields are mandatory. You can also add the users into a Group while setting it up. When you are ready with creating a group, hit "Create":
 
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/597357938/21f2ef3c8a4c31b6b952b6df/WQAzeB8dsjAop5ccdo-KM8xTsutiKTdqdhbpQIadXO1k2gkaJJ1JK3kvxHy8h6cim7_23Bm7lnjlEnslSVI0bp5rqD5k9l2ynBsrZRrtIFqz-eJFyMeRfUFw3C63Jr87StbCu6awP33PtMilhLEmENHUcaXdD5ZV549UUG8yUXRVgyTs8ZVJuZTT" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Groups.gif" alt=""><figcaption></figcaption></figure>
 
 After a User Group has been created, you will see it in the groups' list, together with its description and members' number. Under the three-dots menu button, you can View, Edit, or Delete a user group:
 
@@ -48,3 +48,9 @@ While creating a project, you will see the option to “add members from a speci
 To manage project sharing through groups after project creation, navigate to the project settings. Within the 'General' tab, you will find the option to share a private project with a specific group.
 
 <figure><img src="../../.gitbook/assets/Share project - group.gif" alt=""><figcaption></figcaption></figure>
+
+You can revoke access of an entire group or revoke access of just one user in the group.
+
+<figure><img src="../../.gitbook/assets/gif (1).gif" alt=""><figcaption></figcaption></figure>
+
+Make sure to click Update Settings after you are done making the changes you want for it to be saved.
