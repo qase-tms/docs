@@ -16,6 +16,8 @@ You can simply click on "+ Add Parameter' button while creating a new test case 
 
 <mark style="background-color:yellow;">You can add up to</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**10**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">different Parameters with their respective values for each Test case.</mark>
 
+<mark style="background-color:yellow;">Total number of parameter combinations in a single case cannot be larger than 1,024.</mark>
+
 ### Parameters in test runs <a href="#h_7289c0011c" id="h_7289c0011c"></a>
 
 After introducing Parameters in a case, when this case is included in a test run, it will be divided into multiple identical copies of the same test case, each corresponding to a specified parameter value.
@@ -24,6 +26,10 @@ For instance, if you have three parameters A, B and C with 3, 5 and 2 values res
 ​
 
 <figure><img src="../../../.gitbook/assets/chrome_gwjEvp9EnQ.gif" alt=""><figcaption></figcaption></figure>
+
+In the Test run dashboard, when you select a parametrized test case, you will see a separate tab 'siblings' in the wizard containing copies of the same test case for all other parameter values.
+
+<figure><img src="../../../.gitbook/assets/siblings.png" alt=""><figcaption></figcaption></figure>
 
 ### Example use case: <a href="#h_346222a8b8" id="h_346222a8b8"></a>
 
