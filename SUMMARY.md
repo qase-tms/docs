@@ -27,6 +27,7 @@
   * [Defects](general/get-started-with-the-qase-platform/defects/README.md)
     * [Defects options](general/get-started-with-the-qase-platform/defects/defects-options.md)
   * [Account settings](get-started-with-the-qase-platform/account-settings.md)
+  * [Requirements Traceability Report](general/get-started-with-the-qase-platform/requirements-traceability-report.md)
 * [Execute testing](execution/README.md)
   * [Environments](general/execution/environments.md)
   * [Test plan](general/execution/test-plan.md)
