@@ -10,28 +10,31 @@ For example, if you manage and maintain a web application or website and accompa
 
 To navigate to the list of your Projects, click "Projects" in the top-left corner of the workspace:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 1.58.42 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+## Project Views <a href="#h_91be27eab1" id="h_91be27eab1"></a>
+
+***
 
 Once in the Projects view, you can choose between two layouts with the controller located in the top-right corner:
 
 * **List view:**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 1.59.20 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/list view.png" alt=""><figcaption></figcaption></figure>
 
 * **Card view:**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.00.53 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/card view.png" alt=""><figcaption></figcaption></figure>
 
 In either List or Card view, you can mark a project as a favorite by clicking on the star icon while hovering over the left side of the project title in the list view and on the right side of the title on the card view. Marking a project as a favorite changes the order of appearance of the project. All projects marked as favorites appear above the other projects.
 
 **List view:**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.01.28 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/list view 2.png" alt=""><figcaption></figcaption></figure>
 
-**Card view:**\
+**Card view:**
 
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.05.18 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/card view star.png" alt=""><figcaption></figcaption></figure>
 
 Additionally, in either of the views, you can also find the summary of each project:
 
@@ -43,16 +46,17 @@ Additionally, in either of the views, you can also find the summary of each proj
 List view features **Menu** icon where you can:
 
 * edit Project settings (which can also be filled in when you create a new project)
-* set up integrations with 3rd party tools for a project
 * delete a project
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.06.27 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Projects___Qase.jpg" alt=""><figcaption></figcaption></figure>
 
-## New Project <a href="#h_e19377e7df" id="h_e19377e7df"></a>
+## Creating a new project <a href="#h_e19377e7df" id="h_e19377e7df"></a>
+
+***
 
 Once you are ready to start a new project, hit the "Create New Project" button:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.06.58 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/new project.png" alt=""><figcaption></figcaption></figure>
 
 Next, you will be prompted to fill out Project settings (which can also be edited later):
 
@@ -73,47 +77,169 @@ Next, you will be prompted to fill out Project settings (which can also be edite
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.12.52 PM.png" alt=""><figcaption></figcaption></figure>
 
-3. _"Don't add members"_: with this option, you can keep your project private for the time being and share it with others once you're ready.
+3. _"Don't add members"_: With this option, you can limit access to yourself initially. Later, you can choose to share access with others as needed.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.14.59 PM.png" alt=""><figcaption></figcaption></figure>
 
-The final step is to confirm creating a new project by hitting the **"Create Project"** button below - once created, you are ready to build your project up with test cases.
+The final step is to confirm creating a new project by hitting the **"Create Project"** button below — once created, you are ready to build your project up with test cases.
+
+<mark style="background-color:purple;">Note: owners of a workspace can view of projects, including private projects created by other users of the workspace.</mark>&#x20;
+
+## Project Settings <a href="#h_e70fd5f298" id="h_e70fd5f298"></a>
+
+***
+
+Once a Project is created, you can still manage who has access and have more control over your project in Settings.\
+​
+
+When you have opened the Project, navigate to Settings, where you will find several sections:
+
+<figure><img src="../../.gitbook/assets/project setting.png" alt=""><figcaption></figcaption></figure>
+
+### General settings: <a href="#h_542c61fba0" id="h_542c61fba0"></a>
+
+Here, you can find and edit the same properties that you defined in the creation stage -
+
+Project's Image, Name, Code, and Description.
+
+<figure><img src="../../.gitbook/assets/general project settings.png" alt=""><figcaption></figcaption></figure>
+
+### Access control: <a href="#h_b93cdae88e" id="h_b93cdae88e"></a>
+
+<figure><img src="../../.gitbook/assets/access control.png" alt=""><figcaption></figcaption></figure>
+
+From this tab, you can change the project owner and control who can access the project by adding individual members or groups.
+
+If a project is set to public, all users of your workspace will have access. However, if Private is selected, you will have more options:
+
+
+
+<details>
+
+<summary>Add groups - select and add multiple groups to your project.</summary>
+
+<img src="../../.gitbook/assets/add groups.png" alt="" data-size="original">
+
+<img src="../../.gitbook/assets/private.png" alt="" data-size="original">
+
+_All groups the have access to the project are listed here, along with the number of users in each group. Use the options from (---) menu to view, or revoke access of a specific group._
+
+</details>
+
+<details>
+
+<summary>Add individual members - this is helpful if you need to add specific members.</summary>
+
+<img src="../../.gitbook/assets/add users.png" alt="" data-size="original">
+
+<img src="../../.gitbook/assets/members.png" alt="" data-size="original">
+
+_You can view each member's Role and Role title here, and also remove access from the (--) menu._
+
+</details>
+
+<mark style="background-color:green;">💡 Adding individual members grants specific access to particular users, ensuring consistent access even if group memberships change. Conversely, adding users under groups provides access based on the group's membership, which may change over time.</mark>
+
+### Repository:  <a href="#h_7359bc0835" id="h_7359bc0835"></a>
+
+<figure><img src="../../.gitbook/assets/repository.png" alt=""><figcaption></figcaption></figure>
+
+Here, you have the options to:
+
+<details>
+
+<summary><strong>Enable Delete confirmation</strong> - if enabled, you will see a pop-up that requires you to type CONFIRM when bulk deleting test cases.</summary>
+
+<img src="../../.gitbook/assets/delete test case.png" alt="" data-size="original">
+
+</details>
+
+
+
+<details>
+
+<summary><strong>Enable Reviews</strong> - options to enable test case review. If "Review is mandatory" is enabled, the test case cannot be saved without sending for review.</summary>
+
+If "Allow self-merge" is checked, the user who submitted the case for review will be able to merge changes once the minimum approvals required are met. If not enabled, submitter cannot merge changes.
+
+If you specify a number in 'approvals required', changes to test cases cannot be merged unless the those minimum no.of approvals are met.
+
+<img src="../../.gitbook/assets/send to review.png" alt="" data-size="original">
 
 \
-**​N/B:** Owners of a workspace can view all projects including private projects created by other users of the workspace.
-
-## Project Access and Project Settings <a href="#h_e70fd5f298" id="h_e70fd5f298"></a>
-
-Once a Project is created, you can still manage who can access and see it and have more control over your project in Settings.
-
-**Project Settings:** When you have opened the Project, navigate to Settings, where you will find several sections:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.23.35 PM.png" alt=""><figcaption></figcaption></figure>
-
-_General:_ Here, you can find and edit the same properties that you defined in the creation stage - Project Name, Project Code, Description, and Project access type.\
-​\
-The option to share the project with a user group is also available in this page. You can only share a private project with a group.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.24.07 PM.png" alt=""><figcaption></figcaption></figure>
-
-* _Repository_: Here, you'll find options pertaining to the Repository itself.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.24.35 PM.png" alt=""><figcaption></figcaption></figure>
-
-* [_Webhooks_](https://docs.qase.io/general/webhooks)_:_ In this section, you will find the webhooks that have been configured for this Project so far, or create a new webhook to connect Qase with another third-party solution you use.\
-  ​
-* _Test Run:_ Here, you can customize various requirements and automation for [Test Runs](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run-1)
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.35.20 PM.png" alt=""><figcaption></figcaption></figure>
-
-Also, you can choose which [Test Case](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run) settings you want to have enabled and which ones are not necessary. To view a detailed list of all the fields available to you, you can click on the “All Fields” hyperlink which will redirect you to the “Fields” section of your project:\
 
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.28.23 PM.png" alt=""><figcaption></figcaption></figure>
+</details>
 
-Once new settings have been selected, don't forget to hit "Update Settings" to apply changes:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.29.45 PM.png" alt=""><figcaption></figcaption></figure>
+
+<details>
+
+<summary>Show links - If enabled, cloned test cases will display a hyperlink to the original test case it was cloned from.</summary>
+
+<img src="../../.gitbook/assets/show links.png" alt="" data-size="original">
+
+</details>
+
+### Test Run
+
+\
+
+
+<details>
+
+<summary>There are option to modify both manual and automated Test runs. Refer to the <a href="https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run">Test Run Settings</a> section for a detailed description of these options.</summary>
+
+<img src="../../.gitbook/assets/test run settings.png" alt="" data-size="original">
+
+</details>
+
+### Test case: <a href="#h_54c17c77fd" id="h_54c17c77fd"></a>
+
+<figure><img src="../../.gitbook/assets/test case settings.png" alt=""><figcaption></figcaption></figure>
+
+<details>
+
+<summary>Milestone field and Steps to reproduce section can be hidden by disabling these options.</summary>
+
+<img src="../../.gitbook/assets/milestone.png" alt="" data-size="original">
+
+</details>
+
+<details>
+
+<summary>Similarly, Tags and dataset can also be disabled from your project.</summary>
+
+<img src="../../.gitbook/assets/tags.png" alt="" data-size="original">
+
+</details>
+
+The default test case steps type allows you to choose between Classic and Gherkin steps.
+
+“All Fields” hyperlink which will redirect you to the “[Fields](https://app.qase.io/workspace/fields)” section of your workspace.
+
+
+
+<details>
+
+<summary>Once new settings have been selected, don't forget to hit "Update Settings" to apply changes.</summary>
+
+<img src="../../.gitbook/assets/update settings.png" alt="" data-size="original">
+
+</details>
+
+### Webhooks: <a href="#h_aad86de7dd" id="h_aad86de7dd"></a>
+
+<details>
+
+<summary>In this section, you will find the webhooks that have been configured for this Project so far, or create a new webhook to connect Qase with other third-party solution you use.</summary>
+
+When creating a new webhook, you can choose specific events that are going to trigger the endpoint.\
+
+
+<img src="../../.gitbook/assets/create a webhook.png" alt="" data-size="original">
+
+</details>
 
 ## Archiving a Project <a href="#h_705f39cb9a" id="h_705f39cb9a"></a>
 
@@ -121,8 +247,8 @@ Once a project has been completed, you might want to hide it from plain view - i
 
 For that, you can Archive your Project from the Project Settings:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.30.20 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/archive project.png" alt=""><figcaption></figcaption></figure>
 
 And now, while in the Projects area, you can switch between viewing Active or Archived projects or view them all at once simultaneously:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-04 at 2.30.59 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/archived.png" alt=""><figcaption></figcaption></figure>
