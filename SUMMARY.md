@@ -18,6 +18,7 @@
     * [Filters](general/get-started-with-the-qase-platform/test-cases/filters.md)
     * [Import test cases](general/get-started-with-the-qase-platform/test-cases/import-test-cases.md)
     * [Export test cases](general/get-started-with-the-qase-platform/test-cases/export-test-cases.md)
+    * [Muted Tests](general/get-started-with-the-qase-platform/test-cases/muted-tests.md)
     * [Trash bin](general/get-started-with-the-qase-platform/test-cases/trash-bin.md)
   * [Test runs](general/get-started-with-the-qase-platform/create-a-test-run/README.md)
     * [Test run wizard](general/get-started-with-the-qase-platform/create-a-test-run/test-run-wizard.md)
