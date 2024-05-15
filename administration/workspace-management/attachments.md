@@ -4,7 +4,9 @@
 
 Attachments in the workspace provide a comprehensive overview of the files that have been uploaded and attached to Qase. However, since attachment storage space is limited (500 MB for the Free plan, 250 GB for the startup plan, and unlimited storage for business and enterprise plans), it is important to monitor usage and free up space as needed.
 
-{% embed url="https://www.youtube.com/watch?v=v3jApAzMAIg" %}
+
+
+{% embed url="https://www.youtube.com/watch?v=uWjiJGSVFV0" %}
 
 ### Where can I add attachments?
 
