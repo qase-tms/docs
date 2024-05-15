@@ -6,6 +6,8 @@
 
 {% embed url="https://www.youtube.com/watch?v=TSSVmdv2FVE" %}
 
+{% embed url="https://www.youtube.com/watch?v=MVd7hpivfsM" %}
+
 ### How to invite a new member? <a href="#h_70da117e32" id="h_70da117e32"></a>
 
 To invite a new teammate, click "Invite new member" in the "Invites" tab:
