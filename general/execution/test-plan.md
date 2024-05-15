@@ -6,6 +6,8 @@ Test plan is your way to organize the various test cases into a cohesive scenari
 
 {% embed url="https://www.youtube.com/watch?v=6isv5Am1fEg" %}
 
+{% embed url="https://www.youtube.com/watch?v=Ti59cwOT9bg" %}
+
 ### How to create a test plan?
 
 To create a new test plan:&#x20;

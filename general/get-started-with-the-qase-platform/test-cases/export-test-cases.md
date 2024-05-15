@@ -2,7 +2,9 @@
 
 ### How to export test cases?
 
-{% embed url="https://youtu.be/Qpxf9vz4d6E" %}
+
+
+{% embed url="https://www.youtube.com/watch?v=v5uGR3V6Gsg" %}
 
 ### What ways can I save my test cases?
 
