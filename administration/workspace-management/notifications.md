@@ -7,7 +7,10 @@ description: A guide for setting up and using notifications in Qase.
 {% embed url="https://www.youtube.com/watch?v=u_Y1UwGUZRc" %}
 
 To stay on top of the important updates occurring in your Qase workspace, make sure to set up the notifications.\
-​\
+
+
+{% embed url="https://www.youtube.com/watch?v=Q2ZQ-QrS8BY" %}
+
 To access your notification settings:
 
 \
