@@ -6,6 +6,8 @@ Tags allow you to label your test cases, defects and test runs.
 
 {% embed url="https://www.youtube.com/watch?v=QdLuzjgXyOA" %}
 
+{% embed url="https://www.youtube.com/watch?v=2hwskhIf63Q" %}
+
 ### How to create a tag? <a href="#h_f5b003a3eb" id="h_f5b003a3eb"></a>
 
 You can create new tags in a few ways:
