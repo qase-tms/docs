@@ -1,10 +1,14 @@
 # Requirements
 
+_<mark style="background-color:purple;">Requirements are available in</mark>_ [_<mark style="background-color:purple;">Startup</mark>_](https://help.qase.io/en/articles/5563728-startup-plan)_<mark style="background-color:purple;">,</mark>_ [_<mark style="background-color:purple;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan) _<mark style="background-color:purple;">and</mark>_ [_<mark style="background-color:purple;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:purple;">subscriptions.</mark>_
+
 ### What are requirements in software testing?
 
 Requirements are a vital part of the test management paradigm. They allow you to track whether your product is what's expected of it and keep your testing efforts in accordance with the requirements documented earlier.
 
-_<mark style="background-color:purple;">Requirements are available in</mark>_ [_<mark style="background-color:purple;">Startup</mark>_](https://help.qase.io/en/articles/5563728-startup-plan)_<mark style="background-color:purple;">,</mark>_ [_<mark style="background-color:purple;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan) _<mark style="background-color:purple;">and</mark>_ [_<mark style="background-color:purple;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:purple;">subscriptions.</mark>_
+
+
+{% embed url="https://www.youtube.com/watch?v=qxkCPCEwDOU" %}
 
 {% embed url="https://www.youtube.com/watch?v=va54eP7LwRY" %}
 
