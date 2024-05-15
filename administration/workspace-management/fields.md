@@ -8,6 +8,8 @@ In the fields section, you can create, edit or view all system and custom fields
 
 {% embed url="https://www.youtube.com/watch?v=NW2F-allfw0" %}
 
+{% embed url="https://www.youtube.com/watch?v=ifWNlP_IxEs" %}
+
 ### Accessing Field settings <a href="#h_6c69af1f3d" id="h_6c69af1f3d"></a>
 
 There are multiple options available to you to access the field section.
