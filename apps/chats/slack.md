@@ -6,6 +6,8 @@
 
 {% embed url="https://www.youtube.com/watch?v=g7yamGMyinU" %}
 
+{% embed url="https://www.youtube.com/watch?v=-8acWGAJsPI" %}
+
 ### Why use Slack integration?
 
 With the Slack app for Qase, you can be notified about important events in your Qase workspace.
