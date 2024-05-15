@@ -10,6 +10,10 @@ description: >-
 
 ### How to import test cases?
 
+
+
+{% embed url="https://www.youtube.com/watch?v=xExuFqwg4_k" %}
+
 You can import your test cases into Qase in 3 easy steps.
 
 1. **Click the "..." menu icon** in the top right-hand corner of your repository, and choose "**Import Data**" from the menu.
