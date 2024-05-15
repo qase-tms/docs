@@ -6,6 +6,8 @@
 
 {% embed url="https://www.youtube.com/watch?v=F-L8EGUSxww" %}
 
+{% embed url="https://www.youtube.com/watch?v=QfQu7uaDIEo" %}
+
 With the GitHub app, you can:
 
 * create a new issue in GitHub when you file a [defect](https://docs.qase.io/general/get-started-with-the-qase-platform/defects) during a [test run](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run-1) in Qase.
