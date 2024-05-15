@@ -14,6 +14,8 @@ Configurations can be used to specify for any test run, which hardware or softwa
 
 {% embed url="https://www.youtube.com/watch?v=lMGpnlicK7c" %}
 
+{% embed url="https://www.youtube.com/watch?v=KjEofpnZc6s" %}
+
 ### How to create a configuration group?
 
 Configuration groups are found in projects:
