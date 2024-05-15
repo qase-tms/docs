@@ -1,5 +1,9 @@
 # Workspace management
 
+###
+
+{% embed url="https://www.youtube.com/watch?v=-L-9WOYeQho" %}
+
 ### What to manage in a workspace?
 
 Qase is a tool designed to increase the productivity of QA and testing teams through collaboration and visibility. This means that you will not be working alone. However, it is important to keep track of who has access to what and what capabilities your teammates possess. You can set up access types with precise granularity, depending on what each user should be allowed to do in Qase.
