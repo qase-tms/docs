@@ -6,6 +6,8 @@
 
 {% embed url="https://www.youtube.com/watch?v=RisfBDeEse4" %}
 
+{% embed url="https://www.youtube.com/watch?v=G6Esy0oTN6U" %}
+
 ### Why use Azure DevOps integration?
 
 With Azure DevOps app, you can:
