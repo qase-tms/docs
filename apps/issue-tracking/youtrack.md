@@ -6,6 +6,8 @@
 
 {% embed url="https://www.youtube.com/watch?v=LvRHVHtUHNU" %}
 
+{% embed url="https://www.youtube.com/watch?v=9aMkwDylg_g" %}
+
 ### Why use YouTrack integration?
 
 With YouTrack app, you can:
