@@ -6,6 +6,8 @@
 
 {% embed url="https://www.youtube.com/watch?v=W9SzInUQTTc" %}
 
+{% embed url="https://www.youtube.com/watch?v=_SvND-k9aY8" %}
+
 ### Why use Trello integration?
 
 With Trello app, you can:
