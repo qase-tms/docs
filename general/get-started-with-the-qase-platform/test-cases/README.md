@@ -4,7 +4,9 @@
 
 A test case contains all the details about our test. In Qase, a test case is a specific set of instructions and conditions that outline a test to be carried out successfully. It includes testing procedures, necessary inputs, execution conditions, and expected results to achieve a testing objective.
 
-{% embed url="https://www.youtube.com/watch?v=Psg1EN0U3r0" %}
+
+
+{% embed url="https://www.youtube.com/watch?v=bidHMkx3OdM" %}
 
 In Qase, you can define various parameters and expected outcomes of a particular testing scenario.
 
