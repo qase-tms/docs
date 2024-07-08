@@ -4,7 +4,9 @@
 
 _Projects_ allow you to organize your [test suites](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-suite) and [test cases](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run) by putting them into separate spaces in Qase, thus preventing mixing up test cases related to different areas of development.
 
-{% embed url="https://www.youtube.com/watch?v=VKsnZ3f5Ak8" %}
+
+
+{% embed url="https://www.youtube.com/watch?v=kZCko4smO2s" %}
 
 For example, if you manage and maintain a web application or website and accompanying mobile applications on iOS and Android, you can create three separate projects for the web application, iOS app, and Android app, respectively. In essence, a project is a container for all test cases pertaining to a specific app, website, etc.
 
