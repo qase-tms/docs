@@ -6,6 +6,8 @@ In the testing process, variables can be captured as Parameters. Testers can the
 
 {% embed url="https://www.youtube.com/watch?v=jLZNWyJgQ4E" %}
 
+{% embed url="https://www.youtube.com/watch?v=i_VGRsocWuo" %}
+
 
 
 ### How to create Parameters? <a href="#h_feaec674fe" id="h_feaec674fe"></a>
