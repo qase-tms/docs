@@ -6,6 +6,8 @@ Users is a section of workspace management where you can manage the users of you
 
 {% embed url="https://youtu.be/XhR1f4_bq58" %}
 
+{% embed url="https://www.youtube.com/watch?v=LOtRfs34grU" %}
+
 ### What types of licenses can be provided to users?
 
 There are three types of licenses you can grant to users:

@@ -1,8 +1,10 @@
 # Groups
 
-### What is a "Group" tab in Qase?
+**Groups** are a way to categorize your account users by the team they belong to, responsibilities, or team lead - in other words, by any arbitrary characteristic that you deem important.
 
-**Group** is a way to categorize your account users by the team they belong to, responsibilities, or team lead - in other words, by any arbitrary characteristic that you deem important.
+
+
+{% embed url="https://www.youtube.com/watch?v=d42duzXqnQo" %}
 
 {% embed url="https://www.youtube.com/watch?v=Q1-weYzZRDQ" %}
 
@@ -12,11 +14,11 @@ To create a new User Group, click "Groups" in the Workspace Management left-hand
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597357797/94284f92e195596ea1b71fb0/VOiKAZx_CeojtNiVIrLgUjkRD6Yr6fjjtwh9Uibwk16aGyVWrVMB3pXs88gBcm6u05Vh3CPORZi_wW8w04CZdgnYtwWkPJbY_-hLn-WXBy9ELrvSmuhgo9XN-Flu-3ilxSakZsCXTtuUSY9E_MtiIpR3_uzw0oBBv7X1sOxPl681zz64eUuMevDS" alt=""><figcaption></figcaption></figure>
 
-In the creation menu, give your new User Group a title and a description - both fields are mandatory. You can also add the users into a Group while setting it up. When you are ready with creating a group, hit "Create":
+In the creation menu, give your new User Group a title and a description - both fields are mandatory. You can add users into the group and also select the projects they have access to while setting it up. When you are ready with creating a group, hit "Create":
 
-<figure><img src="../../.gitbook/assets/Groups.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gif (2).gif" alt=""><figcaption></figcaption></figure>
 
-After a User Group has been created, you will see it in the groups' list, together with its description and members' number. Under the three-dots menu button, you can View, Edit, or Delete a user group:
+After creating a User Group, you will see it in the groups' list with its description and members' number. Under the three-dots menu button, you can View, Edit, or Delete a user group:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597357949/8538f9bc1a4431ca577300ba/eb4cF7ZTLDPy1EJKLEoJwaGkq3W-tZ0xz7dtMiJtfFG1GNk7o9f0mt2kmDDxUHHcq2vpcpIh76ZWldz98pMN2WKLl9Yy48FL0y1bS8b9ShvcRYOniweNIW8rUya-XFf1PJzkvpt48EJA4N1lmCbraF6HpCmCvwjEevB6vM2ZdBvrmTXSgejIj340" alt=""><figcaption></figcaption></figure>
 
