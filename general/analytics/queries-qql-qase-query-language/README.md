@@ -6,6 +6,10 @@ Queries help you make analytical requests to get specific data from your Qase pr
 
 _<mark style="background-color:green;">Queries are available in</mark>_ [_<mark style="background-color:green;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan) _<mark style="background-color:green;">and</mark>_ [_<mark style="background-color:green;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:green;">subscriptions.</mark>_
 
+
+
+{% embed url="https://www.youtube.com/watch?v=7kIhK8P-IMU" %}
+
 {% embed url="https://www.youtube.com/watch?v=BGEQDLvsrzs" %}
 
 Queries are based on Qase Query Language (QQL). You can access Queries from the top-left menu.
@@ -13,6 +17,10 @@ Queries are based on Qase Query Language (QQL). You can access Queries from the 
 <figure><img src="../../../.gitbook/assets/tab-queries.png" alt=""><figcaption></figcaption></figure>
 
 From this page, you can manage [saved queries](https://docs.qase.io/general/analytics/queries/saved-queries) and create new ones.
+
+[<mark style="background-color:yellow;">Saved Queries</mark>](https://docs.qase.io/general/analytics/queries-qql-qase-query-language/saved-queries) <mark style="background-color:yellow;">can be used with the</mark> [<mark style="background-color:yellow;">QQL widget</mark>](https://docs.qase.io/general/analytics/dashboards)<mark style="background-color:yellow;">.</mark>
+
+<mark style="background-color:yellow;">QQL widget allows you to leverage advanced query searches, and pin frequently used or preferred QQL searches to your</mark> [_<mark style="background-color:yellow;">dashboards</mark>_](https://docs.qase.io/general/analytics/dashboards) <mark style="background-color:yellow;">to facilitate quicker and more comprehensive monitoring of testing activities.</mark>
 
 ### Create a new query
 
@@ -129,10 +137,16 @@ Currently, QQL supports seven expression types. They are listed here in the decr
 
 
 
-| Name          | Return type | Arguments                                                                                                                                                                                  | Description                   |
-| ------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- |
-| currentUser() | integer     | -                                                                                                                                                                                          | Returns an ID of current user |
-| now()         | integer     | <p>"+Nd" / "-Nd"- modifies returned value, adding/subtracting N days.</p><p>In "+Nd", replace d with<br>​ w for weeks;<br>​ m for months.<br>​</p><p><code>N must be an integer</code></p> | Returns current timestamp     |
+| Name           | Return type | Arguments                                                                                                                                                                                            | Description                                  |
+| -------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| currentUser()  | integer     | -                                                                                                                                                                                                    | Returns an ID of current user                |
+| now()          | integer     | <p>"+Nd" / "-Nd"- modifies returned value, adding/subtracting N days.</p><p>In "+Nd", replace d with<br>​ w for weeks;<br>​ m for months.<br>​</p><p><code>N must be an integer</code></p>           | Returns current timestamp                    |
+| startOfDay()   | integer     | <p>'YYYY-mm-dd' - modifies returned value to the start of this input date.</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p>                                    | Returns timestamp of start of current day.   |
+| startOfWeek()  | integer     | <p>'YYYY-mm-dd' - modifies returned value to the start of first day of the week (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p>  | Returns timestamp of start of current week.  |
+| startOfMonth() | integer     | <p>'YYYY-mm-dd' - modifies returned value to the start of first day of the month (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p> | Returns timestamp of start of current Month. |
+| endOfDay()     | integer     | <p>'YYYY-mm-dd' - modifies returned value to the end of the input date.</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p>                                       | Returns timestamp of end of current day.     |
+| endOfWeek()    | integer     | <p>'YYYY-mm-dd' - modifies returned value to the end of first day of the week (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p>    | Returns timestamp of end of current Week.    |
+| endOfMonth()   | integer     | <p>'YYYY-mm-dd' - modifies returned value to the end of first day of the month (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p>   | Returns timestamp of end of current Month.   |
 
 ## Entity fields <a href="#h_ea6301433d" id="h_ea6301433d"></a>
 
