@@ -14,6 +14,8 @@ Environments in a test case management system are an additional entity which all
 
 {% embed url="https://www.youtube.com/watch?v=7XLLVD8c8x4" %}
 
+{% embed url="https://www.youtube.com/watch?v=JUieEeR1QyA" %}
+
 ### How to create an environment?
 
 To create a new environment, navigate to the Project's "Environments" tab, then hit "Create new environment":
