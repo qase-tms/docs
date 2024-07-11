@@ -6,7 +6,7 @@ Audit logs provide you with a historical record of all actions that have been pe
 
 {% embed url="https://youtu.be/jvR-QAGOImA" %}
 
-### Audit logs opti
+{% embed url="https://www.youtube.com/watch?v=R4tvu-vmR-g" %}
 
 Each entry of the log features a timestamp of the action, a performer of the action, and the description of the action that has been performed.
 
