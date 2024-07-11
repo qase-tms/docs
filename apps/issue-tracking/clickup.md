@@ -6,6 +6,8 @@
 
 {% embed url="https://youtu.be/X6uCDFwIISE" %}
 
+{% embed url="https://www.youtube.com/watch?v=nxOQlRWEAaM" %}
+
 ### Why use ClickUp integration?
 
 With the ClickUp app, you can:
