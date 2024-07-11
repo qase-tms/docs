@@ -4,7 +4,9 @@
 
 [Asana](https://asana.com/) is a web and mobile work management platform designed to help teams organize, track, and manage their work.
 
-{% embed url="https://youtu.be/B9-EoplllG8" %}
+
+
+{% embed url="https://www.youtube.com/watch?v=dbECcHc2lYg" %}
 
 ### Why use Asana integration?
 
