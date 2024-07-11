@@ -6,6 +6,8 @@ Linear helps streamline software projects, sprints, issues, and bug tracking.
 
 {% embed url="https://www.youtube.com/watch?v=lW0Ylcj10O8" %}
 
+{% embed url="https://www.youtube.com/watch?v=XwaXR3JtVAU" %}
+
 ### Why use Linear integration?
 
 With Linear app, you can:
