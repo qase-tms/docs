@@ -8,6 +8,8 @@ _<mark style="background-color:purple;">⚠️Custom Fields are available in</ma
 
 {% embed url="https://youtu.be/SnXr_WPJiMc" %}
 
+{% embed url="https://www.youtube.com/watch?v=o7YiwJpRmkA" %}
+
 You'll need to create these Custom Fields first to be able to fill them in. To get started, navigate to the Workspace settings' "Fields" section:
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/597122367/191a4014043ec3de84be3310/9dkRGRx5uAm_u_fdOe5xBUnV5PZw6gaae8zvueizzh6kMbGGMxEoUYyphjUMfmZDOjqOAunvkbdb74heGqJZq7HyBhx-1WnTGtQR9u2j7ejgTYjdodVlRadQl8IkSzBN6n1e8vTdjZAcz6XdNf4nZz6Nfppj65UV_wf8TUq2At1_MMyto2na-aa0xQ" alt=""><figcaption></figcaption></figure>
