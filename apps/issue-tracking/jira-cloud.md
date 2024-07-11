@@ -6,6 +6,8 @@
 
 {% embed url="https://www.youtube.com/watch?v=P7XNn3jOaEY" %}
 
+{% embed url="https://www.youtube.com/watch?v=4JzQJqhZ2A0" %}
+
 ### Why use Jira Cloud integration?
 
 With the Jira Cloud app, you can:
