@@ -1,7 +1,6 @@
 ---
 title: How to use Environments in Qase
 slug: environments-1
-hidden: true
 createdAt: '2023-02-24T12:53:22.196Z'
 updatedAt: '2023-02-27T18:47:35.491Z'
 ---

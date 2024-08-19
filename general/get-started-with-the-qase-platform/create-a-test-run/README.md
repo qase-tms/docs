@@ -1,7 +1,6 @@
 ---
 title: Test Run creation & management in Qase
 slug: create-a-test-run-1
-hidden: true
 createdAt: '2023-02-08T03:29:25.607Z'
 updatedAt: '2023-02-21T19:47:34.265Z'
 ---
