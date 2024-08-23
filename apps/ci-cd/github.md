@@ -138,7 +138,6 @@ jobs:
 ### Related links: <a href="#h_fa83966911" id="h_fa83966911"></a>
 
 * [An example of an integration](https://github.com/qase-tms/qase-javascript/tree/master/examples/github-qase-integration).
-* [How to work with GitHub CI/CD](https://www.notion.so/How-to-work-with-GitHub-CI-CD-53c2587bc9774560b647e12c72b25bd2?pvs=21)
 
 ### b. Start an automated run <a href="#h_243d154c96" id="h_243d154c96"></a>
 
