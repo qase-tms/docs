@@ -15,10 +15,8 @@ There is a minimum number of 3 seats. To upgrade or downgrade your current plan 
 
 The startup plan has a tiered pricing model and depends on the number of active users in your team:
 
-| <p># users</p><p>Active users in a team</p> | <p>Monthly price</p><p>per user per month</p> | <p>Annual price</p><p>per user per year</p> |
-| ------------------------------------------- | --------------------------------------------- | ------------------------------------------- |
-| From 3 to 5 users                           | 24$                                           | 240$                                        |
-| From 6 to 10 users                          | 22$                                           | 220$                                        |
-| From 11 to 20 users                         | 21$                                           | 210$                                        |
+| <p># users</p><p>Active users in a team</p> | <p>Monthly price</p><p>per user, Monthly billing</p> | Monthly price per user, Annual billing |
+| ------------------------------------------- | ---------------------------------------------------- | -------------------------------------- |
+| 3-20 users                                  | $24                                                  | $20                                    |
 
 \
