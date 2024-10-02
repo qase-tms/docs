@@ -26,7 +26,7 @@ _Update:_ Once new settings have been selected, don't forget to hit "Update Sett
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/609558957/8ee5dd9091b5094900c26bcb/image.png" alt=""><figcaption></figcaption></figure>
 
-_Archiving a project:_ After completing a project, you might want to hide it from plain view. It should still be accessible for reference, but shouldn't obstruct the view of the currently active projects.&#x20;
+_Archiving a project:_ After completing a project, you might want to hide it from plain view. It will still be accessible for reference, but shouldn't obstruct the view of the currently active projects.&#x20;
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/609559045/9c9b142b3cc384ca56ea8b70/image.png" alt=""><figcaption></figcaption></figure>
 
