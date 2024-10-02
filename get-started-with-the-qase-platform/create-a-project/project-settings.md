@@ -2,7 +2,7 @@
 
 After creating a project, you can control who can access and see it, and have more control over your project in settings.
 
-When you have opened the project, navigate to settings, where you will find several sections.
+When you have opened the project, navigate to settings, and you will find several sections.
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/609556285/9bbf51c3ca9f20deffac4b8c/image.png" alt=""><figcaption></figcaption></figure>
 
