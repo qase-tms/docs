@@ -58,7 +58,7 @@ In the Security Settings, you can:
 
 ## Help <a href="#h_353981ecd5" id="h_353981ecd5"></a>
 
-Here you can learn more about Qase with the help of our knowledge base:
+Here you can learn more about Qase, with the help of our knowledge base:
 
 <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
