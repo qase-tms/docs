@@ -30,6 +30,6 @@ _Archiving a project:_ After completing a project, you might want to hide it fro
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/609559045/9c9b142b3cc384ca56ea8b70/image.png" alt=""><figcaption></figcaption></figure>
 
-While in the projects section, you can switch between viewing active or archived projects, or view them all at once.
+While in the projects section, you can switch between viewing active or archived projects, or view all of them at once.
 
 <figure><img src="https://qase.intercom-attachments-7.com/i/o/595207212/3705797104e1a75f9ef127c9/gLx07FZghVFV-B6NMunYlGuJZ-OfILQ9NWuENMQhJ9zlzzCRnWJVKJdu7tl2i0ZF9AKaCqGn6J-3m3yqFpCzNZlvKtjDcoRjEeb5RR8iYTE20PvOiBX_j9O4YzGXCVnOONwIJQmROAvE3Z-fvEVlNXokgkitCfJ_UElRyRV_1fYKqYGNYIkNTJhrqw" alt=""><figcaption></figcaption></figure>
