@@ -6,7 +6,7 @@
 
 Before you go deeper with Qase, it is a good idea to set up your workspace first. To do that, click your user icon in the top-right corner of the workspace to see the following options:
 
-<figure><img src="../.gitbook/assets/image (33).png" alt="" width="138"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt="" width="275"><figcaption></figcaption></figure>
 
 ### **Appearance**
 
