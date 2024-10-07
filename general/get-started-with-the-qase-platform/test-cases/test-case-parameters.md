@@ -2,48 +2,104 @@
 
 ### What are parameters in software testing?
 
-In the testing process, variables can be captured as Parameters. Testers can then utilize these Parameters in multiple executions of the same [Test Case](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run), eliminating the need to create separate test cases or duplicate sets of steps.
+In your testing process, Parameters allow you to capture variables that can be reused across [multiple executions](../create-a-test-run/test-run-dashboard.md) of the same [Test Case](./#what-is-a-test-case-in-software-testing). This eliminates the need to create separate test cases or duplicate steps for different conditions.&#x20;
 
-{% embed url="https://www.youtube.com/watch?v=jLZNWyJgQ4E" %}
+{% embed url="https://youtu.be/Vtyza2ubkbk" %}
+Parameters explained using a common testing scenario.&#x20;
+{% endembed %}
 
-{% embed url="https://www.youtube.com/watch?v=i_VGRsocWuo" %}
+### How Parameters help? <a href="#h_feaec674fe" id="h_feaec674fe"></a>
+
+Consider a scenario where you need to test the sign-in functionality of a web application under various conditions. For each user, you’ll need to test each website twice under different conditions (VPN, WiFi, HTTPS, SSO, Cookies), both enabled and disabled.
+
+**Parameter 1**
+
+| Browser | Chromium | Firefox | Safari | Microsoft Edge |
+| ------- | -------- | ------- | ------ | -------------- |
+
+**Parameter 2**
+
+| Website | qase.io | blog.qase.io | help.qase.io |
+| ------- | ------- | ------------ | ------------ |
+
+Group 1 is a **Secure network**; Group 2 is an **Insecure network**.
+
+| is on VPN? | is on WiFi? | is HTTPS? | Using SSO? | Cookies Accepted? |
+| ---------- | ----------- | --------- | ---------- | ----------------- |
+| Yes        | Yes         | Yes       | Yes        | Yes               |
+| No         | No          | No        | No         | No                |
 
 
 
-### How to create Parameters? <a href="#h_feaec674fe" id="h_feaec674fe"></a>
+### Let's create a test case with Parameters - <a href="#h_4ecd8db223" id="h_4ecd8db223"></a>
 
-You can simply click on "+ Add Parameter' button while creating a new test case or editing an existing one.
+***
 
-<figure><img src="../../../.gitbook/assets/parameters.gif" alt=""><figcaption></figcaption></figure>
+Go to your repository, to select an existing test case, or create a new one.
 
-<mark style="background-color:yellow;">You can add up to</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**10**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">different Parameters with their respective values for each Test case.</mark>
+<figure><img src="../../../.gitbook/assets/9019.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<mark style="background-color:yellow;">Total number of parameter combinations in a single case cannot be larger than 1,024.</mark>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Parameters in test runs <a href="#h_7289c0011c" id="h_7289c0011c"></a>
+When you either create or edit an existing test case, you can scroll down to find the "Parameters" section and simply click on the "+ Add Parameter' button.
 
-After introducing Parameters in a case, when this case is included in a test run, it will be divided into multiple identical copies of the same test case, each corresponding to a specified parameter value.
+<figure><img src="../../../.gitbook/assets/56273.png" alt="" width="563"><figcaption></figcaption></figure>
 
-For instance, if you have three parameters A, B and C with 3, 5 and 2 values respectively. In total, you'll see a total of 30 ( 3\*5\*2 ) identical copies of the test case, one for each unique parameter combination.\
-​
+**Then**, proceed to add the following test case steps
 
-<figure><img src="../../../.gitbook/assets/chrome_gwjEvp9EnQ.gif" alt=""><figcaption></figcaption></figure>
+* Check the network condition specified (Secure/ Insecure)
+* Launch the specified browser.
+* Navigate to the specified website.
+* Enter the login credentials for the specified site.
+* Click the "Sign In" button.
 
-In the Test run dashboard, when you select a parametrized test case, you will see a separate tab 'siblings' in the wizard containing copies of the same test case for all other parameter values.
 
-<figure><img src="../../../.gitbook/assets/siblings.png" alt=""><figcaption></figcaption></figure>
 
-### Example use case: <a href="#h_346222a8b8" id="h_346222a8b8"></a>
+## Executing a Parameterized test case - <a href="#h_f60972ba23" id="h_f60972ba23"></a>
 
-When evaluating the logon process of a web application, such as testing a sign-in, you can streamline the process using Test Parameters. For example:
+***
 
-1. Launch your computer's browser.
-2. Enter the website's URL.
-3. Fill in the user name and password fields.
-4. Click the Sign In button.
+When a test case with Parameters is included in a test run, it generates multiple instances of the test case, each corresponding to a specific combination of parameter values.
 
-If you want to perform this test with different browsers, you can create a Test Parameter named "Browser" while creating a test case. This eliminates the need to create separate test cases for each browser, as you can use the same case with different data.
+<figure><img src="../../../.gitbook/assets/71312.png" alt=""><figcaption></figcaption></figure>
 
-If you also want to test across various browsers and operating systems, follow the steps mentioned earlier and additionally add an operating system parameter with its corresponding values.
+For example:
 
-This approach allows you to conduct the same actions with different combinations of browsers and operating systems without creating multiple test cases.
+* Test 1: Browser = `Chromium`, Website = `https://www.qase.io`, Secure = `VPN = Yes, WiFi = Yes, HTTPS = Yes, SSO = Yes, Cookies = Yes`\
+  ​
+* Test 2: Browser = `Chromium`, Website = `https://blog.qase.io`, Secure = `VPN = Yes, WiFi = Yes, HTTPS = Yes, SSO = Yes, Cookies = Yes`
+
+(and so on, until all combinations are covered)
+
+* Test 24: Browser = `Microsoft Edge`, Website = `https://help.qase.io`, Insecure = `VPN = Yes, WiFi = Yes, HTTPS = Yes, SSO = Yes, Cookies = Yes`
+
+With single parameters, the total number of test cases is the product of the number of values for each parameter. For example, with two parameters having 3 and 4 values, you get (3\*4) 12 test cases.
+
+Given the network security conditions (Secured and Unsecured), it’s impractical to list each component as a separate parameter. Instead, all components are either enabled in a secured network or disabled in an unsecured network. This is where Parameter Groups become useful.
+
+
+
+### How is a Parameter group different from a single parameter? <a href="#h_ade6ec7615" id="h_ade6ec7615"></a>
+
+To further streamline the testing process, you can group related parameters into "Parameter Groups." For example:
+
+* Network security: Is on VPN, Is on WiFi, Is HTTPS, SSO sign-in, Cookies enabled
+* Account status: is Active; has a custom role; is a regular user, is Owner
+
+Parameter Groups are useful when not all combinations of parameters are relevant or meaningful. For instance, with “Account Status” parameter, a combination of “not active” and “not Owner” might not exist in your system or be applicable.
+
+In such cases, Parameter Groups help you focus only on practical and realistic combinations, eliminating unnecessary tests. This ensures that your testing is efficient and covers only meaningful scenarios.
+
+In our example, although we initially had 12 combinations for the single parameters, each of these needs to be tested on both Secure and Insecure network groups. As a result, the total number of test cases in the run will now be 24.
+
+{% hint style="info" %}
+In a test run, the total number of parameter combinations for a case cannot exceed 1,024.
+{% endhint %}
+
+
+
+### Find your parameter siblings from the Run wizard <a href="#h_01f891c7fd" id="h_01f891c7fd"></a>
+
+In the Test Run dashboard, selecting a parameterized test case will display a ‘siblings’ tab. This tab shows copies of the test case for all other parameter values associated with the selected case.
+
+<figure><img src="../../../.gitbook/assets/64217.png" alt=""><figcaption></figcaption></figure>
