@@ -1,28 +1,24 @@
 # Account settings
 
-
-
 {% embed url="https://www.youtube.com/watch?v=1ZOKsgsq05o" %}
 
 {% embed url="https://www.youtube.com/watch?v=ZzfgjZmJB8w" %}
 
 Before you go deeper with Qase, it is a good idea to set up your workspace first. To do that, click your user icon in the top-right corner of the workspace to see the following options:
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt="" width="138"><figcaption></figcaption></figure>
 
-### **Appearance**&#x20;
+### **Appearance**
 
 Choose between various coloring themes available, as well as pick the size of your workspace:
 
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/595187101/ed65814df1dc0df47712adf5/EdWupp4zjuwE2EBkOLjvri_yGdwvuiHbeg0BTql40LYE9vF14K1pjAH6ZLkSCEAwDkWD5XmKr4-XNQ9Ey_QK5huPmGooTHSAs1eFGnQlfraJWgflDikfHwiuT6JcyjtHyT0AAeWut3Y0njjYxEyl9dZFFQ9jgNJM5LcbJZCEIoeGflwc4JRGl-0bOQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://qase.intercom-attachments-7.com/i/o/595187101/ed65814df1dc0df47712adf5/EdWupp4zjuwE2EBkOLjvri_yGdwvuiHbeg0BTql40LYE9vF14K1pjAH6ZLkSCEAwDkWD5XmKr4-XNQ9Ey_QK5huPmGooTHSAs1eFGnQlfraJWgflDikfHwiuT6JcyjtHyT0AAeWut3Y0njjYxEyl9dZFFQ9jgNJM5LcbJZCEIoeGflwc4JRGl-0bOQ" alt="" width="563"><figcaption></figcaption></figure>
 
 ## API Tokens <a href="#h_660c7da4f7" id="h_660c7da4f7"></a>
 
 Set up access to Qase for your application via [API](https://developers.qase.io/):
 
-
-
-<figure><img src="../.gitbook/assets/api token.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/api token.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Profile <a href="#h_7f687f3ae8" id="h_7f687f3ae8"></a>
 
@@ -32,20 +28,19 @@ In the Profile Settings, you can:
 2. Change how your name appears in the Qase account.
 3. Let others know what your position title is.
 4. Set the time zone to your actual location, so that the timestamps across the account are displayed correctly.
-5. Update newsletter notification settings.\
+5. Update newsletter notification settings.\\
 
-
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34).png" alt="" width="375"><figcaption></figcaption></figure>
 
 If you have Single Sign-On enabled in the account, your name will be provided by the Identity Provider, so you will be able to only change your user picture and notification settings:
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-10 at 2.38.56 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-07-10 at 2.38.56 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Notifications <a href="#h_5bb873c67a" id="h_5bb873c67a"></a>
 
 To stay on top of the important updates and get notified, make sure to set up the notifications.
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Security <a href="#h_353981ecd5" id="h_353981ecd5"></a>
 
@@ -54,7 +49,7 @@ In the Security Settings, you can:
 1. Change your password.
 2. Connect your account with Google authentication.
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36).png" alt="" width="189"><figcaption></figcaption></figure>
 
 ## Help <a href="#h_353981ecd5" id="h_353981ecd5"></a>
 
