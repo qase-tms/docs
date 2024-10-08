@@ -74,14 +74,14 @@ Payload example:
 
 #### Payload fields
 
-| Parameter | Type    | Description                   |
-| --------- | ------- | ----------------------------- |
-| id        | integer | Test run ID                   |
-| cases     | integer | Amount of test cases in a run |
-| passed    | integer | Amount of passed cases        |
-| failed    | integer | Amount of failed cases        |
-| blocked   | integer | Amount of blocked cases       |
-| duration  | integer | Test run duration in seconds  |
+| Parameter | Type    | Description                       |
+| --------- | ------- | --------------------------------- |
+| id        | integer | Test run ID                       |
+| cases     | integer | Amount of test cases in a run     |
+| passed    | integer | Amount of passed cases            |
+| failed    | integer | Amount of failed cases            |
+| blocked   | integer | Amount of blocked cases           |
+| duration  | integer | Test run duration in milliseconds |
 
 ### Aborted Test Run
 
@@ -116,16 +116,16 @@ Payload example:
 
 #### Payload fields
 
-| Parameter | Type    | Description                   |
-| --------- | ------- | ----------------------------- |
-| id        | integer | Test run ID                   |
-| cases     | integer | Amount of test cases in a run |
-| passed    | integer | Amount of passed cases        |
-| skiped    | integer | Amount of skiped cases        |
-| failed    | integer | Amount of failed cases        |
-| untested  | integer | Amount of untested cases      |
-| blocked   | integer | Amount of blocked cases       |
-| duration  | integer | Test run duration in seconds  |
+| Parameter | Type    | Description                       |
+| --------- | ------- | --------------------------------- |
+| id        | integer | Test run ID                       |
+| cases     | integer | Amount of test cases in a run     |
+| passed    | integer | Amount of passed cases            |
+| skiped    | integer | Amount of skiped cases            |
+| failed    | integer | Amount of failed cases            |
+| untested  | integer | Amount of untested cases          |
+| blocked   | integer | Amount of blocked cases           |
+| duration  | integer | Test run duration in milliseconds |
 
 ### Deleted Test Run
 
