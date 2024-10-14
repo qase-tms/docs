@@ -6,7 +6,9 @@
 
 
 
-{% embed url="https://www.youtube.com/watch?v=dbECcHc2lYg" %}
+{% embed url="https://youtu.be/0m_xXVTR9A0" %}
+
+
 
 ### Why use Asana integration?
 
