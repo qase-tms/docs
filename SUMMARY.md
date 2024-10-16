@@ -129,3 +129,4 @@
   * [JUnit 5](apps/reporters/junit-5.md)
   * [PHPUnit](apps/reporters/phpunit.md)
   * [Codeception](apps/reporters/codeception.md)
+* [Qase CLI App](apps/qase-cli-app.md)
