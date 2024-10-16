@@ -1,135 +1,285 @@
 # Jira Cloud
 
-### What is Jira?
+## What is Jira?
 
 [Jira](https://www.atlassian.com/software/jira) is a proprietary issue-tracking product developed by Atlassian that allows bug tracking and agile project management.
 
-{% embed url="https://www.youtube.com/watch?v=P7XNn3jOaEY" %}
-
 {% embed url="https://www.youtube.com/watch?v=4JzQJqhZ2A0" %}
 
-### Why use Jira Cloud integration?
+## Why use Jira Cloud integration?
 
-With the Jira Cloud app, you can:
+Qase offers a robust integration with Jira, enabling you to link [test cases](https://help.qase.io/en/articles/5563704-test-cases), [test runs](https://help.qase.io/en/articles/5563702-test-runs), and [defects](https://help.qase.io/en/articles/5563710-defects) to Jira issues both, from Qase, and from Jira.
 
-* Link Qase test cases to Jira issues
-* Create a new issue in Jira when you file a defect during a test run in Qase
-* Link Qase test runs to Jira issues
+The statuses of a Qase defect and its linked Jira issue are [synchronized](https://help.qase.io/en/articles/6417207-jira-cloud#h\_261cf21fcb). When a Jira issue is set to a completed status, the corresponding Qase defect is marked as resolved, and vice versa.
 
-Note: the Qase defect and the connected Jira issue will be synchronized. If you complete a Jira issue, the Qase defect will be marked resolved, and vice versa.
-
-### How to install Jira? <a href="#h_1db3e2c876" id="h_1db3e2c876"></a>
-
-1.  Click "Apps" in your Qase workspace:\
-
-
-    <figure><img src="https://qase.intercom-attachments-7.com/i/o/597257611/5e1fc5d3eea4646ab4f1e1e3/cG6FW8DyoVkYN0yk-3cfnjXvgDMD59S2OfEI9e8wh3zDa7n-r5a0Q5HD0PgtWYO5dzdAxIzsNP84g_56DPd_hR3vRgkNyzN_sfRmapHJeQUxiLroVtpewwsBYD27o0zqL4_2Y8j8NaqgMr4_ajhFmzV6-kLcq5t-o4sbj0IL1iMzIkaDVppztLRC" alt=""><figcaption></figcaption></figure>
-2.  Click Jira Cloud card, then hit "Install now":\
-
-
-    <figure><img src="https://qase.intercom-attachments-7.com/i/o/597257628/f60288c046504bf866869317/MQmOxnh_40xLjbBAAt7LY9ywZu0FkgwtiVHYiibcaxy3zoa1TEkIndgquQ6UO7o8K6co6X1JZDI70ymFzhwpmiqZCqHQIXI5wuSk_1u6Pi3h-zWvRE27_y2N1rUkvgJZKlNueNProx1jDz2Io6gRDbg9-FUg_NasBtf0V3HrWL0AEU2vvLBjNKUY" alt=""><figcaption></figcaption></figure>
-3.  You will be taken to Atlassian Marketplace, click "Get it now" and make sure you are logged into Jira before you proceed:\
-
-
-    <figure><img src="https://qase.intercom-attachments-7.com/i/o/597257633/f1ab27e9e2a2106863ec3ce1/XeMX0cyTTV-kAJZ6HiO-g7WW27gHrxazPphgxRbySsLBklklsvrBjk75o7UZzUTmFLTwqLL9AXAuVSSRtvIEhee7z3edXLqlOaiByQAnM5VZrJvijY48_h78bc5cIPr5IvVY1QPaCiBlTpoh1ERpqxO9ztvImSco8IJxdhulYwHWSb8Sxh78zTZ1" alt=""><figcaption></figcaption></figure>
-4.  Once logged in, click on “Get it now”:\
-
-
-    <figure><img src="https://qase.intercom-attachments-7.com/i/o/597257642/8171dfb4ceb8ec01c52f7690/YnwdhYBL4bnplV3YWh03zh7hUcD41CKt1iB_eAU-7mGhEnS4yIci12_L7onKVLXsQwrjrCWP6XscwYwHVMTnR7nJ6KkKwcNdUZrNojoYNbIb2j372p1j2ykLqSi5S7fYnZOp0mDIrgbO_HXDMzFqDJMSf8B1ymvb4OCsR3XO21AfVAlNDDQmKMSI" alt=""><figcaption></figcaption></figure>
-5.  Once the app installs, on the apps page, you will see Qase. Click "Configure" in it:\
-
-
-    <figure><img src="https://qase.intercom-attachments-7.com/i/o/597257657/b1d76743bef0808b6d43e295/BzRA3g3cIaFGX1vWQNhH1ow1xiu7_bMUzhZMJ8J3xt34PRLWFqTr6IoMqx_Oi2OdrD-cdrKRNuZuiZrDaSvX-8Fc8WtR6O8SdAgomiqSnmakXgGnKOp3JrwA0cNCXWFj7GV0yRduw0XiYDSD679WeRFJFkxglmStqje1qMTyWaI22-KS2418mzMa" alt=""><figcaption></figcaption></figure>
-6.  On the configuration page, click "Link with Qase":\
-
-
-    <figure><img src="https://qase.intercom-attachments-7.com/i/o/597257670/8147b4b5c07e3c7515a5f553/35jEUC7gk4UYnW5gLAOAFL-_X_Z4EkRXvLvtBapBvraJUuJncwzwgOB0_RPseW-vAPKOLD62XF5x2WoaySQnhPhU33jo35cC1I8iu0at8nYoz6NOzUy59_P7NGqrzwyDd8aV5J383stTatxKSwDU22qQqovcTTJ1wJBQgFLMXveg3XLqJsQVqxNB" alt=""><figcaption></figcaption></figure>
-7.  After the redirect, click "Authorize" to finalize the installation:\
+If you work across multiple Qase workspaces, you can easily [duplicate the installation](https://help.qase.io/en/articles/6417207-jira-cloud#h\_820d5674bc) and status mapping across all of them. You can also [limit access](https://help.qase.io/en/articles/6417207-jira-cloud#h\_45df841f00) to your Jira projects as necessary.
 
 
 
+## How to install Jira App on Qase? <a href="#h_1db3e2c876" id="h_1db3e2c876"></a>
 
-    <figure><img src="https://qase.intercom-attachments-7.com/i/o/597257681/82e0c7d26e67114e47313697/d3ircBhks8u_0Ii9nAefrrRmF8qKKMeflAEAEIN3UhygHeVK70ktdxVovroa-KDyne1WCgKfi-zbWa2uF4an57SHRQN3dEQaABFwusFxunRH8Yyiz0K-CNT3weby9s3iJBXENZ-oqmWz1c_0lppPTWndrl9TuQUld5jx35WqSAIpiJo5ltSaWm5O" alt=""><figcaption></figcaption></figure>
-8.  The app has been successfully installed:\
+{% hint style="warning" %}
+To ensure a successful installation, the process must be carried out by a user with **administrative** access to Jira.
+{% endhint %}
+
+Start by [inviting](../../administration/workspace-management/invites.md) your Jira administrator to your Qase workspace, and be sure to assign them the administrator [role](../../administration/workspace-management/roles.md) in Qase as well.
 
 
-    [![](https://qase.intercom-attachments-7.com/i/o/597257684/6fd6851efd949c1b6ea676cc/Cr-EUfBvuO2XOcFuLOAVoIqTrWK3zcPxUZyi6TsNvYdAalqpYMvpL-cXZQLUA3W3WyPrNUkgsA9-vV1fWJG1jHqF9XIa\_QsQxDinZYTopd0WQAZOwsBS4xoFJWL80feEBuuGCzWTzC5zhr7xgOhDsxBpQ-lG23LkDvOZXH9JL4ZCy2-ir6Rd-fg0)](https://qase.intercom-attachments-7.com/i/o/597257684/6fd6851efd949c1b6ea676cc/Cr-EUfBvuO2XOcFuLOAVoIqTrWK3zcPxUZyi6TsNvYdAalqpYMvpL-cXZQLUA3W3WyPrNUkgsA9-vV1fWJG1jHqF9XIa\_QsQxDinZYTopd0WQAZOwsBS4xoFJWL80feEBuuGCzWTzC5zhr7xgOhDsxBpQ-lG23LkDvOZXH9JL4ZCy2-ir6Rd-fg0)
 
-### Linking from Qase to Jira: <a href="#h_5713766cc3" id="h_5713766cc3"></a>
+### Steps for Jira Administrator: <a href="#h_80b8749ec2" id="h_80b8749ec2"></a>
 
-1\. To link a Jira issue to a Qase test case from Qase:
+***
 
-* Select a case in the repository and switch to Properties in the sidebar
-* Click "Link Jira Cloud issues"
-* Insert Jira issue title or ID into the field and hit "Link"
-* Now the Jira issue is linked:
+#### 1. Installing the Qase App on Jira.
 
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/597257744/5f9461576d625a3073fed723/qe_wLZL98RiUJr7BSHZw5_gc_59ppQi2QwOh-HWnWfTiII9XJdiYxVKCtKeZ5wtq2J44FSMXW_2Tve7uaigjENPLs2xzjRiFlUamsu52h3aveXDnlFqqzU-1eb1z39X2ryc-jwXH-h2MmaeG9ePGWIclbtYXtxhTEk20K7WIoMXsJwxRv8kFGJ4N" alt=""><figcaption></figcaption></figure>
+*   In your Qase workspace, navigate to ‘Apps’ and find the Jira Cloud app.
 
-* To unlink the Jira issue, click "x" next to the card title:
+    Click “Install now”.
 
-[![](https://qase.intercom-attachments-7.com/i/o/597257758/33affc49f0805d94818b09cc/a26pNkYDFYQjY\_Icz\_w49zU63ZUxeD4uyoOJE8TCDvFLDaPCcDh5PNz6jfq5180knW-DwtjijBWBFufGAiJV1aXX4rTdR6spEbV6Kk1M4e6Si8LnybnYv7uyRx7wGbV3zAeAHtyjUWVsDp9xFDRfY6Yd\_fsakykAgCYpZKQQWVrLmRu7oGBYnT-q)](https://qase.intercom-attachments-7.com/i/o/597257758/33affc49f0805d94818b09cc/a26pNkYDFYQjY\_Icz\_w49zU63ZUxeD4uyoOJE8TCDvFLDaPCcDh5PNz6jfq5180knW-DwtjijBWBFufGAiJV1aXX4rTdR6spEbV6Kk1M4e6Si8LnybnYv7uyRx7wGbV3zAeAHtyjUWVsDp9xFDRfY6Yd\_fsakykAgCYpZKQQWVrLmRu7oGBYnT-q)
+<figure><img src="../../.gitbook/assets/79677.png" alt="" width="563"><figcaption></figcaption></figure>
 
-2\. Link Qase test runs to Jira issues: Here’s how you can link a Jira issue to a test run:
+<figure><img src="../../.gitbook/assets/image (90).png" alt="" width="563"><figcaption></figcaption></figure>
 
-* Navigate to the test runs page
-* Click on the run
-* In the run's main page, locate the side-bar to the right
-* Scroll down and under "External Issue" click on "Select an Integration"
-* Select "Jira Cloud"
-* Search for the issue's id and click on "Link"
+* You will be redirected to the Atlassian Marketplace. Click “Get it now”. If you’re not already logged in, you’ll need to sign in to proceed.
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/648455816/06e97ea53abda8dcbc9bb22c/GIF+Recording+2023-01-09+at+11.23.45+AM.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/17389.png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Linking from Jira to Qase: <a href="#h_eb35d684b0" id="h_eb35d684b0"></a>
+<figure><img src="../../.gitbook/assets/43770.png" alt="" width="563"><figcaption></figcaption></figure>
 
-1\. To link a Qase test case to Jira issue from Jira:
+#### 2. Link, the App on Jira with your Qase Workspace.
+
+* After the app is installed, click on “Configure”.
+
+<figure><img src="../../.gitbook/assets/58315.png" alt="" width="563"><figcaption></figcaption></figure>
+
+<details>
+
+<summary><em>Alternatively, you can find the Configure button by going to Apps > Manage Your Apps > Qase > Configure.</em></summary>
+
+<img src="../../.gitbook/assets/jira app.gif" alt="" data-size="original">
+
+</details>
+
+*   On the configuration page, click “Link with Qase”.\
+
+
+    <figure><img src="../../.gitbook/assets/78132.png" alt="" width="563"><figcaption></figcaption></figure>
+* You will be redirected to Qase. Click “Authorize” to complete the linking and finalize the installation.
+
+<figure><img src="../../.gitbook/assets/82058.png" alt="" width="563"><figcaption></figcaption></figure>
+
+*   Verify that the app has been successfully installed.\
+
+
+    <figure><img src="../../.gitbook/assets/68338.png" alt="" width="375"><figcaption></figcaption></figure>
+
+## Mapping Statuses Between Qase and Jira <a href="#h_261cf21fcb" id="h_261cf21fcb"></a>
+
+***
+
+[Qase Defects](../../general/get-started-with-the-qase-platform/defects/) have the following statuses: **Open**, **In-progress**, **Resolved**, **Invalid**
+
+<figure><img src="../../.gitbook/assets/56611.png" alt=""><figcaption></figcaption></figure>
+
+You might have several _projects ¹_ in your Jira instance, each with different and potentially unique statuses for each _issue type ²_
+
+<figure><img src="../../.gitbook/assets/33254.png" alt="" width="563"><figcaption></figcaption></figure>
+
+### Using default mapping <a href="#h_493ba69230" id="h_493ba69230"></a>
+
+***
+
+To simplify the process, you can set a default mapping for a project that will apply to all issue types, within that project -
+
+<figure><img src="../../.gitbook/assets/31290.png" alt="" width="563"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/91620.png" alt="" width="563"><figcaption></figcaption></figure>
+
+Once you save the mapping, all issue types will use the default mapping unless their statuses have been specifically mapped differently.
+
+In this example, all issue types such as _Task_, _Epic_, and _Subtask_ will use the default mapping unless their specific statuses have been mapped differently.
+
+For instance, if you have custom mappings for the _Epic_ issue type, but not for _Task_ and _Subtask_, then _Task_ and _Subtask_ will fall back to the default mapping.
+
+
+
+### **Copy mapping to other projects**
+
+***
+
+After setting up the mapping for one project, you can copy it to other projects by clicking the “Copy to projects” button at the bottom left of the modal. You can choose to apply the mapping to all projects or select specific ones.
+
+<figure><img src="../../.gitbook/assets/55146.png" alt="" width="563"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/15255 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+Once you make your selection, Qase will apply the mapping to matching statuses and notify you of the updates:
+
+* If any statuses can't be mapped because they don't exist in the original settings, Qase will alert you to the number of projects with unmapped statuses.
+* Projects and statuses with issues will be marked with a warning icon, making it easy to identify and adjust them manually if needed.
+
+<details>
+
+<summary>Expand this toggle to view some frequently asked questions about copying mapped statuses.</summary>
+
+**1. How are statuses matched when copying mappings from one project to another?**
+
+Statuses are matched based on similarity in names. Any status with the same name in Jira, regardless of spaces or case, will be mapped.
+
+
+
+**2. How are mapped, and unmapped statuses counted in notifications?**
+
+Notifications reflect only target statuses. For example, if Project A has 5 statuses and Project B has 4, with 3 matched, the notifications would be:
+
+• “_3 statuses were successfully mapped_.”
+
+• “_1 status in 1 project could not be matched. Review and update manually._”
+
+
+
+**3. What happens if I copy a new status mapping to a project with existing mappings?**
+
+If statuses match (by name similarity), the new mapping will replace the old one. If statuses do not match, the original mapping remains, but a warning icon will indicate statuses that weren’t updated for review.
+
+
+
+**4. What if I modify the original project from which statuses were copied?**
+
+You can manually update any project mapping without affecting others. To apply updates to all projects, repeat the “copy to projects” process.
+
+</details>
+
+
+
+## Access control <a href="#h_082bbf7f88" id="h_082bbf7f88"></a>
+
+***
+
+_⚠️ The features under access control are only available for_ [_Business_](../../administration/subscriptions/business-plan.md) _and_ [_Enterprise_](../../administration/subscriptions/enterprise-plan.md) _Users._
+
+### 1. Managing access to your Jira Projects <a href="#h_45df841f00" id="h_45df841f00"></a>
+
+You can enable Access control from the three dots (---) menu on the Jira app card [here](https://app.qase.io/apps?app=jira-cloud).
+
+<figure><img src="../../.gitbook/assets/17490.png" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/15079.png" alt="" width="563"><figcaption></figcaption></figure>
+
+Once enabled, you can select which Jira projects Qase will have access to.
+
+<figure><img src="../../.gitbook/assets/94551.png" alt="" width="563"><figcaption></figcaption></figure>
+
+If you do not activate access control to select specific Jira projects, all of your Jira projects will be accessible to Qase by default.
+
+
+
+### 2. Connect multiple Qase workspaces to your Jira instance.
+
+***
+
+If your team works across multiple Qase workspaces but uses a single Jira instance, you can easily copy the Jira installation from one workspace to another.
+
+In the Jira app card, click ‘Copy installation.’ A modal will appear listing all other workspaces where you are the owner or administrator, provided they don’t already have a Jira integration installed.
+
+<figure><img src="../../.gitbook/assets/3930.png" alt="" width="375"><figcaption></figcaption></figure>
+
+Select the desired workspace from the list and proceed to copy the installation. Your status mappings and project access settings will be copied over as they are.
+
+Please note that these settings are copied only once and are not synced, allowing you to freely modify them in the target workspace.
+
+<figure><img src="../../.gitbook/assets/41873.png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+## Linking from Jira: <a href="#h_f1e9314f44" id="h_f1e9314f44"></a>
+
+***
+
+### 1. Link Qase test cases to Jira issues: <a href="#h_c1e767030c" id="h_c1e767030c"></a>
+
+<figure><img src="../../.gitbook/assets/jira link qase test.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 * Click "Open Test cases" in Jira sidebar
 * Click "Link a case"
 * Insert test case title or its Case ID into the field and click "Link"
-
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/597258021/9feaa7d113d81ec9fa30640c/mVkWrufPgKeHPfBCE9AOz_a-eH0xRnFLMERzwcEWsBOQFmUGBH8rutRNgBQo-54vgfghvWPJD2BaNXlbgl8AAFxKjHOsoEZ2_aZgxed3reQ2L9DTSF7CsQIE5AAXD9SH86W-FgAK4TuOIa-5-y14P9d2qpj0jM-STlLPB49PLitAk6NhimBRxubz" alt=""><figcaption></figcaption></figure>
-
-* To unlink a case, click the "Trash Bin" icon in the sidebar next to the test case you want to unlink (an icon will appear when you hover over the linked case):
-
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/597258030/755ee2b501f62b5824c26ce6/mcHdDtT_a3yAmrTnpyRc0Tkg7Wqqsh1ciFH9kQMqv4iutn-ypUxCorDafc9oJNYMuOQ5ucbLlAPHLwt4ixNHX3l2sY4jxhNNOXOCAWWmGJbDl67NzQI97NA7FZlxTsfct1obTs7SIvMhgohRedCSHULlib32hNDbS_8J2ldh9Y22RgLfKdQ64h1B" alt=""><figcaption></figcaption></figure>
-
-2\. To link a Qase test run to a Jira issue:
-
-*   Switch on "Qase: runs" module through the options:\
+* To unlink a case, click the "Trash Bin" icon in the sidebar next to the test case you want to unlink (an icon will appear when you hover over the linked case).
 
 
-    <figure><img src="https://downloads.intercomcdn.com/i/o/597254552/502413c599f921b3d21d8224/image.png" alt=""><figcaption></figcaption></figure>
-*   In the module that appeared, click "Link a run":\
+
+### 2. Link Qase test runs to Jira issues: <a href="#h_689c6d6433" id="h_689c6d6433"></a>
+
+* Switch on "Qase: Runs" module through the options:
+
+<figure><img src="../../.gitbook/assets/52462.png" alt="" width="563"><figcaption></figcaption></figure>
+
+* In the module that appeared, click "Link a run":
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+* Use the search box to find the needed run by title, and click Link to attach it to the issue:
+
+<figure><img src="../../.gitbook/assets/43339.png" alt="" width="563"><figcaption></figcaption></figure>
+
+* Linked run and the statuses of cases in it are now shown in the issue:
+
+<figure><img src="../../.gitbook/assets/84401.png" alt="" width="563"><figcaption></figcaption></figure>
+
+* _Note:_ a Jira issue can have multiple runs attached to it, and any runs you have linked to Jira issues while setting up a run in Qase will also be shown in the "Qase: Runs" module.
 
 
-    <figure><img src="https://downloads.intercomcdn.com/i/o/597255084/00c6d3eb55222bb347165e22/image.png" alt=""><figcaption></figcaption></figure>
-*   Use the search box to find the needed run by title, and click Link to attach it to the issue:\
+
+## Linking from Qase: <a href="#h_27eeec392a" id="h_27eeec392a"></a>
+
+***
+
+### 1. Link Jira issues to Qase Test cases <a href="#h_0d4939b3b4" id="h_0d4939b3b4"></a>
+
+<figure><img src="../../.gitbook/assets/22385.png" alt="" width="563"><figcaption><p><code>Link a single test case.</code></p></figcaption></figure>
+
+The option to link, or unlink Jira issues can be found under the properties tab of the test case preview.
+
+<figure><img src="../../.gitbook/assets/42570.png" alt="" width="563"><figcaption><p><code>Unlink a single test case.</code></p></figcaption></figure>
+
+For linking test cases in bulk, select the test cases and use the "Edit" option.
+
+<figure><img src="../../.gitbook/assets/bulk link.gif" alt="" width="563"><figcaption><p><code>Link / Unlink multiple test cases (Bulk Edit)</code></p></figcaption></figure>
 
 
-    <figure><img src="https://downloads.intercomcdn.com/i/o/597255637/243654aa80d426308f3373ec/image.png" alt=""><figcaption></figcaption></figure>
-*   Linked run and the statuses of cases in it are now shown in the issue:\
+
+### 2. Link Jira issues to a Qase Test run: <a href="#h_9b8cf0091b" id="h_9b8cf0091b"></a>
+
+<figure><img src="../../.gitbook/assets/link-run.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+The option to link Jira issue can be found in the Test run Dashboard, under External Issues.
 
 
-    <figure><img src="https://downloads.intercomcdn.com/i/o/597256162/042d75d36c8bba885ed01e22/image.png" alt=""><figcaption></figcaption></figure>
-*   Note: a Jira issue can have multiple runs attached to it:\
 
+### 3. Link Jira issues to a Qase defect:
 
-    <figure><img src="https://downloads.intercomcdn.com/i/o/597256561/6dc56592a1e85d41e6dfe77a/image.png" alt=""><figcaption></figcaption></figure>
-* Note: any runs you have linked to Jira issues while setting up a run in Qase will also be shown in the "Qase: runs" module.
+#### a) From Test runs
 
-### Create Jira issue while creating a defect in Qase <a href="#h_72a2e0d406" id="h_72a2e0d406"></a>
+If you encounter a defect during a test run, you can either create a new Jira issue directly from Qase or link an existing Jira issue.
 
-* In the test run, mark your case as Failed, Blocked, or Invalid and proceed with creating a Defect.
-* in the Defect creation form, under “Choose Integrations” select "Jira Cloud" and click "Add defect"
-* Choose the Jira Project to create an issue in, type of an issue, fill out other fields, then hit "Create"
+1. In the test run, mark your case as Failed, Blocked, or Invalid and proceed with creating a Defect.
+2. In the Defect creation form, under “Choose Integrations” select "Jira Cloud" and click "Add defect"
 
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/597258128/e46098d833d4374e4991ddfa/J_cWegCtDSGPC6zbHg28PYUPtNh9aXEBd4F4SuusalHMcj-FYiMezh5pEjJI40a1LYoXumaiM06uwJIrpLq2MrJxjZHZRwjYSDjHo3YJR4n2XCCemp84ti1qm5CN03ZLT7yXiPCnzqGXgiJ42C5x8XaC1J7m1dLGWCxwQdQ-_MkjnwLo62ZfCSAM" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/JIRA1.gif" alt="" width="563"><figcaption><p><code>creating a new Jira issue from a Qase Test run</code></p></figcaption></figure>
 
-*   In the Qase Defect you will now have a connected Jira issue link:\
+<figure><img src="../../.gitbook/assets/JIRA2.gif" alt="" width="563"><figcaption><p><code>Linking an existing Jira issue from a Qase Test run</code></p></figcaption></figure>
 
+#### b) From Defects
 
-    <figure><img src="https://qase.intercom-attachments-7.com/i/o/597258146/4faca6fed3a048223fa26637/a_nG3a7-0PyjlLW-8cr-N4QXYe6CSpDpIw6lHeQBDnE2BcJqKhc0Vz6Pc5tDx3rYgqWTK6e3S2EDmXE2zV5t_cINqz86fcrA4-FMOl7kLJgtm_E3MX8crB2ssnadFPxn5f-uubEXxZ58hii5fnVKYzDa-GVr4LKcBZXEeQBDupX8FvXZzdZKDEum" alt=""><figcaption></figcaption></figure>
+If you’re creating a defect that isn’t linked to any result from the defects section, you can link a Jira issue from the defect dashboard using the “Link with apps” section.​
 
-    <figure><img src="https://qase.intercom-attachments-7.com/i/o/597258141/13a885066240b99824020841/-y6DpimqxpTICAgDDvX_A7AJkhDMlvZTJgGgzWkFcBXlpa8_2ZXLUieujKiSNbZdFB37TaPi4oXxtAGIGEe2BJTR7L0vZj2jLxwwd4FOqkF8P8nW_11IExy_JHJn2RPcqzIIR775EYYRtqL-a_K0nmof2aQACo3JooY2SnIcD9rot1DRR6QspDJF" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/JIRA3.gif" alt="" width="563"><figcaption><p><code>Linking a Qase defect to a Jira issue</code></p></figcaption></figure>
+
+Once linked, the defect will be visible under the External column in the Defects section of your project.
+
+<figure><img src="../../.gitbook/assets/56069.png" alt="" width="563"><figcaption></figcaption></figure>
+
+​And, also in the defect dashboard here -
+
+<figure><img src="../../.gitbook/assets/30597.png" alt="" width="563"><figcaption></figcaption></figure>
+
+Once a Defect has been created and if you update the status of the Defect, you'll notice that you have the option to select the status for the associated Jira issue to be transitioned into:
