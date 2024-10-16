@@ -27,22 +27,6 @@ To pass the results of your Playwright executions, you need to install the Playw
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/655680436/a8c1c29aa45e82b15acb4f11/image.png" alt=""><figcaption></figcaption></figure>
 
-Once the Playwright app is installed, any test cases, test runs, and test results created and submitted will appear with the Playwright as the author of said cases, runs or results (instead of a specific user whose API token has been used):
-
-<figure><img src="https://downloads.intercomcdn.com/i/o/656220595/04d7cfb4e486af534e7a53d5/image.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://downloads.intercomcdn.com/i/o/656220769/696d5392aa7fe9d46152dbcd/image.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://downloads.intercomcdn.com/i/o/656220918/a6cf8424ede5101d40f8757a/image.png" alt=""><figcaption></figcaption></figure>
-
-Slack notifications will also appear with the Playwright app as the author:
-
-<figure><img src="https://downloads.intercomcdn.com/i/o/656306896/a5a9c748e497dbfb4e58b290/image.png" alt=""><figcaption></figcaption></figure>
-
-### Example of execution with Playwright
-
-Here is a video example of automated execution with the Playwright app installed:
-
-{% embed url="https://youtu.be/4urAzMNSSjQ" %}
+Once the Playwright app is installed, any test cases, test runs, and test results created and submitted will appear with the Playwright as the author of said cases, runs or results (instead of a specific user whose API token has been used).
 
 \
