@@ -7,9 +7,11 @@ updatedAt: '2023-02-24T12:41:33.729Z'
 
 # Dashboards
 
-### What are dashboards? <a href="#h_c79968f961" id="h_c79968f961"></a>
+## What are dashboards? <a href="#h_c79968f961" id="h_c79968f961"></a>
 
-Dashboards are a new way to gather understanding about your projects and always to have statistical and analytical data at your fingertips.
+Dashboards are a feature designed to provide you with a comprehensive understanding of their projects through statistical and analytical data.
+
+You can create as many dashboards as you need, and each dashboard is fully customizable and can be shared with team members or external stakeholders with just a few clicks.
 
 _<mark style="background-color:purple;">Dashboards are available in</mark>_ [_<mark style="background-color:purple;">Startup</mark>_](https://help.qase.io/en/articles/5563728-startup-plan)_<mark style="background-color:purple;">,</mark>_ [_<mark style="background-color:purple;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan)_<mark style="background-color:purple;">, and</mark>_ [_<mark style="background-color:purple;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:purple;">subscriptions.</mark>_
 
@@ -17,15 +19,7 @@ _<mark style="background-color:purple;">Dashboards are available in</mark>_ [_<m
 
 {% embed url="https://www.youtube.com/watch?v=pG6-3w79Ixs" %}
 
-## Overview <a href="#h_c79968f961" id="h_c79968f961"></a>
-
-***
-
-Dashboards are a feature designed to provide you with a comprehensive understanding of their projects through statistical and analytical data.
-
-You can create as many dashboards as you need, and each dashboard is fully customizable and can be shared with team members or external stakeholders with just a few clicks.
-
-## Get Started Dashboard <a href="#h_14f3532814" id="h_14f3532814"></a>
+## The Get Started Dashboard <a href="#h_14f3532814" id="h_14f3532814"></a>
 
 ***
 
@@ -63,8 +57,6 @@ If you prefer to build a dashboard from scratch to meet specific needs or prefer
 
 <figure><img src="../../../.gitbook/assets/select projects.gif" alt=""><figcaption></figcaption></figure>
 
-
-
 Once configured, you can always go back to editing your dashboard's parameters via the Settings button:
 
 <figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
@@ -84,6 +76,24 @@ Currently, the filters are available for the following widget types -
 * Distribution Charts
 
 _We’re expanding these filters to include more parameters, and extend the filters to Time Series widget type._
+
+
+
+## Compare metrics across different projects / time periods <a href="#h_a33472ffa2" id="h_a33472ffa2"></a>
+
+***
+
+To gain a comprehensive understanding of your projects’ performance, you can _compare_ various metrics _across different projects_ or _time periods_ using the diverse widget types available.
+
+<figure><img src="../../../.gitbook/assets/duplicate.gif" alt=""><figcaption><p><code>Easily duplicate widgets, to view the same metric across diffrent projects</code></p></figcaption></figure>
+
+**Identify Trends**:  Track changes in metrics such as test case counts, defect statuses, or test results over selected [time periods](https://help.qase.io/en/articles/5563698-dashboards#h\_537d98ced2), and compare these trends across multiple projects to spot patterns or anomalies.
+
+**Analyze Project Performance**:  Use widgets like [Time Series](https://help.qase.io/en/articles/5563698-dashboards#h\_c16702bf28) and [Distribution Charts](https://help.qase.io/en/articles/5563698-dashboards#h\_6a4018eda2) to assess the performance and distribution of metrics across different projects, helping to pinpoint strengths and areas for improvement.
+
+**Benchmark Against Standards**:  Utilize [Single Value](https://help.qase.io/en/articles/5563698-dashboards#h\_f1f898c3a1) widgets to compare current metrics with historical data, providing insight into whether your projects are meeting predefined benchmarks or goals.
+
+
 
 ## Widgets: Types <a href="#h_d8cf1d9256" id="h_d8cf1d9256"></a>
 
