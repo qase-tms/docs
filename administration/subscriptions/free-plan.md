@@ -6,10 +6,6 @@ We’re making some **important changes to our Free plan** that will take effect
 To learn more about this update, [click here](https://help.qase.io/en/articles/9902729-free-plan-updates) 🔗
 {% endhint %}
 
-We’re making some important changes to our Free plan that will take effect on November 18, 2024. [Upgrade now](https://app.qase.io/billing) to gain access to additional functionality, and to avoid running into limits or losing historical data.
-
-To learn more about this update, [click here](https://help.qase.io/en/articles/9902729-free-plan-updates) 🔗
-
 ### When to choose a free plan?
 
 The free plan is good for single quality assurance engineers and small companies, and provides access to the following:
