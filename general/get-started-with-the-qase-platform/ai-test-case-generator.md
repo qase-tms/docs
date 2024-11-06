@@ -48,15 +48,25 @@ Before you use, although not mandatory, it is recommended to create a Suite in y
 
 Click the AI Test Case action button to open the generator screen.
 
-<figure><img src="../../.gitbook/assets/57232.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/42584.png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Enter Requirements:**
+**Input the Requirement(s):**
+
+<figure><img src="../../.gitbook/assets/8289.png" alt="" width="563"><figcaption></figcaption></figure>
+
+(1) Use the existing integration to specify an Issue Id from Jira cloud/ GitHub.
+
+<figure><img src="../../.gitbook/assets/7999.png" alt="" width="563"><figcaption></figcaption></figure>
+
+(2) Enter the Requirement manually
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Title Field: Enter the requirement title or a bunch of requirements. For a single requirement, the title should be descriptive of the use case. For multiple requirements, it might be descriptive of the Epic or Theme of the requirement (e.g., authorization).
 * Description Fields: Enter your requirement(s). For best results, use the requirements template or an example requirement.
 * Generate Test Cases: Click the Generate action button.
 
-<figure><img src="../../.gitbook/assets/28217 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
 
 **Review Generated Test Cases:**
 
@@ -67,6 +77,14 @@ Click the AI Test Case action button to open the generator screen.
 <figure><img src="../../.gitbook/assets/75857.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/86197.png" alt="" width="563"><figcaption></figcaption></figure>
+
+<details>
+
+<summary>For test cases generated through the integration, the Issue IDs used in the generation will also be displayed. Click “Show Input” to view them.</summary>
+
+<img src="../../.gitbook/assets/25051.png" alt="" data-size="original">
+
+</details>
 
 2️⃣ If a test case is not suitable or inaccurate, you can delete it from the list.
 
