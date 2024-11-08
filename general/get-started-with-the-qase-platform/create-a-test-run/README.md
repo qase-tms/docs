@@ -16,7 +16,7 @@ A Test Run is a single instance of executing a specific set of test cases.
 A Test Run may consist one Test case, a bunch of them, whole sets of Test cases ([Test Suite](https://help.qase.io/en/articles/5563702-test-runs)), or even Test cases from different areas bundled together in a Test Plan.
 
 There are two ways to start a Test Run:\
-1\. **Express Run** - from the Project Repository page.\
+1\. **Express Run** - from the Project's Repository page.\
 2\. **Regular Run** - from Test Runs page.
 
 
