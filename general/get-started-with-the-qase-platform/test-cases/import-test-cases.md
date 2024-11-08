@@ -10,27 +10,29 @@ description: >-
 
 ### How to import test cases?
 
-
-
 {% embed url="https://www.youtube.com/watch?v=xExuFqwg4_k" %}
 
 You can import your test cases into Qase in 3 easy steps.
 
 1. **Click the "..." menu icon** in the top right-hand corner of your repository, and choose "**Import Data**" from the menu.
 
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/595244819/d859f668c89fe20f335dc4ed/loNtdZKbSQeE0ndtXVDrWf_Mg1tPv8rznQJhMIdMh7c5gg9sE0JkcaB6a61gBWcDE5A4KvlkYGWWwbj_iDAo4lNJG4cnlAwYkcqhPso7bQyr6jf4z3JG-QMhPdsKihpjZVeQNgsvmTv9WwaY5FcToE2GDD_6qBABs7Ukn8OmiZM0CMgrwds-N1vJaw" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/31963.png" alt="" width="563"><figcaption></figcaption></figure>
 
 After clicking "Import Data," a pop-up will appear.
 
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/595244899/c5bc5f60b5c3354762080a09/l1jggqTM7nZy7_WOxipsI-sJ_e4keNGwlcYLHW1xI1txg0iJqa_0402qyOSCElecwKUrX-u6Al4k0uGlOk_tC1UgLIXTQb1CXEAvFhkMIb1tfk3eZ-UCV_sSieZLN3xxnKXTGLx2mMbF8fVDpv8ifwjXMAu3a0YXgh-IWJL1YxG_u9vAXugNlUUSig" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/10641.png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. **Select the Source type** - the TMS platform you are migrating from.
 
-&#x20;<mark style="background-color:yellow;">If you're using MS Excel for your test cases, choose the Qase.io format when uploading your file. Ensure that</mark> [<mark style="background-color:yellow;">the headers</mark>](https://drive.google.com/file/d/1LZL0Zg2GRMOyn8TsXv-hGsuO4m6pXuxI/view?usp=drive\_link) <mark style="background-color:yellow;">in your file follow the specified format. You can download this</mark> [<mark style="background-color:yellow;">example CSV</mark> ](https://drive.google.com/file/d/1ZWEBZHNtkJZWnvNcMoNoR-mOznp-8Ahd/view)<mark style="background-color:yellow;">for reference.</mark>&#x20;
+{% hint style="info" %}
+If you're using MS Excel for your test cases, choose the Qase.io format when uploading your file. Ensure that the headers in your file follow the specified format. You can download this example CSV for reference.
+{% endhint %}
+
+
 
 3. **Select a Suite** to act as the parent for all imported test cases. If no suite is defined, all test cases and suites will go to the project's root.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-04 at 3.16.07 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/86620.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Source Types
 
