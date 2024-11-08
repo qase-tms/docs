@@ -16,10 +16,8 @@ A Test Run is a single instance of executing a specific set of test cases.
 A Test Run may consist one Test case, a bunch of them, whole sets of Test cases ([Test Suite](https://help.qase.io/en/articles/5563702-test-runs)), or even Test cases from different areas bundled together in a Test Plan.
 
 There are two ways to start a Test Run:\
-1\. **Express Run** - from the Project's Repository page.\
+1\. **Express Run** - from the Project's Repository.\
 2\. **Regular Run** - from Test Runs page.
-
-
 
 ***
 
@@ -29,16 +27,13 @@ You can quickly set up a Test Run for one or more test cases directly from the R
 
 ​ Hit the "Run" button and proceed to select the Environment, Milestone, Configurations, or any other fields, as needed.
 
-
-
 <figure><img src="../../../.gitbook/assets/express run.gif" alt=""><figcaption></figcaption></figure>
 
 ### **Regular test run**
 
 To create a regular test run, navigate to "Test Runs" section, and hit the "Start New Test Run" button. You will see the same modal window as seen while creating a Test Run from the Repository page.
 
-\
-
+\\
 
 <figure><img src="../../../.gitbook/assets/normal run.gif" alt=""><figcaption></figcaption></figure>
 
@@ -149,7 +144,7 @@ Let's explore the options available in the dashboard -
 
 <figure><img src="../../../.gitbook/assets/run dashboards options numbered.png" alt=""><figcaption></figcaption></figure>
 
-1**. Open Wizard:** this will guide you through the Test Cases contained in the run, step-by-step.
+1\*\*. Open Wizard:\*\* this will guide you through the Test Cases contained in the run, step-by-step.
 
 2\. **Share Report:** turn on public link and easily share your Run report with anyone, even if they don't have an account in Qase.
 
@@ -167,7 +162,7 @@ Let's explore the options available in the dashboard -
 
 5\. **Search and Filters:** search cases by their title or Id and filter by a specific parameter.
 
-6**. Defects and Team stats:** view all associated defects from this run and see stats for results by assignee.
+6\*\*. Defects and Team stats:\*\* view all associated defects from this run and see stats for results by assignee.
 
 7\. T**he "..." menu button:** has options to Run wizard, assign case to a team member or View/edit the Test case itself.
 
@@ -181,12 +176,10 @@ Let's explore the options available in the dashboard -
 
 <summary><em>Expand to learn more</em></summary>
 
-
-
 * **Donut Graph** shows the breakdown of Test Cases in the Run by status. Hovering over a section of the graph you will see the actual number of Cases in a respective Status. If you click on a section of the graph, a quick filter will be applied to show you only the Cases in a specific status.
 * **Completion Rate** represents the percentage of Cases in a run that have been performed so far.
 * **Status** lets you know if the run is currently active or completed.
-* **Started by and Started at**  provide details on who started this Test Run, and when.
+* **Started by and Started at** provide details on who started this Test Run, and when.
 * **Estimation** predicts how long your current Test Run will take based on the time spent in previous Test Runs on the same Test cases.
 * **Duration** is the summary of time that has been spent on all Test Cases in the current Test Run so far.
 * **Environment, Tags, Configurations, Milestones, and Custom Fields**: Details about the specific environment of the test run and the associated tags, Milestones and Custom fields.
@@ -230,7 +223,7 @@ In this assignment mode, you can select a [group](https://help.qase.io/en/articl
 
 <figure><img src="../../../.gitbook/assets/load bal.gif" alt=""><figcaption></figcaption></figure>
 
-For instance_, If there are five test cases with expected durations of 30, 10, 10, 5, and 5 minutes, and two testers in a group, the system will assign the 30-minute test case to one tester and the remaining four test cases (with a combined duration of 30 minutes) to the other tester. This way, both testers have an even workload despite the number of test cases being different._
+For instance\_, If there are five test cases with expected durations of 30, 10, 10, 5, and 5 minutes, and two testers in a group, the system will assign the 30-minute test case to one tester and the remaining four test cases (with a combined duration of 30 minutes) to the other tester. This way, both testers have an even workload despite the number of test cases being different.\_
 
 **Assignment settings:**
 
@@ -310,8 +303,7 @@ Under Project Settings, there's a dedicated section for modifying run behaviour.
 
 <figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-\
-
+\\
 
 Let's look at each option in more detail:
 
@@ -327,11 +319,9 @@ Let's look at each option in more detail:
 | Allow to add results for cases in closed runs | <ul><li><strong>Enabled:</strong> You can continue submitting results or retesting cases in completed or aborted runs.</li></ul><ul><li><strong>Disabled:</strong> Closed runs do not allow further result submissions.</li></ul>                                                                                                                                                                                                                                                                                                            |
 | Assignee result lock                          | <ul><li><strong>Enabled:</strong> Only the assignee can submit results; others must explicitly assign themselves to do so.</li></ul><ul><li><strong>Disabled:</strong> Any user, even if not assigned, can submit results, but results are associated with the submitter.</li></ul>                                                                                                                                                                                                                                                          |
 | Redirect after adding result                  | <ul><li><strong>No redirect:</strong> Stay on the same case after submitting a result.</li></ul><ul><li><strong>First case in a run without result:</strong> Redirect to the first case without results.</li><li><strong>Next case in suite:</strong> Go directly to the next case in the suite without results.</li></ul>                                                                                                                                                                                                                   |
-| Default Assignment Strategy                   | <p></p><ul><li><strong>Even:</strong> This strategy ensures <em>even distrubution of test cases</em> among group members regardless of complexity.</li><li><strong>Load balanced:</strong> This strategy allocates test cases based on complexity to <em>evenly distribute the workload</em> among group members.</li></ul>                                                                                                                                                                                                                  |
+| Default Assignment Strategy                   | <ul><li><strong>Even:</strong> This strategy ensures <em>even distrubution of test cases</em> among group members regardless of complexity.</li><li><strong>Load balanced:</strong> This strategy allocates test cases based on complexity to <em>evenly distribute the workload</em> among group members.</li></ul>                                                                                                                                                                                                                         |
 
 ***
 
-
-
 \
-\
+\\
