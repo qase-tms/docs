@@ -6,8 +6,6 @@ description: >-
 
 # Import test cases
 
-{% embed url="https://www.youtube.com/watch?v=j8hZiTea3b4" %}
-
 ### How to import test cases?
 
 {% embed url="https://www.youtube.com/watch?v=xExuFqwg4_k" %}
@@ -28,7 +26,7 @@ After clicking "Import Data," a pop-up will appear.
 If you're using MS Excel for your test cases, choose the Qase.io format when uploading your file. Ensure that the headers in your file follow the specified format. You can download this example CSV for reference.
 {% endhint %}
 
-
+{% file src="../../../.gitbook/assets/Example import.csv" %}
 
 3. **Select a Suite** to act as the parent for all imported test cases. If no suite is defined, all test cases and suites will go to the project's root.
 
