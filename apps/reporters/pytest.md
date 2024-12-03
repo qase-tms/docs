@@ -21,7 +21,7 @@ To pass the results of your Pytest executions, you need to install the Pytest ap
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/657815876/7364ffc7d5fe29a224f4765c/image.png" alt=""><figcaption></figcaption></figure>
-4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-python/tree/master/qase-pytest#readme) on adding the Pytest reporter to your automation flow:\
+4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-python/tree/main/qase-pytest) on adding the Pytest reporter to your automation flow:\
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/657815418/0857d358212182fb3bb567dd/image.png" alt=""><figcaption></figcaption></figure>

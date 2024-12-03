@@ -23,7 +23,7 @@ To pass the results of your TestNG executions, you need to install the TestNG ap
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/658644352/ed4923d4f52b6d2e5a231fca/image.png" alt=""><figcaption></figcaption></figure>
-4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-java/tree/master/qase-testng#readme) on adding the TestNG reporter to your automation flow:
+4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-java/tree/main/qase-testng-reporter) on adding the TestNG reporter to your automation flow:
 
 
 

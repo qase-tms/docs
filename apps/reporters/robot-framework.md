@@ -23,7 +23,7 @@ To pass the results of your Robot Framework executions, you need to install the 
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/658649980/9a2fbedd5245e651ab812f58/image.png" alt=""><figcaption></figcaption></figure>
-4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-python/tree/master/qase-robotframework#readme) on adding the Robot Framework reporter to your automation flow:
+4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-python/tree/main/qase-robotframework) on adding the Robot Framework reporter to your automation flow:
 
 
 

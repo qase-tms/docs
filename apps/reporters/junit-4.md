@@ -23,7 +23,7 @@ To pass the results of your JUnit 4 executions, you need to install the JUnit 4 
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/658665678/1e81e53b18b4dafbb4907d3b/image.png" alt=""><figcaption></figcaption></figure>
-4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-java/tree/master/qase-junit4#readme) on adding the JUnit 4 reporter to your automation flow:
+4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-java/tree/main/qase-junit4-reporter) on adding the JUnit 4 reporter to your automation flow:
 
 
 

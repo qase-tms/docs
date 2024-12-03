@@ -23,7 +23,7 @@ To pass the results of your Cucumber 3 (jvm) executions, you need to install the
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/658638875/fb13059ff139c9b98742209c/image.png" alt=""><figcaption></figcaption></figure>
-4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-java/tree/master/qase-cucumber3-jvm#readme) on adding the Cucumber 3 (jvm) reporter to your automation flow:
+4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-java/tree/main/qase-cucumber-v3-reporter) on adding the Cucumber 3 (jvm) reporter to your automation flow:
 
 
 

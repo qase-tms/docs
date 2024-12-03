@@ -27,7 +27,7 @@ To pass the results of your Cypress executions, you need to install the Cypress 
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/657806388/b06e8f271a650cce855544dc/image.png" alt=""><figcaption></figcaption></figure>
-4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-javascript/tree/master/qase-cypress#readme) on adding the Cypress reporter to your automation flow:\
+4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-javascript/tree/main/qase-cypress) on adding the Cypress reporter to your automation flow:\
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/657805778/49ad73c2d26cfe590fe8cee5/image.png" alt=""><figcaption></figcaption></figure>

@@ -21,7 +21,7 @@ To pass the results of your Playwright executions, you need to install the Playw
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/655679244/a010895f72c6f9c756919050/image.png" alt=""><figcaption></figcaption></figure>
-4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-javascript/tree/master/qase-playwright#readme) on adding the Playwright reporter to your automation flow:
+4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-javascript/tree/main/qase-playwright) on adding the Playwright reporter to your automation flow:
 
 
 

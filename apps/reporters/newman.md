@@ -23,7 +23,7 @@ To pass the results of your Newman executions, you need to install the Newman ap
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/658633354/358d17de9e00a31974ae5255/image.png" alt=""><figcaption></figcaption></figure>
-4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-javascript/tree/master/qase-newman) on adding the Newman reporter to your automation flow:
+4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-javascript/tree/main/qase-newman) on adding the Newman reporter to your automation flow:
 
 
 

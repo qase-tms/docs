@@ -6,7 +6,7 @@ XCTest is a testing framework that allows you to create and run UI tests, unit t
 
 ### How to install XCTest?
 
-To pass the results of your XCTest executions, you need to install the XCTest app.
+To pass the results of your XCTest executions, you can use our [Qase CLI](../qase-cli-app.md) tool.
 
 1.  Navigate to the[ Apps page](https://app.qase.io/apps) and switch to "Reporters" section, then click the "XCTest " card:
 
@@ -22,7 +22,7 @@ To pass the results of your XCTest executions, you need to install the XCTest ap
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/657829090/57a1a2ef00b6262b97869485/image.png" alt=""><figcaption></figcaption></figure>
-4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-python/tree/master/qase-xctest#readme) on adding the XCTest reporter to your automation flow:\
+4.  Use the [Qase CLI tool](https://github.com/qase-tms/qasectl) to publish your XCTest results.\
 
 
     <figure><img src="https://downloads.intercomcdn.com/i/o/657828405/7c188061dad7ee1b58c5ae4d/image.png" alt=""><figcaption></figcaption></figure>
