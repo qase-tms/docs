@@ -164,7 +164,7 @@ Currently, the report can be only generated from the following integrations.
 
 1. [Jira Cloud](../../apps/issue-tracking/jira-cloud.md)
 2. [Jira Server](../../apps/issue-tracking/jira-server-datacenter-plugin-installation.md)
-3. [GitHub](../../apps/ci-cd/github.md)
+3. [GitHub](../../apps/issue-tracking/github.md)
 
 We'll be adding support of other integrated issue trackers in the coming months.
 {% endhint %}

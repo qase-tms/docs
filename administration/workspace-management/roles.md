@@ -64,7 +64,7 @@ The next block is dedicated to the Role access rights - this is where you will d
   * _Remove:_ This rule allows users to delete defects.
   * _Resolve:_ This rule allows users to resolve open defects.
 * **Entity:** [Environments](https://docs.qase.io/general/execution/environments)
-  * _View:_ This rule allows users to view a list of existing environments_._
+  * _View:_ This rule allows users to view a list of existing environment&#x73;_._
   * _Create/Update:_ This rule allows users to create or update environments.
   * _Remove:_ This rule allows users to delete environments.
 * **Entity:** [Fields](https://docs.qase.io/administration/workspace-management/fields)

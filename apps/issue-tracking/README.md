@@ -8,8 +8,8 @@
 [jira-server-datacenter-plugin-installation.md](jira-server-datacenter-plugin-installation.md)
 {% endcontent-ref %}
 
-{% content-ref url="../ci-cd/github.md" %}
-[github.md](../ci-cd/github.md)
+{% content-ref url="github.md" %}
+[github.md](github.md)
 {% endcontent-ref %}
 
 {% content-ref url="asana.md" %}

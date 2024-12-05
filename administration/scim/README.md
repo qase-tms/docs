@@ -20,7 +20,7 @@ You cannot create or delete teams via the SCIM API. If you need this feature, pl
 
 Any organization that grants access to its services and that uses permissions to control how users engage must manage users and their access. This lifecycle starts when a company onboards its users and continues until they leave the company. Managing users and their access involves various systems and can become challenging.
 
-The increasing use of APIs for nearly every system has enabled organizations to automate the provisioning and management of users, often using the [System for Cross-domain Identity Management (SCIM)](https://en.wikipedia.org/wiki/System\_for\_Cross-domain\_Identity\_Management) as a standard. SCIM provides API methods and JSON objects that define users and groups, so identity providers and integration tools can manage users across systems.
+The increasing use of APIs for nearly every system has enabled organizations to automate the provisioning and management of users, often using the [System for Cross-domain Identity Management (SCIM)](https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management) as a standard. SCIM provides API methods and JSON objects that define users and groups, so identity providers and integration tools can manage users across systems.
 
 This article looks into the Qase SCIM API, its capabilities, and some standard processes to consider when implementing automatic provisioning and management of users in Qase.
 
@@ -99,14 +99,14 @@ curl example
 
 With SCIM API you can manage users in your Enterprise account. You can get the full list of users, filter by attribute, add new users, update user's attributes, activate or deactivate users and delete users completely.
 
-* [User attributes](https://help.qase.io/en/articles/8556234-scim#h\_3db9d25de8)
-* [User methods](https://help.qase.io/en/articles/8556234-scim#h\_5aaa9e6798)
-  * [Get users](https://help.qase.io/en/articles/8556234-scim#h\_3e38eb0be8)
-  * [Get user by ID](https://help.qase.io/en/articles/8556234-scim#h\_5801dcd5e1)
-  * [Create a new user](https://help.qase.io/en/articles/8556234-scim#h\_d84ea5a11d)
-  * [Replace user by ID](https://help.qase.io/en/articles/8556234-scim#h\_3998ca04da)
-  * [Update user attributes by ID](https://help.qase.io/en/articles/8556234-scim#h\_82c9e175c8)
-  * [Delete user](https://help.qase.io/en/articles/8556234-scim#h\_af885f682d)
+* [User attributes](https://help.qase.io/en/articles/8556234-scim#h_3db9d25de8)
+* [User methods](https://help.qase.io/en/articles/8556234-scim#h_5aaa9e6798)
+  * [Get users](https://help.qase.io/en/articles/8556234-scim#h_3e38eb0be8)
+  * [Get user by ID](https://help.qase.io/en/articles/8556234-scim#h_5801dcd5e1)
+  * [Create a new user](https://help.qase.io/en/articles/8556234-scim#h_d84ea5a11d)
+  * [Replace user by ID](https://help.qase.io/en/articles/8556234-scim#h_3998ca04da)
+  * [Update user attributes by ID](https://help.qase.io/en/articles/8556234-scim#h_82c9e175c8)
+  * [Delete user](https://help.qase.io/en/articles/8556234-scim#h_af885f682d)
 
 #### User attributes <a href="#h_9c8b92f391" id="h_9c8b92f391"></a>
 
@@ -502,7 +502,7 @@ Deletes a single user from the organization.
 
 ***
 
-_⚠️_User removing restrictions
+_⚠&#xFE0F;_&#x55;ser removing restrictions
 
 A user who is the workspace owner cannot be deleted. If you try to delete such user, the API returns a 409 error code.
 

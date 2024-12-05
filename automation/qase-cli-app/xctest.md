@@ -6,7 +6,7 @@ XCTest is a testing framework that allows you to create and run UI tests, unit t
 
 ### How to install XCTest?
 
-To pass the results of your XCTest executions, you can use our [Qase CLI](../qase-cli-app.md) tool.
+To pass the results of your XCTest executions, you can use our [Qase CLI](./) tool.
 
 1.  Navigate to the[ Apps page](https://app.qase.io/apps) and switch to "Reporters" section, then click the "XCTest " card:
 

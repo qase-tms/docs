@@ -87,11 +87,11 @@ To gain a comprehensive understanding of your projects’ performance, you can _
 
 <figure><img src="../../../.gitbook/assets/duplicate.gif" alt=""><figcaption><p><code>Easily duplicate widgets, to view the same metric across diffrent projects</code></p></figcaption></figure>
 
-**Identify Trends**:  Track changes in metrics such as test case counts, defect statuses, or test results over selected [time periods](https://help.qase.io/en/articles/5563698-dashboards#h\_537d98ced2), and compare these trends across multiple projects to spot patterns or anomalies.
+**Identify Trends**:  Track changes in metrics such as test case counts, defect statuses, or test results over selected [time periods](https://help.qase.io/en/articles/5563698-dashboards#h_537d98ced2), and compare these trends across multiple projects to spot patterns or anomalies.
 
-**Analyze Project Performance**:  Use widgets like [Time Series](https://help.qase.io/en/articles/5563698-dashboards#h\_c16702bf28) and [Distribution Charts](https://help.qase.io/en/articles/5563698-dashboards#h\_6a4018eda2) to assess the performance and distribution of metrics across different projects, helping to pinpoint strengths and areas for improvement.
+**Analyze Project Performance**:  Use widgets like [Time Series](https://help.qase.io/en/articles/5563698-dashboards#h_c16702bf28) and [Distribution Charts](https://help.qase.io/en/articles/5563698-dashboards#h_6a4018eda2) to assess the performance and distribution of metrics across different projects, helping to pinpoint strengths and areas for improvement.
 
-**Benchmark Against Standards**:  Utilize [Single Value](https://help.qase.io/en/articles/5563698-dashboards#h\_f1f898c3a1) widgets to compare current metrics with historical data, providing insight into whether your projects are meeting predefined benchmarks or goals.
+**Benchmark Against Standards**:  Utilize [Single Value](https://help.qase.io/en/articles/5563698-dashboards#h_f1f898c3a1) widgets to compare current metrics with historical data, providing insight into whether your projects are meeting predefined benchmarks or goals.
 
 
 
@@ -127,7 +127,7 @@ Let's have a closer look at each of the widgets available:
 
 *   #### _Single Value: Test Cases Count_ <a href="#h_1fcb165132" id="h_1fcb165132"></a>
 
-    _​_This widget shows the number of test cases you have in a project or projects at the moment and how it has increased or decreased over the specified time period.
+    _&#x200B;_&#x54;his widget shows the number of test cases you have in a project or projects at the moment and how it has increased or decreased over the specified time period.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-07-10 at 4.34.20 PM.png" alt=""><figcaption></figcaption></figure>
 

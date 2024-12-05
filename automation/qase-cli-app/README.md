@@ -30,7 +30,7 @@ Try creating a test run by executing the binary -
 ./build/qli testops run create --project QD --token <your-token> --title "Run created from Qase-cli" --description "Hello, from qase-cli" --environment <env-slug> --verbose
 ```
 
-<figure><img src="../.gitbook/assets/cli.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cli.gif" alt=""><figcaption></figcaption></figure>
 
 ### Use a Docker image <a href="#h_492af1dc6e" id="h_492af1dc6e"></a>
 

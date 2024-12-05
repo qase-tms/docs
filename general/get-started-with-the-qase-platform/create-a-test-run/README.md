@@ -43,7 +43,7 @@ To create a regular test run, navigate to "Test Runs" section, and hit the "Star
   * _`Eg: "Regression Test - Release 2.0"`_
 * **Description:** give additional details about the test run.
   * _`Eg: "This test run verifies new features and bug fixes in the latest release.`_\
-    _`​`_
+    &#xNAN;_`​`_
 * [Environment](https://docs.qase.io/general/execution/environments): define in which environment the test run should be performed.
   * _`Eg: testing, staging, production.`_
 * [Milestone](https://docs.qase.io/general/issues/milestones): select which Milestone tied to the Test Run.
