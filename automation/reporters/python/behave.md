@@ -1,18 +1,16 @@
 # Behave
 
+{% hint style="info" %}
+Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+{% endhint %}
+
 ### What is Behave?
 
 Behave is a popular behavior-driven development (BDD) framework for Python. It is used to write and execute tests in a natural language style (Gherkin syntax), which is easy to understand for both technical and non-technical stakeholders. This makes it a powerful tool for collaboration between developers, testers, and business analysts in the software development process.
 
-### How to install Behave Reporter?
+### Get an API token for the reporter:
 
-To pass the results of your Behave executions, you need to install the Behave app.
+To pass the results of your Behave executions, let's first get an API Token:
 
-1. Navigate to the[ Apps page](https://app.qase.io/apps) and switch to the "Reporters" section, then click the "Behave" card:
-2. Click "Activate":
-3. Switch to "Access Tokens" and generate an API token that the Behave app will be using:
-4.  Click "Guide" to access the [instruction](https://github.com/qase-tms/qase-python/tree/main/qase-behave) on adding the Behave reporter to your automation flow:
-
-
-
-Once the Behave app is installed, any test cases, test runs, and test results created and submitted will appear with the Behave as the author of said cases, runs or results (instead of a specific user whose API token has been used). Slack notifications will also appear with the Behave app as the author.
+1. Get an API token from this page: [https://app.qase.io/user/api/token](https://app.qase.io/user/api/token)
+2. Find the [instructions](https://github.com/qase-tms/qase-python/tree/main/qase-behave) to adding the Behave reporter to your automation flow.

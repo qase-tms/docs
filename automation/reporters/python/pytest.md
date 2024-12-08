@@ -1,5 +1,9 @@
 # Pytest
 
+{% hint style="info" %}
+Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+{% endhint %}
+
 ### What is Pytest?
 
 Pytest is a Python testing framework that originated from the PyPy project. It can be used to write various types of software tests, including unit tests, integration tests, end-to-end tests, and functional tests. Its features include parametrized testing, fixtures, and assert re-writing.

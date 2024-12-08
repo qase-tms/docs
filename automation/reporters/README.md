@@ -1,5 +1,9 @@
 # Reporters
 
+{% hint style="info" %}
+Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+{% endhint %}
+
 ### How to pass the results of the automated executions into Qase for full coverage?
 
 It is likely that you and your QA team has given a thought to automating some parts of your testing - or, perhaps, you already have automated testing implemented. And you might be wondering if there's any way to pass the results of the automated executions into Qase for full coverage.

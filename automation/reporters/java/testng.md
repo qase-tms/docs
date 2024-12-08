@@ -1,5 +1,9 @@
 # TestNG
 
+{% hint style="info" %}
+Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+{% endhint %}
+
 ### What is TestNG?
 
 TestNG is a testing framework for the Java programming language created by Cédric Beust and inspired by JUnit and NUnit. The design goal of TestNG is to cover a wider range of test categories: unit, functional, end-to-end, integration, etc., with more powerful and easy-to-use functionalities.

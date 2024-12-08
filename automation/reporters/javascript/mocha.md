@@ -1,5 +1,9 @@
 # Mocha
 
+{% hint style="info" %}
+Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+{% endhint %}
+
 ### What is Mocha?
 
 Mocha is a feature-rich JavaScript test framework running on [Node.js](https://nodejs.org/) and in the browser, making asynchronous testing _simple_ and _fun_. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.

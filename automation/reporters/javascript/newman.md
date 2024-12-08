@@ -1,5 +1,9 @@
 # Newman
 
+{% hint style="info" %}
+Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+{% endhint %}
+
 ### What is Newman?
 
 Newman is a command-line Collection Runner for Postman. It allows you to run and test a Postman Collection directly from the command line. Newman is designed for extensibility, so you can integrate it with your continuous integration (CI) servers and build systems.

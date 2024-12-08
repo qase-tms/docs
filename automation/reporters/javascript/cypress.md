@@ -4,7 +4,9 @@ description: An explanation of Cypress and how to install the Cypress app in Qas
 
 # Cypress
 
-
+{% hint style="info" %}
+Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+{% endhint %}
 
 ### What is Cypress?
 

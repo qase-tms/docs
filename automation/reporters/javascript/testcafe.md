@@ -1,5 +1,9 @@
 # TestCafe
 
+{% hint style="info" %}
+Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+{% endhint %}
+
 ### What is TestCafe?
 
 TestCafe framework is an open-source automation framework built with NodeJS. It supports JavaScript, Typescript, and CoffeeScript out of the box, which means zero configuration is needed. TestCafe is distributed under an open-source MIT license and is managed by DevExpress

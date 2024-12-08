@@ -1,5 +1,9 @@
 # Jest
 
+{% hint style="info" %}
+Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+{% endhint %}
+
 ### What is Jest?
 
 Jest is a JavaScript testing framework built on top of Jasmine and maintained by Meta. It was designed and built with a focus on simplicity and support for large web applications. It works with projects using Babel, TypeScript, Node.js, React, Angular, Vue.js and Svelte.

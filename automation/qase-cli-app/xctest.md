@@ -1,5 +1,9 @@
 # XCTest
 
+{% hint style="info" %}
+Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+{% endhint %}
+
 ### What is XCTest?
 
 XCTest is a testing framework that allows you to create and run UI tests, unit tests, and performance tests for your Xcode projects in Swift and Objective-C languages. It is pre-built with Xcode.
