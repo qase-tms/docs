@@ -20,7 +20,7 @@ The easiest way to install Qase CLI is using `go install`:
 go install github.com/qase-tms/qasectl@latest
 ```
 
-Make sure to add `$GOPATH/bin` to your `$PATH` environment variable to be able to run the `qasectl` command. The binary is named `qasectl`, you want want to create an alias, as `qli`
+Make sure to add `$GOPATH/bin` to your `$PATH` environment variable to be able to run the `qasectl` command. The binary is named `qasectl`, you may want to create an alias, as `qli`
 
 
 
