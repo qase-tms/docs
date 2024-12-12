@@ -1,10 +1,14 @@
+---
+hidden: true
+---
+
 # Project view
 
 ### How to change a project layout?
 
 To navigate to the list of your Projects, click "Projects" in the top-left corner of the workspace.
 
-[![](https://qase.intercom-attachments-7.com/i/o/595207013/cd70b1f2146c71dde0e6eeac/swl01KRfkRTdGKuEljQ85seOb2wjcWzYP-H7RJGG6phvoCGSD6QQAfUt\_MTnrfoL2mYEU94ziGrYfX44y3GR7K-KZJbbrMLtGrc3d7JLIW\_BvMTQJ7P9yDnhGVqOyiae1z6RRWK5KLNedtrXjIOlOrAxBv4\_TiKhs\_BmgiKfH29Wt7OQox3WAWhEpw)](https://qase.intercom-attachments-7.com/i/o/595207013/cd70b1f2146c71dde0e6eeac/swl01KRfkRTdGKuEljQ85seOb2wjcWzYP-H7RJGG6phvoCGSD6QQAfUt\_MTnrfoL2mYEU94ziGrYfX44y3GR7K-KZJbbrMLtGrc3d7JLIW\_BvMTQJ7P9yDnhGVqOyiae1z6RRWK5KLNedtrXjIOlOrAxBv4\_TiKhs\_BmgiKfH29Wt7OQox3WAWhEpw)
+[![](https://qase.intercom-attachments-7.com/i/o/595207013/cd70b1f2146c71dde0e6eeac/swl01KRfkRTdGKuEljQ85seOb2wjcWzYP-H7RJGG6phvoCGSD6QQAfUt_MTnrfoL2mYEU94ziGrYfX44y3GR7K-KZJbbrMLtGrc3d7JLIW_BvMTQJ7P9yDnhGVqOyiae1z6RRWK5KLNedtrXjIOlOrAxBv4_TiKhs_BmgiKfH29Wt7OQox3WAWhEpw)](https://qase.intercom-attachments-7.com/i/o/595207013/cd70b1f2146c71dde0e6eeac/swl01KRfkRTdGKuEljQ85seOb2wjcWzYP-H7RJGG6phvoCGSD6QQAfUt_MTnrfoL2mYEU94ziGrYfX44y3GR7K-KZJbbrMLtGrc3d7JLIW_BvMTQJ7P9yDnhGVqOyiae1z6RRWK5KLNedtrXjIOlOrAxBv4_TiKhs_BmgiKfH29Wt7OQox3WAWhEpw)
 
 In the Projects view, you can select one of two layouts using the controller in the top-right corner.
 

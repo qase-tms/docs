@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Project settings
 
 After creating a project, you can control who can access and see it, and have more control over your project in settings.
@@ -16,17 +20,15 @@ _Test Run:_ Customize various requirements and automation for test runs. Choose 
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/609558405/d2f634fb8e155a81e231d6f2/image.png" alt=""><figcaption></figcaption></figure>
 
-\
-
+\\
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/609558235/9d1a07aff73013868fbe3802/image.png" alt=""><figcaption></figcaption></figure>
 
-_Update:_ Once new settings have been selected, don't forget to hit "Update Settings" to apply changes.\
-
+_Update:_ Once new settings have been selected, don't forget to hit "Update Settings" to apply changes.\\
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/609558957/8ee5dd9091b5094900c26bcb/image.png" alt=""><figcaption></figcaption></figure>
 
-_Archiving a project:_ After completing a project, you might want to hide it from plain view. It will still be accessible for reference, but shouldn't obstruct the view of the currently active projects.&#x20;
+_Archiving a project:_ After completing a project, you might want to hide it from plain view. It will still be accessible for reference, but shouldn't obstruct the view of the currently active projects.
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/609559045/9c9b142b3cc384ca56ea8b70/image.png" alt=""><figcaption></figcaption></figure>
 

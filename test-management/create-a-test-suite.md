@@ -1,10 +1,6 @@
 # Test suites
 
-
-
 {% embed url="https://www.youtube.com/watch?v=G5f1Ds390_E" %}
-
-{% embed url="https://youtu.be/Gz5gfZ4_7WM" %}
 
 Test Suites are like containers for your Test Cases, letting you organize them by specific areas of testing. For example, in a Mobile game project, you need to test things like Background Music, User Interface, Performance, and Save Features. We'll create a separate Test Suite for each of these areas.
 
@@ -16,10 +12,10 @@ After clicking one of those buttons, a pop-up will appear where you need to fill
 
 <figure><img src="../.gitbook/assets/image (84).png" alt="" width="375"><figcaption></figcaption></figure>
 
-* Suite Name: Give your Test Suite a clear, descriptive name that shows what area or domain it covers. The Suite Name is the only required field when creating a Suite; the other fields are optional and can be filled in later or left empty.
-* Parent Suite: You can create a multi-level hierarchy of Test Suites. If your Suite is part of a larger group of testing scenarios, you can place it within a higher-level Parent Suite.
-* Description: Add details and context about which Test Cases should be included in the Test Suite.
-* Preconditions: Describe the steps that need to be completed before starting the Test Cases in the new Suite.
+* **Suite Name**:  Give your Test Suite a clear, descriptive name that shows what area or domain it covers. The Suite Name is the only required field when creating a Suite; the other fields are optional and can be filled in later or left empty.
+* **Parent Suite**:  You can create a multi-level hierarchy of Test Suites. If your Suite is part of a larger group of testing scenarios, you can place it within a higher-level Parent Suite.
+* **Description**:  Add details and context about which Test Cases should be included in the Test Suite.
+* **Preconditions**:  Describe the steps that need to be completed before starting the Test Cases in the new Suite.
 
 After creating one or more Test Suites, your Repository will now reflect how your Test Suites are structured and how they are related to each other.
 
@@ -27,29 +23,25 @@ After creating one or more Test Suites, your Repository will now reflect how you
 
 ## Suite Options <a href="#h_98a94424cf" id="h_98a94424cf"></a>
 
-***
-
 If you hover your mouse over Test Suite while in Repository view, several controls will reveal itself:
 
-* _Collapse / Expand:_ Clicking on the name of your test suite will either expand or collapse the suite:
+* _**Collapse / Expand**:_ Clicking on the name of your test suite will either expand or collapse the suite:
 
 <figure><img src="../.gitbook/assets/expand suties.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-* _Create Case / Create Suite:_ Clicking on the “+” icon opens up a menu with the options to “Create Suite” or “Create Case”:
+* _**Create Case / Create Suite**:_ Clicking on the “+” icon opens up a menu with the options to “Create Suite” or “Create Case”:
 
 <figure><img src="../.gitbook/assets/make suites.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-* _Edit Suite:_ Clicking on the pencil icon allows you to edit the suite itself:
+* _**Edit Suite**:_ Clicking on the pencil icon allows you to edit the suite itself:
 
 <figure><img src="../.gitbook/assets/edit suites.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-_Clone Suite:_ Clicking on the two pages icon allows you to clone the suite. You also have the option to choose the project to which you would like the suite to be cloned to, the parent suite, the clone strategy, and the prefix, and you can choose to clone the suite with its children (suites and cases)
-
-
+* _**Clone Suite**:_ Clicking on the two pages icon allows you to clone the suite. You also have the option to choose the project to which you would like the suite to be cloned to, the parent suite, the clone strategy, and the prefix, and you can choose to clone the suite with its children (suites and cases)
 
 <figure><img src="../.gitbook/assets/clone sutie.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-* _Delete Suite:_ Clicking on the trash can icon will allow you to delete the suite. Once you’ve deleted the suite, you will no longer be able to restore the suite from the “[Trash Bin](https://help.qase.io/en/articles/6628818-trash-bin)”:
+* _**Delete Suite**:_ Clicking on the trash can icon will allow you to delete the suite. Once you’ve deleted the suite, you will no longer be able to restore the suite from the “[Trash Bin](https://help.qase.io/en/articles/6628818-trash-bin)”:
 
 <figure><img src="../.gitbook/assets/delete suite (1).gif" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -57,7 +49,7 @@ _Clone Suite:_ Clicking on the two pages icon allows you to clone the suite. You
 
 ***
 
-To navigate around your Suite structure easier, there are three Suite Tree layouts available, which you can toggle between using the “Views” dropdown in the top-right corner of the Repository:
+To navigate around your Suite structure easier, there are three Suite Tree layouts available, which you can toggle between using the “**Views**” dropdown in the top-right corner of the Repository:
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-19 at 2.56.24 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 

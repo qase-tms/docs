@@ -10,5 +10,5 @@ We're going to learn about:
 * Test suites -  a test suite is a collection of all test cases&#x20;
 * Test cases - to store the details of our test
 * Test runs -  to define which tests should be executed on a product build and track execution status
-* Testing defects - based on the failed result of a test case
+* Defects - based on the failed result of a test case
 * Account settings - to set up your workspace
