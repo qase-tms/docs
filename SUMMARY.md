@@ -83,6 +83,7 @@
   * [AzureAD](administration/sso-saml-instructions/azuread.md)
   * [OneLogin](administration/sso-saml-instructions/onelogin.md)
   * [Google Workspace](administration/sso-saml-instructions/google-workspace.md)
+  * [Okta](administration/sso-saml-instructions/okta.md)
 * [Subprocessors](administration/subprocessors.md)
 * [SCIM](administration/scim/README.md)
   * [User lifecycle management with SCIM](administration/scim/user-lifecycle-management-with-scim.md)

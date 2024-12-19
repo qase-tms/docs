@@ -33,7 +33,7 @@ With Azure DevOps app, you can:
 
 4. After the redirect, hit "Authorize" to finalize the installation:
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 5. The app is now successfully installed
 
