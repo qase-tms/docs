@@ -10,7 +10,7 @@ To learn more about this update, [click here](https://help.qase.io/en/articles/9
 
 The free plan is good for single quality assurance engineers and small companies, and provides access to the following:
 
-* Limited to 2 [projects](../../get-started-with-the-qase-platform/create-a-project/)
+* Limited to 2 [projects](../../general/get-started-with-the-qase-platform/create-a-project.md)
 * Up to [3 regular users](../workspace-management/users.md) in a team
 * 2 concurrent [test runs](../../general/get-started-with-the-qase-platform/create-a-test-run/)
 * 500Mb for [attachments](../workspace-management/attachments.md)

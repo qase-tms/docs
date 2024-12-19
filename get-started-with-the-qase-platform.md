@@ -13,7 +13,7 @@ Qase helps to manage test cases, track their execution status, and report defect
 
 ***
 
-[Project](get-started-with-the-qase-platform/create-a-project/) is our workspace to keep all parts related to a specific application together. Let’s create a new project -
+[Project](general/get-started-with-the-qase-platform/create-a-project.md) is our workspace to keep all parts related to a specific application together. Let’s create a new project -
 
 ### To create a project: <a href="#h_a7905b6a14" id="h_a7905b6a14"></a>
 

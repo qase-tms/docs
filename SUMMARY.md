@@ -5,9 +5,7 @@
 * [Qase docs](README.md)
 * [Get started with the Qase platform](get-started-with-the-qase-platform.md)
   * [Account settings](get-started-with-the-qase-platform/account-settings.md)
-  * [Projects](get-started-with-the-qase-platform/create-a-project/README.md)
-    * [Project view](get-started-with-the-qase-platform/create-a-project/project-view.md)
-    * [Project settings](get-started-with-the-qase-platform/create-a-project/project-settings.md)
+  * [Projects](general/get-started-with-the-qase-platform/create-a-project.md)
   * [Test suites](test-management/create-a-test-suite.md)
   * [Test cases](general/get-started-with-the-qase-platform/test-cases/README.md)
     * [System fields](general/get-started-with-the-qase-platform/test-cases/system-fields.md)
@@ -55,6 +53,9 @@
   * [Test run](general/webhooks/test-run.md)
   * [Shared step](general/webhooks/shared-step.md)
   * [Test suite](general/webhooks/test-suite.md)
+* [Archive](general/archive/README.md)
+  * [Project view](general/archive/project-view.md)
+  * [Project settings](general/archive/project-settings.md)
 
 ## Administration
 
