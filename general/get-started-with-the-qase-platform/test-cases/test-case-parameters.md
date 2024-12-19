@@ -14,24 +14,24 @@ Consider a scenario where you need to test the sign-in functionality of a web ap
 
 **Parameter 1**
 
-| Browser | Chromium | Firefox | Safari | Microsoft Edge |
-| ------- | -------- | ------- | ------ | -------------- |
+| <mark style="color:yellow;">Browser</mark> | Chromium | Firefox | Safari | Microsoft Edge |
+| ------------------------------------------ | -------- | ------- | ------ | -------------- |
 
 **Parameter 2**
 
-| Website | qase.io | blog.qase.io | help.qase.io |
-| ------- | ------- | ------------ | ------------ |
+| <mark style="color:yellow;">Website</mark> | qase.io | blog.qase.io | help.qase.io |
+| ------------------------------------------ | ------- | ------------ | ------------ |
 
-Group 1 is a **Secure network**; Group 2 is an **Insecure network**.
+Group 1 is a **Secure network**; Group 2 is an **In-secure network**.
 
-| is on VPN? | is on WiFi? | is HTTPS? | Using SSO? | Cookies Accepted? |
-| ---------- | ----------- | --------- | ---------- | ----------------- |
-| Yes        | Yes         | Yes       | Yes        | Yes               |
-| No         | No          | No        | No         | No                |
+| <mark style="color:yellow;">is on VPN?</mark> | <mark style="color:yellow;">is on WiFi?</mark> | <mark style="color:yellow;">is HTTPS?</mark> | <mark style="color:yellow;">Using SSO?</mark> | <mark style="color:yellow;">Cookies Accepted?</mark> |
+| --------------------------------------------- | ---------------------------------------------- | -------------------------------------------- | --------------------------------------------- | ---------------------------------------------------- |
+| Yes                                           | No                                             | Yes                                          | No                                            | No                                                   |
+| No                                            | Yes                                            | No                                           | Yes                                           | No                                                   |
 
 
 
-### Let's create a test case with Parameters - <a href="#h_4ecd8db223" id="h_4ecd8db223"></a>
+### Create a test case with Parameters - <a href="#h_4ecd8db223" id="h_4ecd8db223"></a>
 
 ***
 
@@ -102,4 +102,4 @@ In a test run, the total number of parameter combinations for a case cannot exce
 
 In the Test Run dashboard, selecting a parameterized test case will display a ‘siblings’ tab. This tab shows copies of the test case for all other parameter values associated with the selected case.
 
-<figure><img src="../../../.gitbook/assets/64217.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/64217.png" alt="" width="563"><figcaption></figcaption></figure>
