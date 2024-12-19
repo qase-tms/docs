@@ -84,7 +84,7 @@ Next, you will be prompted to fill out Project settings (which can also be edite
 The final step is to confirm creating a new project by hitting the **"Create Project"** button below — once created, you are ready to build your project up with test cases.
 
 {% hint style="info" %}
-Owners of a workspace can view of projects, including private projects created by other users of the workspace.
+Owners of a workspace can view all projects, including private projects created by other users of the workspace.
 {% endhint %}
 
 ## Project Settings <a href="#h_e70fd5f298" id="h_e70fd5f298"></a>
@@ -186,7 +186,7 @@ If you specify a number in 'approvals required', changes to test cases cannot be
 ### Test Run:
 
 {% hint style="success" %}
-There are option to modify both manual and automated Test runs. Refer to the [Test Run Settings](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run) section for a detailed description of these options.
+There are option to modify both manual and automated Test runs. Refer to this: [Test Run Settings](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run) section, for a detailed description of these options.
 {% endhint %}
 
 ### Test case: <a href="#h_54c17c77fd" id="h_54c17c77fd"></a>
@@ -233,6 +233,8 @@ When creating a new webhook, you can choose specific events that are going to tr
 <img src="../../.gitbook/assets/create a webhook.png" alt="" data-size="original">
 
 </details>
+
+
 
 ## Archiving a Project <a href="#h_705f39cb9a" id="h_705f39cb9a"></a>
 
