@@ -16,7 +16,7 @@ The free plan is good for single quality assurance engineers and small companies
 * 500Mb for [attachments](../workspace-management/attachments.md)
 * Defect management
 * [Shared steps](../../general/get-started-with-the-qase-platform/test-cases/shared-steps.md)
-* Access to Qase [Public API](../../general/qase-api.md) and [Reporter apps](../../automation/reporters/) (⚠️ - _upto 25,000 results per month_)
+* Access to Qase [Public API](../../automation/qase-api.md) and [Reporter apps](../../automation/reporters/) (⚠️ - _upto 25,000 results per month_)
 * Community Support
 
 

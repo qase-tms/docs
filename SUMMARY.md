@@ -45,7 +45,6 @@
     * [Saved queries](general/analytics/queries-qql-qase-query-language/saved-queries.md)
   * [Dashboards](general/analytics/dashboards/README.md)
     * [Widgets](general/analytics/dashboards/widgets.md)
-* [Qase API](general/qase-api.md)
 * [Webhooks](general/webhooks/README.md)
   * [Test Case](general/webhooks/test-case.md)
   * [Defect](general/webhooks/defect.md)
@@ -117,6 +116,7 @@
 
 ## Automation
 
+* [Qase API](automation/qase-api.md)
 * [Reporters](automation/reporters/README.md)
   * [JavaScript](automation/reporters/javascript/README.md)
     * [Playwright](automation/reporters/javascript/playwright.md)
