@@ -27,7 +27,7 @@ Furthermore, it offers detailed insights for each linked requirement, showcasing
 If a test case has failed during a recent run, the report also _highlights any associated defects_, providing visibility into the defect status.
 
 {% hint style="success" %}
-The Report enables you to quickly assess the current state of testing for each requirement, identifying any failed tests and corresponding defect statuses, thus empowering teams to _prioritize and address critical issues effectively_.
+The Report enables you to quickly **assess the current state of testing** for each requirement, identifying any failed tests and corresponding defect statuses, thus empowering teams to _prioritize and address critical issues effectively_.
 {% endhint %}
 
 
@@ -56,11 +56,11 @@ Give a title to your report, and select the integration app. Then, choose the sp
 
 
 
-_For Jira - Select your Projects, and Issue types._
+`For Jira - Select your Projects, and Issue types.`
 
 <figure><img src="../../.gitbook/assets/title report.png" alt="" width="375"><figcaption></figcaption></figure>
 
-_For GitHub - Select your repositories, and the milestone._
+`For GitHub - Select your repositories, and the milestone.`
 
 <figure><img src="../../.gitbook/assets/71044.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -72,7 +72,17 @@ Allow a few moments for the the report to be generated, you can leave this page 
 
 ***
 
+`Example report for Jira`
+
 <figure><img src="../../.gitbook/assets/qase requirements traceability.png" alt=""><figcaption><p>Example report for Jira cloud integration</p></figcaption></figure>
+
+<details>
+
+<summary><code>Example report for Jira</code></summary>
+
+![](<../../.gitbook/assets/image (97).png>)![](../../.gitbook/assets/94365.png)
+
+</details>
 
 1. Each report can have multiple versions generated at different points in time. You can easily switch between these versions from this drop-down.
 
@@ -100,6 +110,11 @@ Allow a few moments for the the report to be generated, you can leave this page 
 
 10. View the latest Run result for the test cases, along with their Name, and caseID.
 11. View all associated defects for the specific test cases, along with their Name, Defect ID, and status.
+12. Monitor the status of your test cases based on the most recent update to your requirement. The report includes a link to edit the test case or mute it if no changes are necessary.
+
+<figure><img src="../../.gitbook/assets/image (98).png" alt="" width="563"><figcaption></figcaption></figure>
+
+
 
 ## Report Dashboard <a href="#h_5b94e12a6e" id="h_5b94e12a6e"></a>
 
@@ -157,6 +172,28 @@ Switch to the Properties tab and scroll down to find the option to link the exte
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt="" width="563"><figcaption></figcaption></figure>
 
+## Export your Report <a href="#h_a2940b43dd" id="h_a2940b43dd"></a>
+
+***
+
+To share the report with external stakeholders or for in-depth data analysis, click the 'Export' button in the upper right corner. You'll be presented with two options:
+
+* CSV: This format is best suited for when we need to process the data from the report further using data analysis tools.
+* PDF (beta): This format is ideal for quickly sharing the report with key stakeholders
+
+<details>
+
+<summary><em>Example exports:</em></summary>
+
+* \[beta] [PDF (landscape)](https://drive.google.com/file/d/1YVYedVI6803Isy8dGXkfJuomcyy_Ydxk/view?usp=sharing) 🔗
+* \[beta] [PDF (portrait)](https://drive.google.com/file/d/1YEsB2bTbkFyMD5UTG2EXBBEl7XOlpeK5/view?usp=sharing) 🔗
+* [CSV (w/ linked issues)](https://drive.google.com/file/d/1V-HpzPxUQj2s_6a-Xft2rgpm45oQTSrR/view?usp=sharing) 🔗
+* [CSV (w/o linked issues)](https://drive.google.com/file/d/1pxfc34VPJbIupku1Gpzb8aoU3jCQWdqB/view?usp=sharing) 🔗
+
+</details>
+
+
+
 ## Available Integrations <a href="#h_e526720f2e" id="h_e526720f2e"></a>
 
 {% hint style="success" %}
@@ -164,7 +201,8 @@ Currently, the report can be only generated from the following integrations.
 
 1. [Jira Cloud](../../apps/issue-tracking/jira-cloud.md)
 2. [Jira Server](../../apps/issue-tracking/jira-server-datacenter-plugin-installation.md)
-3. [GitHub](../../apps/issue-tracking/github.md)
+3. [GitHub](../../apps/issue-tracking/github.md)\
+
 
 We'll be adding support of other integrated issue trackers in the coming months.
 {% endhint %}
