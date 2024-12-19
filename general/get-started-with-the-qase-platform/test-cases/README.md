@@ -4,9 +4,9 @@
 
 ### What is a test case in software testing?
 
-A test case contains all the details about our test. In Qase, a test case is a specific set of instructions and conditions that outline a test to be carried out successfully. It includes testing procedures, necessary inputs, execution conditions, and expected results to achieve a testing objective.
+A test case contains all the details about our test. In Qase, a test case is a specific set of instructions and conditions that outline a test to be carried out successfully.&#x20;
 
-
+It includes testing procedures, necessary inputs, execution conditions, and expected results to achieve a testing objective.
 
 In Qase, you can define various parameters and expected outcomes of a particular testing scenario.
 
@@ -16,13 +16,13 @@ In Qase, you can define various parameters and expected outcomes of a particular
 
 ***
 
-#### **A. Create a Quick test case**
+#### **a. Create a Quick test case**
 
 Quickly create a test case by clicking the "**+ Create case**" button in a Suite, by providing a title, and add other details later if needed.
 
 <figure><img src="../../../.gitbook/assets/Case1.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-#### B. Create a Detailed case <a href="#h_d28f22cf2c" id="h_d28f22cf2c"></a>
+#### b. Create a Detailed case <a href="#h_d28f22cf2c" id="h_d28f22cf2c"></a>
 
 The second method lets you fully detail your new Test Case. Click the "+ Case" button above the Suite structure in the repository to begin.
 
@@ -105,8 +105,6 @@ There are two types of steps to pick from -
 
 **a) Classic**
 
-
-
 <figure><img src="../../../.gitbook/assets/classic.png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. **Step Action**: A specific operation or task carried out within the test case step, such as interacting with an application interface or system.
@@ -138,11 +136,94 @@ To save time on repetitive tasks for Steps common to multiple Test Cases in a Pr
 
 Once you have at least one Shared Step in the "[Shared Steps](shared-steps.md)" view of your project, you'll find a "+ Add Shared Step" button when creating or editing a case.
 
+<figure><img src="../../../.gitbook/assets/61139.png" alt="" width="563"><figcaption></figcaption></figure>
+
+When configuring a Case Step, you can customize it using the buttons beside the "Expected result" field:
+
+<figure><img src="../../../.gitbook/assets/10935.png" alt="" width="563"><figcaption></figcaption></figure>
+
+1. You can create a Shared step / or turn a Shared step into a Regular step.
+2. You can duplicate/clone a step.
+3. You can edit a Shared step.
+4. You can add a nested step.
+5. You can delete a step,
+6. You can attach files from your existing files in Qase or your computer.
 
 
 
+### Test Case Actions <a href="#h_91f8dfe2ce" id="h_91f8dfe2ce"></a>
 
+***
 
+Once you have filled in all the information about your Test Case, you can:
 
+<figure><img src="../../../.gitbook/assets/12209.png" alt="" width="375"><figcaption></figcaption></figure>
 
+* [_Send to review_](test-case-review.md)_:_ in this case, a new Test Case Review request will be created, and a person responsible for reviews will then decide on a submitted Test Case.
+* _Save your Test Case_
+* _Save and create another_
+* _Cancel:_ exit Test Case creation; your changes will not be saved.
 
+#### **Find your test case after saving:**
+
+After saving the Test Case, it will be visible in your Repository structure alongside Test Suites and other Test Cases.
+
+The Test Case will receive an automatically assigned code, combining the Project Code with a number (e.g., "DEMO-9," where "DEMO" is the project code, and "9" indicates the ninth Test Case created in this Project).
+
+<figure><img src="../../../.gitbook/assets/84096.png" alt="" width="563"><figcaption></figcaption></figure>
+
+When you click on a Test Case in the Repository view, a sidebar with a summary will appear on the right side of the screen. You can view the Test Case properties and access options to Edit, Clone, or Delete it.
+
+<figure><img src="../../../.gitbook/assets/4889.png" alt="" width="563"><figcaption></figcaption></figure>
+
+**Restoring deleted cases**
+
+If you have deleted a Test Case, it will reside in the [Trash Bin](trash-bin.md) located in the three-dots-menu:
+
+<figure><img src="../../../.gitbook/assets/44915.png" alt="" width="563"><figcaption></figcaption></figure>
+
+From the Trash Bin, you can restore a previously deleted Test case:
+
+<figure><img src="../../../.gitbook/assets/56905.png" alt="" width="563"><figcaption></figcaption></figure>
+
+## Filters <a href="#h_8861baa88d" id="h_8861baa88d"></a>
+
+***
+
+When in the Repository view, you can apply Filters to find Test Cases with specific properties:
+
+<figure><img src="../../../.gitbook/assets/40351.png" alt="" width="563"><figcaption></figcaption></figure>
+
+In the example below, there are two filters applied - Cases that are of Normal severity and that are Manual:
+
+<figure><img src="../../../.gitbook/assets/30293.png" alt="" width="563"><figcaption></figcaption></figure>
+
+To look up a test case by name, you can use the search box - start typing the name of a test case, and you will be shown matching test cases:
+
+<figure><img src="../../../.gitbook/assets/53194.png" alt="" width="563"><figcaption></figcaption></figure>
+
+## Bulk actions <a href="#h_7bc690437f" id="h_7bc690437f"></a>
+
+***
+
+Once you have multiple Test Cases, you can perform bulk edits. Check the boxes of several Test Cases to:
+
+* Edit multiple cases' properties:
+
+<figure><img src="../../../.gitbook/assets/Jan-16-2024 19-47-41.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+* Perform an Express [Test Run](https://help.qase.io/en/articles/5563702-test-runs) of selected Test Cases:
+
+<figure><img src="../../../.gitbook/assets/run cases.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+* Delete Test Cases in bulk; when attempting to delete multiple Cases, you have to type "CONFIRM" into the field to prevent accidental deletion.
+
+<figure><img src="../../../.gitbook/assets/bulk delete.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+<details>
+
+<summary>NB: This behavior is determined by a setting in project settings and can be switched on/off:</summary>
+
+![](<../../../.gitbook/assets/76755 (1).png>)
+
+</details>
