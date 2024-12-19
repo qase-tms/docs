@@ -187,10 +187,10 @@ First off, when setting up your Project, keep in mind the "Fail case on step fai
 
 So, how do you create a Defect?
 
-*   Mark a Test Case as "Failed":\
+* Mark a Test Case as "Failed":
 
+<figure><img src=".gitbook/assets/30946.png" alt="" width="563"><figcaption></figcaption></figure>
 
-    <figure><img src=".gitbook/assets/30946.png" alt="" width="563"><figcaption></figcaption></figure>
 *   You will be prompted to a Run result window, where you can file additional comment, record how much time was spent on a test case execution, attach files, and create/attach defect:\
 
 

@@ -4,6 +4,7 @@
 
 * [Qase docs](README.md)
 * [Get started with the Qase platform](get-started-with-the-qase-platform.md)
+  * [Account settings](get-started-with-the-qase-platform/account-settings.md)
   * [Projects](get-started-with-the-qase-platform/create-a-project/README.md)
     * [Project view](get-started-with-the-qase-platform/create-a-project/project-view.md)
     * [Project settings](get-started-with-the-qase-platform/create-a-project/project-settings.md)
@@ -27,7 +28,6 @@
     * [Test run dashboard](general/get-started-with-the-qase-platform/create-a-test-run/test-run-dashboard.md)
   * [Defects](general/get-started-with-the-qase-platform/defects/README.md)
     * [Defects options](general/get-started-with-the-qase-platform/defects/defects-options.md)
-  * [Account settings](get-started-with-the-qase-platform/account-settings.md)
   * [Requirements Traceability Report](general/get-started-with-the-qase-platform/requirements-traceability-report.md)
   * [AI Test Case Generator](general/get-started-with-the-qase-platform/ai-test-case-generator.md)
 * [Execute testing](execution/README.md)
