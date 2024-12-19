@@ -10,9 +10,9 @@
 
 Qase offers a robust integration with Jira, enabling you to link [test cases](https://help.qase.io/en/articles/5563704-test-cases), [test runs](https://help.qase.io/en/articles/5563702-test-runs), and [defects](https://help.qase.io/en/articles/5563710-defects) to Jira issues both, from Qase, and from Jira.
 
-The statuses of a Qase defect and its linked Jira issue are [synchronized](https://help.qase.io/en/articles/6417207-jira-cloud#h\_261cf21fcb). When a Jira issue is set to a completed status, the corresponding Qase defect is marked as resolved, and vice versa.
+The statuses of a Qase defect and its linked Jira issue are [synchronized](https://help.qase.io/en/articles/6417207-jira-cloud#h_261cf21fcb). When a Jira issue is set to a completed status, the corresponding Qase defect is marked as resolved, and vice versa.
 
-If you work across multiple Qase workspaces, you can easily [duplicate the installation](https://help.qase.io/en/articles/6417207-jira-cloud#h\_820d5674bc) and status mapping across all of them. You can also [limit access](https://help.qase.io/en/articles/6417207-jira-cloud#h\_45df841f00) to your Jira projects as necessary.
+If you work across multiple Qase workspaces, you can easily [duplicate the installation](https://help.qase.io/en/articles/6417207-jira-cloud#h_820d5674bc) and status mapping across all of them. You can also [limit access](https://help.qase.io/en/articles/6417207-jira-cloud#h_45df841f00) to your Jira projects as necessary.
 
 
 
@@ -215,7 +215,7 @@ Please note that these settings are copied only once and are not synced, allowin
 
 * In the module that appeared, click "Link a run":
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Use the search box to find the needed run by title, and click Link to attach it to the issue:
 

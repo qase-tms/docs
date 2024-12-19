@@ -14,7 +14,7 @@ You can save your frequently used queries for quick access in the future.
 
 To save a query after searching, simply click on the Save button on the top right.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you need to search using the same query in future, you can find this saved query in your [Query list](https://app.qase.io/report/queries-list).
 

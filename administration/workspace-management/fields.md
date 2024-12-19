@@ -31,7 +31,7 @@ There are multiple options available to you to access the field section.
 <img src="../../.gitbook/assets/Screenshot 2024-03-18 at 1.20.37 PM.png" alt="" data-size="original">\
 
 
-<img src="../../.gitbook/assets/image (5).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (5) (1).png" alt="" data-size="original">
 
 </details>
 
