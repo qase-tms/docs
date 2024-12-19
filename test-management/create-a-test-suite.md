@@ -2,7 +2,9 @@
 
 {% embed url="https://www.youtube.com/watch?v=G5f1Ds390_E" %}
 
-Test Suites are like containers for your Test Cases, letting you organize them by specific areas of testing. For example, in a Mobile game project, you need to test things like Background Music, User Interface, Performance, and Save Features. We'll create a separate Test Suite for each of these areas.
+Test Suites are like containers for your Test cases, letting you organize them by specific areas of testing.&#x20;
+
+For example, in a Mobile game project, you need to test things like Background Music, User Interface, Performance, and Save Features. We'll create a separate Test Suite for each of these areas.
 
 Since the project is new and doesn't have any suites or cases yet, you'll need to create your first suite by clicking the "+Suite" or "Create New Suite" buttons.
 
@@ -22,6 +24,8 @@ After creating one or more Test Suites, your Repository will now reflect how you
 <figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 
 ## Suite Options <a href="#h_98a94424cf" id="h_98a94424cf"></a>
+
+***
 
 If you hover your mouse over Test Suite while in Repository view, several controls will reveal itself:
 
