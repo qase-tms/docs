@@ -1,20 +1,18 @@
 # Queries (QQL, Qase Query Language)
 
-What are queries in software testing?
+{% hint style="info" %}
+Queries are available in [Business](../../administration/subscriptions/business-plan.md) and [Enterprise](../../administration/subscriptions/enterprise-plan.md) subscriptions.
+{% endhint %}
+
+## What are queries in software testing?
 
 Queries help you make analytical requests to get specific data from your Qase projects.
 
-_<mark style="background-color:green;">Queries are available in</mark>_ [_<mark style="background-color:green;">Business</mark>_](https://help.qase.io/en/articles/5563727-business-plan) _<mark style="background-color:green;">and</mark>_ [_<mark style="background-color:green;">Enterprise</mark>_](https://help.qase.io/en/articles/6640055-enterprise-plan) _<mark style="background-color:green;">subscriptions.</mark>_
-
-
-
 {% embed url="https://www.youtube.com/watch?v=7kIhK8P-IMU" %}
-
-{% embed url="https://www.youtube.com/watch?v=BGEQDLvsrzs" %}
 
 Queries are based on Qase Query Language (QQL). You can access Queries from the top-left menu.
 
-<figure><img src="../../../.gitbook/assets/tab-queries.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tab-queries.png" alt="" width="563"><figcaption></figcaption></figure>
 
 From this page, you can manage [saved queries](https://docs.qase.io/general/analytics/queries/saved-queries) and create new ones.
 
@@ -32,7 +30,7 @@ QQL widget allows you to leverage advanced query searches, and pin frequently us
 
 You can click on either one of the two buttons to create a new query.
 
-<figure><img src="../../../.gitbook/assets/query-create.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/query-create.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Here, you can: \
 \
@@ -46,7 +44,7 @@ Here, you can: \
 
 5\. Choose the fields to be displayed in the table.
 
-<figure><img src="../../../.gitbook/assets/95492.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/95492.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -85,16 +83,16 @@ If your expression contains a syntax error, the erroneous element will be highli
 
 
 
-<figure><img src="../../../.gitbook/assets/entity.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/entity.png" alt=""><figcaption></figcaption></figure>
 
 ### Entities <a href="#h_06385495fe" id="h_06385495fe"></a>
 
 Below are the available entities. Click on an entity to skip to the attributes available for it.
 
-* [Test case](https://docs.qase.io/general/analytics/queries#test\_case)
-* [Test run](https://docs.qase.io/general/analytics/queries#test\_run)
-* [Test run result](https://docs.qase.io/general/analytics/queries#test\_run\_results)
-* [Test plan](https://docs.qase.io/general/analytics/queries#test\_plan)
+* [Test case](https://docs.qase.io/general/analytics/queries#test_case)
+* [Test run](https://docs.qase.io/general/analytics/queries#test_run)
+* [Test run result](https://docs.qase.io/general/analytics/queries#test_run_results)
+* [Test plan](https://docs.qase.io/general/analytics/queries#test_plan)
 * [Defects](https://docs.qase.io/general/analytics/queries-qql-qase-query-language#defects)
 * [Requirement](https://docs.qase.io/general/analytics/queries#requirement)
 
@@ -104,7 +102,7 @@ Currently, QQL supports seven expression types. They are listed here in the decr
 
 
 
-<table><thead><tr><th width="271">Expression Type</th><th>Example</th></tr></thead><tbody><tr><td>Parenthesis</td><td><p></p><pre><code>( expression )
+<table><thead><tr><th width="293">Expression Type</th><th>Example</th></tr></thead><tbody><tr><td>Parenthesis</td><td><p></p><pre><code>( expression )
 </code></pre></td></tr><tr><td>Negation</td><td><p></p><pre><code>not expression
 </code></pre></td></tr><tr><td>Logical Expression</td><td><p></p><pre><code>true
 </code></pre><p>or</p><pre><code>false                    
@@ -116,17 +114,15 @@ Currently, QQL supports seven expression types. They are listed here in the decr
 
 ### Supported operands: <a href="#h_d76506957d" id="h_d76506957d"></a>
 
-<table data-header-hidden><thead><tr><th width="226.33333333333331">Operand</th><th width="277">Meaning</th><th>Works with</th></tr></thead><tbody><tr><td><strong>Operand</strong></td><td><strong>Meaning</strong></td><td><strong>Works With</strong></td></tr><tr><td>&#x3C;</td><td>less than</td><td>integer</td></tr><tr><td>&#x3C;=</td><td>less than or equal to</td><td>integer</td></tr><tr><td>></td><td>greater than</td><td>integer</td></tr><tr><td>>=</td><td>greater than or equal to</td><td>integer</td></tr><tr><td>=, is</td><td>equal to</td><td>integer, bool</td></tr><tr><td>!=</td><td>not equal to</td><td>integer, bool</td></tr><tr><td>~</td><td>includes</td><td>string, text</td></tr><tr><td>in</td><td>includes (array)</td><td>array</td></tr><tr><td>not in</td><td>does not include (array)</td><td>array</td></tr><tr><td>is empty</td><td>no value</td><td></td></tr><tr><td>is not empty</td><td>value exists</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="153.33333333333331">Operand</th><th width="277">Meaning</th><th>Works with</th></tr></thead><tbody><tr><td>&#x3C;</td><td>less than</td><td>integer</td></tr><tr><td>&#x3C;=</td><td>less than or equal to</td><td>integer</td></tr><tr><td>></td><td>greater than</td><td>integer</td></tr><tr><td>>=</td><td>greater than or equal to</td><td>integer</td></tr><tr><td>=, is</td><td>equal to</td><td>integer, bool</td></tr><tr><td>!=</td><td>not equal to</td><td>integer, bool</td></tr><tr><td>~</td><td>includes</td><td>string, text</td></tr><tr><td>in</td><td>includes (array)</td><td>array</td></tr><tr><td>not in</td><td>does not include (array)</td><td>array</td></tr><tr><td>is empty</td><td>no value</td><td></td></tr><tr><td>is not empty</td><td>value exists</td><td></td></tr></tbody></table>
 
 ### Data types: <a href="#h_057d278c89" id="h_057d278c89"></a>
 
-<table data-header-hidden><thead><tr><th width="227.33333333333331"></th><th width="279"></th><th></th></tr></thead><tbody><tr><td><strong>Data type</strong></td><td><strong>Possible values</strong></td><td><strong>Supported operands</strong></td></tr><tr><td>Integer</td><td>110</td><td>>, >=, &#x3C;, &#x3C;=, =, !=</td></tr><tr><td>String</td><td>Some text</td><td>~</td></tr><tr><td>Boolean</td><td>True or False</td><td>is</td></tr><tr><td>Array</td><td>['value 1', 'value 2']  ;<br>('value 1', 'value 2')  ;<br>[ ]</td><td>in</td></tr><tr><td>Null</td><td>null</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="227.33333333333331">Data type</th><th width="279">Possible values</th><th>Supported operands</th></tr></thead><tbody><tr><td>Integer</td><td>110</td><td>>, >=, &#x3C;, &#x3C;=, =, !=</td></tr><tr><td>String</td><td>Some text</td><td>~</td></tr><tr><td>Boolean</td><td>True or False</td><td>is</td></tr><tr><td>Array</td><td>['value 1', 'value 2']  ;<br>('value 1', 'value 2')  ;<br>[ ]</td><td>in</td></tr><tr><td>Null</td><td>null</td><td></td></tr></tbody></table>
 
 ### Functions: <a href="#h_de59438a78" id="h_de59438a78"></a>
 
-
-
-<table><thead><tr><th width="162">Name</th><th width="100">Return type</th><th width="299">Arguments</th><th>Description</th></tr></thead><tbody><tr><td>currentUser()</td><td>integer</td><td>-</td><td>Returns an ID of current user</td></tr><tr><td>now()</td><td>integer</td><td><p>"+Nd" / "-Nd"- modifies returned value, adding/subtracting N days.</p><p>In "+Nd", replace d with<br>​ w for weeks;<br>​ m for months.<br>​</p><p><code>N must be an integer</code></p></td><td>Returns current timestamp</td></tr><tr><td>startOfDay()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the start of this input date.</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of start of current day.</td></tr><tr><td>startOfWeek()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the start of first day of the week (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of start of current week.</td></tr><tr><td>startOfMonth()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the start of first day of the month (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of start of current Month.</td></tr><tr><td>endOfDay()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the end of the input date.</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of end of current day.</td></tr><tr><td>endOfWeek()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the end of first day of the week (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of end of current Week.</td></tr><tr><td>endOfMonth()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the end of first day of the month (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of end of current Month.</td></tr></tbody></table>
+<table><thead><tr><th width="162">Name</th><th width="100">Return type</th><th width="299">Arguments</th><th>Description</th></tr></thead><tbody><tr><td>currentUser()</td><td>integer</td><td>-</td><td>Returns an ID of current user</td></tr><tr><td>activeUsers()</td><td>integer</td><td>-</td><td>Returns IDs of all active users</td></tr><tr><td>inactiveUsers()</td><td>integer</td><td>-</td><td>Returns IDs of all inactive users</td></tr><tr><td>now()</td><td>integer</td><td><p>"+Nd" / "-Nd"- modifies returned value, adding/subtracting N days.</p><p>In "+Nd", replace d with<br>​ w for weeks;<br>​ m for months.<br>​</p><p><code>N must be an integer</code></p></td><td>Returns current timestamp</td></tr><tr><td>startOfDay()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the start of this input date.</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of start of current day.</td></tr><tr><td>startOfWeek()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the start of first day of the week (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of start of current week.</td></tr><tr><td>startOfMonth()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the start of first day of the month (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of start of current Month.</td></tr><tr><td>endOfDay()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the end of the input date.</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of end of current day.</td></tr><tr><td>endOfWeek()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the end of first day of the week (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of end of current Week.</td></tr><tr><td>endOfMonth()</td><td>integer</td><td><p>'YYYY-mm-dd' - modifies returned value to the end of first day of the month (relative to the input date)</p><p><code>"+/-N[d/w/m]"</code> - modifies returned value by N days/weeks/months.</p></td><td>Returns timestamp of end of current Month.</td></tr></tbody></table>
 
 ## Entity fields <a href="#h_ea6301433d" id="h_ea6301433d"></a>
 
@@ -134,7 +130,7 @@ Currently, QQL supports seven expression types. They are listed here in the decr
 
 ### Test case: <a href="#test_case" id="test_case"></a>
 
-<table data-header-hidden><thead><tr><th width="205"></th><th width="177.33333333333331"></th><th></th></tr></thead><tbody><tr><td>Attribute</td><td>Description</td><td>Examples</td></tr><tr><td><pre><code>id
+<table data-header-hidden><thead><tr><th width="205">Attribute</th><th width="177.33333333333331">Description</th><th>Examples</th></tr></thead><tbody><tr><td><pre><code>id
 </code></pre></td><td>identifier</td><td><pre><code>id = 17
 </code></pre><pre><code>id != 20
 </code></pre><pre><code>id is 17
@@ -210,7 +206,7 @@ author = inactiveUsers()
 
 ### Defects: <a href="#defects" id="defects"></a>
 
-<table data-header-hidden><thead><tr><th width="194"></th><th width="141.33333333333331"></th><th></th></tr></thead><tbody><tr><td>Attribute</td><td>Description</td><td>Examples</td></tr><tr><td><pre><code>id
+<table data-header-hidden><thead><tr><th width="194">Attribute</th><th width="141.33333333333331">Description</th><th>Examples</th></tr></thead><tbody><tr><td><pre><code>id
 </code></pre></td><td>identifier</td><td><pre><code>id = 17
 </code></pre><pre><code>id != 20
 </code></pre><pre><code>id is 17
@@ -283,7 +279,7 @@ author = inactiveUsers()
 
 ### Test run: <a href="#test_run" id="test_run"></a>
 
-<table data-header-hidden><thead><tr><th width="185.33333333333331"></th><th width="188"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><strong>Description</strong></td><td><strong>Examples</strong></td></tr><tr><td><pre><code>id
+<table data-header-hidden><thead><tr><th width="185.33333333333331">Attribute</th><th width="188">Description</th><th>Examples</th></tr></thead><tbody><tr><td><pre><code>id
 </code></pre></td><td>Identifier</td><td><pre><code>id = 17
 </code></pre><pre><code>id != 20
 </code></pre><pre><code>id is 17
@@ -363,7 +359,7 @@ createdBy = "user2"
 
 ### Test run results: <a href="#test_run_results" id="test_run_results"></a>
 
-<table data-header-hidden><thead><tr><th width="165.33333333333331"></th><th width="177"></th><th></th></tr></thead><tbody><tr><td>Attribute</td><td>Description</td><td>Examples</td></tr><tr><td><pre><code>id
+<table data-header-hidden><thead><tr><th width="165.33333333333331"></th><th width="177">Description</th><th>Examples</th></tr></thead><tbody><tr><td><pre><code>id
 </code></pre></td><td>Identifier</td><td><pre><code>caseId = 17
 </code></pre><pre><code>caseId != 20
 </code></pre><pre><code>caseId is 17
@@ -417,7 +413,7 @@ createdBy = "user2"
 
 ### Test plan: <a href="#test_plan" id="test_plan"></a>
 
-<table data-header-hidden><thead><tr><th width="173.33333333333331"></th><th width="176"></th><th></th></tr></thead><tbody><tr><td>Attribute</td><td>Description</td><td>Examples</td></tr><tr><td><pre><code>id
+<table data-header-hidden><thead><tr><th width="173.33333333333331">Attribute</th><th width="176">Description</th><th>Examples</th></tr></thead><tbody><tr><td><pre><code>id
 </code></pre></td><td>Identifier</td><td><pre><code>id = 17
 </code></pre><pre><code>id != 20
 </code></pre><pre><code>id is 17
@@ -456,7 +452,7 @@ createdBy = "user2"
 
 ### Requirement: <a href="#requirement" id="requirement"></a>
 
-<table data-header-hidden><thead><tr><th width="174.33333333333331"></th><th width="178"></th><th></th></tr></thead><tbody><tr><td>Attribute</td><td>Description</td><td>Examples</td></tr><tr><td><pre><code>id
+<table data-header-hidden><thead><tr><th width="174.33333333333331">Attribute</th><th width="178">Description</th><th>Examples</th></tr></thead><tbody><tr><td><pre><code>id
 </code></pre></td><td>Identifier</td><td><pre><code>id = 17
 </code></pre><pre><code>id != 20
 </code></pre><pre><code>id is 17
@@ -569,46 +565,3 @@ entity = "case" and author != "CEO" and updated <= now("-1d") and isFlaky is fal
 ```
 entity = "case" and author != "CEO" and updated <= now("-1d") and project in ('QA
 ```
-
-
-
-
-
-
-
-
-
-\
-
-
-\
-\
-
-
-\
-
-
-### &#x20;<a href="#h_e9113559bb" id="h_e9113559bb"></a>
-
-### &#x20;<a href="#h_340289e352" id="h_340289e352"></a>
-
-### &#x20;<a href="#h_d6d0c91118" id="h_d6d0c91118"></a>
-
-### &#x20;<a href="#h_cb4adef46a" id="h_cb4adef46a"></a>
-
-***
-
-### &#x20;<a href="#h_de59438a78" id="h_de59438a78"></a>
-
-\
-
-
-\
-
-
-###
-
-###
-
-
-

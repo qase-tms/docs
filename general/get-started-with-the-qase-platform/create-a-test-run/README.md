@@ -51,7 +51,7 @@ From Test Plan: You can choose all or select Test cases from a Test Plan.
 
 <details>
 
-<summary>From Saved Queries: You can read more about Saved Queries <a href="../../analytics/queries-qql-qase-query-language/saved-queries.md">here</a>.</summary>
+<summary>From Saved Queries: You can read more about Saved Queries <a href="../../analytics/saved-queries.md">here</a>.</summary>
 
 
 

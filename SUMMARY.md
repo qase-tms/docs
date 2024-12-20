@@ -31,13 +31,9 @@
   * [Milestones](general/issues/milestones.md)
   * [Requirements](general/issues/requirements.md)
 * [Analytics](analytics/README.md)
-  * [Queries (QQL, Qase Query Language)](general/analytics/queries-qql-qase-query-language/README.md)
-    * [QQL structure](general/analytics/queries-qql-qase-query-language/qql-structure.md)
-    * [Entity fields](general/analytics/queries-qql-qase-query-language/entity-fields.md)
-    * [Examples of Queries](general/analytics/queries-qql-qase-query-language/examples-of-queries.md)
-    * [Saved queries](general/analytics/queries-qql-qase-query-language/saved-queries.md)
-  * [Dashboards](general/analytics/dashboards/README.md)
-    * [Widgets](general/analytics/dashboards/widgets.md)
+  * [Dashboards](general/analytics/dashboards.md)
+  * [Queries (QQL, Qase Query Language)](general/analytics/queries-qql-qase-query-language.md)
+  * [Saved queries](general/analytics/saved-queries.md)
 * [Webhooks](general/webhooks/README.md)
   * [Test Case](general/webhooks/test-case.md)
   * [Defect](general/webhooks/defect.md)
@@ -56,6 +52,10 @@
   * [Test run setting](general/get-started-with-the-qase-platform/create-a-test-run/test-run-setting.md)
   * [Test run dashboard](general/get-started-with-the-qase-platform/create-a-test-run/test-run-dashboard.md)
   * [Defects options](general/archive/defects-options.md)
+  * [Widgets](general/archive/widgets.md)
+  * [QQL structure](general/archive/qql-structure.md)
+  * [Entity fields](general/archive/entity-fields.md)
+  * [Examples of Queries](general/archive/examples-of-queries.md)
 
 ## Administration
 
