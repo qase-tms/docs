@@ -1,6 +1,8 @@
 # AI Test Case Generator
 
-_⚠️ This feature is in Beta, and it is available with our_ [_Business_](https://help.qase.io/en/articles/5563727-business-plan) _and_ [_Enterprise_](https://help.qase.io/en/articles/6640055-enterprise-plan) _subscriptions._
+{% hint style="info" %}
+This feature is in Beta, and it is available with our [Business](../../administration/subscriptions/business-plan.md) and [Enterprise](../../administration/subscriptions/enterprise-plan.md) subscriptions.
+{% endhint %}
 
 {% embed url="https://youtu.be/HnbapbuO3RI" %}
 
