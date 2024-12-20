@@ -98,7 +98,7 @@ We have added our test cases, let’s execute them in a new test run
 
 ***
 
-[Test Run](general/get-started-with-the-qase-platform/create-a-test-run/) represents a set of test cases to be executed on a specific app build along with the status of their execution. We can have 2 versions of the app: iOS and Android. Both need testing, so for each version, we will perform the same test cases in 2 separate Test Runs.
+[Test Run](general/execution/create-a-test-run.md) represents a set of test cases to be executed on a specific app build along with the status of their execution. We can have 2 versions of the app: iOS and Android. Both need testing, so for each version, we will perform the same test cases in 2 separate Test Runs.
 
 There are two ways to perform a Test Run: an Express Test Run and a regular Test Run.
 

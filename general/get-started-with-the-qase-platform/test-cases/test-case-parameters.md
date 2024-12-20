@@ -2,7 +2,7 @@
 
 ### What are parameters in software testing?
 
-In your testing process, Parameters allow you to capture variables that can be reused across [multiple executions](../create-a-test-run/test-run-dashboard.md) of the same [Test Case](./#what-is-a-test-case-in-software-testing). This eliminates the need to create separate test cases or duplicate steps for different conditions.&#x20;
+In your testing process, Parameters allow you to capture variables that can be reused across [multiple executions](../../archive/test-run-dashboard.md) of the same [Test Case](./#what-is-a-test-case-in-software-testing). This eliminates the need to create separate test cases or duplicate steps for different conditions.&#x20;
 
 {% embed url="https://youtu.be/Vtyza2ubkbk" %}
 Parameters explained using a common testing scenario.&#x20;
