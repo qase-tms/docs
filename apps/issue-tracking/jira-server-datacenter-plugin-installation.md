@@ -6,7 +6,7 @@ description: >-
 
 # Jira Server/Datacenter Plugin installation
 
-Qase offers a robust integration with Jira, enabling you to link [test cases](../../general/get-started-with-the-qase-platform/test-cases/), [test runs](../../general/execution/create-a-test-run.md), and [defects](../../general/get-started-with-the-qase-platform/defects/) to Jira issues both, from Qase, and from Jira.
+Qase offers a robust integration with Jira, enabling you to link [test cases](../../general/get-started-with-the-qase-platform/test-cases/), [test runs](../../general/get-started-with-the-qase-platform/create-a-test-run/), and [defects](../../general/get-started-with-the-qase-platform/defects/) to Jira issues both, from Qase, and from Jira.
 
 The statuses of a Qase defect and its linked Jira issue are [synchronized](jira-server-datacenter-plugin-installation.md#h_6f0f4a388d). When a Jira issue is set to a completed status, the corresponding Qase defect is marked as resolved, and vice versa.
 

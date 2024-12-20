@@ -1,10 +1,3 @@
----
-title: Test Run creation & management in Qase
-slug: create-a-test-run-1
-createdAt: '2023-02-08T03:29:25.607Z'
-updatedAt: '2023-02-21T19:47:34.265Z'
----
-
 # Test runs
 
 ### What is a test run in software testing?
@@ -13,7 +6,7 @@ A Test Run is a single instance of executing a specific set of test cases.
 
 {% embed url="https://www.youtube.com/watch?v=7bLibOsfchs" %}
 
-A Test Run may consist one Test case, a bunch of them, whole sets of Test cases ([Test suite](../../test-management/create-a-test-suite.md)), or even Test cases from different areas bundled together in a Test Plan.
+A Test Run may consist one Test case, a bunch of them, whole sets of Test cases ([Test suite](../../../test-management/create-a-test-suite.md)), or even Test cases from different areas bundled together in a Test Plan.
 
 There are two ways to start a Test Run:\
 1\. **Express Run** - from the Project's Repository.\
@@ -27,13 +20,13 @@ You can quickly set up a Test Run for one or more test cases directly from the R
 
 ​ Hit the "Run" button and proceed to select the Environment, Milestone, Configurations, or any other fields, as needed.
 
-<figure><img src="../../.gitbook/assets/express run.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/express run.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 ### **Regular test run**
 
 To create a regular test run, navigate to "Test Runs" section, and hit the "Start New Test Run" button. You will see the same modal window as seen while creating a Test Run from the Repository page.
 
-<figure><img src="../../.gitbook/assets/normal run.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/normal run.gif" alt=""><figcaption></figcaption></figure>
 
 #### **Run Properties**
 
@@ -58,7 +51,7 @@ From Test Plan: You can choose all or select Test cases from a Test Plan.
 
 <details>
 
-<summary>From Saved Queries: You can read more about Saved Queries <a href="../analytics/queries-qql-qase-query-language/saved-queries.md">here</a>.</summary>
+<summary>From Saved Queries: You can read more about Saved Queries <a href="../../analytics/queries-qql-qase-query-language/saved-queries.md">here</a>.</summary>
 
 
 
@@ -76,13 +69,13 @@ Queries are available with Business and Enterprise subscriptions.
 
 Here, you can look at all of your Test runs, with their Author, [Environment](https://docs.qase.io/general/execution/environments), Time Spent and Status with a visual summary of their results.
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt="" width="563"><figcaption></figcaption></figure>
 
 <details>
 
 <summary>You can filter the Runs by Status, Assigned to, Environment, Milestone, Tags, Automation status, Creation date, and your <a href="https://docs.qase.io/administration/workspace-management/custom-fields">custom fields</a> (if any).</summary>
 
-<img src="../../.gitbook/assets/image (24).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (24).png" alt="" data-size="original">
 
 </details>
 
@@ -90,7 +83,7 @@ Here, you can look at all of your Test runs, with their Author, [Environment](ht
 
 <summary>From the "..." menu, you can do several things:</summary>
 
-<img src="../../.gitbook/assets/image (25).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (25).png" alt="" data-size="original">
 
 </details>
 
@@ -98,7 +91,7 @@ Here, you can look at all of your Test runs, with their Author, [Environment](ht
 
 <summary>You can bulk delete Test runs by selecting the runs you want to delete in bulk, clicking "Update selected" and then "Delete."<br></summary>
 
-<img src="../../.gitbook/assets/image (26).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (26).png" alt="" data-size="original">
 
 </details>
 
@@ -109,7 +102,7 @@ A 'Passed' status is given only if all\* tests have a positive result. One or mo
 
 
 
-\*[Muted tests](../get-started-with-the-qase-platform/test-cases/muted-tests.md) are not considered when calculating the final run status.
+\*[Muted tests](../test-cases/muted-tests.md) are not considered when calculating the final run status.
 {% endhint %}
 
 
@@ -120,7 +113,7 @@ A 'Passed' status is given only if all\* tests have a positive result. One or mo
 
 Your test runs have the following default statuses available to reflect the outcome of test cases:
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 1. **Passed** - The test case has been executed successfully, and the expected results match the actual outcomes.
 2. **Failed** - The test case has failed, indicating discrepancies between the expected and actual results.
@@ -130,15 +123,15 @@ Your test runs have the following default statuses available to reflect the outc
    ​\
    Test run results statuses can also be customized by navigating to the [Fields section in Workspace management](https://app.qase.io/workspace/fields) and clicking "Result status" (Admin permissions is needed to modify fields).
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt="" width="563"><figcaption></figcaption></figure>
 
 You also have the option to define the action associated with your custom statuses where you can determine if a status triggers a successful test case or a failed test case. ​ If a status triggers a failed test case then the defect creation workflow is triggered.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Please take note that you only have the option to hide custom statuses once deleted to preserve the results history in the test runs.\
 ​\
-Also, Custom Test Run "Result status" is only available to users on a [paid subscription](../../administration/subscriptions/).
+Also, Custom Test Run "Result status" is only available to users on a [paid subscription](../../../administration/subscriptions/).
 
 
 
@@ -150,7 +143,7 @@ To go to the Run dashboard, simply click on the Test Run name.
 
 Let's explore the options available in the dashboard -
 
-<figure><img src="../../.gitbook/assets/18595.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/18595.png" alt=""><figcaption></figcaption></figure>
 
 1\. **Open Wizard**: this will guide you through the Test Cases contained in the run, step-by-step.
 
@@ -160,7 +153,7 @@ Let's explore the options available in the dashboard -
 
 <summary>Example of a Shared report:</summary>
 
-<img src="../../.gitbook/assets/Share Report demo (1).gif" alt="" data-size="original">
+<img src="../../../.gitbook/assets/Share Report demo (1).gif" alt="" data-size="original">
 
 </details>
 
@@ -195,13 +188,13 @@ Let's explore the options available in the dashboard -
 
     Here's an example of a JIRA issue linked to a test run:
 
-<img src="../../.gitbook/assets/attach jira issue 2.gif" alt="" data-size="original">
+<img src="../../../.gitbook/assets/attach jira issue 2.gif" alt="" data-size="original">
 
 </details>
 
 9\. **Bulk actions:** You can select multiple test cases to assign/re-test/submit result/delete with the respective button.
 
-<figure><img src="../../.gitbook/assets/bulk post results.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bulk post results.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Timeline View <a href="#h_964117eb5f" id="h_964117eb5f"></a>
 
@@ -209,7 +202,7 @@ The Timeline chart is a powerful tool that provides a visual representation of y
 
 It offers valuable insights into the status, duration, and execution history of each test, helping you optimize your testing process and uncover potential issues, that might otherwise be difficult to detect.
 
-<figure><img src="../../.gitbook/assets/timeline.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/timeline.gif" alt=""><figcaption></figcaption></figure>
 
 You can use this view to -
 
@@ -230,7 +223,7 @@ You can use this view to -
 
 1. Detect Inefficiencies: The Timeline Graph helps you pinpoint inefficiencies in your testing process.
 
-<figure><img src="../../.gitbook/assets/48946.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/48946.png" alt="" width="563"><figcaption></figcaption></figure>
 
 \
 &#x200B;_&#x46;or example_, _if there are significant gaps between test executions, it might suggest that your automation framework is waiting for tests to finish before starting the next ones. This can be optimized by running tests in parallel or reducing dependencies._
@@ -273,25 +266,25 @@ In short, once a result is submitted, it remains tied to the version of the test
 
 ### Assignment <a href="#h_964117eb5f" id="h_964117eb5f"></a>
 
-You have the flexibility to assign test cases within a test run either to individual users or to [groups](../../administration/workspace-management/groups.md).
+You have the flexibility to assign test cases within a test run either to individual users or to [groups](../../../administration/workspace-management/groups.md).
 
 **Individual assignment:**
 
 * You can assign specific test cases to individual testers. This approach is particularly useful when you want to assign a suite of test cases related to a specific feature to a tester with specialized knowledge in that area.
 
-<figure><img src="../../.gitbook/assets/indivi as.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/indivi as.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 **Group Assignment:**
 
-In this assignment mode, you can select a [group](../../administration/workspace-management/groups.md) that includes multiple testers.
+In this assignment mode, you can select a [group](../../../administration/workspace-management/groups.md) that includes multiple testers.
 
 1. **Even distribution:** this strategy ensures that test cases are distributed as evenly as possible among the group members. For instance, _if there are 10 test cases and 5 testers in a group, each tester will receive 2 test cases._
 
-<figure><img src="../../.gitbook/assets/even.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/even.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 **Load balanced distribution:** this strategy optimizes the distribution of test cases based on their complexity, measured by previous test durations with the goal of evenly distributing the workload among group members.
 
-<figure><img src="../../.gitbook/assets/load bal.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/load bal.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 For instance\_, If there are five test cases with expected durations of 30, 10, 10, 5, and 5 minutes, and two testers in a group, the system will assign the 30-minute test case to one tester and the remaining four test cases (with a combined duration of 30 minutes) to the other tester. This way, both testers have an even workload despite the number of test cases being different.\_
 
@@ -299,7 +292,7 @@ For instance\_, If there are five test cases with expected durations of 30, 10, 
 
 The default assignment strategy can be configured under the Test Runs tab in your Project's settings.
 
-<figure><img src="../../.gitbook/assets/run assign sett.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/run assign sett.gif" alt=""><figcaption></figcaption></figure>
 
 This setting determines the default assignment strategy that appears when you attempt to assign cases to a group.
 
@@ -309,7 +302,7 @@ This setting determines the default assignment strategy that appears when you at
 
 <summary>The Defects tab provides information about failed test cases in the run, including the reporter, assignee, third-party app connections, and status.</summary>
 
-<img src="../../.gitbook/assets/Screenshot 2023-12-04 at 3.40.19 PM.png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/Screenshot 2023-12-04 at 3.40.19 PM.png" alt="" data-size="original">
 
 </details>
 
@@ -319,7 +312,7 @@ This setting determines the default assignment strategy that appears when you at
 
 <summary>The Team Stats tab provides information about your teammates in the Test Run, including their work time, results, and a performance trend chart.</summary>
 
-<img src="../../.gitbook/assets/Screenshot 2023-12-04 at 3.40.48 PM.png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/Screenshot 2023-12-04 at 3.40.48 PM.png" alt="" data-size="original">
 
 </details>
 
@@ -337,23 +330,23 @@ Opening is the wizard is easy, just click on a test case in a Run. You can also 
 2. Click 'Open Wizard' in the Test Runs Menu
 3. Click "Run Wizard" in the "..." menu of a Test Case:
 
-<figure><img src="../../.gitbook/assets/run wizard open.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/run wizard open.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 In the wizard, can you advance through Test Cases, add comments, attachments, and log results for both individual steps and the entire Test Case.
 
-<figure><img src="../../.gitbook/assets/run flow.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/run flow.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 You can also file defects as you work through the test case. Check the [defects](https://docs.qase.io/general/get-started-with-the-qase-platform/defects) article for more information.
 
 In the wizard, use the "View/Edit Case" buttons to open a test case in a new tab for viewing or making changes.
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (30).png" alt="" width="563"><figcaption></figcaption></figure>
 
 <details>
 
 <summary>Note: If you've enabled the "Fail case on step fail" option in Project settings, failing any Test Case step will automatically result in the entire Test Case failing. To prevent this, adjust the setting.</summary>
 
-![](../../.gitbook/assets/28050.png)
+![](../../../.gitbook/assets/28050.png)
 
 </details>
 
@@ -369,7 +362,7 @@ Then, go to Test Runs, open the run using the "Open Wizard" option. In the wizar
 
 Save changes with the green check mark or discard them with the red cross.
 
-<figure><img src="../../.gitbook/assets/edit completed run.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/edit completed run.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Test Run Settings <a href="#h_2b8f9ef7e0" id="h_2b8f9ef7e0"></a>
 
@@ -381,7 +374,7 @@ Under Project Settings, there's a dedicated section for modifying Test run behav
 
 The settings in this section apply to both Manual and Automated Test runs.
 
-<figure><img src="../../.gitbook/assets/image (99).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (99).png" alt="" width="563"><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="195">Option</th><th>Behavior</th></tr></thead><tbody><tr><td>Auto complete</td><td><ul><li>Enabled: A run is automatically marked as complete when all cases have a result.</li></ul><ul><li>Disabled: You need to manually mark the run as complete, even when all cases have a result.</li></ul></td></tr><tr><td>Allow to add results for cases in closed runs</td><td><ul><li>Enabled: You can continue submitting results or retesting cases in completed or aborted runs.</li></ul><ul><li>Disabled: Closed runs do not allow further result submissions.</li></ul></td></tr></tbody></table>
 
@@ -389,7 +382,7 @@ The settings in this section apply to both Manual and Automated Test runs.
 
 The settings in this section apply only to Manual Test runs.
 
-<figure><img src="../../.gitbook/assets/42302.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/42302.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="189">Option</th><th>Behavior</th></tr></thead><tbody><tr><td>Fast Pass</td><td><ul><li>Enabled: you won't be prompted to add extra details when marking a test case as "passed"/ "skipped".</li></ul><ul><li>Disabled: A modal window appears for adding extra details like comments or attachments when marking a case as "passed"/ "skipped".</li></ul></td></tr><tr><td>Default create/attach defect checkbox</td><td><ul><li>Enabled: The checkbox for creating a defect is checked by default when you fail, invalidate, or mark a case as "blocked."</li></ul><ul><li>Disabled: The checkbox is unchecked by default in those scenarios.</li></ul></td></tr><tr><td>Auto passed</td><td><ul><li>Enabled: Marking all steps of a case as "passed" automatically marks the entire case as "passed."</li></ul><ul><li>Disabled: You need to separately mark the case as "passed," even if all steps are "passed."</li></ul></td></tr><tr><td>Auto assignee</td><td><ul><li>Enabled: Unassigned test cases are automatically assigned to the first person who opens them in the Wizard.</li></ul><ul><li>Disabled: Unassigned cases remain unassigned until explicitly assigned.</li></ul></td></tr><tr><td>Fail case on step fail</td><td><ul><li>Enabled: Failing any step will cause the whole case to be marked as "failed," preventing you from recording results for the remaining steps.</li></ul><ul><li>Disabled: You can proceed with the case even if a step has failed.</li></ul></td></tr><tr><td>Assignee result lock</td><td><ul><li>Enabled: Only the assignee can submit results; others must explicitly assign themselves to do so.</li></ul><ul><li>Disabled: Any user, even if not assigned, can submit results, but results are associated with the submitter.</li></ul></td></tr><tr><td>Redirect after adding result</td><td><ul><li>No redirect: Stay on the same case after submitting a result.</li></ul><ul><li>First case in a run without result: Redirect to the first case without results.</li><li>Next case in suite: Go directly to the next case in the suite without results.</li></ul></td></tr><tr><td>Default Assignment strategy</td><td><ul><li>Even: This strategy ensures <em>even distrubution of test cases</em> among group members regardless of complexity.</li></ul><ul><li>Load balanced: This strategy allocates test cases based on complexity to <em>evenly distribute the workload</em> among group members.</li></ul></td></tr></tbody></table>
 
@@ -397,9 +390,9 @@ The settings in this section apply only to Manual Test runs.
 
 The settings in this section apply only to results submitted via the API, and Automated Test runs.
 
-<figure><img src="../../.gitbook/assets/23578.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/23578.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (100).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Note: You can choose to restrict the updating, or creation of new cases based on the _type_ of results. For instance, if you want to update an existing case only when the result is “Passed,” you can set the “Update for statuses” field to “Passed only.”
 

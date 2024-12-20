@@ -4,7 +4,7 @@
 
 Test Plan is your way to organize the various [Test Cases](https://docs.qase.io/general/get-started-with-the-qase-platform/test-cases) into a cohesive scenario that will encompass various cases from different domains (i.e., different [Test Suites](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-suite)).&#x20;
 
-Later on, when performing [Test Runs](create-a-test-run.md), you will use a pre-created Test Plan, which already contains every Test Case and/or Test Suite necessary.
+Later on, when performing [Test Runs](../get-started-with-the-qase-platform/create-a-test-run/), you will use a pre-created Test Plan, which already contains every Test Case and/or Test Suite necessary.
 
 When composing a new Test Plan, you can add standalone Test Cases and entire Test Suites alike.&#x20;
 

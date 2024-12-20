@@ -25,7 +25,7 @@
   * [AI Test Case Generator](general/get-started-with-the-qase-platform/ai-test-case-generator.md)
 * [Execute testing](execution/README.md)
   * [Test plan](general/execution/test-plan.md)
-  * [Test runs](general/execution/create-a-test-run.md)
+  * [Test runs](general/get-started-with-the-qase-platform/create-a-test-run/README.md)
   * [Configurations](general/execution/using-configurations-in-qase-tms.md)
   * [Environments](general/execution/environments.md)
 * [Issues tracking](general/issues/README.md)
@@ -52,10 +52,10 @@
 * [Archive](general/archive/README.md)
   * [Project view](general/archive/project-view.md)
   * [Project settings](general/archive/project-settings.md)
-  * [Test run wizard](general/archive/test-run-wizard.md)
-  * [Editing a test run result](general/archive/editing-a-test-run-result.md)
-  * [Test run setting](general/archive/test-run-setting.md)
-  * [Test run dashboard](general/archive/test-run-dashboard.md)
+  * [Test run wizard](general/get-started-with-the-qase-platform/create-a-test-run/test-run-wizard.md)
+  * [Editing a test run result](general/get-started-with-the-qase-platform/create-a-test-run/editing-a-test-run-result.md)
+  * [Test run setting](general/get-started-with-the-qase-platform/create-a-test-run/test-run-setting.md)
+  * [Test run dashboard](general/get-started-with-the-qase-platform/create-a-test-run/test-run-dashboard.md)
 
 ## Administration
 
