@@ -2,9 +2,7 @@
 
 ### What are attachments in Qase?
 
-Attachments in the workspace provide a comprehensive overview of the files that have been uploaded and attached to Qase. However, since attachment storage space is limited (500 MB for the Free plan, 250 GB for the startup plan, and unlimited storage for business and enterprise plans), it is important to monitor usage and free up space as needed.
-
-
+Attachments in the workspace provide a comprehensive overview of the files that have been uploaded and attached to Qase. However, since attachment storage space is limited (500 MB for the Free plan, 100 GB for the startup plan, and unlimited storage for business and enterprise plans), it is important to monitor usage and free up space as needed.
 
 {% embed url="https://www.youtube.com/watch?v=uWjiJGSVFV0" %}
 
@@ -13,7 +11,7 @@ Attachments in the workspace provide a comprehensive overview of the files that 
 To provide your teammates with additional context, you can attach various files in Qase. In fact, there are several entities and places in Qase where attachments can be added.
 
 {% hint style="info" %}
-A single attachment cannot exceed 128 MB.
+A single attachment cannot exceed **128 MB**.
 {% endhint %}
 
 ### You can attach files to:
@@ -59,15 +57,17 @@ You can also add attachments for comments that you leave on test cases, reviews,
 
     <figure><img src="../../.gitbook/assets/image (92).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Workspace management: attachments <a href="#h_6c2b59a5a2" id="h_6c2b59a5a2"></a>
 
-Attachments in workspace management provide you with a full overview of the files that have been uploaded and attached to Qase so far. Since the storage space for attachments is limited (500 Mb for free plan, 250 Gb for startup plan, and unlimited storage for business and enterprise plans), it is useful to understand how much of it has been utilized and free up some of that space upon necessity.
+
+## Workspace management: attachments <a href="#h_6c2b59a5a2" id="h_6c2b59a5a2"></a>
+
+***
 
 If you’re on the free or startup plans and you’d like to understand exactly how much storage space your attachments are consuming, you can find out by clicking on the attachments option available in the workspace.
 
-<figure><img src="../../.gitbook/assets/42306.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/42306.png" alt="" width="563"><figcaption></figcaption></figure>
 
-The doughnut chart depicted in the screenshot above depicts the used vs free space. Next to it, you’ll see the space used and the space remaining. You can also search for the attachments by using the search bar.
+The  screenshot above depicts the used vs free space. You'll see the space used and the space remaining. You can also search for the attachments by using the search bar.
 
 ### Attachments details
 
@@ -85,4 +85,4 @@ Below the summary, there is a list of all files that have been attached, featuri
 
 Any file can be deleted from a three-dot-menu to the right, thus freeing up available space. Files are deleted permanently without any option to restore them at a later point.
 
-<figure><img src="../../.gitbook/assets/43041.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/43041.png" alt="" width="563"><figcaption></figcaption></figure>
