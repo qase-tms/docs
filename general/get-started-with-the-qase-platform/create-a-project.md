@@ -10,7 +10,7 @@ For example, if you manage and maintain a web application or website and accompa
 
 To navigate to the list of your Projects, click "Projects" in the top-left corner of the workspace:
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Project Views <a href="#h_91be27eab1" id="h_91be27eab1"></a>
 

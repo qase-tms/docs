@@ -20,7 +20,7 @@ Qase helps to manage test cases, track their execution status, and report defect
 1\. Open[ https://app.qase.io/](https://app.qase.io/) and log in. As a result, the page “Projects” is shown\
 ​
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -150,7 +150,7 @@ Test Runs section is filtered to show only Active Runs by default, but you can s
 
 ***
 
-In this section, let’s see how a new [defect](general/get-started-with-the-qase-platform/defects/) can be reported for the failed test case.
+In this section, let’s see how a new [defect](general/issues/defects.md) can be reported for the failed test case.
 
 In Qase, there are two ways to create a defect: you can create one on the spot, at will, for any issue that is not necessarily connected to a particular test case or test run. Another option is to file a defect upon failing a test case during a run.
 

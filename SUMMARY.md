@@ -19,8 +19,6 @@
     * [Nested steps](general/get-started-with-the-qase-platform/test-cases/nested-steps.md)
     * [Test case actions](general/get-started-with-the-qase-platform/test-cases/test-case-actions.md)
     * [Filters](general/get-started-with-the-qase-platform/test-cases/filters.md)
-  * [Defects](general/get-started-with-the-qase-platform/defects/README.md)
-    * [Defects options](general/get-started-with-the-qase-platform/defects/defects-options.md)
   * [Requirements Traceability Report](general/get-started-with-the-qase-platform/requirements-traceability-report.md)
   * [AI Test Case Generator](general/get-started-with-the-qase-platform/ai-test-case-generator.md)
 * [Execute testing](execution/README.md)
@@ -29,6 +27,7 @@
   * [Configurations](general/execution/using-configurations-in-qase-tms.md)
   * [Environments](general/execution/environments.md)
 * [Issues tracking](general/issues/README.md)
+  * [Defects](general/issues/defects.md)
   * [Milestones](general/issues/milestones.md)
   * [Requirements](general/issues/requirements.md)
 * [Analytics](analytics/README.md)
@@ -56,6 +55,7 @@
   * [Editing a test run result](general/get-started-with-the-qase-platform/create-a-test-run/editing-a-test-run-result.md)
   * [Test run setting](general/get-started-with-the-qase-platform/create-a-test-run/test-run-setting.md)
   * [Test run dashboard](general/get-started-with-the-qase-platform/create-a-test-run/test-run-dashboard.md)
+  * [Defects options](general/archive/defects-options.md)
 
 ## Administration
 

@@ -77,7 +77,7 @@ Start by [inviting](../../administration/workspace-management/invites.md) your J
 
 ***
 
-[Qase Defects](../../general/get-started-with-the-qase-platform/defects/) have the following statuses: **Open**, **In-progress**, **Resolved**, **Invalid**
+[Qase Defects](../../general/issues/defects.md) have the following statuses: **Open**, **In-progress**, **Resolved**, **Invalid**
 
 <figure><img src="../../.gitbook/assets/56611.png" alt=""><figcaption></figcaption></figure>
 
@@ -215,7 +215,7 @@ Please note that these settings are copied only once and are not synced, allowin
 
 * In the module that appeared, click "Link a run":
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Use the search box to find the needed run by title, and click Link to attach it to the issue:
 

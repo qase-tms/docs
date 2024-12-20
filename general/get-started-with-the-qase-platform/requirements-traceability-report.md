@@ -91,7 +91,7 @@ Allow a few moments for the the report to be generated, you can leave this page 
 2. Click on 'Create new version' to generate a fresh snapshot of the report.
 3. View the External projects in the integration _(eg: Jira)_ that are used to create the current report, along with the number of _total_, _linked_ and _unlinked_ requirements.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Switch between the linked and unlinked issues from this tab section.
 
