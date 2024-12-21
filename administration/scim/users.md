@@ -5,27 +5,25 @@ With SCIM API you can manage users in your Enterprise account. You can get the f
 * [User attributes](users.md#user-attributes)
 * [User methods](users.md#user-methods)
   * [Get users](users.md#get-users)
+  * [Get user by ID](users.md#get-user-by-id)
   * [Create a new user](users.md#create-a-new-user)
-  * [Update user's attributes](users.md#update-user-attribute-by-id)
+  * [Replace user by ID](users.md#replace-user-by-id)
+  * [Update user's attributes by ID](users.md#update-user-attribute-by-id)
   * [Delete user](users.md#delete-user-by-id)
 
 ### User attributes
 
 We support the following user attributes.
 
-| IDP attribute name | Qase attribute  | Description                                                                                                                                                                                                                                                                                                                                                  |
-| ------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Email              | userName        | User email. Mandatory field.                                                                                                                                                                                                                                                                                                                                 |
-| Name               | name.givenName  | <p>Attribute is used if the value is not empty.<br><br><strong>Maximum:</strong> 60 characters.</p>                                                                                                                                                                                                                                                          |
-|                    | name.familyName | <p>Attribute is used if the <code>displayName</code> attribute is not provided, <code>name</code> attribute is provided and 'formatted' attribute value is not empty.<br><br><strong>Maximum:</strong> 60 characters.</p>                                                                                                                                    |
-| User type          | userType        | <p>Supported values: <code>regular</code>, <code>readonly</code> and <code>billing</code>.</p><p></p><p>When <code>userType=regular</code>, a user is upgraded to FULL license inside the Qase application.<br><br>When userType is not specified, user license is updated/set according to internal Qase logic, which depends on the organization plan.</p> |
-| Active             | active          | Supported value: `true` or `false`                                                                                                                                                                                                                                                                                                                           |
+<table><thead><tr><th width="155.33333333333331">IDP attribute name</th><th width="186">Qase attribute</th><th>Description</th></tr></thead><tbody><tr><td>Email</td><td><code>userName</code></td><td>User email. Mandatory field.</td></tr><tr><td>Name</td><td><code>name.givenName</code></td><td>Attribute is used if the value is not empty.<br><br><strong>Maximum:</strong> 60 characters.</td></tr><tr><td></td><td><code>name.familyName</code></td><td>Attribute is used if the <code>displayName</code> attribute is not provided, <code>name</code> attribute is provided and 'formatted' attribute value is not empty.<br><br><strong>Maximum:</strong> 60 characters.</td></tr><tr><td>User type</td><td><code>userType</code></td><td><p>Supported values: <code>regular</code>, <code>readonly</code> and <code>billing</code>.</p><p></p><p>When <code>userType=regular</code>, a user is upgraded to FULL license inside the Qase application.<br><br>When userType is not specified, user license is updated/set according to internal Qase logic, which depends on the organization plan.</p></td></tr><tr><td>Active</td><td><code>active</code></td><td>Supported value: <code>true</code> or <code>false</code></td></tr></tbody></table>
 
 > 📘
 >
 > Qase attribute namespace
 >
 > 'urn:ietf:params:scim:schemas:core:2.0:User' is a default SCIM urn for basic fields. If your identity provider does not require defining namespace, the default namespace must be avoided.
+
+
 
 ### User methods
 
@@ -82,36 +80,32 @@ The `sortBy` parameter specifies the attribute whose value will be used to order
 **Filters**\
 You can request a subset of resources by specifying the `filter` query parameter containing a filter expression. Attribute names and attribute operators used in filters are case insensitive. The `filter` parameter must contain at least one valid expression. Each expression must contain an attribute name followed by an attribute operator and an optional value.
 
-`eq` equal
+<table data-header-hidden><thead><tr><th width="136"></th><th></th></tr></thead><tbody><tr><td><pre><code>eq
+</code></pre></td><td>equal</td></tr><tr><td><pre><code>ne
+</code></pre></td><td>not equal</td></tr><tr><td><pre><code>co
+</code></pre></td><td>contains</td></tr><tr><td><pre><code>sw
+</code></pre></td><td>starts with</td></tr><tr><td><pre><code>ew
+</code></pre></td><td>ends with</td></tr><tr><td><pre><code>pr
+</code></pre></td><td>preset (has value)</td></tr><tr><td><pre><code>gt
+</code></pre></td><td>greater than</td></tr><tr><td><pre><code>ge
+</code></pre></td><td>greater than or equal to</td></tr><tr><td><pre><code>lt
+</code></pre></td><td>less than</td></tr><tr><td><pre><code>le
+</code></pre></td><td>less than or equal to</td></tr><tr><td><pre><code>and
+</code></pre></td><td>logical "and"</td></tr><tr><td><pre><code>or
+</code></pre></td><td>logical "or"</td></tr><tr><td><pre><code>not
+</code></pre></td><td>"not" function</td></tr><tr><td><pre><code>( )
+</code></pre></td><td>precedence grouping</td></tr></tbody></table>
 
-`ne` not equal
 
-`co` contains
-
-`sw` starts with
-
-`ew` ends with
-
-`pr` preset (has value)
-
-`gt` greater than
-
-`ge` greater than or equal to
-
-`lt` less than
-
-`le` less than or equal to
-
-`and` Logical "and"
-
-`or` Logical "or"
-
-`not` "Not" function
-
-`()` Precedence grouping
 
 Example of complex request:\
-`GET: https://app.qase.io/scim/v2/Users?attributes=name,userName&filter=NOT(name.familyName eq "Green")&sortBy=name.givenName&sortOrder=ascending&startIndex=2&count=5`
+
+
+```
+GET: https://app.qase.io/scim/v2/Users?attributes=name,userName&filter=NOT(name.familyName eq "Green")&sortBy=name.givenName&sortOrder=ascending&startIndex=2&count=5
+```
+
+
 
 #### Get user by ID
 
@@ -146,6 +140,8 @@ Response
     }
 }
 </code></pre>
+
+
 
 #### Create a new user
 
@@ -196,6 +192,8 @@ Creates a new user. Payload must include `userName` attribute populated with an 
     ]
 }
 ```
+
+
 
 #### Replace user by ID
 
@@ -258,6 +256,8 @@ Updates an existing user resource. This is the easiest way to replace the user i
     ]
 }
 ```
+
+
 
 #### Update user attribute by ID
 
@@ -363,6 +363,8 @@ The body of a PATCH request must contain the attribute `Operations`, whose value
 }
 ```
 
+
+
 #### Delete user by ID
 
 `DELETE: https://app.qase./scim/Users/1`
@@ -371,6 +373,6 @@ Deletes a single user from the organization.
 
 > 🚧
 >
-> User removing restrictions
+> User removing restrictions:
 >
 > A user who is the workspace owner cannot be deleted. If you try to delete such user, the API returns a 409 error code.

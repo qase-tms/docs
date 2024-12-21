@@ -2,7 +2,9 @@
 
 ### Why do you need subprocessors?
 
-Qase currently uses subprocessors to provide core infrastructure and other services. Prior to engaging any subprocessor, Qase evaluates their privacy, security, and confidentiality practices, and executes an agreement implementing its applicable obligations.
+Qase currently uses subprocessors to provide core infrastructure and other services.&#x20;
+
+Prior to engaging any subprocessor, Qase evaluates their privacy, security, and confidentiality practices, and executes an agreement implementing its applicable obligations.
 
 ### Third parties <a href="#h_764fc910a3" id="h_764fc910a3"></a>
 

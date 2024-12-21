@@ -42,7 +42,7 @@ To set up your Qase account with SSO/SAML and OneLogin, you'll need to take the 
 
     `Any domains that are added will need to be verified. To do so, you will need to add a TXT record to the domain's DNS records`
 
-<figure><img src="../../.gitbook/assets/30167.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-21 at 10.41.38.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 9\. If you want new users who join your team to become a read-only by default, check "Automatically add new users as read-only members" checkbox.
 

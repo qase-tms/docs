@@ -10,4 +10,6 @@ List of IP addresses:
 * 3.129.164.77
 * 3.141.77.106
 
-Note: that this list can be changed or updated.
+{% hint style="warning" %}
+This list may be changed or updated.
+{% endhint %}

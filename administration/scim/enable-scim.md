@@ -4,14 +4,16 @@ SCIM API is enabled for all customers with Enterprise subscription by default. T
 
 1. Navigate to **Workspace > SCIM** page:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-11-06 at 10.56.23 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-11-06 at 10.56.23 AM (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Now you can create a new SCIM API Token.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-11-06 at 10.56.28 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-11-06 at 10.56.28 AM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 3. To ensure that everything is working as expected you can make the following request:\
+   \
    `GET: https://app.qase.io/scim/v2/Users`\
+   \
    Request Headers:\
    `Accept` _application/scim+json_\
    `Content-Type` _application/json_\
@@ -30,8 +32,11 @@ SCIM API is enabled for all customers with Enterprise subscription by default. T
 >
 > We support **HTTPS** requests only. Requests to **HTTP** protocol are redirected to **HTTPS** - please note that this redirection response can be handled incorrectly by certain tools.
 
-curl example
+curl Example:
 
 ```curl
-curl -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: Bearer <token>" https://app.qase.io/scim/v2/Users
+curl https://app.qase.io/scim/v2/Users \
+     -H "Accept: application/json" \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer <token>"
 ```
