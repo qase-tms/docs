@@ -8,11 +8,11 @@ Audit logs provide you with a historical record of all actions that have been pe
 
 Each entry of the log features a timestamp of the action, a performer of the action, and the description of the action that has been performed.
 
-
+<figure><img src="../../.gitbook/assets/60503.png" alt="" width="563"><figcaption></figcaption></figure>
 
 By default, you are taken to the "All" log record, which features log entries for all Qase entities. However, you can switch between log entries of a specific entity, using the filters feature. You can filter logs by type, member, and creation date.
 
-<figure><img src="../../.gitbook/assets/60503.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/logs.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 Available Filters:
 
