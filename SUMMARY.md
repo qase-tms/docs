@@ -70,6 +70,7 @@
   * [Tags](administration/workspace-management/tags.md)
   * [Attachments](administration/workspace-management/attachments.md)
   * [Audit logs](administration/workspace-management/audit-logs.md)
+  * [Hotkeys](administration/workspace-management/hotkeys.md)
 * [Subscriptions](administration/subscriptions/README.md)
   * [Free plan](administration/subscriptions/free-plan.md)
   * [Startup plan](administration/subscriptions/startup-plan.md)
