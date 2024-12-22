@@ -4,19 +4,118 @@
 
 [Trello](https://trello.com/) is a web-based, Kanban-style, list-making application for agile project management, developed by Atlassian.
 
-{% embed url="https://www.youtube.com/watch?v=W9SzInUQTTc" %}
-
 {% embed url="https://www.youtube.com/watch?v=_SvND-k9aY8" %}
 
 ### Why use Trello integration?
 
 With Trello app, you can:
 
-* Link Qase test cases to Trello cards
-* Link Qase test runs to Trello cards
-* Create a new card in Trello when you file a defect during a test run in Qase
+* Link Qase [test cases](../../general/get-started-with-the-qase-platform/test-cases/), [test runs](../../general/get-started-with-the-qase-platform/create-a-test-run/), and [defects](../../general/issues/defects.md) to Trello issues.
+* Create a new issue in Trello when you file a defect [during a test run in Qase](../../general/issues/defects.md#h_357b732096)
 
 ### How to install Trello? <a href="#h_144eff2f65" id="h_144eff2f65"></a>
+
+1. Click "Apps" in your Qase workspace
+
+<figure><img src="../../.gitbook/assets/15991.png" alt="" width="563"><figcaption></figcaption></figure>
+
+2. Click Trello card, then hit "Install now".
+
+<figure><img src="../../.gitbook/assets/49681.png" alt="" width="375"><figcaption></figcaption></figure>
+
+3. Sign in to Trello, if you are currently not, and Click "Allow" to grant access to Trello for the Qase app:
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
+
+4. After the redirect, hit "Authorize" to finalize the installation
+
+<figure><img src="../../.gitbook/assets/22208.png" alt="" width="375"><figcaption></figcaption></figure>
+
+5. The app is now successfully installed:
+
+<figure><img src="../../.gitbook/assets/78195.png" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+## Usage: <a href="#h_184a04610b" id="h_184a04610b"></a>
+
+***
+
+### Link your Qase Test Cases <a href="#h_54847fe2c0" id="h_54847fe2c0"></a>
+
+In your repository, click any test case to open its preview and switch to the Properties tab.
+
+Scroll down to the "Link with Apps" section, and choose Trello. Then, proceed to search and link your issues.
+
+Linked issues can be removed with the ( x ) icon.
+
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-21 at 21.04.22.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+### Link your Qase Test runs <a href="#h_3714e5dd2f" id="h_3714e5dd2f"></a>
+
+Test runs can be linked to a Trello issue, from the Run Dashboard.
+
+Under the "External Issues" section, click 'Select an Integration' to proceed. Only one Trello issue can be linked to the Test run.
+
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-21 at 21.06.53.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+### Link your Qase Defects <a href="#h_69054ada82" id="h_69054ada82"></a>
+
+Defects can be linked to a Trello issue, from the Defect Dashboard. Under the "External Issues" section, select the Trello app to proceed.
+
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-21 at 21.09.28.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+### Create a new Trello issue from a Qase Test run <a href="#h_3f479fc372" id="h_3f479fc372"></a>
+
+When you assign a negative result to a case during a test run, you will have the option to create or attach a Qase defect.
+
+Additionally, you can select the ‘Trello’ option from the "Choose Integration" dropdown to either create or link a Trello issue.
+
+The created or linked issue will be visible in both the defects tab of the test run and the defect section of the project.
+
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-21 at 21.15.21.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1. Click "Apps" in your Qase workspace
 2. Click Trello card, then hit "Install now":
@@ -27,11 +126,11 @@ With Trello app, you can:
 
 3\. Sign in to Trello, if you are currently not:
 
-[![](https://qase.intercom-attachments-7.com/i/o/597128520/93841ab8cc58ce16410a55bc/0gjkley1n-8UbnlTQn1B\_ajKlpu52wYViXjPc\_rEGbc9lYLGZBGF0iZpumw-xmqMHXb\_-VxZkhGBCKvXdhNf-dZf5HJA0xs3x7XzhVeS0WnRFq1JTIL8-ygpZpCyYFOG5kKxXWPEVM3i\_9WKj\_qprYITAb0Qa4uODIX9Pa6Fx68HcVZtxKbdhlj6)](https://qase.intercom-attachments-7.com/i/o/597128520/93841ab8cc58ce16410a55bc/0gjkley1n-8UbnlTQn1B\_ajKlpu52wYViXjPc\_rEGbc9lYLGZBGF0iZpumw-xmqMHXb\_-VxZkhGBCKvXdhNf-dZf5HJA0xs3x7XzhVeS0WnRFq1JTIL8-ygpZpCyYFOG5kKxXWPEVM3i\_9WKj\_qprYITAb0Qa4uODIX9Pa6Fx68HcVZtxKbdhlj6)
+[![](https://qase.intercom-attachments-7.com/i/o/597128520/93841ab8cc58ce16410a55bc/0gjkley1n-8UbnlTQn1B_ajKlpu52wYViXjPc_rEGbc9lYLGZBGF0iZpumw-xmqMHXb_-VxZkhGBCKvXdhNf-dZf5HJA0xs3x7XzhVeS0WnRFq1JTIL8-ygpZpCyYFOG5kKxXWPEVM3i_9WKj_qprYITAb0Qa4uODIX9Pa6Fx68HcVZtxKbdhlj6)](https://qase.intercom-attachments-7.com/i/o/597128520/93841ab8cc58ce16410a55bc/0gjkley1n-8UbnlTQn1B_ajKlpu52wYViXjPc_rEGbc9lYLGZBGF0iZpumw-xmqMHXb_-VxZkhGBCKvXdhNf-dZf5HJA0xs3x7XzhVeS0WnRFq1JTIL8-ygpZpCyYFOG5kKxXWPEVM3i_9WKj_qprYITAb0Qa4uODIX9Pa6Fx68HcVZtxKbdhlj6)
 
 4\. Click "Allow" to grant access to Trello for the Qase app:
 
-[![](https://qase.intercom-attachments-7.com/i/o/597128522/ba93a7f490dd2f4784a702a9/H1JJu1Oh6yOU-cAKtyedy\_8QSoIBZGe0LudwZdNl1H3\_di2B4keLULg9Hgpt9sxJIXzAhvcNw8nF\_Om4GnwetO3tqvlI1JiahleIkSJ0G2tGUu9WEgnAENcIdFaZyyRvV68b2PL5wXiR\_MYIm\_YYq\_R6WQXQyy4lO9hc1nSEKLEtwHhPDkFQ-gFn)](https://qase.intercom-attachments-7.com/i/o/597128522/ba93a7f490dd2f4784a702a9/H1JJu1Oh6yOU-cAKtyedy\_8QSoIBZGe0LudwZdNl1H3\_di2B4keLULg9Hgpt9sxJIXzAhvcNw8nF\_Om4GnwetO3tqvlI1JiahleIkSJ0G2tGUu9WEgnAENcIdFaZyyRvV68b2PL5wXiR\_MYIm\_YYq\_R6WQXQyy4lO9hc1nSEKLEtwHhPDkFQ-gFn)
+[![](https://qase.intercom-attachments-7.com/i/o/597128522/ba93a7f490dd2f4784a702a9/H1JJu1Oh6yOU-cAKtyedy_8QSoIBZGe0LudwZdNl1H3_di2B4keLULg9Hgpt9sxJIXzAhvcNw8nF_Om4GnwetO3tqvlI1JiahleIkSJ0G2tGUu9WEgnAENcIdFaZyyRvV68b2PL5wXiR_MYIm_YYq_R6WQXQyy4lO9hc1nSEKLEtwHhPDkFQ-gFn)](https://qase.intercom-attachments-7.com/i/o/597128522/ba93a7f490dd2f4784a702a9/H1JJu1Oh6yOU-cAKtyedy_8QSoIBZGe0LudwZdNl1H3_di2B4keLULg9Hgpt9sxJIXzAhvcNw8nF_Om4GnwetO3tqvlI1JiahleIkSJ0G2tGUu9WEgnAENcIdFaZyyRvV68b2PL5wXiR_MYIm_YYq_R6WQXQyy4lO9hc1nSEKLEtwHhPDkFQ-gFn)
 
 5\. After the redirect, hit "Authorize" to finalize the installation:
 
@@ -39,7 +138,7 @@ With Trello app, you can:
 
 6\. The app is now successfully installed:
 
-[![](https://qase.intercom-attachments-7.com/i/o/597128525/e7ee4ad7952bf41eacd59339/Eij6aPWJ2Krju2-5ajiqQFnBR4wXTuy\_wPstywbduoO\_bx9V\_O6Q4tT8TOaCb23YhVpv2jSbCQQtxBlsNwPYHlSJz6MFxcF2da5g-CRmtgzYumge4EmcyMC7FIVJWtmWvzQst3URk5SIxpCb32gyoklS6hn5bex3-KZusb0IF1xszdVcPHFfMn2b)](https://qase.intercom-attachments-7.com/i/o/597128525/e7ee4ad7952bf41eacd59339/Eij6aPWJ2Krju2-5ajiqQFnBR4wXTuy\_wPstywbduoO\_bx9V\_O6Q4tT8TOaCb23YhVpv2jSbCQQtxBlsNwPYHlSJz6MFxcF2da5g-CRmtgzYumge4EmcyMC7FIVJWtmWvzQst3URk5SIxpCb32gyoklS6hn5bex3-KZusb0IF1xszdVcPHFfMn2b)
+[![](https://qase.intercom-attachments-7.com/i/o/597128525/e7ee4ad7952bf41eacd59339/Eij6aPWJ2Krju2-5ajiqQFnBR4wXTuy_wPstywbduoO_bx9V_O6Q4tT8TOaCb23YhVpv2jSbCQQtxBlsNwPYHlSJz6MFxcF2da5g-CRmtgzYumge4EmcyMC7FIVJWtmWvzQst3URk5SIxpCb32gyoklS6hn5bex3-KZusb0IF1xszdVcPHFfMn2b)](https://qase.intercom-attachments-7.com/i/o/597128525/e7ee4ad7952bf41eacd59339/Eij6aPWJ2Krju2-5ajiqQFnBR4wXTuy_wPstywbduoO_bx9V_O6Q4tT8TOaCb23YhVpv2jSbCQQtxBlsNwPYHlSJz6MFxcF2da5g-CRmtgzYumge4EmcyMC7FIVJWtmWvzQst3URk5SIxpCb32gyoklS6hn5bex3-KZusb0IF1xszdVcPHFfMn2b)
 
 ### Usage <a href="#h_184a04610b" id="h_184a04610b"></a>
 
@@ -51,7 +150,7 @@ With Trello app, you can:
 
 * Click "Link Trello App issues":
 
-[![](https://qase.intercom-attachments-7.com/i/o/597128548/f1426944b7ca24adda34e119/\_8XBpbylCiFw6dhtGvVI22yME1EG-HhF2Wttl\_8XVLHMj1W6VDxbrMn-50-f4-pI9WUxS\_8M\_vkgJunYr7f3BQFuWAl\_cKpQOVZ4YPPULoCyzNPAKshQbgEAxl09Ew54-BgrXrhQZdRsEhD1AIbbgjpzU9dTKjKc8zOKjaNEgORBcUGKZChTLqmR)](https://qase.intercom-attachments-7.com/i/o/597128548/f1426944b7ca24adda34e119/\_8XBpbylCiFw6dhtGvVI22yME1EG-HhF2Wttl\_8XVLHMj1W6VDxbrMn-50-f4-pI9WUxS\_8M\_vkgJunYr7f3BQFuWAl\_cKpQOVZ4YPPULoCyzNPAKshQbgEAxl09Ew54-BgrXrhQZdRsEhD1AIbbgjpzU9dTKjKc8zOKjaNEgORBcUGKZChTLqmR)
+[![](https://qase.intercom-attachments-7.com/i/o/597128548/f1426944b7ca24adda34e119/_8XBpbylCiFw6dhtGvVI22yME1EG-HhF2Wttl_8XVLHMj1W6VDxbrMn-50-f4-pI9WUxS_8M_vkgJunYr7f3BQFuWAl_cKpQOVZ4YPPULoCyzNPAKshQbgEAxl09Ew54-BgrXrhQZdRsEhD1AIbbgjpzU9dTKjKc8zOKjaNEgORBcUGKZChTLqmR)](https://qase.intercom-attachments-7.com/i/o/597128548/f1426944b7ca24adda34e119/_8XBpbylCiFw6dhtGvVI22yME1EG-HhF2Wttl_8XVLHMj1W6VDxbrMn-50-f4-pI9WUxS_8M_vkgJunYr7f3BQFuWAl_cKpQOVZ4YPPULoCyzNPAKshQbgEAxl09Ew54-BgrXrhQZdRsEhD1AIbbgjpzU9dTKjKc8zOKjaNEgORBcUGKZChTLqmR)
 
 * Insert Trello card title into the field and hit "Link":
 
@@ -59,7 +158,7 @@ With Trello app, you can:
 
 * Now the Trello card is linked:
 
-[![](https://qase.intercom-attachments-7.com/i/o/597128570/433303eb5edd115264f1cabc/O1GGOAbC2t6EpsrGNM2QmX56pimMBUKexyvj24DaLOiQ4jjyJew-nk6ERP6LLpPs9uJ53rae\_jixLpmrBCuNyYCoVJ-MM-9LRSVGKQ\_08Idurc7jV1pEzgL3gkav0XsjtAOpZEJXFN5Xy9HUu\_o9PoCc-lGxUHelLA6vB6EeEw39QYD9M2NMEturpg)](https://qase.intercom-attachments-7.com/i/o/597128570/433303eb5edd115264f1cabc/O1GGOAbC2t6EpsrGNM2QmX56pimMBUKexyvj24DaLOiQ4jjyJew-nk6ERP6LLpPs9uJ53rae\_jixLpmrBCuNyYCoVJ-MM-9LRSVGKQ\_08Idurc7jV1pEzgL3gkav0XsjtAOpZEJXFN5Xy9HUu\_o9PoCc-lGxUHelLA6vB6EeEw39QYD9M2NMEturpg)
+[![](https://qase.intercom-attachments-7.com/i/o/597128570/433303eb5edd115264f1cabc/O1GGOAbC2t6EpsrGNM2QmX56pimMBUKexyvj24DaLOiQ4jjyJew-nk6ERP6LLpPs9uJ53rae_jixLpmrBCuNyYCoVJ-MM-9LRSVGKQ_08Idurc7jV1pEzgL3gkav0XsjtAOpZEJXFN5Xy9HUu_o9PoCc-lGxUHelLA6vB6EeEw39QYD9M2NMEturpg)](https://qase.intercom-attachments-7.com/i/o/597128570/433303eb5edd115264f1cabc/O1GGOAbC2t6EpsrGNM2QmX56pimMBUKexyvj24DaLOiQ4jjyJew-nk6ERP6LLpPs9uJ53rae_jixLpmrBCuNyYCoVJ-MM-9LRSVGKQ_08Idurc7jV1pEzgL3gkav0XsjtAOpZEJXFN5Xy9HUu_o9PoCc-lGxUHelLA6vB6EeEw39QYD9M2NMEturpg)
 
 * To unlink the Trello card, click "x" next to the card title:
 
@@ -92,7 +191,7 @@ With Trello app, you can:
 
 * In the test run, mark your case as failed, blocked, or invalid and proceed with creating a defect:
 
-[![](https://qase.intercom-attachments-7.com/i/o/597128614/dc9bc2cc2dc35d59f36cc783/SnH8kGdz9XZGUexK9EDcqBn4ZllrM8tGblj70F6B8F8\_ilJdMSbK3x8M6qkDQG98sLFo43Tdn8iNY22\_1eElMGX0Y0mf9e4A-VatNoKgWHXFPSfT5E7-4nQlF0JxIgmXQsQ5qDS8\_\_RhYD4WOHL2pxQk2qvFRBx3HIUyAXvr5ON30mO3IrqhgYWl-Q)](https://qase.intercom-attachments-7.com/i/o/597128614/dc9bc2cc2dc35d59f36cc783/SnH8kGdz9XZGUexK9EDcqBn4ZllrM8tGblj70F6B8F8\_ilJdMSbK3x8M6qkDQG98sLFo43Tdn8iNY22\_1eElMGX0Y0mf9e4A-VatNoKgWHXFPSfT5E7-4nQlF0JxIgmXQsQ5qDS8\_\_RhYD4WOHL2pxQk2qvFRBx3HIUyAXvr5ON30mO3IrqhgYWl-Q)
+[![](https://qase.intercom-attachments-7.com/i/o/597128614/dc9bc2cc2dc35d59f36cc783/SnH8kGdz9XZGUexK9EDcqBn4ZllrM8tGblj70F6B8F8_ilJdMSbK3x8M6qkDQG98sLFo43Tdn8iNY22_1eElMGX0Y0mf9e4A-VatNoKgWHXFPSfT5E7-4nQlF0JxIgmXQsQ5qDS8__RhYD4WOHL2pxQk2qvFRBx3HIUyAXvr5ON30mO3IrqhgYWl-Q)](https://qase.intercom-attachments-7.com/i/o/597128614/dc9bc2cc2dc35d59f36cc783/SnH8kGdz9XZGUexK9EDcqBn4ZllrM8tGblj70F6B8F8_ilJdMSbK3x8M6qkDQG98sLFo43Tdn8iNY22_1eElMGX0Y0mf9e4A-VatNoKgWHXFPSfT5E7-4nQlF0JxIgmXQsQ5qDS8__RhYD4WOHL2pxQk2qvFRBx3HIUyAXvr5ON30mO3IrqhgYWl-Q)
 
 * In the defect creation form, click “Choose Integration,” select "Trello App" and click "Add defect":
 

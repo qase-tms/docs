@@ -62,7 +62,7 @@ Click the AI Test Case action button to open the generator screen.
 
 (2) Enter the Requirement manually
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Title Field: Enter the requirement title or a bunch of requirements. For a single requirement, the title should be descriptive of the use case. For multiple requirements, it might be descriptive of the Epic or Theme of the requirement (e.g., authorization).
 * Description Fields: Enter your requirement(s). For best results, use the requirements template or an example requirement.

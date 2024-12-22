@@ -4,77 +4,9 @@
 
 [GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-{% embed url="https://www.youtube.com/watch?v=F-L8EGUSxww" %}
+{% embed url="https://youtu.be/QfQu7uaDIEo?t=161" %}
 
-{% embed url="https://www.youtube.com/watch?v=QfQu7uaDIEo" %}
-
-With the GitHub app, you can:
-
-* create a new issue in GitHub when you file a [defect](https://docs.qase.io/general/get-started-with-the-qase-platform/defects) during a [test run](https://docs.qase.io/general/get-started-with-the-qase-platform/create-a-test-run-1) in Qase.
-* connect a GitHub workflow to Qase.
-* execute automated runs in GitHub from a Qase test run.
-
-## Installation <a href="#h_638b057e77" id="h_638b057e77"></a>
-
-***
-
-<details>
-
-<summary>Go to the 'Apps' section of your workspace:</summary>
-
-[![](https://qase.intercom-attachments-7.com/i/o/597262858/6345d95eecf41310e09a89ff/lqgVeB1yc_MKiXnQqLagQpFsW9u3hnirPVlcw4vZrjBqx38lYIGVO8RicQgSEePUPN81FjSJy_Qa9hr7oaBdmz8i1mrkA6BBLsh4Lp2Fj0I4sKUuBlm9MkaKN8EBjg_kBRoKmhceZrzsukuIs674Y9Oyr1jWdRbDVIs5hCczTLi-LzhMvNME0dfZGA)](https://qase.intercom-attachments-7.com/i/o/597262858/6345d95eecf41310e09a89ff/lqgVeB1yc_MKiXnQqLagQpFsW9u3hnirPVlcw4vZrjBqx38lYIGVO8RicQgSEePUPN81FjSJy_Qa9hr7oaBdmz8i1mrkA6BBLsh4Lp2Fj0I4sKUuBlm9MkaKN8EBjg_kBRoKmhceZrzsukuIs674Y9Oyr1jWdRbDVIs5hCczTLi-LzhMvNME0dfZGA)
-
-</details>
-
-To install the app, follow these steps:
-
-1. Click the GitHub card, and hit "Install now"
-2. Log in to GitHub, if you're not already.
-3. Select the GitHub Repositories where you want to install the app, then hit "Install"
-4. After the redirect, hit "Authorize" to complete the installation.
-5. The app is now installed successfully.
-
-<mark style="background-color:purple;">**Step 4**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">is important because it authorizes GitHub to access your Qase workspace.</mark>\
-
-
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/597262963/9b1ce15067dd9bbe2dd944b5/fK0dSgk8x9jmI34J847RbL1CmbB2eZa0XI3VGOBQfzLgch1_WI5FVMYU0WbwFArW9Ay-rh1eF26wNnS73NUzUBV8MR4zh9Uv8oBX9uawXe9sPnBqpQ_VXXKbsecmlRQcoBaR9yIAVUXg8F0wpArxnGmiPU_vUbt4tthNdhTMPHwnaeXi6UmwkbHWpw" alt=""><figcaption></figcaption></figure>
-
-## Usage <a href="#h_7b2567480e" id="h_7b2567480e"></a>
-
-***
-
-### 1. Issue-tracking <a href="#h_db20e6b636" id="h_db20e6b636"></a>
-
-### a. Creating a GitHub issue <a href="#h_1278f6a768" id="h_1278f6a768"></a>
-
-To create a GitHub issue together with a defect in Qase:
-
-1. In the test run, mark your test case as Failed, Blocked, or Invalid and proceed with creating a Defect
-2. In the Defect creation form, under “Choose Integrations”, select "GitHub App" and click "Add defect"
-3. Choose the GitHub repository to create an issue in, then hit "Create"
-4. In the Qase Defect you will now have a connected GitHub issue link
-5. The statuses of the Qase Defect and the connected GitHub issue synced, meaning marking one as closed resolves the other (and vice versa).
-
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/597263092/e11f0e507d8f9c15a8281cc8/O-FM2DmK-TDZ3HPQrOY7st8Iiw-hmVZXOeJfVPYOCsxKxWxNX9W1lKeYQnadDirByfuPJpEhL9XzELIsw1Wfd98y4Xe0dlao9fWj1I_YqSzTuygg78RX9_Upg-jv9hYbPeD_Z1VQcOG6dxj0inePKsET37J9bwssofpv3gv_RrlmgmSyID20YT_CfA" alt=""><figcaption></figcaption></figure>
-
-### b. Link a GitHub issue to Test cases/Runs. <a href="#h_4711086d55" id="h_4711086d55"></a>
-
-For Test cases -
-
-1. Click on the test case you want to link the GitHub issue to.
-2. Switch to the properties tab in the preview window.
-3. Scroll down and click on "Link GitHub app issue"
-4. In the modal window- select your repository, search for the issue and click on 'link'.
-
-For Test runs -
-
-1. Go to your Test runs view and click on the run you want to link the GitHub issue to.
-2. In the Run dashboard, to the bottom right, find the button 'Select an integration' under External issue.
-3. In the modal window- select your repository, search for the issue and click on 'link'.
-
-<figure><img src="../../.gitbook/assets/gh3.gif" alt=""><figcaption></figcaption></figure>
-
-### **CI/CD Workflows**
+## **CI/CD Workflows**
 
 ***
 
@@ -85,90 +17,97 @@ Follow these steps to connect a GitHub workflow to Qase:
 1. One of Qase [reporter apps](https://help.qase.io/en/collections/3564516-apps#reporters) should be used in order to receive the test run results.
 2. [Create a token](https://help.qase.io/en/collections/3564516-apps#reporters) in Qase and add it to the `QASE_API_TOKEN` secret in your [GitHub repository settings](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository).
 
+<figure><img src="../../.gitbook/assets/27659.png" alt="" width="563"><figcaption></figcaption></figure>
 
+3. The inputs and env variables that are required need to be defined in a workflow:
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/686415821/6a017b8cffd368b175928f12/Untitled+(1).png" alt=""><figcaption></figcaption></figure>
-
-3. The inputs and env variables that are required need to be defined in a workflow:\
-
-
-```
+{% code overflow="wrap" %}
+```yaml
+name: Qase Tests
 on:
   workflow_dispatch:
     inputs:
       qase_api_base_url:
-        description: 'Qase API URL'
+        description: "Qase API URL"
         required: true
       qase_report:
-        description: 'Enabled/disabled reporting to Qase'
+        description: "Enabled/disabled reporting to Qase"
         required: true
       qase_project_code:
-        description: 'Qase project code'
+        description: "Qase project code"
         required: true
       qase_run_id:
-        description: 'Qase Run ID'
+        description: "Qase Run ID"
         required: true
       qase_run_complete:
-        description: 'Qase Run autocomplete'
+        description: "Qase Run autocomplete"
         required: true
+
 env:
   QASE_API_BASE_URL: ${{ inputs.qase_api_base_url }}
-  QASE_REPORT: ${{ inputs.qase_report }}
-  QASE_PROJECT_CODE: ${{ inputs.qase_project_code }}
-  QASE_RUN_ID: ${{ inputs.qase_run_id }}
-  QASE_RUN_COMPLETE: ${{ inputs.qase_run_complete }}
-  QASE_API_TOKEN: ${{ secrets.QASE_API_TOKEN }}
+  QASE_TESTOPS_PROJECT: ${{ inputs.qase_project_code }}
+  QASE_TESTOPS_RUN_ID: ${{ inputs.qase_run_id }}
+  QASE_TESTOPS_RUN_COMPLETE: true
+  QASE_TESTOPS_API_TOKEN: ${{ secrets.QASE_API_TOKEN }}
 ```
+{% endcode %}
 
 4. Add a step to the _**first place**_ in the job. It allows to link a GitHub workflow run with a Qase test run.\
 
 
 ```
 jobs:
-  build-php:
+  test:
+    timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
-      - uses: qase-tms/qase-link-run@main
+      - uses: cskmnrpt/qase-link-run@v2
         env:
-          QASE_API_TOKEN: ${{ env.QASE_API_TOKEN }}
+          QASE_TESTOPS_API_TOKEN: ${{ env.QASE_TESTOPS_API_TOKEN }}
 ```
 
 5. Add additional steps to execute your tests.
 
-### Related links: <a href="#h_fa83966911" id="h_fa83966911"></a>
 
-* [An example of an integration](https://github.com/qase-tms/qase-javascript/tree/master/examples/github-qase-integration).
 
 ### b. Start an automated run <a href="#h_243d154c96" id="h_243d154c96"></a>
 
 After the workflow is connected, you can initiate automated test runs from Qase:
 
-1.  Start a new automated test run:
+1. From the Test runs screen, click "Start a new Test run", and choose the type as 'Automated'
 
+<figure><img src="../../.gitbook/assets/94213.png" alt="" width="563"><figcaption></figcaption></figure>
 
+2. Choose a CI/CD system to use (Github):
 
-    <figure><img src="https://downloads.intercomcdn.com/i/o/686417783/f1ed2ade17bda74fdd94e8ce/Untitled+(2).png" alt=""><figcaption></figcaption></figure>
-2.  Choose a CI/CD system to use (Github):
+<figure><img src="../../.gitbook/assets/72855.png" alt="" width="563"><figcaption></figcaption></figure>
 
+3. Fill in the required fields:
 
+<figure><img src="../../.gitbook/assets/97680.png" alt="" width="563"><figcaption></figcaption></figure>
 
-    <figure><img src="https://downloads.intercomcdn.com/i/o/686418072/1882d85fa68a2a67509062f8/Untitled+(3).png" alt=""><figcaption></figcaption></figure>
-3.  Fill in the required fields:
-
-
-
-    <figure><img src="https://downloads.intercomcdn.com/i/o/686418234/87e54a03cc218ea37b7bfecf/Untitled+(4).png" alt=""><figcaption></figcaption></figure>
 4. Click "Start a run" button.
-5.  You will be redirected to a test run you started. In the test run details section, you will see a link to the workflow run in GitHub and the current status.
+5. You will be redirected to a test run you started. In the test run details section, you will see a link to the workflow run in GitHub and the current status.
+
+<figure><img src="../../.gitbook/assets/97142.png" alt="" width="563"><figcaption></figcaption></figure>
+
+6. When the tests have been executed, the test run will contain all the results sent by a reporter (it should be properly configured):
+
+<figure><img src="../../.gitbook/assets/27018.png" alt="" width="563"><figcaption></figcaption></figure>
+
+### GitHub Actions <a href="#h_0bc1726ce5" id="h_0bc1726ce5"></a>
+
+GitHub Actions allows for reusable functions and workflows, enhancing automation and efficiency.
+
+Qase offers the following actions, which can be integrated into your workflows to streamline tasks.
+
+* [Create Qase test runs](https://github.com/qase-tms/gh-actions/tree/main/run-create)
+* [Complete (close) Qase test runs](https://github.com/qase-tms/gh-actions/tree/main/run-complete)
+* [Send test reports in JUnit, XCTest, Qase, and Allure formats](https://github.com/qase-tms/gh-actions/tree/main/report)
+* [Create Qase environments](https://github.com/qase-tms/gh-actions/tree/main/env-create)
+* [Create Qase milestones](https://github.com/qase-tms/gh-actions/tree/main/milestone-create)
 
 
-
-    <figure><img src="https://downloads.intercomcdn.com/i/o/686418577/a39c6e87fbe8a37c7f10e383/Untitled+(5).png" alt=""><figcaption></figcaption></figure>
-6.  When the tests have been executed, the test run will contain all the results sent by a reporter (it should be properly configured):
-
-
-
-    <figure><img src="https://downloads.intercomcdn.com/i/o/686418932/9c8fe859543d42e402f4b44d/Untitled+(6).png" alt=""><figcaption></figcaption></figure>
 
 ### Troubleshooting: <a href="#h_d58df6962e" id="h_d58df6962e"></a>
 
@@ -176,10 +115,9 @@ If integration with GitHub has already been enabled before, it’s required to a
 
 In case of insufficient permissions after clicking on the “Start a run” button, a message with an error will appear.
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/686421060/896eaedb391fe7e3c4a673b4/Untitled+(7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/23604.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Useful resource <a href="#h_cdd81132bc" id="h_cdd81132bc"></a>
 
-An example of Github integration: [https://github.com/qase-tms/qase-javascript/tree/master/examples/github-qase-integration](https://github.com/qase-tms/qase-javascript/tree/master/examples/github-qase-integration)
-
-\
+An example of Github integration: \
+[https://github.com/qase-tms/qase-javascript/tree/master/examples/github-qase-integration](https://github.com/qase-tms/qase-javascript/tree/master/examples/github-qase-integration)

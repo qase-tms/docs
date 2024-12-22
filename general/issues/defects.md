@@ -26,7 +26,7 @@ To do that, hit _Create New Defect,_ and add all necessary details - Defect Titl
 
 <figure><img src="../../.gitbook/assets/68159.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Such a defect would not have any reference to a [Test case](../get-started-with-the-qase-platform/test-cases/) or a [Test Run](../get-started-with-the-qase-platform/create-a-test-run/), since it has not been filed from any.
 
@@ -59,7 +59,7 @@ So, how do we create a Defect during a test run?
 
 * Mark a Test Case as "Failed", or add any other _Negative_ Result:
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * You will be prompted to a Run result window, where you can file additional comment, record how much time was spent on a test case execution, attach files, and create/attach defect:
 
@@ -75,7 +75,7 @@ Now a new Defect will be created from a test run result - you can find it saved 
 
 <figure><img src="../../.gitbook/assets/93697.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 NB: Defects viewed in a test run will show you only defects filed in that test run, but under the “Defects” section, you will find all defects filed in a project.
 
@@ -91,7 +91,7 @@ In the Defects section, you can search and filter all the defects filed in your 
 
 Clicking on the Title of your new Defect will provide you with more details about this Defect, such as which Test Run it was performed in, which Test Case it pertains to, who reported this Defect - and other important data:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 After a Defect has been created, you can:
 
@@ -119,5 +119,5 @@ You can introduce changes to a Defect as well by hitting the Edit button.
 
 Editing a Defect will take you to another screen, where you can change the Defect's Title, enter the Actual Result, add an attachment, etc., and update a defect once ready:
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 

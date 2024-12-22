@@ -14,7 +14,7 @@ Requirements are a vital part of the test management paradigm. They allow you to
 
 In Qase, you can manage product requirements in the dedicated "Requirements" section.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 To create a new requirement, hit the "+Requirement".
 
@@ -32,13 +32,13 @@ A requirement has several properties:
 * _Attachments_ can be provided for additional context of a requirement.
 * Next, attach the [Test Cases](../get-started-with-the-qase-platform/test-cases/) that will be covering your requirement:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Requirement's details
 
 Once a requirement has been created, you can see its details in the section, create a "child" (or a sub-requirement), edit or delete it, and navigate to test cases that cover this requirement by clicking test case title:
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Requirements section also allows you to look up items by title or description using the search box, or filter out specific requirements by a certain parameter (author, status, type, or creation date):
 

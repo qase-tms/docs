@@ -66,7 +66,7 @@ You might have several _projects ¹_ in your Jira instance, each with different 
 \
 Select the Project, Issue Type and click on "Add transition" and select the Defect Mapping and Save the changes:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="240"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="240"><figcaption></figcaption></figure>
 
 You have an option to "Do nothing" in terms of status update of a Qase defect, once the associated Jira issue gets transitioned into a specific status - then, the Qase defect will remain in the status it was.
 
@@ -89,7 +89,7 @@ Linked issues can be removed with the ( x ) icon.
 
 `Unlink a test case.`
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -137,7 +137,7 @@ Once linked, the defect will be visible under the External column in the Defects
 
 ​And, also in the defect dashboard here -
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Once a Defect has been created and if you update the status of the Defect, you'll notice that you have the option to select the status for the associated Jira issue to be transitioned into:
 
@@ -156,7 +156,7 @@ Once a Defect has been created and if you update the status of the Defect, you'l
 
 * To unlink a case, click the "Trash Bin" icon in the sidebar next to the test case you want to unlink (an icon will appear when you hover over the linked case):
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 2. Test runs <a href="#h_a0c5567764" id="h_a0c5567764"></a>
 
@@ -170,11 +170,11 @@ Once a Defect has been created and if you update the status of the Defect, you'l
 
 * Use the search box to find the needed run by title, and click Link to attach it to the issue:
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Linked run and the statuses of cases in it are now shown in the issue:
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _Note:_ `a Jira issue can have multiple runs attached to it`
 

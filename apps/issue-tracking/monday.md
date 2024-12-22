@@ -8,17 +8,116 @@
 
 {% embed url="https://www.youtube.com/watch?v=N3v55H8nZPw" %}
 
-{% embed url="https://www.youtube.com/watch?v=TStz1a-8ExQ" %}
-
 ### Why use Monday integration?
 
 With the Monday app, you can:
 
-* Link Qase test cases to Monday App issues
-* Create a new issue in Monday App when you file a defect during a test run in Qase
-* Link Qase test runs to Monday App issues
+* Link Qase [test case](../../general/get-started-with-the-qase-platform/test-cases/), [test run](../../general/get-started-with-the-qase-platform/create-a-test-run/), or [defects](../../general/issues/defects.md) to Monday items.
+* Create a new items in Monday when you file a [defect during a test run](../../general/issues/defects.md#h_357b732096) in Qase
+
+
 
 ### How to install Monday? <a href="#h_11ba228bed" id="h_11ba228bed"></a>
+
+1. From the "Apps" section of your workspace, click the Monday App card.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+2. Now, click the 'install' button and then, "Add to Monday" -
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+
+3. Sign in to Monday and select your Workspace, then, click 'Install'
+
+<figure><img src="../../.gitbook/assets/70407.png" alt="" width="375"><figcaption></figcaption></figure>
+
+4. Switch back to your Qase workspace's tab and now you should see an 'Install' button.
+
+<figure><img src="../../.gitbook/assets/81397.png" alt="" width="375"><figcaption></figcaption></figure>
+
+5. Click authorise on Monday screen, and then on Qase's screen.
+
+<figure><img src="../../.gitbook/assets/7140.png" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/28244.png" alt="" width="375"><figcaption></figcaption></figure>
+
+6. The app is now successfully installed.
+
+<figure><img src="../../.gitbook/assets/95507.png" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+## Usage <a href="#h_628c0514d6" id="h_628c0514d6"></a>
+
+***
+
+### Link your Qase Test Cases <a href="#h_b68f61b253" id="h_b68f61b253"></a>
+
+In your repository, click any test case to open its preview and switch to the Properties tab.
+
+Scroll down to the "Link with Apps" section, and choose Monday. Then, proceed to search and link your items.
+
+Linked items can be removed with the ( x ) icon.
+
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-22 at 11.48.26 (1).gif" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+### Link your Qase Test runs <a href="#h_1948b6bfe6" id="h_1948b6bfe6"></a>
+
+Test runs can be linked to a Monday item, from the Run Dashboard.
+
+Under the "External Issues" section, click 'Select an Integration' to proceed. Only one Monday item can be linked to the Test run.
+
+<figure><img src="../../.gitbook/assets/monday test run link.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+### Link your Qase Defects <a href="#h_00bd21b33f" id="h_00bd21b33f"></a>
+
+Defects can be linked to a Monday item, from the Defect Dashboard. Under the "External Issues" section, select the Monday app to proceed.
+
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-22 at 11.51.06.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+### Create a new Monday item from a Qase Test run <a href="#h_950811df96" id="h_950811df96"></a>
+
+When you assign a negative result to a case during a test run, you will have the option to create or attach a Qase defect.
+
+Additionally, you can select the ‘Monday’ option from the "Choose Integration" dropdown to either create or link a Monday item.
+
+The created or linked item will be visible in both the defects tab of the test run and the defect section of the project.
+
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-22 at 11.53.30.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+### Mapping Statuses Between Qase and Monday <a href="#h_94b571173d" id="h_94b571173d"></a>
+
+Qase Defects have the following statuses: `Open`, `In-progress`, `Resolved`, `Invalid`
+
+<figure><img src="../../.gitbook/assets/37890.png" alt="" width="563"><figcaption></figcaption></figure>
+
+You can map these statuses to your Linear issues, from the app settings -
+
+<figure><img src="../../.gitbook/assets/42078.png" alt="" width="563"><figcaption></figcaption></figure>
+
+Statuses can be mapped for each board, and column separately
+
+<figure><img src="../../.gitbook/assets/12918.png" alt="" width="375"><figcaption></figcaption></figure>
+
+After mapping the statuses, changing a defect’s status in Qase will automatically update the corresponding status in Monday.
+
+
+
+
+
+
+
+
+
+
 
 1.  Click "Apps" in your Qase workspace:\
 
@@ -52,7 +151,7 @@ With the Monday app, you can:
 
 2\. To unlink the Monday app issue, click "x" next to the card title:
 
-[![](https://qase.intercom-attachments-7.com/i/o/597415381/11e3ddda7733766375237646/lYpxisYEoyL\_NdxNieI7Q1lzsgtxSm3LUgUSg7kCEteU5Yk0XQwSnqLRk\_R4ebMBwtOBCRHae9F5g6lwaR-QTlCReU4yXpjRPUL8WXv7l\_0ddk-agtopTkqutzXzBU1g-w\_3IouvMK4B8Soc3fIXOrTPWHeMfs5NefpFv1abZ6mxAnG7kfKtiVLdIw)](https://qase.intercom-attachments-7.com/i/o/597415381/11e3ddda7733766375237646/lYpxisYEoyL\_NdxNieI7Q1lzsgtxSm3LUgUSg7kCEteU5Yk0XQwSnqLRk\_R4ebMBwtOBCRHae9F5g6lwaR-QTlCReU4yXpjRPUL8WXv7l\_0ddk-agtopTkqutzXzBU1g-w\_3IouvMK4B8Soc3fIXOrTPWHeMfs5NefpFv1abZ6mxAnG7kfKtiVLdIw)
+[![](https://qase.intercom-attachments-7.com/i/o/597415381/11e3ddda7733766375237646/lYpxisYEoyL_NdxNieI7Q1lzsgtxSm3LUgUSg7kCEteU5Yk0XQwSnqLRk_R4ebMBwtOBCRHae9F5g6lwaR-QTlCReU4yXpjRPUL8WXv7l_0ddk-agtopTkqutzXzBU1g-w_3IouvMK4B8Soc3fIXOrTPWHeMfs5NefpFv1abZ6mxAnG7kfKtiVLdIw)](https://qase.intercom-attachments-7.com/i/o/597415381/11e3ddda7733766375237646/lYpxisYEoyL_NdxNieI7Q1lzsgtxSm3LUgUSg7kCEteU5Yk0XQwSnqLRk_R4ebMBwtOBCRHae9F5g6lwaR-QTlCReU4yXpjRPUL8WXv7l_0ddk-agtopTkqutzXzBU1g-w_3IouvMK4B8Soc3fIXOrTPWHeMfs5NefpFv1abZ6mxAnG7kfKtiVLdIw)
 
 3\. Link Qase test runs to Monday app issues: here's how you can link Monday issues to your test run
 

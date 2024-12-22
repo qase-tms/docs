@@ -11,7 +11,7 @@ What is Azure DevOps?
 With Azure DevOps app, you can:
 
 * Link Qase test cases to Azure Link Qase [test cases](../../general/get-started-with-the-qase-platform/test-cases/), [test runs](../../general/get-started-with-the-qase-platform/create-a-test-run/), and [defects](../../general/issues/defects.md) to ADO issues. issues.
-* Link Qase test runs Create a new issue in ADO when you file a [defect](../../general/issues/defects.md) during a test run in Qase.
+* Link Qase test runs Create a new issue in ADO when you file a defect [during a test run](../../general/issues/defects.md#h_357b732096) in Qase.
 *   The _statuses_ of the Qase defect and connected ADO work item are automatically synced.
 
     &#x20;\
@@ -33,7 +33,7 @@ With Azure DevOps app, you can:
 
 4. After the redirect, hit "Authorize" to finalize the installation:
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 5. The app is now successfully installed
 

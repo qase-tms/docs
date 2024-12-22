@@ -128,7 +128,7 @@ This is a list of sub-steps to be executed within a main step. This relationship
 
 To create a nested step, click on the three-dots menu of a step and select "Add child step."
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Shared Steps <a href="#h_66a5891687" id="h_66a5891687"></a>
 

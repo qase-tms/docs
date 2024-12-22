@@ -2,105 +2,104 @@
 
 ### What is Linear?
 
-Linear helps streamline software projects, sprints, issues, and bug tracking.
-
-
+**Linear** helps streamline software projects, sprints, issues, and bug tracking.
 
 {% embed url="https://youtu.be/et_CEHpBCSM" %}
 
 ### Why use Linear integration?
 
-With Linear app, you can:
+With the Linear app, you can:
 
-* Link Qase test cases to Linear issues
-* Link Linear issues to Qase test runs
-* Create a new issue in Linear when you file a defect during a test run in Qase
-* Sync statuses of a Qase Defect and connect Linear issue(i.e., as soon as you mark the defect as “Resolved” in a connected defect, the Linear Defect will be marked “Completed” - and vice versa).
+* Link Qase [test case](../../general/get-started-with-the-qase-platform/test-cases/), [test run](../../general/get-started-with-the-qase-platform/create-a-test-run/), or [defects](../../general/issues/defects.md) to Linear issues
+* Create a new Linear issue [directly from a Qase Test run](../../general/issues/defects.md#h_357b732096).
+* Automatically sync statuses of a the connected issues (i.e. the Qase defect and the connected Linear issues' statuses are automatically synced).
 
 ### How to install Linear? <a href="#h_36960bf8be" id="h_36960bf8be"></a>
 
-1.  Click "Apps" in your Qase workspace (before proceeding with the installation, please login to Linear in another tab):
+1. Click "Apps" in your Qase workspace (Before proceeding with the installation, please sign in to Linear in another tab):
 
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
-
-    <figure><img src="https://downloads.intercomcdn.com/i/o/683411874/eb1499b991f4f01b4e2e4293/image.png" alt=""><figcaption></figcaption></figure>
 2. Click Linear card, then hit "Install now":
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/683412529/5443c9ad5c8d6e2cbb5e52c4/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/57987.png" alt="" width="563"><figcaption></figcaption></figure>
 
-3\. In the following page, click on "Authorize Qase":
+3. In the following page, click on "Authorize Qase":
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/683414052/b497fb67fc35adce83e8f2b4/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/76092.png" alt="" width="375"><figcaption></figcaption></figure>
 
-4\. After the redirect, hit "Authorize" to finalize the installation:
+4. After the redirect, hit "Authorize" to finalize the installation:
 
-[![](https://downloads.intercomcdn.com/i/o/683414846/72ad1167e72fef7814b7a320/image.png)](https://downloads.intercomcdn.com/i/o/683414846/72ad1167e72fef7814b7a320/image.png)
+<figure><img src="../../.gitbook/assets/61246.png" alt="" width="375"><figcaption></figcaption></figure>
 
-5\. The app is now successfully installed:
+5. The app is now successfully installed:
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/683415389/35967b703d82d09af370087f/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8969.png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Usage <a href="#h_9a85cf0fc4" id="h_9a85cf0fc4"></a>
 
-#### Linking Linear issue to a Qase test case
 
-1. Select a case in the repository, switch to Properties in the sidebar and scroll down to find Linear:
+## Usage <a href="#h_9a85cf0fc4" id="h_9a85cf0fc4"></a>
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/683429087/074c687e5ac1e432dbd19d1d/image.png" alt=""><figcaption></figcaption></figure>
+***
 
-2. Click "Link Linear issues":
+### Link your Qase Test cases <a href="#h_0ab56d22e3" id="h_0ab56d22e3"></a>
 
-[![](https://downloads.intercomcdn.com/i/o/683429766/86d8620ff4772873190d4129/image.png)](https://downloads.intercomcdn.com/i/o/683429766/86d8620ff4772873190d4129/image.png)
+In your repository, click any test case to open its preview and switch to the Properties tab.
 
-3. Search for the Linear issue ID and click on "Link":
+Scroll down to the "Link with Apps" section, and choose Linear. Then, proceed to search and link your issues.
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/683430290/cb762c56ae7e12f76459b59d/image.png" alt=""><figcaption></figcaption></figure>
+Linked issues can be removed with the ( x ) icon.
 
-4. The issue will be linked and here's what it would look like:
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-21 at 01.14.16.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-[![](https://downloads.intercomcdn.com/i/o/683430844/26973029d5d1a87dd6a1fb61/image.png)](https://downloads.intercomcdn.com/i/o/683430844/26973029d5d1a87dd6a1fb61/image.png)
 
-5. To unlink the Linear issue, click "x" next to issue's title:
 
-[![](https://downloads.intercomcdn.com/i/o/683431461/527fe8b4b3dba24b0d441add/image.png)](https://downloads.intercomcdn.com/i/o/683431461/527fe8b4b3dba24b0d441add/image.png)
 
-#### Linking Linear issue to a Qase test run
 
-1. Navigate to the Test run you want to link to Linear
-2. Click on "Select an Integration"
+### Link your Qase Test runs <a href="#h_bbebe9eb58" id="h_bbebe9eb58"></a>
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/683451517/962271f776c4ec24ad0c7deb/image.png" alt=""><figcaption></figcaption></figure>
+Test runs can be linked to a Linear issue, from the Run Dashboard.
 
-3. In the Integration pop-up, select Linear:
+Under the "External Issues" section, click 'Select an Integration' to proceed. Only one Linear issue can be linked to the Test run.
 
-[![](https://downloads.intercomcdn.com/i/o/683451906/82da768433d0797635e4d094/image.png)](https://downloads.intercomcdn.com/i/o/683451906/82da768433d0797635e4d094/image.png)
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-21 at 01.16.38.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-4. Search for the Linear issue ID and click on "Link":
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/683430290/cb762c56ae7e12f76459b59d/image.png" alt=""><figcaption></figcaption></figure>
 
-5. Now the Linear issue is linked:
+### Link your Qase Defects <a href="#h_d1f600130a" id="h_d1f600130a"></a>
 
-[![](https://downloads.intercomcdn.com/i/o/683452901/0202682e8150c8534622c4fa/image.png)](https://downloads.intercomcdn.com/i/o/683452901/0202682e8150c8534622c4fa/image.png)
+Defects can be linked to a Linear issue, from the Defect Dashboard. Under the "External Issues" section, select the LInear app to proceed.
 
-6. To unlink the Linear issue, click on the Trash bin for the particular run and it will be unlinked:
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-21 at 01.18.11.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-[![](https://downloads.intercomcdn.com/i/o/683453350/188feb6a0d3524e7e16a7f7c/image.png)](https://downloads.intercomcdn.com/i/o/683453350/188feb6a0d3524e7e16a7f7c/image.png)
 
-#### Creating Linear issue together with a defect in Qase
 
-1. In the test run, mark your case as failed, blocked, or Invalid and proceed with creating a defect:
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/683463948/f7db563ad9ff35309ded7cc6/image.png" alt=""><figcaption></figcaption></figure>
 
-2. In the defect creation form, click “Choose Integration,” select "Linear" and click "Add defect":
+### Create a new Linear issue from a Qase Test run <a href="#h_d0bc4d7019" id="h_d0bc4d7019"></a>
 
-[![](https://downloads.intercomcdn.com/i/o/683464557/d9d44d1443f3857b546866de/image.png)](https://downloads.intercomcdn.com/i/o/683464557/d9d44d1443f3857b546866de/image.png)
+When you assign a negative result to a case during a test run, you will have the option to create or attach a Qase defect.
 
-3. Fill in all the required fields and then hit "Create":
+Additionally, you can select the ‘Linear’ option from the "Choose Integration" dropdown to either create or link a Linear issue.
 
-[![](https://downloads.intercomcdn.com/i/o/683465058/a8db13cca6a772a42c60d46f/image.png)](https://downloads.intercomcdn.com/i/o/683465058/a8db13cca6a772a42c60d46f/image.png)
+The created or linked issue will be visible in both the defects tab of the test run and the defect section of the project.
 
-4. In the Qase defect you will now have a connected Linear issue link:
+<figure><img src="../../.gitbook/assets/Kapture 2024-09-21 at 01.21.33.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/683466642/ed4aa2eba8eb49921029f1a8/image.png" alt=""><figcaption></figcaption></figure>
+
+
+### Mapping Statuses Between Qase and Linear <a href="#h_611ae48460" id="h_611ae48460"></a>
+
+Qase Defects have the following statuses: `Open`, `In-progress`, `Resolved`, `Invalid`
+
+<figure><img src="../../.gitbook/assets/32272.png" alt="" width="563"><figcaption></figcaption></figure>
+
+You can map these statuses to your Linear issues, from the app settings -
+
+<figure><img src="../../.gitbook/assets/60512.png" alt="" width="563"><figcaption></figcaption></figure>
+
+Statuses can be mapped for each team separately
+
+<figure><img src="../../.gitbook/assets/54174.png" alt="" width="375"><figcaption></figcaption></figure>
+
+After mapping the statuses, changing a defect’s status in Qase will automatically update the corresponding status in Linear.

@@ -20,7 +20,7 @@ Qase helps to manage test cases, track their execution status, and report defect
 1\. Open[ https://app.qase.io/](https://app.qase.io/) and log in. As a result, the page “Projects” is shown\
 ​
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

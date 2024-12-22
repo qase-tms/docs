@@ -215,7 +215,7 @@ Please note that these settings are copied only once and are not synced, allowin
 
 * In the module that appeared, click "Link a run":
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Use the search box to find the needed run by title, and click Link to attach it to the issue:
 
@@ -235,7 +235,7 @@ Please note that these settings are copied only once and are not synced, allowin
 
 ### 1. Link Jira issues to Qase Test cases <a href="#h_0d4939b3b4" id="h_0d4939b3b4"></a>
 
-<figure><img src="../../.gitbook/assets/22385.png" alt="" width="563"><figcaption><p><code>Link a single test case.</code></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/link jira.gif" alt="" width="563"><figcaption><p><code>Link a single test case.</code></p></figcaption></figure>
 
 The option to link, or unlink Jira issues can be found under the properties tab of the test case preview.
 
@@ -283,3 +283,5 @@ Once linked, the defect will be visible under the External column in the Defects
 <figure><img src="../../.gitbook/assets/30597.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Once a Defect has been created and if you update the status of the Defect, you'll notice that you have the option to select the status for the associated Jira issue to be transitioned into:
+
+<figure><img src="../../.gitbook/assets/79321.png" alt="" width="375"><figcaption></figcaption></figure>
