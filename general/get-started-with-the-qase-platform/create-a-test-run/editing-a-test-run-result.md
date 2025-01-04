@@ -1,5 +1,9 @@
 # Editing a test run result
 
+{% hint style="info" %}
+This page is archived, please find the up to date content [here](./#h_1cd6dc8def).
+{% endhint %}
+
 ## How to edit a test run result? <a href="#h_1cd6dc8def" id="h_1cd6dc8def"></a>
 
 #### Change results in an open run

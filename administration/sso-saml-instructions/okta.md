@@ -49,3 +49,9 @@ To set up your Qase account with SSO/SAML and OneLogin, you'll need to take the 
 After the form is filled, click on the "Save" button.
 
 Setup is complete. Now you can logout from the app and log in through the [SSO login form.](https://app.qase.io/sso/login)
+
+{% hint style="info" %}
+**Note**: Users will have to sign-in from this SSO Login page: [https://app.qase.io/sso/login](https://app.qase.io/sso/login)
+
+Unfortunately, at this time, launching the Qase App from the user's Okta dashboard is not supported.
+{% endhint %}

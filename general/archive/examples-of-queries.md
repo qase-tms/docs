@@ -1,5 +1,9 @@
 # Examples of Queries
 
+{% hint style="info" %}
+This page is archived, please find the up to date content [here](../analytics/queries-qql-qase-query-language.md#examples-of-queries).
+{% endhint %}
+
 ```
 entity = "case" and isDeleted is true
 ```

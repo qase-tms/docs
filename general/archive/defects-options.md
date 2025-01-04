@@ -1,5 +1,9 @@
 # Defects options
 
+{% hint style="info" %}
+This page is archived, please find the up to date content [here](../issues/defects.md#what-are-defects).
+{% endhint %}
+
 ### Search and filter defects
 
 In the defects section, you can search and filter all the defects filed in your project:

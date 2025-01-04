@@ -4,6 +4,10 @@ hidden: true
 
 # Project settings
 
+{% hint style="info" %}
+This page is archived, please find the up to date content [here](../get-started-with-the-qase-platform/create-a-project.md#h_e70fd5f298).
+{% endhint %}
+
 After creating a project, you can control who can access and see it, and have more control over your project in settings.
 
 When you have opened the project, navigate to settings, and you will find several sections.

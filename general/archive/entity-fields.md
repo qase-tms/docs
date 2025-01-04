@@ -1,5 +1,9 @@
 # Entity fields
 
+{% hint style="info" %}
+This page is archived, please find the up to date content [here](../analytics/queries-qql-qase-query-language.md#h_06385495fe).
+{% endhint %}
+
 ### Test case: <a href="#h_0d166dbe38" id="h_0d166dbe38"></a>
 
 | _Attribute_                                                                                                                                                                                                                      | _Description_                                                                                                        | _Examples_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |

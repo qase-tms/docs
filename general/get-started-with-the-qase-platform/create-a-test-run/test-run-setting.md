@@ -1,5 +1,9 @@
 # Test run setting
 
+{% hint style="info" %}
+This page is archived, please find the up to date content [here](./#h_2b8f9ef7e0).
+{% endhint %}
+
 ### Where test run settings are located? <a href="#h_2b8f9ef7e0" id="h_2b8f9ef7e0"></a>
 
 If you navigate to project settings, you will find a section dedicated to the options that define how the test run behaves.\

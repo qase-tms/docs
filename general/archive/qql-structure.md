@@ -1,5 +1,9 @@
 # QQL structure
 
+{% hint style="info" %}
+This page is archived, please find the up to date content [here](../analytics/queries-qql-qase-query-language.md#h_36f7852862).
+{% endhint %}
+
 ### What does QQL consist of?
 
 QQL consists of two parts: "Entity" + "Query". They both are required to perform a search query to the backend. Some examples of queries:

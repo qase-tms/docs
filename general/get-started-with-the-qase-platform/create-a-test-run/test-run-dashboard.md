@@ -1,5 +1,9 @@
 # Test run dashboard
 
+{% hint style="info" %}
+This page is archived, please find the up to date content [here](./#h_e2d602414a).
+{% endhint %}
+
 ### What is a dashboard in a test run? <a href="#h_d000d46a14" id="h_d000d46a14"></a>
 
 The dashboard is a detailed overview of a test run and various cases it contains. You can access it either from the three-dots-menu or by clicking the test run name in the test runs section:

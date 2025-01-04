@@ -1,5 +1,9 @@
 # Test run wizard
 
+{% hint style="info" %}
+This page is archived, please find the up to date content [here](./#h_c61f64e291).
+{% endhint %}
+
 ### What is a wizard in a test run? <a href="#h_c61f64e291" id="h_c61f64e291"></a>
 
 Test run wizard is a simple tool to perform test cases in a test run.

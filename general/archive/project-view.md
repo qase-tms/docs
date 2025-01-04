@@ -4,6 +4,10 @@ hidden: true
 
 # Project view
 
+{% hint style="info" %}
+This page is archived, please find the up to date content [here](../get-started-with-the-qase-platform/create-a-project.md#h_91be27eab1).
+{% endhint %}
+
 ### How to change a project layout?
 
 To navigate to the list of your Projects, click "Projects" in the top-left corner of the workspace.
