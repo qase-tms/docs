@@ -76,6 +76,7 @@
   * [OneLogin](administration/sso-saml-instructions/onelogin.md)
   * [Google Workspace](administration/sso-saml-instructions/google-workspace.md)
   * [Okta](administration/sso-saml-instructions/okta.md)
+  * [JumpCloud](administration/sso-saml-instructions/jumpcloud.md)
 * [SCIM](administration/scim/README.md)
   * [User lifecycle management with SCIM](administration/scim/user-lifecycle-management-with-scim.md)
   * [Enable SCIM](administration/scim/enable-scim.md)

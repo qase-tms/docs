@@ -67,3 +67,9 @@ After the form is filled, click on the "Save" button.
 
 
 Setup is complete. Now you can logout from the app and log in through the SSO login form.
+
+{% hint style="info" %}
+IdP initiated login is **not** supported.
+
+Users will have to sign-in from this Qase's SSO Login page: [https://app.qase.io/sso/login](https://app.qase.io/sso/login)
+{% endhint %}
