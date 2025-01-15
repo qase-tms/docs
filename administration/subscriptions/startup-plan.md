@@ -6,6 +6,7 @@ The full-featured startup plan helps organize collaboration within distributed t
 
 * Core features (test case management, shared steps, milestones, test plans and runs, defects).
 * 100 GB storage for [attachments](../workspace-management/attachments.md)
+* 90 days of [test run data](https://help.qase.io/en/articles/10401733-what-are-data-retention-limits)
 * [API](https://developers.qase.io/reference/introduction-to-the-qase-api) and [Webhooks](../../general/webhooks/)
 * [Custom fields](../workspace-management/custom-fields.md) for test cases, test runs, and defects
 * Ready only users
