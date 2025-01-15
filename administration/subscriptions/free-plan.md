@@ -12,6 +12,7 @@ The free plan is good for single quality assurance engineers and small companies
 
 * Limited to 2 [projects](../../general/get-started-with-the-qase-platform/create-a-project.md)
 * Up to [3 regular users](../workspace-management/users.md) in a team
+* 30 days of [test run data](https://help.qase.io/en/articles/10401733-what-are-data-retention-limits)
 * 2 concurrent [test runs](../../general/get-started-with-the-qase-platform/create-a-test-run/)
 * 500Mb for [attachments](../workspace-management/attachments.md)
 * Defect management
