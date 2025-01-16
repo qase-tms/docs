@@ -29,7 +29,7 @@ With ClickUp app, you can:
 
 4\. The app is now successfully installed
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 

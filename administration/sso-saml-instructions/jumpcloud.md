@@ -6,7 +6,7 @@ To set up your Qase account with SSO/SAML and JumpCloud, you'll need to take the
 ​\
 1\. Login to your JumpCloud Admin dashboard, and go to "SSO Applications"
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2\. Search for "Qase", select it and click next, then click "Save Application"
 

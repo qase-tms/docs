@@ -215,7 +215,7 @@ Please note that these settings are copied only once and are not synced, allowin
 
 * In the module that appeared, click "Link a run":
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Use the search box to find the needed run by title, and click Link to attach it to the issue:
 
