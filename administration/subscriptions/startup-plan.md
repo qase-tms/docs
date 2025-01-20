@@ -1,5 +1,9 @@
 # Startup plan
 
+{% hint style="info" %}
+We've made some changes to our Billing, for Read-only users. To learn more about this update, [click here](https://help.qase.io/en/articles/10429021-read-only-users-pricing) 🔗
+{% endhint %}
+
 ### When to choose a startup plan?
 
 The full-featured startup plan helps organize collaboration within distributed teams of _more than three people_ and provides access to the following capabilities:
@@ -9,7 +13,7 @@ The full-featured startup plan helps organize collaboration within distributed t
 * 90 days of [test run data](https://help.qase.io/en/articles/10401733-what-are-data-retention-limits)
 * [API](https://developers.qase.io/reference/introduction-to-the-qase-api) and [Webhooks](../../general/webhooks/)
 * [Custom fields](../workspace-management/custom-fields.md) for test cases, test runs, and defects
-* Ready only users
+* [Ready only users](https://help.qase.io/en/articles/6417204-why-and-how-to-use-read-only-users-in-qase)
 * [Dashboards](../../general/analytics/dashboards.md)
 * [Requirements](../../general/issues/requirements.md)
 
