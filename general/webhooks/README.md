@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the [Qase.io](https://qase.io/) Webhooks documentation! Webhooks provide a way to notify your services about changes in Qase. A webhook consists of:
+Welcome to the [Qase.io](https://qase.io/) Webhooks documentation! Webhooks provide a way to notify your services about changes in Qase. A webhook consists of -
 
 * An entity - the resource that generates the events (e.g. Test Case).
 * One or more events (e.g. created).
