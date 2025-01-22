@@ -18,7 +18,7 @@ Webhooks are available in [Startup](https://help.qase.io/en/articles/5563728-sta
 
 Setting up a webhook is easy: navigate to the _Settings_ of a project where webhooks will be needed, then select "Webhooks" and hit "Create new webhook":
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/607941903/3813e7aa6cd8c12c75591774/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4958.png" alt="" width="563"><figcaption></figcaption></figure>
 
 There are a few parameters you need to define for a new webhook:
 
@@ -76,8 +76,6 @@ There are a few parameters you need to define for a new webhook:
     * Decline test review
     * Delete test review
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/607943846/a34d632632766e769cf7cff9/GIF+1.gif" alt=""><figcaption></figcaption></figure>
-
 ## Event structure
 
 Request example:
@@ -113,5 +111,3 @@ All requests that are produced by Qase are `POST` requests with data in `JSON` f
 | payload          | object  | An object with payload data related to event |
 | team\_member\_id | integer | Action initiator                             |
 | project\_code    | string  | Project code where the event takes place     |
-
-\
