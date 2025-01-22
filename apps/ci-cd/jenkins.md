@@ -79,18 +79,19 @@ You can observe the pipeline status:
 pipeline {
     agent {
         kubernetes {
-          yaml '''
-          spec:
-            containers:
-            - name: node
-              image: node:16.14.2-alpine3.15
-              command:
-              - sleep
-              args:
-              - 99d
+            yaml '''
+spec:
+  containers:
+    - name: node
+      image: node:16.14.2-alpine3.15
+      command:
+        - sleep
+      args:
+        - 99d
 '''
         }
     }
+    
     parameters {
         string(name: 'QASE_PROJECT_CODE')
         string(name: 'QASE_RUN_ID')
@@ -99,10 +100,23 @@ pipeline {
         string(name: 'QASE_API_BASE_URL')
         credentials(name: 'QASE_API_TOKEN', credentialType: "Secret text")
     }
-    environment { 
-        QASE_API_TOKEN = credentials("${params.QASE_API_TOKEN}") 
+    
+    environment {
+        QASE_API_TOKEN = credentials("${params.QASE_API_TOKEN}")
     }
+    
     stages {
+        stage('Setup Environment Variables') {
+            steps {
+                script {
+                    // Map existing variables to new ones
+                    env.QASE_TESTOPS_PROJECT = params.QASE_PROJECT_CODE
+                    env.QASE_TESTOPS_RUN_ID = params.QASE_RUN_ID
+                    env.QASE_TESTOPS_RUN_COMPLETE = params.QASE_RUN_COMPLETE
+                }
+            }
+        }
+        
         stage('Run tests') {
             steps {
                 git url: 'https://github.com/foo/bar.git', branch: 'main'
@@ -112,6 +126,6 @@ pipeline {
                 }
             }
         }
-  }
+    }
 }
 ```
