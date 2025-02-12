@@ -302,10 +302,10 @@ author = inactiveUsers()
 </code></pre></td></tr><tr><td><pre><code>plan
 </code></pre></td><td>Title of the plan used</td><td><pre><code>plan = 'Regression'
 </code></pre></td></tr><tr><td><pre><code>status
-</code></pre></td><td>Status</td><td><pre><code>status is "Open"
-</code></pre><pre><code>status = "Resolved"
-</code></pre><pre><code>status != "Invalid"
-</code></pre><pre><code>status in ["Open", "Invalid"]
+</code></pre></td><td>Status</td><td><pre><code>status is "passed"
+</code></pre><pre><code>status = "in progress"
+</code></pre><pre><code>status != "aborted"
+</code></pre><pre><code>status in ["failed", "aborted"]
 </code></pre></td></tr><tr><td><pre><code>author
 </code></pre></td><td>The user who created the run</td><td><pre><code>author in ["user1", "user2"]
 </code></pre><pre><code>author = "user1" or createdBy = "user2"
