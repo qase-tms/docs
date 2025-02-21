@@ -23,11 +23,9 @@ You can create as many dashboards as you need, and each dashboard is fully custo
 
 ***
 
-The Get Started Dashboard is designed to let you dive right into your analytics and customize as you go.
+The Get Started Dashboard is designed to let you dive right into your analytics and customise as you go.
 
 <figure><img src="../../.gitbook/assets/get started.gif" alt="" width="563"><figcaption></figcaption></figure>
-
-
 
 Setting up a dashboard from scratch can be time-consuming and overwhelming, especially when managing multiple projects and teams. To simplify this process, your workspace includes a Get Started Dashboard, providing an immediate overview of your team’s work.
 
