@@ -52,7 +52,9 @@ After you fill the form with necessary data, click on the "Next" button.
 * _SAML Sign-in URL:_ paste SSO URL from step 6.
 * _Identity Provider Issuer:_ paste EntityID from step 6.
 * _Key x509 Certificate:_ open downloaded in step 6 certificate in any editor, copy its content, and paste in the textarea.
-* _Domains:_ provide a list of domains separated by a comma, that will be used for SSO. Public domains like gmail, hotmail, and etc are not allowed.
+* _Domains\*:_ provide a list of domains separated by a comma, that will be used for SSO. Public domains like gmail, hotmail, and etc are not allowed.\
+  \
+  \*_This step is mandatory._
 
 `Any domains that are added will need to be verified. To do so, you will need to add a TXT record to the domain's DNS records.`
 

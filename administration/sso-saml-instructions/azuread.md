@@ -68,7 +68,9 @@ Also, add two new claims:
 * _SAML Sign-in URL:_ paste login URL from the previous step
 * _Identity Provider Issuer:_ paste Azure AD identifier from the previous step
 * _Key x509 Certificate:_ open downloaded in the previous certificate in any editor, copy its content, and paste in the textarea.
-* _Domains:_ provide a list of domains separated by a comma, that will be used for SSO. Public domains like gmail, hotmail, and etc are not allowed.
+* _Domains\*:_ provide a list of domains separated by a comma, that will be used for SSO. Public domains like gmail, hotmail, and etc are not allowed.\
+  \
+  \*_This step is mandatory._
 
 `Any domains that are added will need to be verified. To do so, you will need to add a TXT record to the domain's DNS records.`
 

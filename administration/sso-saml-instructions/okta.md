@@ -38,7 +38,10 @@ To set up your Qase account with SSO/SAML and OneLogin, you'll need to take the 
 * SAML Sign-in URL
 * Identity Provider Issuer
 * Key x509 Certificate
-*   Domains: provide a list of domains separated by a comma, that will be used for SSO. Public domains like Gmail, Hotmail, etc. are not allowed.
+*   Domains\*: provide a list of domains separated by a comma, that will be used for SSO. Public domains like Gmail, Hotmail, etc. are not allowed.\
+    \
+    \*_This step is mandatory._\
+
 
     `Any domains that are added will need to be verified. To do so, you will need to add a TXT record to the domain's DNS records`
 

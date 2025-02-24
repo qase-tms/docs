@@ -39,7 +39,10 @@ Map the following parameters as shown in the screenshot above.
 * SAML Sign-in URL: the URL copied from Step 4.
 * Identity Provider Issuer: JumpCloud
 * Key x509 Certificate: text from the `certificate.pem` that you have downloaded in Step 6.
-*   Domains: provide a list of domains separated by a comma, that will be used for SSO. Public domains like Gmail, Hotmail, etc. are not allowed.
+*   Domains\*: provide a list of domains separated by a comma, that will be used for SSO. Public domains like Gmail, Hotmail, etc. are not allowed.\
+    \
+    \*_This step is mandatory._\
+
 
     `Any domains that are added will need to be verified. To do so, you will need to add a TXT record to the domain's DNS records`
 
