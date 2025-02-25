@@ -69,7 +69,7 @@ You can observe the pipeline status:
 
 5. Go to the [Apps page](https://app.qase.io/apps) on Qase, then activate and generate a new token for reporter app. You can also use regular (user-issued) API tokens.
 6. Save created token as credentials in Jenkins: [https://www.jenkins.io/doc/book/using/using-credentials/#adding-new-global-credentials](https://www.jenkins.io/doc/book/using/using-credentials/#adding-new-global-credentials)
-7. Configure your job to pass saved token in `QASE_API_TOKEN` environment variable:
+7. Configure your job to pass saved token in QASE\_API\_TOKEN environment variable:
 
 <figure><img src="../../.gitbook/assets/93452.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -102,7 +102,7 @@ spec:
     }
     
     environment {
-        QASE_API_TOKEN = credentials("${params.QASE_API_TOKEN}")
+        QASE_TESTOPS_API_TOKEN = credentials("${params.QASE_API_TOKEN}")
     }
     
     stages {
