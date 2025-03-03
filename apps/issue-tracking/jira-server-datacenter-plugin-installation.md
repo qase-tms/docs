@@ -66,7 +66,7 @@ You might have several _projects ¹_ in your Jira instance, each with different 
 \
 Select the Project, Issue Type and click on "Add transition" and select the Defect Mapping and Save the changes:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="240"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="240"><figcaption></figcaption></figure>
 
 You have an option to "Do nothing" in terms of status update of a Qase defect, once the associated Jira issue gets transitioned into a specific status - then, the Qase defect will remain in the status it was.
 

@@ -21,7 +21,7 @@ With the Monday app, you can:
 
 1. From the "Apps" section of your workspace, click the Monday App card.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Now, click the 'install' button and then, "Add to Monday" -
 

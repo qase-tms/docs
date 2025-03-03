@@ -390,9 +390,20 @@ The settings in this section apply only to Manual Test runs.
 
 The settings in this section apply only to results submitted via the API, and Automated Test runs.
 
-<figure><img src="../../../.gitbook/assets/23578.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (100).png" alt="" width="563"><figcaption></figcaption></figure>
+
+If the option, "Mark all test cases as automated when created/updated from automated test results" is:
+
+* Enabled: all results published via API will automatically update the corresponding test case to 'automated' status.
+* Disabled: results from API will not alter the automation status of the test case.\
+  ​\
+  \- The `"automation"` property within the `qase.fields` decorator/method in your code will not work unless this option is enabled.
+
+This setting is disabled by default for existing projects.
+
+
 
 Note: You can choose to restrict the updating, or creation of new cases based on the _type_ of results. For instance, if you want to update an existing case only when the result is “Passed,” you can set the “Update for statuses” field to “Passed only.”
 

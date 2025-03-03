@@ -8,7 +8,7 @@ To set up your Qase account with SSO/SAML and OneLogin, you'll need to take the 
 
 2\. Go to Applications and click on "Browse App Catalog"
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3\. Search for "Qase"
 
