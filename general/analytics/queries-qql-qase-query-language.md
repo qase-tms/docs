@@ -185,6 +185,9 @@ author = inactiveUsers()
 </code></pre></td><td>Last modified date</td><td><pre><code>updated >= now("-7d")
 </code></pre><pre><code>updated >= startOfDay()
 </code></pre><pre><code>updated &#x3C; 1569430502709
+</code></pre></td></tr><tr><td>updatedBy</td><td>Last modified by user</td><td><pre><code>updatedBy = currentUser()
+</code></pre><pre><code>updatedBy = group('group name')
+</code></pre><pre><code>updatedBy = 'User A'
 </code></pre></td></tr><tr><td><pre><code>isDeleted
 </code></pre></td><td>Check whether the case has been deleted or not</td><td><pre><code>isDeleted is false
 </code></pre><pre><code>isDeleted = true
