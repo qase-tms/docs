@@ -151,6 +151,14 @@ When configuring a Case Step, you can customize it using the buttons beside the 
 
 
 
+#### Quick edit from preview: <a href="#h_66a5891687" id="h_66a5891687"></a>
+
+All of the test case properties, including test case steps, description and preconditions can be edited directly from the preview.
+
+<figure><img src="../../../.gitbook/assets/quick edit preview.gif" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
 ### Test Case Actions <a href="#h_91f8dfe2ce" id="h_91f8dfe2ce"></a>
 
 ***
