@@ -66,3 +66,24 @@ Creating Values:
 When exporting into CSV, your Custom Fields will appear as new columns on the far right of your CSV file.​They will be named "`cf_1`", "`cf_2`", "`cf_3`"... following the order of creation of your custom field in your Workspace Fields settings.
 
 <figure><img src="../../.gitbook/assets/81717.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+### Sort the Custom Fields <a href="#h_877aacb3cc" id="h_877aacb3cc"></a>
+
+By default, custom fields are arranged in chronological order based on their creation time, meaning the most recently created field appears at the bottom of the list.
+
+However, if you want certain fields to be displayed at the top for easier access, you can adjust their order.
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1416110020/6f83c1d4aeed3a96469a30557b9c/57653.png?expires=1741824000&#x26;signature=61064bdf999ad7b67ba5950b082634c1c2193cae87a2b9b48173088db6c7f7a8&#x26;req=dSQmEMh%2FnYFdWfMW3nq%2BgV%2FoTpdi2%2BNMlrZDLpFAU1wNTgpuErRxzt3hT91F%0AUidpD7WeuroNStpn4vMrZPKmlHQ%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
+
+To do this, go to Workspace > Fields, select any custom field, and update its order value to change its position.
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1416108445/4f91d98fc80cb6e0ff4f3e7f7648/18592.png?expires=1741824000&#x26;signature=8759ba3f16115a1c52514dece592e86f5983f5cf41119366bab1f4d5d60c4cc2&#x26;req=dSQmEMh%2BlYVbXPMW3nq%2BgR3gMUWL9ML4CIGOs%2FvNKkiHj75j4DFjPe9lJgMv%0AS5xSPieINFUyN1742%2B2ceIOE0tQ%3D%0A" alt="" width="375"><figcaption></figcaption></figure>
+
+You can also sort the list by the order field to view the updated arrangement.
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1416114615/1dcf91237249e6dca4d77509aeb5/85978.png?expires=1741824000&#x26;signature=af93c96d12d4febc389edc908650b2d23cf285810e0e6dcea6f2e4414be037fd&#x26;req=dSQmEMh%2FmYdeXPMW3nq%2BgR9hOdVVDTgfjAPOIhkKoGlMeDDyt5CrF%2F%2FQz4OT%0A7mIynM2OpTC9mWCZyhn9sjOxWto%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
