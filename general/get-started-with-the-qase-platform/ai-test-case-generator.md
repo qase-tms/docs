@@ -50,11 +50,11 @@ Before you use, although not mandatory, it is recommended to create a Suite in y
 
 Click the AI Test Case action button to open the generator screen.
 
-<figure><img src="../../.gitbook/assets/42584.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7982 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Input the Requirement(s):**
 
-<figure><img src="../../.gitbook/assets/8289.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/two options.png" alt="" width="563"><figcaption></figcaption></figure>
 
 (1) Use the existing integration to specify an Issue Id from Jira cloud/ GitHub.
 
@@ -62,7 +62,7 @@ Click the AI Test Case action button to open the generator screen.
 
 (2) Enter the Requirement manually
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/enter manually.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Title Field: Enter the requirement title or a bunch of requirements. For a single requirement, the title should be descriptive of the use case. For multiple requirements, it might be descriptive of the Epic or Theme of the requirement (e.g., authorization).
 * Description Fields: Enter your requirement(s). For best results, use the requirements template or an example requirement.
@@ -76,9 +76,7 @@ Click the AI Test Case action button to open the generator screen.
 
 1️⃣ Expand the test cases to review them -
 
-<figure><img src="../../.gitbook/assets/75857.png" alt="" width="563"><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/86197.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/expand case and step.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <details>
 
@@ -90,17 +88,17 @@ Click the AI Test Case action button to open the generator screen.
 
 2️⃣ If a test case is not suitable or inaccurate, you can delete it from the list.
 
-<figure><img src="../../.gitbook/assets/93632.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/mark as inaccurate.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3️⃣ Save suitable test cases to a Suite in your Repository. You also have the option to send the cases through the standard [Review](https://help.qase.io/en/articles/5563713-test-case-review) process.
 
 _Note that if you close the screen, all results will be lost._
 
-<figure><img src="../../.gitbook/assets/44836.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/save to suite and expand.png" alt="" width="563"><figcaption></figcaption></figure>
 
 4️⃣ All ✨AI-generated test cases added to the Repository will be labelled ' ✨AI ' to indicate their AI origin.
 
-<figure><img src="../../.gitbook/assets/72563.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ai symbol.png" alt="" width="563"><figcaption></figcaption></figure>
 
 5️⃣ Once the ✨ AI test cases are sent for review, or added to the repository, you can make additional improvements as needed, just as you would with manually created test cases.
 
