@@ -56,7 +56,14 @@
   * [QQL structure](general/archive/qql-structure.md)
   * [Entity fields](general/archive/entity-fields.md)
   * [Examples of Queries](general/archive/examples-of-queries.md)
-  * [Guide: Action editor](general/archive/guide-action-editor.md)
+
+## AIDEN
+
+* [AIDEN - QA Architect](aiden/aiden-qa-architect.md)
+
+***
+
+* [Guide: Action editor](guide-action-editor.md)
 
 ## Administration
 
