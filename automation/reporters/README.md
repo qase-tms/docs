@@ -1,7 +1,7 @@
 # Reporters
 
 {% hint style="info" %}
-Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+Documentation for Qase API and Reporters is at [https://developers.qase.io/docs/](https://developers.qase.io/docs/)
 {% endhint %}
 
 ### How to pass the results of the automated executions into Qase for full coverage?

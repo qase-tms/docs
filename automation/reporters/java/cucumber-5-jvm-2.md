@@ -1,7 +1,7 @@
 # Cucumber 7 (jvm)
 
 {% hint style="info" %}
-Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+Documentation for Qase API and Reporters is at [https://developers.qase.io/docs/](https://developers.qase.io/docs/)
 {% endhint %}
 
 ### What is Cucumber 7 (jvm)?

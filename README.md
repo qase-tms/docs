@@ -8,7 +8,7 @@ With Qase, QA teams can orchestrate test case management, defect management, tes
 
 ### Start here
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a href="get-started-with-the-qase-platform.md">Getting started</a></td><td></td><td>Start with the basics</td></tr><tr><td><a href="execution/">Execute testing</a></td><td></td><td>Jump into testing</td></tr><tr><td><a href="general/issues/">Issues tracking</a></td><td></td><td>Integrate with issues trackers, use milestones &#x26; requirements</td></tr><tr><td><a href="analytics/">Analytics</a></td><td></td><td>Using dashboards and queries</td></tr><tr><td><a href="https://reporters.qase.io">Automation</a></td><td></td><td>Get to know Qase API and Reporters</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a href="get-started-with-the-qase-platform.md">Getting started</a></td><td></td><td>Start with the basics</td></tr><tr><td><a href="execution/">Execute testing</a></td><td></td><td>Jump into testing</td></tr><tr><td><a href="general/issues/">Issues tracking</a></td><td></td><td>Integrate with issues trackers, use milestones &#x26; requirements</td></tr><tr><td><a href="analytics/">Analytics</a></td><td></td><td>Using dashboards and queries</td></tr><tr><td><a href="https://developers.qase.io/docs/">Automation</a></td><td></td><td>Get to know Qase API and Reporters</td></tr></tbody></table>
 
 ### Manage your Qase workspace
 

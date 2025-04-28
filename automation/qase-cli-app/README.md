@@ -1,7 +1,7 @@
 # Qase CLI App
 
 {% hint style="info" %}
-Documentation for Qase API and Reporters is at [https://reporters.qase.io/](https://reporters.qase.io/)
+Documentation for Qase API and Reporters is at [https://developers.qase.io/docs/](https://developers.qase.io/docs/)
 {% endhint %}
 
 Qase CLI or `qli` is Qase's command line app build in Go Language, which can be used to start and complete test runs, and it can publish results to Qase in several formats.
