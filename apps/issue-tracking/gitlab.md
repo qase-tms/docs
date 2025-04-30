@@ -9,7 +9,7 @@
 With **Qase’s GitLab integration**, you can:
 
 * Link Qase [test cases](../../general/get-started-with-the-qase-platform/test-cases/), [test runs](../../general/get-started-with-the-qase-platform/create-a-test-run/), and [defects](../../general/issues/defects.md) to GitLab issues.
-* Create a new issue in GitLab when you file a defect [during a test run in Qase](../../general/issues/defects.md#h_357b732096)
+* Create a new issue in GitLab when you file a defect [during a test run in Qase](../../general/issues/defects.md#h_357b732096) and their statuses are automatically synchronized, in both directions. \[Qase <> GitLab].
 * [Execute automated runs](../ci-cd/gitlab.md) in GitLab from a Qase.
 
 ## Installation <a href="#h_ff8e665948" id="h_ff8e665948"></a>
