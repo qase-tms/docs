@@ -1,7 +1,7 @@
 # AI Test Case Generator
 
 {% hint style="info" %}
-This feature is in Beta, and it is available with our [Business](../../administration/subscriptions/business-plan.md) and [Enterprise](../../administration/subscriptions/enterprise-plan.md) subscriptions.
+_**This feature works in experimental mode**_, and it is available with our [Business](../../administration/subscriptions/business-plan.md) and [Enterprise](../../administration/subscriptions/enterprise-plan.md) subscriptions.
 {% endhint %}
 
 {% embed url="https://youtu.be/HnbapbuO3RI" %}
@@ -115,6 +115,4 @@ If you do not want to use this feature, it can be disabled, from the Workspace's
 {% hint style="info" %}
 Your feedback is crucial for us, to fine-tune and improve the relevance and accuracy of the generated test cases. You are welcome to share your valuable feedback on our support chat!
 {% endhint %}
-
-
 
