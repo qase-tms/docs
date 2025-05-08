@@ -230,26 +230,6 @@ You can use this view to -
 
 
 
-### Test Run metrics <a href="#h_2b127e4917" id="h_2b127e4917"></a>
-
-***
-
-The Test Run Metrics tab offers a comprehensive overview of your team's progress during manual testing.
-
-Key metrics include the total number of test cases, progress status, test case status, and a visual representation of progress against the estimated time (burndown chart).
-
-<figure><img src="https://qase.intercom-attachments-7.com/i/o/1156096529/a6ed84ba6770d66d36d97029/AD_4nXeqvB8UqPqS7gH5lo4nqz4r2dDGXWN0q-S2jhyqmwgbXG5LgSTwqxmIS6B1MwNsjwsjKIrVB3rYWm4JOWvOg3iEMkGUpOraroMdCpd843DTgnKJrRv7Rv3qL6diYWKqkNKVPp7ObVdqMEElG2AFc45iM-u5?expires=1734760800&#x26;signature=833e9d95af26d409bb15af1ca886680d80d783ac26a4bd6446cf96b70f1ecf4a&#x26;req=dSEiEMl3m4RdUPMW3nq%2BgXoXhHoSMX98Gs7rtZEFRSu40PNEQHhiBOWIWnjr%0AqwWCIWzehRUmkFRrNVnRXeGC138%3D%0A" alt=""><figcaption></figcaption></figure>
-
-Let’s see how each metric can help you manage your testing efforts -
-
-1. **Test Cases**: displays the total number of test cases, including any additions or removals made after the run was started. If the total number of test cases increases significantly during the run, it may indicate changes in requirements or scope.
-2. **Progress**: shows if your test run is (on schedule, behind, or ahead of schedule) based on the estimated time it take to run each test case.
-3. **Test Case** Status: shows the number of passed, failed, blocked, and untested cases, at a glance.
-4.  **Test Burndown**\*: offers immediate insights into how your manual test execution is progressing compared to the estimated time. This estimated time is derived from historical test case execution duration, and your current execution progress is charted against it to determine the ongoing status of your manual test run.\
-
-
-    \*Test Run Burndown is only available if the test cases added at the start of the run have historical execution duration data.
-
 ### Syncing edits to Test cases <a href="#h_71baeaa821" id="h_71baeaa821"></a>
 
 During a test run, you might notice small errors, such as typos or inconsistencies, in the test case you’re working on. Naturally, you may want to correct these issues by editing the test case, expecting the changes to be reflected in the active test run as well.
