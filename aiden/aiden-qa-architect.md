@@ -10,13 +10,13 @@ With AIDEN, you can analyse your repository, generate automated test code from y
 
 ***
 
-## Repository Analyser <a href="#h_4ba8164cb5" id="h_4ba8164cb5"></a>
+## Repository Advisor <a href="#h_4ba8164cb5" id="h_4ba8164cb5"></a>
 
-Every repository has some test cases are perfect for automation — they’re stable, repetitive, and save a huge amount of time when automated.
+Every repository has some test cases are perfect for automation — they’re stable, repetitive, and save a huge amount of time when automated.&#x20;
 
-Repo Analyser helps you quickly identify these high-value tests, so you can focus on what brings the biggest impact with the least effort.
+**Test Advisor** helps you quickly identify these high-value tests, so you can focus on what brings the biggest impact with the least effort.&#x20;
 
-To start the analyser, select all the suites or test cases, and click 'Run Analyser' button:
+To start the advisor, select all the suites or test cases, and click '**Run Advisor**' button:
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1452918938/8cde0269aada88b7ae4435e1bbf4/35627.png?expires=1744675200&#x26;signature=e39a5b7cbb11d02a2ace531361b8cccd0598fcc7cd986ec74c82ca2257df981b&#x26;req=dSQiFMB%2FlYhcUfMW3nq%2BgWwTodIXhiQNQCZnKPhDijoI%2BlPkqP2Si7yazBN2%0A8TRW6P8xAwRh8vJVhpS6gDXPM8Q%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
