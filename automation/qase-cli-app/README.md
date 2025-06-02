@@ -213,6 +213,7 @@ qli testops result upload \
 Similarly, use the following paths, for other result types -
 
 * Qase format: `--path /path/to/build/qase-results/results.json`
+  * For results generated from `qase-pytest` , use the path: `/path/to/build/qase-results/results/`
 * Allure format: `--path /path/to/allure-results`
 * XCTest format: `--path /path/to/xctest-results`
 
