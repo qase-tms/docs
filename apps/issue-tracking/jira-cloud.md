@@ -272,7 +272,7 @@ If you encounter a defect during a test run, you can either create a new Jira is
 
 If you’re creating a defect that isn’t linked to any result from the defects section, you can link a Jira issue from the defect dashboard using the “Link with apps” section.​
 
-<figure><img src="../../.gitbook/assets/JIRA3.gif" alt="" width="563"><figcaption><p><code>Linking a Qase defect to a Jira issue</code></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/JIRA3.gif" alt="" width="563"><figcaption><p><code>Link or Create a Jira issue from a Qase defect</code></p></figcaption></figure>
 
 Once linked, the defect will be visible under the External column in the Defects section of your project.
 
