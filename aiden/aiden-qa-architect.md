@@ -148,13 +148,13 @@ Click 'Save' to complete the generate and save the test case to the repository. 
 
 ## Download the test code <a href="#h_6a499bcdb6" id="h_6a499bcdb6"></a>
 
-You can copy or download the generated test code with the Export code option. This option is available on both the repository or while generating the auto-test.
+You can copy or download the generated test code with the **Export code** option. This option is available on both the repository, and while generating the auto-test.
 
 If you had already saved the test case, simply click the test case to open in preview, and use the '`Export autotest`' option.
 
 <figure><img src="../.gitbook/assets/export converted case.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Select the language and click 'Generate' - it will take a quick moment before you see the code. You can then copy or download the code.
+Select the language and click '**Generate**' - it will take a quick moment to display the code. You can then copy or download the code.
 
 <figure><img src="../.gitbook/assets/export code model.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -165,6 +165,8 @@ While on the generation screen, the 'Export code' option will be active in two i
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1563246680/13cc84051c1962373d9c52ce1ad3/success+test+case.png?expires=1749664800&#x26;signature=a1735554b6b50409f7d6f6c058d02f9d6efea84b95baf3696543010a0131fb07&#x26;req=dSUhFct6m4dXWfMW3nq%2BgaBe1lFr6p7SoalJ2wATuR4PNv6bIPbeCo0wDEfM%0AuPjSIxODHcDsnVkuvA%2BEtZJWInA%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
 * Test is partially converted; a failure occurred at any step
+
+<figure><img src="../.gitbook/assets/failed test export.png" alt="" width="563"><figcaption></figcaption></figure>
 
 (_Currently, code can only be exported to Javascript - Playwright framework)_
 
