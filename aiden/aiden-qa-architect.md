@@ -174,7 +174,7 @@ While on the generation screen, the 'Export code' option will be active in two i
 
 ## Executing the automated tests <a href="#h_8203030372" id="h_8203030372"></a>
 
-To run the tests in Qase Cloud, simple select the tests from the repository for an express test run.
+To run the tests in Qase Cloud, simply select the tests from the repository for an express test run.
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1453993258/1bc63e464c4e63438df02f43cb1d/92403.png?expires=1744675200&#x26;signature=4eeb67759688f260fedc47ff1c8e69b709b7e436af3dcbd7ee53ce0d1881c9c6&#x26;req=dSQiFcB3noNaUfMW3nq%2BgdyMMi87%2FQxJo836KFuAmqUEfndTqKRy6rhFgvwZ%0AY6SKGzIo2GtZBfHiGojIX6UoZJ8%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
