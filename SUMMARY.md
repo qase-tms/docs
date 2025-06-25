@@ -24,7 +24,7 @@
 * [Execute testing](execution/README.md)
   * [Test plan](general/execution/test-plan.md)
   * [Test runs](general/get-started-with-the-qase-platform/create-a-test-run/README.md)
-  * [Schedule Test runs](general/execution/schedule-test-runs.md)
+  * [Scheduled Test runs](general/execution/scheduled-test-runs.md)
   * [Configurations](general/execution/using-configurations-in-qase-tms.md)
   * [Environments](general/execution/environments.md)
 * [Issues tracking](general/issues/README.md)

@@ -13,7 +13,7 @@ There are two ways to start a Test Run:\
 2\. **Regular Run** - from Test Runs page.
 
 {% hint style="info" %}
-&#x20;You can [schedule test runs](../../execution/schedule-test-runs.md).
+&#x20;You can [schedule test runs](../../execution/scheduled-test-runs.md).
 {% endhint %}
 
 ***
