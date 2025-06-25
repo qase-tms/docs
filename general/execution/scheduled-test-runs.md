@@ -1,4 +1,4 @@
-# Schedule Test runs
+# Scheduled Test runs
 
 It's useful to have a new test run automatically created — maybe it’s a regular regression check, or something that needs to run every week or before a release.
 
@@ -31,5 +31,3 @@ All of the runs you have scheduled can be viewed from this dedicated tab.
 Select any date to view the test runs scheduled for that day. Dates with scheduled runs are marked with a small dot for easy identification.
 
 After selecting a date, you can view the scheduled runs. From there, you have the option to edit the run’s configuration, such as the title, description, and test cases, or delete the schedule entirely.
-
-**Please note**: the scheduled frequency cannot be modified after the run is created. To change it, you’ll need to delete the existing schedule and create a new one with the desired frequency.
