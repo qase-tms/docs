@@ -12,6 +12,10 @@ There are two ways to start a Test Run:\
 1\. **Express Run** - from the Project's Repository.\
 2\. **Regular Run** - from Test Runs page.
 
+{% hint style="info" %}
+&#x20;You can [schedule test runs](../../execution/schedule-test-runs.md).
+{% endhint %}
+
 ***
 
 ### **Express Run**
