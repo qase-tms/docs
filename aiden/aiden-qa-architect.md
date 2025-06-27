@@ -156,7 +156,7 @@ If you had already saved the test case, simply click the test case to open in pr
 
 Select the language and click '**Generate**' - it will take a quick moment to display the code. You can then copy or download the code.
 
-<figure><img src="../.gitbook/assets/export code model.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/53429.png" alt="" width="563"><figcaption></figcaption></figure>
 
 While on the generation screen, the 'Export code' option will be active in two instances:&#x20;
 
