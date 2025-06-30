@@ -374,7 +374,7 @@ The settings in this section apply only to Manual Test runs.
 
 The settings in this section apply only to results submitted via the API, and Automated Test runs.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (100).png" alt="" width="563"><figcaption></figcaption></figure>
 

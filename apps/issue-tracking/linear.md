@@ -18,7 +18,7 @@ With the Linear app, you can:
 
 1. Click "Apps" in your Qase workspace (Before proceeding with the installation, please sign in to Linear in another tab):
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Click Linear card, then hit "Install now":
 

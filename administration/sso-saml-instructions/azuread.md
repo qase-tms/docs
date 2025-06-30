@@ -18,11 +18,11 @@ Qase supports SSO. To provide single sign-on services for your domain, Qase acts
 
 4\. Create a Non-gallery application and name it 'Qase':
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 5\. Click on "**Set up single sign on**":
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 6\. Choose "**SAML**":
 

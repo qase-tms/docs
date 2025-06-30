@@ -66,11 +66,13 @@ Based on the suggestions from AIDEN, once you edit your test cases that are not 
 
 ## Let's start automating! <a href="#h_c1c01a4ff1" id="h_c1c01a4ff1"></a>
 
+### **a) Convert an existing Manual Test**&#x20;
+
 Open any test case, and click the 'Automate with AI' button to begin:
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1453818585/5c595ec1e792051ac066feef59a3/77639.png?expires=1744675200&#x26;signature=951c1828fe74dd5a34f0e096f9f32148067f877573be972c3e223839fd71b26b&#x26;req=dSQiFcF%2FlYRXXPMW3nq%2BgclsHm1%2BHAJFciA5mL%2BTOn0iNIE47Sn51hxELv%2Bo%0AOyQmP5A%2FcZCyq0q7o64c3fi9yBc%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
-### Adding the environment <a href="#h_d5d07d1ca8" id="h_d5d07d1ca8"></a>
+#### Adding the environment <a href="#h_d5d07d1ca8" id="h_d5d07d1ca8"></a>
 
 Your tests will run at a specific domain, so let's add the host environment:
 
@@ -82,7 +84,7 @@ If your host environment is not accessible from the public internet, you can hel
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1453849303/823336b6e880a98fd0af6ac91043/82820.png?expires=1744675200&#x26;signature=5429c93d0cd94e8ecc77ae2531cf5c5306bed6c577c8df6c3db52f01f3a87629&#x26;req=dSQiFcF6lIJfWvMW3nq%2BgVRNpDu1to%2BbXcTW1S%2FTPRVvO3YJ7B4QPje7QlrH%0Ay7DDBwdnrwr3k8NEvAUsx8EywdA%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
-### Authorization <a href="#h_f541b141a3" id="h_f541b141a3"></a>
+#### Authorization <a href="#h_f541b141a3" id="h_f541b141a3"></a>
 
 Most of test cases generally require authorization as a precondition. You can add your authorization steps and use them when starting auto-test generation.
 
@@ -90,7 +92,7 @@ Most of test cases generally require authorization as a precondition. You can ad
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1453860286/0bc2dc049a06af3ca59bfd0e0a08/12279.png?expires=1744675200&#x26;signature=5469643606bfbc2f4d17b9fb12d028f0bcf374d041226035a2135cbd09ad86c4&#x26;req=dSQiFcF4nYNXX%2FMW3nq%2BgV4ZksrXF7uAYfoyjJdSL1qhM0NvPmtpKP0GAAx3%0AWpLaIrNaBozmDdlx6AnjtBsyr2s%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
-### Generation <a href="#h_a76168e8f4" id="h_a76168e8f4"></a>
+#### Generation <a href="#h_a76168e8f4" id="h_a76168e8f4"></a>
 
 You can monitor the status and view the test case that is being used for generation at the top.
 
@@ -146,6 +148,46 @@ Click 'Save' to complete the generate and save the test case to the repository. 
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1453961363/08fa6740393224ddbffc46e58dc5/35031.png?expires=1744675200&#x26;signature=dbfd0b155264b623c172b6eed05acf6d9976b19ccf419c23ef13919faeb92bb6&#x26;req=dSQiFcB4nIJZWvMW3nq%2BgfaxUC7h1%2BXZ5eXHVvFG2748nps8xMn7AIRpNZEC%0AhvSL1Cc3%2BvnNVAdb4WjajB%2BvqKc%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
+### b) Creating an auto-test from scratch <a href="#h_470602d7a7" id="h_470602d7a7"></a>
+
+To create a new automated test from scratch, start by selecting ‘Automate with AIDEN’ from the ‘New test’ dropdown.
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1594838217/48d8ca4e4ca81eb635e2b7e90159/65009.png?expires=1751414400&#x26;signature=c067ad08fa5dd814f317783d223d5e47c37223cf337eddac84d7f38d079caad8&#x26;req=dSUuEsF9lYNeXvMW3nq%2BgTcEhFrc%2FlVxh4jO%2F1E4dlNh%2Bq8HEhlwUeQKUlxn%0Aoa%2FyZ0KtLWfoCYzdRp%2BFndQrZ6I%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
+
+#### Start the conversation:
+
+In this workflow, you interact with AIDEN using natural language. Simply tell AIDEN what to test, and it will translate your instructions into executable test steps.
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1594847766/4e114103764ea767de99b33b6917/67865.png?expires=1751414400&#x26;signature=e5b7cab1517b17d6268bdac2a35100af3c35c7d2ea7ec11ddf25d312d099f2ad&#x26;req=dSUuEsF6moZZX%2FMW3nq%2Bgenm0DUKetU0hdD62MpfzJUGE6TVRsFobRHwvuPs%0AkKG92Udnmr3tU3i6fuyZ0J%2FEP88%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
+
+Begin by providing the website or domain you want to test. For example, say: `let's use Google.com`
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1594850187/471b9bbea69b3afd1e0b561a7df7/7644.png?expires=1751414400&#x26;signature=b67617a447d642e701c52bbcc33f56fe996fb1d8d6fd49d7d2adb287818382cd&#x26;req=dSUuEsF7nYBXXvMW3nq%2Bgby1im0NOPv9RxJdP5xOLHzHApO9%2Fgr2sCxOHKSm%0AXU%2FQlA5M%2BDgbci%2FyrDqHNo%2BowgM%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
+
+Define Your Steps:
+
+AIDEN will break down your instructions into actionable steps and display visual feedback (screenshots) for each one. You can:
+
+* Give simple actions like: “Click the ‘Gmail’ button”
+* Or compound instructions like: “Enter ‘[support@qase.io](mailto:support@qase.io)’ in the search box, then click ‘Next’”
+
+<figure><img src="../.gitbook/assets/aiden (1).gif" alt="" width="563"><figcaption></figcaption></figure>
+
+Each instruction is parsed and split into individual steps. As steps are generated, you’ll see both:
+
+* A natural language summary of the action, as a step.
+* A JSON block with selector and element type details
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1594865290/56f2595971196f55bfcce1d4b58f/89819.png?expires=1751414400&#x26;signature=fc97759debedcdfd063d2356ed1084d14a09429a4fb70713b7bfd77044613964&#x26;req=dSUuEsF4mINWWfMW3nq%2BgaVqXh%2F15kPtlhP40f90UgoB1ZrYS9Nf6O9sWT6e%0As1J36QOSzEJbch4EGqoYDJhAXYQ%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1594865050/3f82be9530aed8fcd457315fb914/98877.png?expires=1751414400&#x26;signature=7675a9a03524c71a82ce277c08630713cd28329518cfa79fbbe3e616d6f811bd&#x26;req=dSUuEsF4mIFaWfMW3nq%2Bgf8h4%2BuM1t7WW7CmEtojPF5yflnDrEZXOPCtGdKU%0A6DEXC705dHVCA8EA0l3dQ87ckto%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
+
+#### Deleting steps:
+
+To delete a specific step, type for example: “Delete step 4”
+
+<figure><img src="../.gitbook/assets/aiden delete.gif" alt="" width="563"><figcaption></figcaption></figure>
+
 ## Download the test code <a href="#h_6a499bcdb6" id="h_6a499bcdb6"></a>
 
 You can copy or download the generated test code with the **Export code** option. This option is available on both the repository, and while generating the auto-test.
@@ -158,7 +200,11 @@ Select the language and click '**Generate**' - it will take a quick moment to di
 
 <figure><img src="../.gitbook/assets/53429.png" alt="" width="563"><figcaption></figcaption></figure>
 
-While on the generation screen, the 'Export code' option will be active in two instances:&#x20;
+With the 'automate with AIDEN' workflow, you'll always have the option to export the code, at any point during generation:
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1594884670/6d7d6626bc684ffa269374b475c6/13491.png?expires=1751273100&#x26;signature=f8eaeb4fd5d540b7bdb943d094e2cf8caffa10fed4d2d0952b1dcd36ec379954&#x26;req=dSUuEsF2mYdYWfMW1HO4zQMuEtTDtaxkYZQQT4CBCMDrNKfn7WeVOPv4HtGn%0Am4pr2lgwBHASXcZzKBk%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
+
+With the convertion workflow, the 'Export code' option will be active in two instances:
 
 * Test is 100% converted; all steps are successfully generated
 
