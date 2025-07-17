@@ -20,7 +20,6 @@
     * [Test case actions](general/get-started-with-the-qase-platform/test-cases/test-case-actions.md)
     * [Filters](general/get-started-with-the-qase-platform/test-cases/filters.md)
   * [Requirements Traceability Report](general/get-started-with-the-qase-platform/requirements-traceability-report.md)
-  * [AI Test Case Generator](general/get-started-with-the-qase-platform/ai-test-case-generator.md)
 * [Execute testing](execution/README.md)
   * [Test plan](general/execution/test-plan.md)
   * [Test runs](general/get-started-with-the-qase-platform/create-a-test-run/README.md)
@@ -58,9 +57,10 @@
   * [Entity fields](general/archive/entity-fields.md)
   * [Examples of Queries](general/archive/examples-of-queries.md)
 
-## AIDEN
+## Qase AI
 
-* [AIDEN - QA Architect](aiden/aiden-qa-architect.md)
+* [AI Test Case Generator](qase-ai/ai-test-case-generator.md)
+* [AIDEN - QA Architect](qase-ai/aiden-qa-architect.md)
 
 ***
 
