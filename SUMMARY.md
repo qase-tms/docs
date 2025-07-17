@@ -59,8 +59,8 @@
 
 ## Qase AI
 
-* [AI Test Case Generator](qase-ai/ai-test-case-generator.md)
-* [AIDEN - QA Architect](qase-ai/aiden-qa-architect.md)
+* [AI Test Case Generator](general/get-started-with-the-qase-platform/ai-test-case-generator.md)
+* [AIDEN - QA Architect](aiden/aiden-qa-architect.md)
 
 ***
 

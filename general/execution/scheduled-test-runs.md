@@ -2,7 +2,7 @@
 
 It's useful to have a new test run automatically created — maybe it’s a regular regression check, or something that needs to run every week or before a release.
 
-You can schedule test runs so they happen automatically at the time you choose. Both [Manual](../get-started-with-the-qase-platform/create-a-test-run/) and [Cloud test runs](../../qase-ai/aiden-qa-architect.md#h_8203030372) can be automatically created at the chosen time and intervals.
+You can schedule test runs so they happen automatically at the time you choose. Both [Manual](../get-started-with-the-qase-platform/create-a-test-run/) and [Cloud test runs](../../aiden/aiden-qa-architect.md#h_8203030372) can be automatically created at the chosen time and intervals.
 
 
 
