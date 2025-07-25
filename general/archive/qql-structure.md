@@ -36,23 +36,15 @@ Currently, QQL supports seven expression types. They are listed here in the decr
 
 Expressions:
 
-| _Expression Type_            | _Example_                                                            |
-| ---------------------------- | -------------------------------------------------------------------- |
-| Parenthesis                  | <pre><code>( expression )
-</code></pre>                              |
-| Negation                     | <pre><code>not expression
-</code></pre>                              |
-| Logical Expression           | <pre><code>true
+<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><em>Expression Type</em></td><td><em>Example</em></td></tr><tr><td>Parenthesis</td><td><pre><code>( expression )
+</code></pre></td></tr><tr><td>Negation</td><td><pre><code>not expression
+</code></pre></td></tr><tr><td>Logical Expression</td><td><pre><code>true
 </code></pre><p>or</p><pre><code>false
-</code></pre> |
-| Logical AND                  | <pre><code>expression and expression
-</code></pre>                   |
-| Logical OR                   | <pre><code>expression or expression
-</code></pre>                    |
-| Checking the attribute value | <pre><code>attribute operand value
-</code></pre>                     |
-| Sorting by field             | <pre><code>ORDER BY field ASC/DESC
-</code></pre>                     |
+</code></pre></td></tr><tr><td>Logical AND</td><td><pre><code>expression and expression
+</code></pre></td></tr><tr><td>Logical OR</td><td><pre><code>expression or expression
+</code></pre></td></tr><tr><td>Checking the attribute value</td><td><pre><code>attribute operand value
+</code></pre></td></tr><tr><td>Sorting by field</td><td><pre><code>ORDER BY field ASC/DESC
+</code></pre></td></tr></tbody></table>
 
 #### Supported operands:
 
