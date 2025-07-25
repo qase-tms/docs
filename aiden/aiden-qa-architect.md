@@ -218,7 +218,15 @@ With the convertion workflow, the 'Export code' option will be active in two ins
 
 <figure><img src="../.gitbook/assets/failed test export.png" alt="" width="563"><figcaption></figcaption></figure>
 
-(_Currently, code can only be exported to Javascript - Playwright framework)_
+{% hint style="info" %}
+Currently, code can only be exported to:
+
+* **Javascript**
+  * Playwright
+  * Cypress
+{% endhint %}
+
+
 
 
 
