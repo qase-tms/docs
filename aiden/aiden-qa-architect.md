@@ -128,7 +128,7 @@ For scenarios where the error is a bit complicated, for example, if an element i
 
 Follow the link below to understand how the action editor works.
 
-👉  [guide-action-editor.md](../qase-ai/guide-action-editor.md "mention")
+👉  [guide-action-editor.md](../guide-action-editor.md "mention")
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1453892326/b00ac717e960aca5a15607c2c689/27133.png?expires=1744675200&#x26;signature=44bc0e39b410a62ffbe0a2263814b96a18fcdb221df1e0fb7278aafe480c09dc&#x26;req=dSQiFcF3n4JdX%2FMW3nq%2Bgde0wOuKHmHx9rITXZ9dV8jZp4%2BzBfG21%2BSNg7Il%0AsKi%2Fk8CYIkZ4XacqJ0ioXanuwG4%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 

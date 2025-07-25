@@ -1,6 +1,6 @@
 # AIDEN - CI/CD Integration
 
-AIDEN can run your auto-tests in Qase cloud, eliminating the need for local test execution infrastructure.
+AIDEN can run your auto-tests in [Qase cloud](../aiden/aiden-qa-architect.md#h_8203030372), eliminating the need for local test execution infrastructure.
 
 The tests run entirely in the background, executing tests in the cloud while your development team continues their work. Once test execution completes, AIDEN populates the test results and detailed stack traces for any failures, into the Qase run.
 
@@ -14,12 +14,14 @@ Consider the typical software release cycle, where:
 * CI/CD pipelines automatically build and deploy applications
 * Tests need to run alongside these automated processes
 
+The integration offers a simple GitHub Action that bridges your CI/CD pipeline with AIDEN's cloud-based testing capabilities. This approach maintains the automated workflow that modern development teams require.
+
+### Where do I find the code?
+
 {% hint style="success" %}
 GitHub repository link for **code examples**:\
 [https://github.com/qase-tms/qase-cloud-ci-integrations](https://github.com/qase-tms/qase-cloud-ci-integrations)
 {% endhint %}
-
-The integration offers a simple GitHub Action that bridges your CI/CD pipeline with AIDEN's cloud-based testing capabilities. This approach maintains the automated workflow that modern development teams require.
 
 ### How does it work? <a href="#h_1cf9e93f1d" id="h_1cf9e93f1d"></a>
 
