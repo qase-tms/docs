@@ -35,7 +35,7 @@ The integration process follows these key steps:
   ​
 * Status Monitoring: The action continuously polls API endpoints to track run progress and results\
   ​
-* Results Summary: Upon completion, the action provides comprehensive test results directly in your GitHub workflow
+* Results Summary: Upon completion of the run, the workflow will fail, if there are test failures.
 
 ### What happens in each step? <a href="#h_4e39441490" id="h_4e39441490"></a>
 
