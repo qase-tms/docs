@@ -31,7 +31,7 @@ The integration process follows these key steps:
   ​
 * Test Configuration: You can specify which tests to run, including specific case IDs for targeted testing\
   ​
-* Background Execution: AIDEN begins test execution in the Cases cloud environment\
+* Background Execution: AIDEN begins test execution in the Qase's cloud environment\
   ​
 * Status Monitoring: The action continuously polls API endpoints to track run progress and results\
   ​
