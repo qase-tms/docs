@@ -200,6 +200,20 @@ Let's explore the options available in the dashboard -
 
 <figure><img src="../../../.gitbook/assets/bulk post results.gif" alt="" width="563"><figcaption></figcaption></figure>
 
+### Run Duration <a href="#h_10f76e08d8" id="h_10f76e08d8"></a>
+
+Total Time represents the cumulative sum of the `timeSpent` values for all test cases, where `timeSpent` indicates the execution duration of an individual test case.
+
+While this metric is helpful for understanding the combined runtime of all tests, it doesn’t fully capture the true duration of the test run.
+
+The actual duration of a test run encompasses more than just the individual test execution times. It also includes additional factors such as the time required to configure the testing environment, initialize dependencies for each test, manage transitions between test cases, handle resource allocation, and perform cleanup or teardown activities.
+
+In contrast, Elapsed Time provides a more precise measure by calculating the difference between the **start time of the first result** and **end time of the last result** submitted in the run, offering an accurate representation of the total time the test run actually takes.
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1450425705/e5ab6cf6127874aabd70ef59fb58/37010.png?expires=1754200800&#x26;signature=faa24c1804183edf35aef467d37c2f3e965765ee1400407a221004d00a8a6b34&#x26;req=dSQiFs18mIZfXPMW3nq%2BgYOuDN3W6fVG4shGTqQnDQOSaPh6Z8wG1SIHmxcb%0AP1%2BgoocntyFZIteGzEJAG3f%2B5RY%3D%0A" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
 ### Timeline View <a href="#h_964117eb5f" id="h_964117eb5f"></a>
 
 The Timeline chart is a powerful tool that provides a visual representation of your automated test run.
