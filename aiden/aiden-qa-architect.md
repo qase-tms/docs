@@ -4,6 +4,8 @@
 For pricing details, check [AIDEN pricing: explained](https://help.qase.io/en/articles/11737411-aiden-pricing-explained).
 {% endhint %}
 
+{% embed url="https://youtu.be/Mcx-hx7D4GA" %}
+
 While Manual testing has been the cornerstone of software quality for decades, it is slow, costly, and error-prone. And, traditional test automation requires deep technical expertise, extensive infrastructure, and ongoing maintenance — and these are barriers that prevent many teams from adopting it effectively.
 
 AIDEN eliminates these challenges by allowing users to create, execute, and maintain automated tests using natural language instead of working with code.
