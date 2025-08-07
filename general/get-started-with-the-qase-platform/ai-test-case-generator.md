@@ -1,9 +1,5 @@
 # AI Test Case Generator
 
-{% hint style="info" %}
-_**This feature works in experimental mode.**_
-{% endhint %}
-
 {% embed url="https://youtu.be/HnbapbuO3RI" %}
 
 ## What is Qase AI Test Case Generator? <a href="#h_f44069af2e" id="h_f44069af2e"></a>
