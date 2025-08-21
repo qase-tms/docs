@@ -174,5 +174,4 @@ You can view the usage of a shared parameter from the Edit screen by navigating 
 
 This allows you to quickly understand where and how your shared parameters are being utilized across your projects.
 
-<div align="center" data-full-width="false"><figure><img src="../../../.gitbook/assets/81124 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
-
+<figure><img src="../../../.gitbook/assets/86794.png" alt="" width="563"><figcaption></figcaption></figure>
