@@ -164,4 +164,15 @@ When deleting a shared parameter, you have two options:
    ​
 2. Delete from All Test Cases: Completely remove the parameter from all associated test cases.
 
-\
+### Tracking Usage of your shared parameter <a href="#h_e3a86b5228" id="h_e3a86b5228"></a>
+
+You can view the usage of a shared parameter from the Edit screen by navigating to the Usage tab. This tab provides a detailed overview of:
+
+* All projects that have access to the shared parameter.
+* The number of test cases in the repository that use the shared parameter.
+* The number of test cases submitted for review that include the shared parameter.
+
+This allows you to quickly understand where and how your shared parameters are being utilized across your projects.
+
+<div align="center" data-full-width="false"><figure><img src="../../../.gitbook/assets/81124 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+
