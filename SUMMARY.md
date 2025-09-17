@@ -57,16 +57,16 @@
   * [Entity fields](general/archive/entity-fields.md)
   * [Examples of Queries](general/archive/examples-of-queries.md)
 
-## Qase AI
+## AIDEN - Qase AI
 
-* [AIDEN - Test Designer](general/get-started-with-the-qase-platform/ai-test-case-generator.md)
-* [AIDEN - QA Advisor](aiden/aiden-qa-architect.md)
-* [AIDEN - QA Architect](qase-ai/aiden-qa-architect-1.md)
-* [AIDEN - Automation Engineer](qase-ai/aiden-automation-engineer.md)
-* [AIDEN - AI Test Cloud](qase-ai/aiden-ai-test-cloud.md)
-* [Guide: Action editor](guide-action-editor.md)
-* [AIDEN - CI/CD Integration](qase-ai/aiden-ci-cd-integration.md)
-* [AIDEN - Role based access control](qase-ai/aiden-role-based-access-control.md)
+* [Test Designer](aiden-qase-ai/ai-test-case-generator.md)
+* [Test Advisor](aiden-qase-ai/aiden-qa-architect.md)
+* [QA Architect](aiden-qase-ai/qa-architect.md)
+* [Automation Engineer](aiden-qase-ai/automation-engineer.md)
+* [AI Test Cloud](aiden-qase-ai/ai-test-cloud.md)
+* [Guide: Action editor](aiden-qase-ai/guide-action-editor.md)
+* [AIDEN - CI/CD Integration](aiden-qase-ai/aiden-ci-cd-integration.md)
+* [AIDEN - Role based access control](aiden-qase-ai/aiden-role-based-access-control.md)
 
 ## Administration
 

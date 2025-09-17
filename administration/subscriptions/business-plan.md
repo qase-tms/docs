@@ -13,7 +13,7 @@ The Business plan is the best starting point for teams 5+ that need extra flexib
 * 1  year of [test run data](https://help.qase.io/en/articles/10401733-what-are-data-retention-limits)
 * Unlimited storage for [attachments](../workspace-management/attachments.md)
 * Read-only [users](https://help.qase.io/en/articles/6417204-why-and-how-to-use-read-only-users-in-qase)
-* [AI Test Case Generator](../../general/get-started-with-the-qase-platform/ai-test-case-generator.md)
+* [AI Test Case Generator](../../aiden-qase-ai/ai-test-case-generator.md)
 * [Role-based Access Control](../workspace-management/roles.md) (RBAC)
 * [Test case review](../../general/get-started-with-the-qase-platform/test-cases/test-case-review.md)
 * [Queries](../../general/analytics/queries-qql-qase-query-language.md) (QQL, Qase Query Language)

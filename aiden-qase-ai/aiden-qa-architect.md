@@ -1,4 +1,4 @@
-# AIDEN - QA Advisor
+# Test Advisor
 
 Every repository has some test cases are perfect for automation — they’re stable, repetitive, and save a huge amount of time when automated.
 
@@ -36,4 +36,4 @@ Based on the suggestions from AIDEN, once you edit your test cases that are not 
 
 After reading this article, please check:
 
-* ### [AIDEN - QA Architect](../qase-ai/aiden-qa-architect-1.md) <a href="#h_3702e5719f" id="h_3702e5719f"></a>
+* ### [AIDEN - QA Architect](qa-architect.md) <a href="#h_3702e5719f" id="h_3702e5719f"></a>

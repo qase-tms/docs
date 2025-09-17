@@ -1,8 +1,8 @@
-# AIDEN - Automation Engineer
+# Automation Engineer
 
 Before reading this article, please check:
 
-* ### [AIDEN - QA Architect](aiden-qa-architect-1.md) <a href="#h_0807fd70b1" id="h_0807fd70b1"></a>
+* ### [AIDEN - QA Architect](qa-architect.md) <a href="#h_0807fd70b1" id="h_0807fd70b1"></a>
 
 You can copy or download the generated test code with the Export code option. This option is available on both the repository, and while generating the auto-test.
 
@@ -42,4 +42,4 @@ With the convertion workflow, the 'Export code' option will be active in two ins
 
 After reading this article, please check:
 
-* ### [AIDEN - AI Test Cloud](aiden-ai-test-cloud.md) <a href="#h_6b86caf1a5" id="h_6b86caf1a5"></a>
+* ### [AIDEN - AI Test Cloud](ai-test-cloud.md) <a href="#h_6b86caf1a5" id="h_6b86caf1a5"></a>

@@ -1,10 +1,10 @@
-# AIDEN - QA Architect
+# QA Architect
 
 {% embed url="https://www.youtube.com/watch?v=Mcx-hx7D4GA" %}
 
 Before reading this article, please check:
 
-* ### [AIDEN - Test Advisor](../aiden/aiden-qa-architect.md) <a href="#h_f3707b42f6" id="h_f3707b42f6"></a>
+* ### [AIDEN - Test Advisor](aiden-qa-architect.md) <a href="#h_f3707b42f6" id="h_f3707b42f6"></a>
 
 While Manual testing has been the cornerstone of software quality for decades, it is slow, costly, and error-prone. And, traditional test automation requires deep technical expertise, extensive infrastructure, and ongoing maintenance — and these are barriers that prevent many teams from adopting it effectively.
 
@@ -158,6 +158,6 @@ To delete a specific step, type for example: “Delete step 4”
 
 After reading this article, please check:
 
-* ### [AIDEN - Automation Engineer](aiden-automation-engineer.md) <a href="#h_cf02f5a2ff" id="h_cf02f5a2ff"></a>
-* ### [AIDEN - AI Test Cloud](aiden-ai-test-cloud.md) <a href="#h_9db3246623" id="h_9db3246623"></a>
+* ### [AIDEN - Automation Engineer](automation-engineer.md) <a href="#h_cf02f5a2ff" id="h_cf02f5a2ff"></a>
+* ### [AIDEN - AI Test Cloud](ai-test-cloud.md) <a href="#h_9db3246623" id="h_9db3246623"></a>
 
