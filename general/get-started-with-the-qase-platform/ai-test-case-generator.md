@@ -68,7 +68,7 @@ Click AIDEN manual test action button to open the generator screen.
 
 1️⃣ Expand the test cases to review them -
 
-<figure><img src="../../.gitbook/assets/15495.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/15495.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <details>
 
