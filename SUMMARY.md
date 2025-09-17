@@ -63,6 +63,7 @@
 * [AIDEN - QA Advisor](aiden/aiden-qa-architect.md)
 * [AIDEN - QA Architect](qase-ai/aiden-qa-architect-1.md)
 * [AIDEN - Automation Engineer](qase-ai/aiden-automation-engineer.md)
+* [AIDEN - AI Test Cloud](qase-ai/aiden-ai-test-cloud.md)
 * [Guide: Action editor](guide-action-editor.md)
 * [AIDEN - CI/CD Integration](qase-ai/aiden-ci-cd-integration.md)
 * [AIDEN - Role based access control](qase-ai/aiden-role-based-access-control.md)
