@@ -61,6 +61,7 @@
 
 * [AIDEN - Test Designer](general/get-started-with-the-qase-platform/ai-test-case-generator.md)
 * [AIDEN - QA Advisor](aiden/aiden-qa-architect.md)
+* [AIDEN - QA Architect](qase-ai/aiden-qa-architect-1.md)
 * [Guide: Action editor](guide-action-editor.md)
 * [AIDEN - CI/CD Integration](qase-ai/aiden-ci-cd-integration.md)
 * [AIDEN - Role based access control](qase-ai/aiden-role-based-access-control.md)
