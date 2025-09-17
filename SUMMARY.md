@@ -59,7 +59,7 @@
 
 ## Qase AI
 
-* [AI Test Case Generator](general/get-started-with-the-qase-platform/ai-test-case-generator.md)
+* [AIDEN - Test Designer](general/get-started-with-the-qase-platform/ai-test-case-generator.md)
 * [AIDEN - QA Architect](aiden/aiden-qa-architect.md)
 * [Guide: Action editor](guide-action-editor.md)
 * [AIDEN - CI/CD Integration](qase-ai/aiden-ci-cd-integration.md)
