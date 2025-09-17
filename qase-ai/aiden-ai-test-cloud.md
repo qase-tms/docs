@@ -28,7 +28,7 @@ A screenshot is captured at each test step along with a complete video of the en
 
 ## Integrating with your CI/CD pipeline <a href="#h_78e5f0088c" id="h_78e5f0088c"></a>
 
-AIDEN can run your auto-tests in [Qase cloud](https://help.qase.io/en/articles/11012497-aiden-qa-architect#h_8203030372), eliminating the need for local test execution infrastructure.
+AIDEN can run your auto-tests in [Qase cloud](aiden-qa-architect-1.md), eliminating the need for local test execution infrastructure.
 
 The tests run entirely in the background, executing tests in the cloud while your development team continues their work. Once test execution completes, AIDEN populates the test results and detailed stack traces for any failures, into the Qase run.
 

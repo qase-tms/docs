@@ -4,7 +4,7 @@
 
 Before reading this article, please check:
 
-* ### [AIDEN - Test Advisor](broken-reference) <a href="#h_f3707b42f6" id="h_f3707b42f6"></a>
+* ### [AIDEN - Test Advisor](../aiden/aiden-qa-architect.md) <a href="#h_f3707b42f6" id="h_f3707b42f6"></a>
 
 While Manual testing has been the cornerstone of software quality for decades, it is slow, costly, and error-prone. And, traditional test automation requires deep technical expertise, extensive infrastructure, and ongoing maintenance — and these are barriers that prevent many teams from adopting it effectively.
 
@@ -88,7 +88,7 @@ For scenarios where the error is a bit complicated, for example, if an element i
 
 Follow the link below to understand how the action editor works.
 
-👉 [https://help.qase.io/en/articles/10705702-guide-action-editor](https://help.qase.io/en/articles/10705702-guide-action-editor)
+👉 [https://docs.qase.io/qase-ai/guide-action-editor](https://docs.qase.io/qase-ai/guide-action-editor)
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1453892326/b00ac717e960aca5a15607c2c689/27133.png?expires=1758218400&#x26;signature=13a90c67a074fbe1bea0d942239469ddf6e2df763c96c96fc622a7d0f6339816&#x26;req=dSQiFcF3n4JdX%2FMW3nq%2Bgde0wOuLEmX3%2B7QTXZ9dV8jytsxc3XQrf7xbsBeq%0AXyuQpBQShnOUkqEBorc%2BrvjN%2Bk8%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -158,5 +158,6 @@ To delete a specific step, type for example: “Delete step 4”
 
 After reading this article, please check:
 
-* ### [AIDEN - Automation Engineer](https://help.qase.io/en/articles/11981749-aiden-automation-engineer) <a href="#h_cf02f5a2ff" id="h_cf02f5a2ff"></a>
-* ### [AIDEN - AI Test Cloud](https://help.qase.io/en/articles/11851804-aiden-ai-test-cloud) <a href="#h_9db3246623" id="h_9db3246623"></a>
+* ### [AIDEN - Automation Engineer](aiden-automation-engineer.md) <a href="#h_cf02f5a2ff" id="h_cf02f5a2ff"></a>
+* ### [AIDEN - AI Test Cloud](aiden-ai-test-cloud.md) <a href="#h_9db3246623" id="h_9db3246623"></a>
+
