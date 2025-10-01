@@ -30,15 +30,21 @@ With the convertion workflow, the 'Export code' option will be active in two ins
 
 > _Currently, code can only be exported to:_
 >
-> _Javascript_
+> * _JavaScript_
+>   * _Playwright_
+>   * _Cypress_\
+>     ​
+> * _TypeScript_
+>   * _Playwright_\
 >
-> * _playwright_
-> * _Cypress_
+> * Python
+>   * Playwright
+>   * Selenium
+>   * Robot Framework\
 >
-> _TypeScript_
->
-> * _Playwright_\
->   &#x20;
+> * Java (17+) - Selenium&#x20;
+
+
 
 After reading this article, please check:
 
