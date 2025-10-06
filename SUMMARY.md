@@ -165,3 +165,7 @@
     * [Kaspresso](automation/reporters/kotlin/kaspresso.md)
 * [Qase CLI App](automation/qase-cli-app/README.md)
   * [XCTest](automation/qase-cli-app/xctest.md)
+
+## FAQ
+
+* [How to acquire Workspace Ownership?](faq/how-to-acquire-workspace-ownership.md)
