@@ -38,6 +38,6 @@ If you're not the workspace owner, and the current owner left without transferri
 If you're not the Qase workspace owner, and the current owner has left the company but their email is still accessible, please follow these steps:
 
 1. Go to [https://app.qase.io/password/reset](https://app.qase.io/password/reset) and reset the owner's password.
-2. Once you gain access to the owner's profile, transfer ownership as described in [case-1.](https://help.qase.io/en/articles/5563694-how-to-acquire-workspace-ownership#h_13b8cc3f52)
+2. Once you gain access to the owner's profile, transfer ownership as described in [case-1.](how-to-acquire-workspace-ownership.md)
 
 \
