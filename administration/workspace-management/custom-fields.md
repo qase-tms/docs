@@ -85,5 +85,5 @@ You can also sort the list by the order field to view the updated arrangement.
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1416114615/1dcf91237249e6dca4d77509aeb5/85978.png?expires=1741824000&#x26;signature=af93c96d12d4febc389edc908650b2d23cf285810e0e6dcea6f2e4414be037fd&#x26;req=dSQmEMh%2FmYdeXPMW3nq%2BgR9hOdVVDTgfjAPOIhkKoGlMeDDyt5CrF%2F%2FQz4OT%0A7mIynM2OpTC9mWCZyhn9sjOxWto%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
-
+If you add the same order value to more than one field, those fields are ordered based on their creation time.
 
