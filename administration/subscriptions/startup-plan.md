@@ -9,6 +9,7 @@ We've made some changes to our Billing, for Read-only users. To learn more about
 The full-featured startup plan helps organize collaboration within distributed teams of _more than three people_ and provides access to the following capabilities:
 
 * Core features (test case management, shared steps, milestones, test plans and runs, defects).
+* 500 [AIDEN Credits](https://help.qase.io/en/articles/11737411-aiden-pricing-explained), per month
 * 100 GB storage for [attachments](../workspace-management/attachments.md)
 * 90 days of [test run data](https://help.qase.io/en/articles/10401733-what-are-data-retention-limits)
 * [API](https://developers.qase.io/reference/introduction-to-the-qase-api) and [Webhooks](../../general/webhooks/)

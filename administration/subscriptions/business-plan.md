@@ -10,6 +10,7 @@ The Business plan is the best starting point for teams 5+ that need extra flexib
 
 * All features from [startup plan](startup-plan.md)
 * Up to 100 users per team
+* 1000 [AIDEN Credits](https://help.qase.io/en/articles/11737411-aiden-pricing-explained), per month
 * 1  year of [test run data](https://help.qase.io/en/articles/10401733-what-are-data-retention-limits)
 * Unlimited storage for [attachments](../workspace-management/attachments.md)
 * Read-only [users](https://help.qase.io/en/articles/6417204-why-and-how-to-use-read-only-users-in-qase)
