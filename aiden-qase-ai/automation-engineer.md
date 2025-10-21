@@ -28,21 +28,11 @@ With the convertion workflow, the 'Export code' option will be active in two ins
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1664204629/f5e68fc71f3a6a3efb70ff0b7d90/failed%2Btest%2Bexport.png?expires=1758218400&#x26;signature=c944d83e0784cc5bf58d5246b3ff0f303c4a77978f1b267af02739ec1916791a&#x26;req=dSYhEst%2BmYddUPMW3nq%2BgeCFLVamn1Q9NgZO8TY%2BeYv2GfGhVpxMiLifpQk2%0A6uLFvbQ%2B0Z2u5tA%2Fomct6El9YKw%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
-> _Currently, code can only be exported to:_
->
-> * _JavaScript_
->   * _Playwright_
->   * _Cypress_\
->     ​
-> * _TypeScript_
->   * _Playwright_\
->
-> * Python
->   * Playwright
->   * Selenium
->   * Robot Framework\
->
-> * Java (17+) - Selenium&#x20;
+
+
+Currently, your auto-test can be exported for the following frameworks
+
+<table><thead><tr><th width="144.125">Javascript</th><th width="129.8046875">Typescript</th><th width="111.72265625">Python</th><th width="126.2421875">Java</th><th>C#</th></tr></thead><tbody><tr><td>Playwright</td><td>Playwright</td><td>Playwright</td><td>Playwright</td><td>Playwright</td></tr><tr><td>Cypress</td><td>Cypress</td><td>Selenium</td><td>Selenium</td><td>Selenium</td></tr><tr><td>Cucumber</td><td></td><td>Robot Framework</td><td></td><td></td></tr></tbody></table>
 
 
 
