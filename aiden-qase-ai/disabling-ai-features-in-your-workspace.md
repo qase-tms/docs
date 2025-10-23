@@ -7,7 +7,7 @@ Qase offers several integrated AI features to enhance your test management. Howe
 * Visit this page: [https://app.qase.io/workspace/settings](https://app.qase.io/workspace/settings)
 * Switch this toggle to the 'Off' position.
 
-[![](https://downloads.intercomcdn.com/i/o/wsaz8vex/1621249373/71296a9c950f0f80a76a70b9e5f0/72511.png?expires=1761230700\&signature=5be7cb03ac9c66b99f971370e5a153bc3aa9a1d21dcbc9ab283d45ba9073d868\&req=dSYlF8t6lIJYWvMW1HO4zQzh4v%2F9iP1R3WafYAONlS70gZ4Omm3FJouOVYzJ%0AXUr0VnatxzTlUdqtEcA%3D%0A)](https://downloads.intercomcdn.com/i/o/wsaz8vex/1621249373/71296a9c950f0f80a76a70b9e5f0/72511.png?expires=1761230700\&signature=5be7cb03ac9c66b99f971370e5a153bc3aa9a1d21dcbc9ab283d45ba9073d868\&req=dSYlF8t6lIJYWvMW1HO4zQzh4v%2F9iP1R3WafYAONlS70gZ4Omm3FJouOVYzJ%0AXUr0VnatxzTlUdqtEcA%3D%0A)
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1621249373/71296a9c950f0f80a76a70b9e5f0/72511.png?expires=1761230700&#x26;signature=5be7cb03ac9c66b99f971370e5a153bc3aa9a1d21dcbc9ab283d45ba9073d868&#x26;req=dSYlF8t6lIJYWvMW1HO4zQzh4v%2F9iP1R3WafYAONlS70gZ4Omm3FJouOVYzJ%0AXUr0VnatxzTlUdqtEcA%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
 This toggle will disable the following features:
 

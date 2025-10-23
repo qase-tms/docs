@@ -14,7 +14,7 @@ Based on your workspace plan, a quota of credits are provided.
 
 Over usage beyond the monthly allowance is disabled by default, but you will have an option to manually enable it, from the billing page.
 
-[![](https://downloads.intercomcdn.com/i/o/wsaz8vex/1621124928/b4848b7d79408ff0d61212c8b1d9/66696.png?expires=1761227100\&signature=3c1514239f11b7565ba518a7c35b09de5c9cb588b747983e9ffc9bf6669bf3f5\&req=dSYlF8h8mYhdUfMW1HO4zQrrVwfQgDFCQ0TwkSgfRXEa5ID48uQtNR2nxzww%0AJXEGG4QANwksSUADNu0%3D%0A)](https://downloads.intercomcdn.com/i/o/wsaz8vex/1621124928/b4848b7d79408ff0d61212c8b1d9/66696.png?expires=1761227100\&signature=3c1514239f11b7565ba518a7c35b09de5c9cb588b747983e9ffc9bf6669bf3f5\&req=dSYlF8h8mYhdUfMW1HO4zQrrVwfQgDFCQ0TwkSgfRXEa5ID48uQtNR2nxzww%0AJXEGG4QANwksSUADNu0%3D%0A)
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1621124928/b4848b7d79408ff0d61212c8b1d9/66696.png?expires=1761227100&#x26;signature=3c1514239f11b7565ba518a7c35b09de5c9cb588b747983e9ffc9bf6669bf3f5&#x26;req=dSYlF8h8mYhdUfMW1HO4zQrrVwfQgDFCQ0TwkSgfRXEa5ID48uQtNR2nxzww%0AJXEGG4QANwksSUADNu0%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Your subscription comes with Included credits <a href="#h_3ecd55fa56" id="h_3ecd55fa56"></a>
 
@@ -50,7 +50,7 @@ Owners and Administrators will be alerted via email when 80% and 100% of the inc
 
 When you run out of the included AIDEN credits from your plan, you can still continue AIDEN usage by allowing over usage.
 
-[![](https://downloads.intercomcdn.com/i/o/wsaz8vex/1621145119/1bbf8b33b1dea48602284c358f64/8572.png?expires=1761227100\&signature=1a5b832d7c0ebc670667e9237548e535eadb30a82bcd9e5917a259e7f6dbad5c\&req=dSYlF8h6mIBeUPMW1HO4zdsALXFN05%2BIzXD5t87BYoxHislTRIROB6zZ64lB%0AHqVX5oV1DLQ8b%2FpAiTo%3D%0A)](https://downloads.intercomcdn.com/i/o/wsaz8vex/1621145119/1bbf8b33b1dea48602284c358f64/8572.png?expires=1761227100\&signature=1a5b832d7c0ebc670667e9237548e535eadb30a82bcd9e5917a259e7f6dbad5c\&req=dSYlF8h6mIBeUPMW1HO4zdsALXFN05%2BIzXD5t87BYoxHislTRIROB6zZ64lB%0AHqVX5oV1DLQ8b%2FpAiTo%3D%0A)
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1621145119/1bbf8b33b1dea48602284c358f64/8572.png?expires=1761227100&#x26;signature=1a5b832d7c0ebc670667e9237548e535eadb30a82bcd9e5917a259e7f6dbad5c&#x26;req=dSYlF8h6mIBeUPMW1HO4zdsALXFN05%2BIzXD5t87BYoxHislTRIROB6zZ64lB%0AHqVX5oV1DLQ8b%2FpAiTo%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
 Credits used beyond the monthly allowance are billed at $0.40 per credit.
 
@@ -62,7 +62,7 @@ Budget defaults to unlimited usage, but you can set a custom amount based on you
 
 Once AIDEN reaches your budget threshold and exhausts the allocated credits, the system will automatically suspend further usage to protect against overages.
 
-[![](https://downloads.intercomcdn.com/i/o/wsaz8vex/1706194421/670e247fb43e0288a91a759c92ab/image.png?expires=1761227100\&signature=014d3d56c5e1f201de3b6d7f3c6c7cbf5637474945b7a32031fd90d5b86987ef\&req=dScnEMh3mYVdWPMW1HO4zUh54d2KhrS9D0XVoa4dWN28t6XbkUiseZh1bAz5%0ARw59zy5G6vxC9VRksyA%3D%0A)](https://downloads.intercomcdn.com/i/o/wsaz8vex/1706194421/670e247fb43e0288a91a759c92ab/image.png?expires=1761227100\&signature=014d3d56c5e1f201de3b6d7f3c6c7cbf5637474945b7a32031fd90d5b86987ef\&req=dScnEMh3mYVdWPMW1HO4zUh54d2KhrS9D0XVoa4dWN28t6XbkUiseZh1bAz5%0ARw59zy5G6vxC9VRksyA%3D%0A)
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1706194421/670e247fb43e0288a91a759c92ab/image.png?expires=1761227100&#x26;signature=014d3d56c5e1f201de3b6d7f3c6c7cbf5637474945b7a32031fd90d5b86987ef&#x26;req=dScnEMh3mYVdWPMW1HO4zUh54d2KhrS9D0XVoa4dWN28t6XbkUiseZh1bAz5%0ARw59zy5G6vxC9VRksyA%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
