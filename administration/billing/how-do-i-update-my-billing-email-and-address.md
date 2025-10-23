@@ -30,7 +30,7 @@ You can add, or edit your billing address from the workspace's [Billing](https:/
     * ZIP/Postal code
     * Tax ID
 
-    <figure><img src="https://downloads.intercomcdn.com/i/o/1175794243/44f1b07a34f856f3ddd76eeb/image.png?expires=1761230700&#x26;signature=14c74f57e32052fe97fdc6eb6bb1c202d29c5c75e099eed76af7d04598421205&#x26;req=dSEgE853mYNbWvMW1HO4zcM2BshyLNyWAVV9BOPnYJSXOMq75TvWvgRZ8qD%2F%0Ayuaz%0A" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="https://downloads.intercomcdn.com/i/o/1175794243/44f1b07a34f856f3ddd76eeb/image.png?expires=1761230700&#x26;signature=14c74f57e32052fe97fdc6eb6bb1c202d29c5c75e099eed76af7d04598421205&#x26;req=dSEgE853mYNbWvMW1HO4zcM2BshyLNyWAVV9BOPnYJSXOMq75TvWvgRZ8qD%2F%0Ayuaz%0A" alt="" width="188"><figcaption></figcaption></figure>
 
 ## Add / Update your billing email <a href="#h_af3b418537" id="h_af3b418537"></a>
 

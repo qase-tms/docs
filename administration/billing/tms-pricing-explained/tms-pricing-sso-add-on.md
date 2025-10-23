@@ -7,8 +7,8 @@ SSO comes as a standard feature with our Enterprise subscription, but for smalle
 The pricing follows a _per user per month_ model, with each subscription tier having specific minimum user requirements. The Business tier subscription requires a minimum of 5 users to activate. \
 Refer to this article to understand the pricing in more detail :point\_right: [.](./ "mention")
 
-{% hint style="warning" %}
-**The Business plan with SSO add-on is only available as quarterly and annual subscriptions only.**
+{% hint style="info" %}
+The Business plan with SSO add-on is only available on **quarterly** and **annual** subscriptions only.
 {% endhint %}
 
 ***

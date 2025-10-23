@@ -47,17 +47,17 @@ Purchase: Activate the add-on anytime by going to [Workspace → Subscription](h
 
 Simply select +5 years or +10 years, review your live cost preview, and confirm.
 
-![](https://downloads.intercomcdn.com/i/o/wsaz8vex/1789498515/29643870658832e3b06065613e0b/image.png?expires=1761228000\&signature=d9ccdcac7b3c96adb9d30a267235ba3312211fc6dd2c50030a8bddba8c3e8962\&req=dScvH813lYReXPMW1HO4zVFdNhM%2BTSSXqBeWud%2F%2Fk4IfHCU1waeKZpqzu0OZ%0Ad0o09QiIjSZ2%2BrCyM7Q%3D%0A)
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1789498515/29643870658832e3b06065613e0b/image.png?expires=1761228000&#x26;signature=d9ccdcac7b3c96adb9d30a267235ba3312211fc6dd2c50030a8bddba8c3e8962&#x26;req=dScvH813lYReXPMW1HO4zVFdNhM%2BTSSXqBeWud%2F%2Fk4IfHCU1waeKZpqzu0OZ%0Ad0o09QiIjSZ2%2BrCyM7Q%3D%0A" alt="" width="188"><figcaption></figcaption></figure>
 
 **Upgrade**: Move from 5 years to 10 years at any time. The change takes effect immediately, and your bill is prorated so you only pay for what you use.
 
 **Downgrade**: Move from 10 years to 5 years at your next billing cycle. You’ll see a clear warning if any data will be affected, so there are no surprises.
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1789607104/550117921d19d3572bb13c88a518/image.png?expires=1761228000&#x26;signature=6d8ce1852808dc5cd1f672df66477bef1606d6fcd0555788c9c80d3dcf85c27f&#x26;req=dScvH89%2BmoBfXfMW1HO4zek9FWs1BRUrfGHIUj9wNkJtpN0q9ZE2xbOyZg3Q%0A9e1uDPXs5ViCfVYtIgs%3D%0A" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1789607104/550117921d19d3572bb13c88a518/image.png?expires=1761228000&#x26;signature=6d8ce1852808dc5cd1f672df66477bef1606d6fcd0555788c9c80d3dcf85c27f&#x26;req=dScvH89%2BmoBfXfMW1HO4zek9FWs1BRUrfGHIUj9wNkJtpN0q9ZE2xbOyZg3Q%0A9e1uDPXs5ViCfVYtIgs%3D%0A" alt="" width="188"><figcaption></figcaption></figure>
 
 **Cancellation**: If you cancel the add-on, any data older than your plan’s default retention (Startup: 90 days, Business: 1 year) will no longer be accessible. Keep the add-on active to maintain full access to your extended history.
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1789607333/392a0775c0cae72f93bbf7745969/image.png?expires=1761228000&#x26;signature=de92dba1924047a58fec05376dce0c177c7f9c323fb84938dca618d0604cafad&#x26;req=dScvH89%2BmoJcWvMW1HO4zVIpN7MXlJX8RYTj20lCBEBiM4uf1MtEe%2FLxa3Ar%0AcvP6hn42W2%2FtQJuW6UU%3D%0A" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1789607333/392a0775c0cae72f93bbf7745969/image.png?expires=1761228000&#x26;signature=de92dba1924047a58fec05376dce0c177c7f9c323fb84938dca618d0604cafad&#x26;req=dScvH89%2BmoJcWvMW1HO4zVIpN7MXlJX8RYTj20lCBEBiM4uf1MtEe%2FLxa3Ar%0AcvP6hn42W2%2FtQJuW6UU%3D%0A" alt="" width="188"><figcaption></figcaption></figure>
 
 ### FAQs <a href="#h_100158a87c" id="h_100158a87c"></a>
 

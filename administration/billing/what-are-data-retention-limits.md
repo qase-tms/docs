@@ -1,6 +1,6 @@
 # What are data retention Limits?
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Please note that upgrading to a subscription will not recover test run data that is already inaccessible. The upgrade will only extend your data retention period for future runs.
 {% endhint %}
 

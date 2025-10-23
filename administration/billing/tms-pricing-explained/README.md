@@ -153,6 +153,6 @@ By canceling the subscription, it will not auto-renew on the upcoming renewal da
 
 You will continue to have access to the paid features until the current subscription period ends.
 
-<mark style="color:$warning;">⚠️ Before canceling, ensure that all critical project data is backed up. Evaluate the impact of the Free plan's limited features on your workflows. When the subscription transitions to the Free plan, there will be restricted access to projects, and older data, such as test runs or defect data that exceed a certain retention period, will be subject to permanent deletion in accordance with Free plan policies.</mark>
-
-\
+{% hint style="info" %}
+<mark style="color:$warning;">Before canceling, ensure that all critical project data is backed up. Evaluate the impact of the Free plan's limited features on your workflows. When the subscription transitions to the Free plan, there will be restricted access to projects, and older data, such as test runs or defect data that exceed a certain retention period, will be subject to permanent deletion in accordance with Free plan policies.</mark>
+{% endhint %}
