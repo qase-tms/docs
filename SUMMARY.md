@@ -67,6 +67,7 @@
 * [Guide: Action editor](aiden-qase-ai/guide-action-editor.md)
 * [AIDEN - CI/CD Integration](aiden-qase-ai/aiden-ci-cd-integration.md)
 * [AIDEN - Role based access control](aiden-qase-ai/aiden-role-based-access-control.md)
+* [Disabling AI features in your workspace](aiden-qase-ai/disabling-ai-features-in-your-workspace.md)
 
 ## Administration
 
@@ -102,6 +103,12 @@
   * [Qase IP addresses](administration/security/qase-ip-addresses.md)
 * [Billing](administration/billing/README.md)
   * [Billing options](administration/billing/billing-options.md)
+  * [TMS Pricing: Explained](administration/billing/tms-pricing-explained/README.md)
+    * [TMS Pricing: SSO Add-on](administration/billing/tms-pricing-explained/tms-pricing-sso-add-on.md)
+    * [TMS Pricing: Data Retention Add-on](administration/billing/tms-pricing-explained/tms-pricing-data-retention-add-on.md)
+  * [AIDEN Pricing: Explained](administration/billing/aiden-pricing-explained.md)
+  * [What are data retention Limits?](administration/billing/what-are-data-retention-limits.md)
+  * [How do I update my billing email and address?](administration/billing/how-do-i-update-my-billing-email-and-address.md)
 * [Subscriptions](administration/subscriptions/README.md)
   * [Free plan](administration/subscriptions/free-plan.md)
   * [Startup plan](administration/subscriptions/startup-plan.md)

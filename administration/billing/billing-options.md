@@ -2,7 +2,7 @@
 
 ### What are the different billing options for each subscription?
 
-Qase's Startup, Business and Enterprise subscriptions come with different billing options.
+Qase's [Startup](../subscriptions/startup-plan.md), [Business](../subscriptions/business-plan.md) and [Enterprise](../subscriptions/enterprise-plan.md) subscriptions come with different billing options.
 
 You can manage your Qase subscription from the [Billing section](https://app.qase.io/billing) of the Workspace.
 
