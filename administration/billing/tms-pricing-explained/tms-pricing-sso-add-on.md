@@ -8,7 +8,7 @@ The pricing follows a _per user per month_ model, with each subscription tier ha
 Refer to this article to understand the pricing in more detail :point\_right: [.](./ "mention")
 
 {% hint style="info" %}
-The Business plan with SSO add-on is only available on **quarterly** and **annual** subscriptions only.
+The Business plan with SSO add-on is only available on **annual** subscriptions.
 {% endhint %}
 
 ***
@@ -23,7 +23,6 @@ The Business tier subscription costs vary depending on your billing cycle:
 
 | Billing Cycle | Cost per User per Month |
 | ------------- | ----------------------- |
-| Quarterly     | $36 per user per month  |
 | Annual        | $30 per user per month  |
 
 {% hint style="success" %}
@@ -34,17 +33,7 @@ This applies to all [Regular users](../../workspace-management/users.md) in your
 
 Based on the minimum requirement of 5 users, this will be the complete breakdown:
 
-#### Quarterly Subscription <a href="#h_8b279be87b" id="h_8b279be87b"></a>
 
-Business plan: $36 per user per month
-
-SSO add-on: $4 per user per month
-
-Total per user: $40 per month
-
-For 5 users: $200 per month
-
-Quarterly payment: $600 every 3 months
 
 #### Annual Subscription <a href="#h_adc6d331dc" id="h_adc6d331dc"></a>
 
@@ -64,9 +53,7 @@ Annual payment: $2,040 per year
 
 In addition to regular users, teams can choose to include read-only users at a reduced cost:
 
-#### Quarterly Billing <a href="#h_5a66210b3e" id="h_5a66210b3e"></a>
 
-Cost: $15 per read-only user per quarter
 
 #### Annual Billing <a href="#h_6135e59aa1" id="h_6135e59aa1"></a>
 
