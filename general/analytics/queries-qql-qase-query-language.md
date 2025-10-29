@@ -61,7 +61,7 @@ entity = "defect" and status = "open"
 ```
 
 ```
-entity = "case" and project = "DEMO" and title ~ "auth" order by id desc
+entity = "case" and project = "DEMO" and title !~ "auth" order by id desc
 ```
 
 ```
@@ -114,11 +114,11 @@ Currently, QQL supports seven expression types. They are listed here in the decr
 
 ### Supported operands: <a href="#h_d76506957d" id="h_d76506957d"></a>
 
-<table data-header-hidden><thead><tr><th width="153.33333333333331">Operand</th><th width="277">Meaning</th><th>Works with</th></tr></thead><tbody><tr><td>&#x3C;</td><td>less than</td><td>integer</td></tr><tr><td>&#x3C;=</td><td>less than or equal to</td><td>integer</td></tr><tr><td>></td><td>greater than</td><td>integer</td></tr><tr><td>>=</td><td>greater than or equal to</td><td>integer</td></tr><tr><td>=, is</td><td>equal to</td><td>integer, bool</td></tr><tr><td>!=</td><td>not equal to</td><td>integer, bool</td></tr><tr><td>~</td><td>includes</td><td>string, text</td></tr><tr><td>in</td><td>includes (array)</td><td>array</td></tr><tr><td>not in</td><td>does not include (array)</td><td>array</td></tr><tr><td>is empty</td><td>no value</td><td></td></tr><tr><td>is not empty</td><td>value exists</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="153.33333333333331">Operand</th><th width="277">Meaning</th><th>Works with</th></tr></thead><tbody><tr><td>&#x3C;</td><td>less than</td><td>integer</td></tr><tr><td>&#x3C;=</td><td>less than or equal to</td><td>integer</td></tr><tr><td>></td><td>greater than</td><td>integer</td></tr><tr><td>>=</td><td>greater than or equal to</td><td>integer</td></tr><tr><td>=, is</td><td>equal to</td><td>integer, bool</td></tr><tr><td>!=</td><td>not equal to</td><td>integer, bool</td></tr><tr><td>~</td><td>includes</td><td>string, text</td></tr><tr><td>!~</td><td>does not include</td><td>string, text</td></tr><tr><td>in</td><td>includes (array)</td><td>array</td></tr><tr><td>not in</td><td>does not include (array)</td><td>array</td></tr><tr><td>is empty</td><td>no value</td><td></td></tr><tr><td>is not empty</td><td>value exists</td><td></td></tr></tbody></table>
 
 ### Data types: <a href="#h_057d278c89" id="h_057d278c89"></a>
 
-<table data-header-hidden><thead><tr><th width="227.33333333333331">Data type</th><th width="279">Possible values</th><th>Supported operands</th></tr></thead><tbody><tr><td>Integer</td><td>110</td><td>>, >=, &#x3C;, &#x3C;=, =, !=</td></tr><tr><td>String</td><td>Some text</td><td>~</td></tr><tr><td>Boolean</td><td>True or False</td><td>is</td></tr><tr><td>Array</td><td>['value 1', 'value 2']  ;<br>('value 1', 'value 2')  ;<br>[ ]</td><td>in</td></tr><tr><td>Null</td><td>null</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="227.33333333333331">Data type</th><th width="279">Possible values</th><th>Supported operands</th></tr></thead><tbody><tr><td>Integer</td><td>110</td><td>>, >=, &#x3C;, &#x3C;=, =, !=</td></tr><tr><td>String</td><td>Some text</td><td>~, !~</td></tr><tr><td>Boolean</td><td>True or False</td><td>is</td></tr><tr><td>Array</td><td>['value 1', 'value 2']  ;<br>('value 1', 'value 2')  ;<br>[ ]</td><td>in</td></tr><tr><td>Null</td><td>null</td><td></td></tr></tbody></table>
 
 ### Functions: <a href="#h_de59438a78" id="h_de59438a78"></a>
 
