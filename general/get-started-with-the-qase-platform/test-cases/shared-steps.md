@@ -51,3 +51,10 @@ After adding a shared step to a test case, you can:
 
 <figure><img src="../../../.gitbook/assets/modify shared step.gif" alt="" width="563"><figcaption></figcaption></figure>
 
+### View linked test cases. <a href="#h_8415af9269" id="h_8415af9269"></a>
+
+Clicking the links in the ‘Attached to’ column for a shared step will open the repository page, showing only the test cases that include that shared step.
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1804188555/ed899c5a1160e0f9081e9b3cc4d6/image.png?expires=1761912000&#x26;signature=41afb506733950a9f8afb8ae26dfffa937d9415459c12348b6e18a5d96466e00&#x26;req=dSgnEsh2lYRaXPMW3nq%2BgUC0vo2BT3Sq1tt8teU44tY3bsPJBSmRKXUJcdr7%0AwSDnyqkxEYQp28t7hqxCzircAj4%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1804189388/bb70eac5c2a57f0bdb374476b30c/image.png?expires=1761912000&#x26;signature=22d43590135e8c1db7cd0a49d57edcbd329c94b5ab520a80f89e397da6f73208&#x26;req=dSgnEsh2lIJXUfMW3nq%2BgReH4nPHMCvruanW5e7xIPUdkDvb55HAUpS5ebAf%0AENWjnylAAhCMQLRKCZbvbq0V65g%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
