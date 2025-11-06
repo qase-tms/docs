@@ -568,3 +568,12 @@ entity = "case" and author != "CEO" and updated <= now("-1d") and isFlaky is fal
 ```
 entity = "case" and author != "CEO" and updated <= now("-1d") and project in ('QA
 ```
+
+***
+
+## Export Query results <a href="#h_69dc92c6e8" id="h_69dc92c6e8"></a>
+
+Query results can be exported as a CSV file. The exported CSV will include only the columns currently selected in your view.
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1817114607/8e0f05c5d20767f607beed1f6157/image.png?expires=1762560000&#x26;signature=bf2f6262963957169465c366f89c2a0d9a5e66242e44978c00553be2c18f0cfb&#x26;req=dSgmEch%2FmYdfXvMW3nq%2BgfTBxTtDKc2Gt3dIiZ9LCmFoyUk%2FSJg7ZM819Bid%0AcCwR6OCEsXoT%2FrOsliwn9bls4kg%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
+
