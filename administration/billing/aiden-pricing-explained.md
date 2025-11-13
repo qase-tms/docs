@@ -24,9 +24,9 @@ Depending on your current subscription plan, you shall get the following number 
 
 | Plan       | Credits (per Month) |
 | ---------- | ------------------- |
-| Startup    | 500 Credits         |
-| Business   | 1000 Credits        |
-| Enterprise | 2000 Credits        |
+| Startup    | 1000 Credits        |
+| Business   | 2000 Credits        |
+| Enterprise | 4000 Credits        |
 
 _Credits are reset monthly on the same date as your subscription start date._
 
