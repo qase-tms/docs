@@ -200,6 +200,7 @@ author = inactiveUsers()
 </code></pre><pre><code>project not in ['DEMO']
 </code></pre></td></tr><tr><td><pre><code>suite
 </code></pre></td><td>Test case's suite title</td><td><pre><code>suite ~ 'auth'
+</code></pre><pre><code>suiteTree = 'parent suite name'
 </code></pre><pre><code>suite != 'auth'
 </code></pre></td></tr><tr><td><pre><code>milestone
 </code></pre></td><td>Test case's milestone title</td><td><pre><code>milestone = 'Sprint 24'
@@ -577,3 +578,6 @@ Query results can be exported as a CSV file. The exported CSV will include only 
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1817114607/8e0f05c5d20767f607beed1f6157/image.png?expires=1762560000&#x26;signature=bf2f6262963957169465c366f89c2a0d9a5e66242e44978c00553be2c18f0cfb&#x26;req=dSgmEch%2FmYdfXvMW3nq%2BgfTBxTtDKc2Gt3dIiZ9LCmFoyUk%2FSJg7ZM819Bid%0AcCwR6OCEsXoT%2FrOsliwn9bls4kg%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
 
+You are free to leave the Queries screen while the export is prepared. You'll see a notification when the export is ready for download.
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/wsaz8vex/1831113161/4972570285945f1660600779c1b1/image.png?expires=1763272800&#x26;signature=d4ea651e5d416cfad976ef4416e96538d989a1a88cf91481771454c0536814c0&#x26;req=dSgkF8h%2FnoBZWPMW3nq%2BgWqGfUcb%2BD23CBX5INKBsFG6NtG4meMJ5ulek6Ha%0Ah6tRvyw2mhoMnwCox1pu1sqPA9Y%3D%0A" alt="" width="563"><figcaption></figcaption></figure>
