@@ -4,6 +4,10 @@
 Queries are available in [Business](../../administration/subscriptions/business-plan.md) and [Enterprise](../../administration/subscriptions/enterprise-plan.md) subscriptions.
 {% endhint %}
 
+{% hint style="success" %}
+🆕 🎉 _QQL Now supports Grouping and Aggregation functions._ Read more _👉_ [Grouping and Aggregates](queries-qql-qase-query-language.md#h_a55332fd6c)
+{% endhint %}
+
 ## What are queries in software testing?
 
 Queries help you make analytical requests to get specific data from your Qase projects.
@@ -569,6 +573,191 @@ entity = "case" and author != "CEO" and updated <= now("-1d") and isFlaky is fal
 ```
 entity = "case" and author != "CEO" and updated <= now("-1d") and project in ('QA
 ```
+
+***
+
+## Grouping & Aggregates <a href="#h_a55332fd6c" id="h_a55332fd6c"></a>
+
+QQL now supports Grouping and Aggregation functions. It has become easier to summarize large sets of data with aggregation and grouping.\
+​\
+Use it to get quick counts, grouped insights, or high-level summaries of your entities.\
+​
+
+### Functions:
+
+* `SELECT()` — choose which fields or calculated values to return
+* `COUNT()` — count matching records
+* `MIN() / MAX()` — find the earliest or latest value
+* `FIRST() / LAST()` — return the first or last item in the current sort order
+* `GROUP BY` — group results by a field
+* `HAVING` — filter grouped results based on aggregate conditions
+
+### Fields Supported in SELECT() and GROUP BY <a href="#h_b01f241a39" id="h_b01f241a39"></a>
+
+Most system fields can be used in SELECT and GROUP BY.\
+Some fields (like tags or custom fields) are filter-only and cannot be grouped.
+
+#### Basic Fields <a href="#h_8da9209463" id="h_8da9209463"></a>
+
+| Field          | `SELECT()` | group/aggregate | Entity                                       |
+| -------------- | ---------- | --------------- | -------------------------------------------- |
+| id             | Yes        | Yes             | case, defect, run, result, plan, requirement |
+| title          | Yes        | Yes             | case, defect, run, plan, requirement         |
+| description    | Yes        | Yes             | case, run, plan, requirement                 |
+| preconditions  | Yes        | Yes             | case                                         |
+| postconditions | Yes        | Yes             | case                                         |
+
+***
+
+#### Status & Type <a href="#h_825d012437" id="h_825d012437"></a>
+
+| Field           | `SELECT()` | group/aggregate | Entity                                 |
+| --------------- | ---------- | --------------- | -------------------------------------- |
+| status          | Yes        | Yes             | case, defect, run, result, requirement |
+| type            | Yes        | Yes             | case, requirement                      |
+| behavior        | Yes        | Yes             | case                                   |
+| automation      | Yes        | Yes             | case                                   |
+| isManual        | Yes        | Yes             | case                                   |
+| isToBeAutomated | Yes        | Yes             | case                                   |
+| isMuted         | Yes        | Yes             | case                                   |
+
+***
+
+#### Priority & Severity <a href="#h_448fe5ddac" id="h_448fe5ddac"></a>
+
+| Field    | `SELECT()` | group/aggregate | Entity       |
+| -------- | ---------- | --------------- | ------------ |
+| severity | Yes        | Yes             | case, defect |
+| priority | Yes        | Yes             | case         |
+| layer    | Yes        | Yes             | case         |
+| isFlaky  | Yes        | Yes             | case         |
+
+***
+
+#### Relations <a href="#h_6b92e8d2b2" id="h_6b92e8d2b2"></a>
+
+| Field     | `SELECT()` | group/aggregate | Entity                                       |
+| --------- | ---------- | --------------- | -------------------------------------------- |
+| project   | Yes        | Yes             | case, defect, run, result, plan, requirement |
+| milestone | Yes        | Yes             | case, defect                                 |
+| suite     | Yes        | Yes             | case                                         |
+
+***
+
+#### Timestamps <a href="#h_172759639f" id="h_172759639f"></a>
+
+| Field   | `SELECT()` | group/aggregate | Entity                          |
+| ------- | ---------- | --------------- | ------------------------------- |
+| created | Yes        | Yes             | case, defect, plan, requirement |
+| updated | Yes        | Yes             | case, defect, plan, requirement |
+| deleted | Yes        | Yes             | run, plan, requirement          |
+
+***
+
+#### Author Fields <a href="#h_e4553a1077" id="h_e4553a1077"></a>
+
+| Field     | `SELECT()` | group/aggregate | Entity                                 |
+| --------- | ---------- | --------------- | -------------------------------------- |
+| author    | Yes        | Yes             | case, defect, run, result, requirement |
+| updatedBy | Yes        | Yes             | case                                   |
+| createdBy | Yes        | Yes             | case, defect, run, result, requirement |
+
+***
+
+#### Boolean Fields <a href="#h_d282f4d18e" id="h_d282f4d18e"></a>
+
+| Field     | select() | group/aggregate | Entity                                       |
+| --------- | -------- | --------------- | -------------------------------------------- |
+| isDeleted | Yes      | Yes             | case, defect, run, result, plan, requirement |
+
+***
+
+#### Fields with CustomBuilder (Filter-Only) <a href="#h_b50e33a20b" id="h_b50e33a20b"></a>
+
+| Field                        | select()            | group/aggregate | Entity            |
+| ---------------------------- | ------------------- | --------------- | ----------------- |
+| tags                         | `WHERE` clause only | No              | case, defect, run |
+| isAiGenerated                | `WHERE` clause only | No              | case              |
+| cfv                          | `WHERE` clause only | No              | case, defect, run |
+| cf\["field"] (custom fields) | `WHERE` clause only | No              | case, defect, run |
+
+***
+
+### Advanced Query Examples <a href="#h_d643c3bd23" id="h_d643c3bd23"></a>
+
+Below are examples showing how to use SELECT, GROUP BY, and aggregates across different Qase entities.
+
+#### Test Case Examples <a href="#h_6873899387" id="h_6873899387"></a>
+
+<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Query</td><td>Description</td></tr><tr><td><pre><code>SELECT(COUNT(*))
+</code></pre></td><td>Total number of test cases</td></tr><tr><td><pre><code>SELECT(COUNT(*)) status='actual' AND project="DEMO" AND severity="critical" AND priority="High"
+</code></pre></td><td>Count of critical, high-priority “actual” test cases in DEMO</td></tr><tr><td><pre><code>SELECT(status, COUNT(*)) GROUP BY status
+</code></pre></td><td>Count test cases per status</td></tr><tr><td><pre><code>SELECT(status, project, severity, COUNT(*)) GROUP BY status, project, severity
+</code></pre></td><td>Count by combined groups</td></tr><tr><td><pre><code>SELECT(MIN(created), MAX(created))
+</code></pre></td><td>Find oldest and newest test case</td></tr><tr><td><pre><code>SELECT(MIN(updated), MAX(updated))
+</code></pre></td><td>Earliest and latest update times</td></tr><tr><td><pre><code>SELECT(FIRST(title), LAST(title))
+</code></pre></td><td>First and last test case by current sort</td></tr><tr><td><pre><code>SELECT(status, COUNT(*)) GROUP BY status HAVING COUNT(*) > 0
+</code></pre></td><td>Only statuses with at least one test case</td></tr></tbody></table>
+
+***
+
+#### Defect Examples <a href="#h_bea0cff150" id="h_bea0cff150"></a>
+
+<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Query</td><td>Description</td></tr><tr><td><pre><code>SELECT(COUNT(*))
+</code></pre></td><td>Total number of defects</td></tr><tr><td><pre><code>SELECT(COUNT(*)) status='open' AND project="DEMO" AND severity="critical"
+</code></pre></td><td>Count of critical open defects in DEMO</td></tr><tr><td><pre><code>SELECT(status, COUNT(*)) GROUP BY status
+</code></pre></td><td>Count defects per status</td></tr><tr><td><pre><code>SELECT(status, project, severity, COUNT(*)) GROUP BY status, project, severity
+</code></pre></td><td>Count defects by grouped dimensions</td></tr><tr><td><pre><code>SELECT(FIRST(title), LAST(title))
+</code></pre></td><td>First and last defect title</td></tr><tr><td><pre><code>SELECT(severity, COUNT(*)) GROUP BY severity HAVING COUNT(*) > 0
+</code></pre></td><td>Severity levels with at least one defect</td></tr></tbody></table>
+
+***
+
+#### Test Run Examples <a href="#h_f7ac23d512" id="h_f7ac23d512"></a>
+
+<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Query</td><td>Description</td></tr><tr><td><pre><code>SELECT(COUNT(*))
+</code></pre></td><td>Total number of test runs</td></tr><tr><td><pre><code>SELECT(COUNT(*)) status='in progress' AND project="DEMO"
+</code></pre></td><td>Count active runs in DEMO</td></tr><tr><td><pre><code>SELECT(status, COUNT(*)) GROUP BY status
+</code></pre></td><td>Count runs per status</td></tr><tr><td><pre><code>SELECT(FIRST(title), LAST(title))
+</code></pre></td><td>First and last run titles</td></tr><tr><td><pre><code>SELECT(status, COUNT(*)) GROUP BY status HAVING COUNT(*) > 0
+</code></pre></td><td>Only statuses with at least one run</td></tr></tbody></table>
+
+***
+
+#### Run Result Examples <a href="#h_e12a5efb1e" id="h_e12a5efb1e"></a>
+
+<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Query</td><td>Description</td></tr><tr><td><pre><code>SELECT(COUNT(*))
+</code></pre></td><td>Total number of test results</td></tr><tr><td><pre><code>SELECT(COUNT(*)) status='active' AND run="test"
+</code></pre></td><td>Count active results in a specific run</td></tr><tr><td><pre><code>SELECT(status, COUNT(*)) GROUP BY status
+</code></pre></td><td>Count results per status</td></tr><tr><td><pre><code>SELECT(status, COUNT(*)) GROUP BY status HAVING COUNT(*) > 0
+</code></pre></td><td>Only statuses with at least one result</td></tr></tbody></table>
+
+***
+
+#### Plan Examples <a href="#h_7156aef49d" id="h_7156aef49d"></a>
+
+<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Query</td><td>Description</td></tr><tr><td><pre><code>SELECT(COUNT(*))
+</code></pre></td><td>Total number of test plans</td></tr><tr><td><pre><code>SELECT(COUNT(*)) project="DEMO"
+</code></pre></td><td>Count plans in DEMO project</td></tr><tr><td><pre><code>SELECT(project, COUNT(*)) GROUP BY project
+</code></pre></td><td>Plans grouped by project</td></tr><tr><td><pre><code>SELECT(MIN(created), MAX(created))
+</code></pre></td><td>Oldest &#x26; newest plans</td></tr><tr><td><pre><code>SELECT(MIN(updated), MAX(updated))
+</code></pre></td><td>Earliest &#x26; latest updates</td></tr><tr><td><pre><code>SELECT(FIRST(title), LAST(title))
+</code></pre></td><td>First &#x26; last plan titles</td></tr><tr><td><pre><code>SELECT(project, COUNT(*)) GROUP BY project HAVING COUNT(*) > 0
+</code></pre></td><td>Only projects with at least one plan</td></tr></tbody></table>
+
+***
+
+#### Requirement Examples <a href="#h_35a815b6e3" id="h_35a815b6e3"></a>
+
+<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Query</td><td>Description</td></tr><tr><td><pre><code>SELECT(COUNT(*))
+</code></pre></td><td>Total number of requirements</td></tr><tr><td><pre><code>SELECT(COUNT(*)) status='valid' AND project="DEMO" AND type='user-story'
+</code></pre></td><td>Count of valid user stories in DEMO</td></tr><tr><td><pre><code>SELECT(status, COUNT(*)) GROUP BY status
+</code></pre></td><td>Requirements per status</td></tr><tr><td><pre><code>SELECT(status, project, type, COUNT(*)) GROUP BY status, project, type
+</code></pre></td><td>Multidimensional grouping</td></tr><tr><td><pre><code>SELECT(MIN(created), MAX(created))
+</code></pre></td><td>Oldest &#x26; newest requirements</td></tr><tr><td><pre><code>SELECT(MIN(updated), MAX(updated))
+</code></pre></td><td>Earliest &#x26; latest updates</td></tr><tr><td><pre><code>SELECT(FIRST(title), LAST(title))
+</code></pre></td><td>First &#x26; last requirement</td></tr><tr><td><pre><code>SELECT(status, COUNT(*)) GROUP BY status HAVING COUNT(*) > 0
+</code></pre></td><td>Only statuses containing requirements</td></tr></tbody></table>
 
 ***
 
