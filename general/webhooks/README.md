@@ -75,6 +75,10 @@ There are a few parameters you need to define for a new webhook:
     * Comment test review
     * Decline test review
     * Delete test review
+  * _Results:_
+    * Create test run results
+    * Update test run results
+    * Delete test run results
 
 ## Event structure
 
